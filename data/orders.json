@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-14T11:59:31.995718Z",
+  "syncedAt": "2026-08-14T14:19:39.761740Z",
   "orders": [
     {
       "dateTaken": "2024-07-31",
@@ -14,7 +14,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "d0c1071a8cbe"
     },
     {
@@ -30,7 +29,6 @@
       "stallSpace": 1.5,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "48a613945814"
     },
     {
@@ -46,7 +44,6 @@
       "stallSpace": 1.5,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "a30fa11bdaac"
     },
     {
@@ -62,7 +59,6 @@
       "stallSpace": 1.5,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "d05672922520"
     },
     {
@@ -78,7 +74,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "c7755dd362fc"
     },
     {
@@ -94,7 +89,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "ceb9a592b6f3"
     },
     {
@@ -110,7 +104,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "df4a99fd45d6"
     },
     {
@@ -126,7 +119,6 @@
       "stallSpace": 1.5,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "0f4e05e3e34e"
     },
     {
@@ -142,7 +134,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "86d0dd91699e"
     },
     {
@@ -158,7 +149,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "cca2df1baf8e"
     },
     {
@@ -174,7 +164,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "c8c9f28dbc2a"
     },
     {
@@ -190,7 +179,6 @@
       "stallSpace": 1.5,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "9bb9f485ca79"
     },
     {
@@ -206,7 +194,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "a57751fca92b"
     },
     {
@@ -222,7 +209,6 @@
       "stallSpace": 1.5,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "cba0c6be7aec"
     },
     {
@@ -238,7 +224,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "88b930a01e48"
     },
     {
@@ -254,7 +239,6 @@
       "stallSpace": 1.5,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "a8ac83bf3681"
     },
     {
@@ -270,7 +254,6 @@
       "stallSpace": 1.5,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "23a743eb1bf5"
     },
     {
@@ -286,7 +269,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "72f0c6ceb9c7"
     },
     {
@@ -302,7 +284,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "c46f7d7fcf88"
     },
     {
@@ -318,7 +299,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "70797c2a2526"
     },
     {
@@ -334,7 +314,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "3e5a17f8820d"
     },
     {
@@ -350,7 +329,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "26cab565db5f"
     },
     {
@@ -366,7 +344,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "9c473a8d83dd"
     },
     {
@@ -382,7 +359,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "889ff9e1dd72"
     },
     {
@@ -398,7 +374,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "0e59fb93d005"
     },
     {
@@ -414,7 +389,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "53c3d5e91840"
     },
     {
@@ -430,7 +404,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "3d30223269d6"
     },
     {
@@ -446,7 +419,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "496f5d48719c"
     },
     {
@@ -462,7 +434,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "76738a0b1c09"
     },
     {
@@ -478,7 +449,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "8087dbfa5567"
     },
     {
@@ -494,7 +464,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "ba65c692966e"
     },
     {
@@ -510,7 +479,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "8bd902955b92"
     },
     {
@@ -526,7 +494,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "4796aaaed41d"
     },
     {
@@ -542,7 +509,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "00bd63552897"
     },
     {
@@ -558,7 +524,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "0e3cdcaaffc4"
     },
     {
@@ -574,7 +539,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "8470c01129b5"
     },
     {
@@ -590,7 +554,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "5042ddb894f1"
     },
     {
@@ -606,7 +569,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "d3009c12957f"
     },
     {
@@ -622,7 +584,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "0aa94b326052"
     },
     {
@@ -638,7 +599,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "488a6feafb91"
     },
     {
@@ -654,7 +614,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "7b38e92a3346"
     },
     {
@@ -670,7 +629,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "928be576f74e"
     },
     {
@@ -686,7 +644,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "2c012c00ead3"
     },
     {
@@ -702,7 +659,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "7eb8b10aff40"
     },
     {
@@ -718,7 +674,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "c51311128077"
     },
     {
@@ -734,7 +689,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "a06d74a55f36"
     },
     {
@@ -750,7 +704,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "5bbb54543ce7"
     },
     {
@@ -766,7 +719,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "8bd510beb8f1"
     },
     {
@@ -782,7 +734,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "20fccceb6031"
     },
     {
@@ -798,7 +749,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "6f7916c5dd41"
     },
     {
@@ -814,7 +764,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "bf25c68c9845"
     },
     {
@@ -830,7 +779,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "8640dc7fa3db"
     },
     {
@@ -846,7 +794,6 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "8640dc7fa3db"
     },
     {
@@ -862,8 +809,97 @@
       "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "cancelWhy": "",
       "id": "8640dc7fa3db"
+    },
+    {
+      "dateTaken": "2026-08-14",
+      "requestedDates": "NEXT AVAILABLE",
+      "takenBy": "MANU",
+      "requestedBy": "NEAL",
+      "trainerFarm": "WINSTAR",
+      "origin": "KENTUCKY",
+      "destination": "EAST COAST",
+      "track": "BELMONT",
+      "farmTrainer": "M CLEMENT",
+      "stallSpace": 1.5,
+      "tripDate": "",
+      "drivers": "",
+      "id": "8bc5deee83de"
+    },
+    {
+      "dateTaken": "2026-08-14",
+      "requestedDates": "NEXT AVAILABLE",
+      "takenBy": "MANU",
+      "requestedBy": "NEAL",
+      "trainerFarm": "WINSTAR",
+      "origin": "KENTUCKY",
+      "destination": "EAST COAST",
+      "track": "MONMOUTH",
+      "farmTrainer": "C BROWN",
+      "stallSpace": 3,
+      "tripDate": "",
+      "drivers": "",
+      "id": "a7c27a3ed461"
+    },
+    {
+      "dateTaken": "2026-08-14",
+      "requestedDates": "NEXT AVAILABLE",
+      "takenBy": "MANU",
+      "requestedBy": "DES",
+      "trainerFarm": "DELL RIDGE",
+      "origin": "KENTUCKY",
+      "destination": "EAST COAST",
+      "track": "FAIR HILL",
+      "farmTrainer": "B JACKSON",
+      "stallSpace": 3,
+      "tripDate": "",
+      "drivers": "",
+      "id": "450cf087d33b"
+    },
+    {
+      "dateTaken": "2026-08-14",
+      "requestedDates": "NEXT AVAILABLE",
+      "takenBy": "MANU",
+      "requestedBy": "ALEXXIS",
+      "trainerFarm": "KYHP",
+      "origin": "KENTUCKY",
+      "destination": "EAST COAST",
+      "track": "LOCHMOY",
+      "farmTrainer": "",
+      "stallSpace": 3,
+      "tripDate": "",
+      "drivers": "",
+      "id": "7ed7f0aeb922"
+    },
+    {
+      "dateTaken": "2026-08-14",
+      "requestedDates": "NEXT AVAILABLE",
+      "takenBy": "ALEXXIS",
+      "requestedBy": "ALEXXIS",
+      "trainerFarm": "C DEVAUX",
+      "origin": "KENTUCKY",
+      "destination": "EAST COAST",
+      "track": "MONMOUTH",
+      "farmTrainer": "C DEVAUX",
+      "stallSpace": 3,
+      "tripDate": "",
+      "drivers": "",
+      "id": "04fd6b3335cb"
+    },
+    {
+      "dateTaken": "2026-08-14",
+      "requestedDates": "NEXT AVAILABLE",
+      "takenBy": "MANU",
+      "requestedBy": "KAYLA",
+      "trainerFarm": "V OLIVER",
+      "origin": "KENTUCKY",
+      "destination": "EAST COAST",
+      "track": "MONMOUTH",
+      "farmTrainer": "V OLIVER",
+      "stallSpace": 3,
+      "tripDate": "",
+      "drivers": "",
+      "id": "00fd32cc97a0"
     }
   ]
 }
