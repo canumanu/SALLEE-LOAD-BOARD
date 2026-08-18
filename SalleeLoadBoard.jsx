@@ -32,7 +32,7 @@ const STALL_UNIT = 1.5; // every request is 1.5 or 3 stalls, so the strip is dra
 /* ---------- helpers ---------- */
 
 function loadKey(o) {
-  return [o.origin, o.destination, o.track || "—"].join("|");
+  return [o.origin, o.originTrack || "—", o.destination, o.track || "—"].join("|");
 }
 
 function buildLoads(orders) {
@@ -43,6 +43,7 @@ function buildLoads(orders) {
       map.set(key, {
         key,
         origin: o.origin,
+        originTrack: o.originTrack,
         destination: o.destination,
         track: o.track,
         orders: [],
@@ -55,6 +56,17 @@ function buildLoads(orders) {
     if (a.destination !== b.destination) return a.destination.localeCompare(b.destination);
     return (a.track || "").localeCompare(b.track || "");
   });
+}
+
+/* A load's orders can carry different requested dates. Surface that
+   plainly instead of silently picking one, so a dispatcher building a
+   load can catch a mismatch before it becomes a problem on the road. */
+function requestedDateSummary(load) {
+  const dates = Array.from(
+    new Set(load.orders.map((o) => o.requestedDates || "date flexible"))
+  );
+  if (dates.length === 1) return { text: dates[0], mismatched: false };
+  return { text: "MULTIPLE DATES", mismatched: true };
 }
 
 function stallsBooked(load) {
@@ -325,9 +337,10 @@ function LoadModal({ load, capacity, onCapacityChange, onClose }) {
                 <span style={{ color: "#4a6a58", fontSize: 22 }}>→</span>
                 <FlapText text={load.destination} size={26} />
               </div>
-              {load.track && (
-                <div style={{ marginTop: 4, fontSize: 13, color: "#9fb8a8" }}>via {load.track}</div>
-              )}
+              <div style={{ display: "flex", gap: 16, marginTop: 4, fontSize: 13, color: "#9fb8a8" }}>
+                {load.originTrack && <span>via {load.originTrack}</span>}
+                {load.track && <span>via {load.track}</span>}
+              </div>
             </div>
             <button onClick={onClose} style={{ ...btnSmall, width: 32, height: 32, fontSize: 18 }}>
               ×
@@ -345,35 +358,46 @@ function LoadModal({ load, capacity, onCapacityChange, onClose }) {
             PASSENGER MANIFEST — {load.orders.length} {load.orders.length === 1 ? "REQUEST" : "REQUESTS"}
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
-            {load.orders.map((o) => (
-              <div
-                key={o.id}
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  alignItems: "center",
-                  padding: "10px 14px",
-                  background: "#0f2419",
-                  borderRadius: 10,
-                  border: "1px solid #1d3527",
-                }}
-              >
-                <div>
-                  <div style={{ fontWeight: 700, color: "#eaf3ec", fontSize: 14 }}>
-                    {o.trainerFarm || o.farmTrainer || "Unassigned trainer/farm"}
+            {(() => {
+              const dateGroups = new Set(load.orders.map((o) => o.requestedDates || "date flexible"));
+              const datesMismatched = dateGroups.size > 1;
+              return load.orders.map((o) => {
+                const orderDate = o.requestedDates || "date flexible";
+                const oddDateOut = datesMismatched;
+                return (
+                  <div
+                    key={o.id}
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                      padding: "10px 14px",
+                      background: "#0f2419",
+                      borderRadius: 10,
+                      border: oddDateOut ? "1px solid #6b4a1f" : "1px solid #1d3527",
+                    }}
+                  >
+                    <div>
+                      <div style={{ fontWeight: 700, color: "#eaf3ec", fontSize: 14 }}>
+                        {o.trainerFarm || o.farmTrainer || "Unassigned trainer/farm"}
+                      </div>
+                      <div style={{ fontSize: 12, color: "#8fae9c", marginTop: 2 }}>
+                        Requested by {o.requestedBy || "—"} ·{" "}
+                        <span style={{ fontWeight: 800, color: oddDateOut ? "#f0a95a" : "#c9dcd0", fontSize: 13 }}>
+                          {orderDate}
+                        </span>
+                      </div>
+                    </div>
+                    <div style={{ textAlign: "right" }}>
+                      <div style={{ fontFamily: "ui-monospace, monospace", color: "#f0c95a", fontWeight: 800 }}>
+                        {o.stallSpace} stall{o.stallSpace === 1 ? "" : "s"}
+                      </div>
+                      <div style={{ fontSize: 11, color: "#6f8c7c" }}>taken by {o.takenBy || "—"}</div>
+                    </div>
                   </div>
-                  <div style={{ fontSize: 12, color: "#8fae9c", marginTop: 2 }}>
-                    Requested by {o.requestedBy || "—"} · {o.requestedDates || "date flexible"}
-                  </div>
-                </div>
-                <div style={{ textAlign: "right" }}>
-                  <div style={{ fontFamily: "ui-monospace, monospace", color: "#f0c95a", fontWeight: 800 }}>
-                    {o.stallSpace} stall{o.stallSpace === 1 ? "" : "s"}
-                  </div>
-                  <div style={{ fontSize: 11, color: "#6f8c7c" }}>taken by {o.takenBy || "—"}</div>
-                </div>
-              </div>
-            ))}
+                );
+              });
+            })()}
           </div>
         </div>
       </div>
@@ -493,12 +517,13 @@ function Ticker({ items, source }) {
 function BoardRow({ load, capacity, booked, justAnnounced, onClick }) {
   const status = statusFor(booked, capacity);
   const s = STATUS_STYLE[status];
+  const dateSummary = requestedDateSummary(load);
   return (
     <div
       onClick={onClick}
       style={{
         display: "grid",
-        gridTemplateColumns: "1fr 1fr 1.2fr 1fr 1.3fr",
+        gridTemplateColumns: "1fr 0.7fr 1fr 0.7fr 0.9fr 1.1fr 1fr",
         alignItems: "center",
         padding: "14px 18px",
         borderBottom: "1px solid #16281f",
@@ -508,12 +533,27 @@ function BoardRow({ load, capacity, booked, justAnnounced, onClick }) {
       }}
     >
       <FlapText text={load.origin} size={16} />
+      <div style={{ fontFamily: "ui-monospace, monospace", fontSize: 12, color: "#8fae9c" }}>
+        {load.originTrack || "—"}
+      </div>
       <FlapText text={load.destination} size={16} color="#eaf3ec" />
       <div style={{ fontFamily: "ui-monospace, monospace", fontSize: 12, color: "#8fae9c" }}>
         {load.track || "—"}
       </div>
       <div style={{ fontFamily: "ui-monospace, monospace", fontSize: 13, color: "#e8c96a", fontWeight: 700 }}>
         {formatStalls(booked)} / {formatStalls(capacity)} stalls
+      </div>
+      <div
+        style={{
+          fontFamily: "ui-monospace, monospace",
+          fontSize: 12,
+          fontWeight: dateSummary.mismatched ? 800 : 500,
+          color: dateSummary.mismatched ? "#f0a95a" : "#c9dcd0",
+        }}
+        title={dateSummary.mismatched ? "Orders in this load have different requested dates — open the load to check" : undefined}
+      >
+        {dateSummary.mismatched && "⚠ "}
+        {dateSummary.text}
       </div>
       <div style={{ display: "flex", justifyContent: "flex-end" }}>
         <span
@@ -762,7 +802,7 @@ export default function SalleeLoadBoard() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "1fr 1fr 1.2fr 1fr 1.3fr",
+              gridTemplateColumns: "1fr 0.7fr 1fr 0.7fr 0.9fr 1.1fr 1fr",
               padding: "10px 18px",
               background: "#0f2419",
               fontFamily: "ui-monospace, monospace",
@@ -773,9 +813,11 @@ export default function SalleeLoadBoard() {
             }}
           >
             <div>ORIGIN</div>
+            <div>VIA</div>
             <div>DESTINATION</div>
             <div>VIA</div>
             <div>STALLS</div>
+            <div>REQ. DATE</div>
             <div style={{ textAlign: "right" }}>STATUS</div>
           </div>
 
