@@ -28,7 +28,7 @@ import React, { useState, useEffect, useMemo, useRef } from "react";
    twice.
    ============================================================ */
 
-const ORDERS_JSON_URL = "/data/orders.json"; // adjust if you deploy the JSON somewhere else
+const ORDERS_JSON_URL = "data/orders.json"; // relative path — must NOT start with "/" since this site is served from a subpath (GitHub Pages project site), not the domain root
 const POLL_INTERVAL_MS = 30000; // how often to check SharePoint for changes
 const CREATED_LOADS_STORAGE_KEY = "sallee-load-board:created-loads:v1";
 
