@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-18T14:50:19.202740Z",
+  "syncedAt": "2026-08-18T14:55:14.405318Z",
   "orders": [
     {
       "dateTaken": "2026-08-17",
@@ -208,70 +208,6 @@
       "tripDate": "",
       "drivers": "",
       "id": "21670da0ca46"
-    },
-    {
-      "dateTaken": "2026-08-16",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "trainerFarm": "C DAVID",
-      "originTrack": "ELLIS PARK",
-      "origin": "KENTUCKY",
-      "destination": "SOUTH FLORIDA",
-      "track": "PALM MEADOWS",
-      "farmTrainer": "C DAVID",
-      "stallSpace": 3,
-      "tripDate": "",
-      "drivers": "",
-      "id": "672dfa91e7e6"
-    },
-    {
-      "dateTaken": "2026-08-13",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLEY",
-      "requestedBy": "JAMES PALIAFITO",
-      "trainerFarm": "CHESAPEAKE FARM",
-      "originTrack": "",
-      "origin": "KENTUCKY",
-      "destination": "OCALA",
-      "track": "",
-      "farmTrainer": "TOM MCCROCKLIN",
-      "stallSpace": 3,
-      "tripDate": "",
-      "drivers": "",
-      "id": "0c116c415a02"
-    },
-    {
-      "dateTaken": "2026-08-13",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "trainerFarm": "M CASSE",
-      "originTrack": "ELLIS PARK",
-      "origin": "KENTUCKY",
-      "destination": "OCALA",
-      "track": "",
-      "farmTrainer": "CASSE TRAINING CENTER",
-      "stallSpace": 3,
-      "tripDate": "",
-      "drivers": "",
-      "id": "8f90579410da"
-    },
-    {
-      "dateTaken": "2026-08-17",
-      "requestedDates": "TUE AUGUST 18 2026",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "trainerFarm": "C DEVAUX",
-      "originTrack": "CHURCHILL",
-      "origin": "KENTUCKY",
-      "destination": "OCALA",
-      "track": "",
-      "farmTrainer": "OCALA STUD",
-      "stallSpace": 3,
-      "tripDate": "",
-      "drivers": "",
-      "id": "bea6180fc042"
     }
   ]
 }
