@@ -914,7 +914,7 @@ function Ticker({ items, source }) {
         style={{
           display: "inline-block",
           paddingLeft: "100%",
-          animation: "sallee-ticker 38s linear infinite",
+          animation: "sallee-ticker 60s linear infinite",
           fontFamily: "ui-monospace, monospace",
           fontSize: 13,
           color: "#e8c96a",
