@@ -62,8 +62,11 @@ const STALL_UNIT = 1.5; // every request is 1.5 or 3 stalls, so the strip is dra
 
 /* ---------- helpers ---------- */
 
+/* Each row on the main board is now one order, full stop — the board
+   no longer guesses which requests belong on the same trailer. That
+   decision is made deliberately, by hand, in Build a Load. */
 function loadKey(o) {
-  return [o.origin, o.originTrack || "—", o.destination, o.track || "—"].join("|");
+  return String(o.id);
 }
 
 function buildLoads(orders) {
