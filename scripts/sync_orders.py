@@ -142,7 +142,7 @@ def stable_id(row_dict):
             "dateTaken",
             "takenBy",
             "requestedBy",
-            "trainerFarm",
+            "originTrainer",
             "origin",
             "destination",
             "track",
@@ -154,18 +154,23 @@ def stable_id(row_dict):
 
 # Column headers as they appear in the ORDERS sheet -> our field names.
 # Matched by header text so column reordering in the sheet doesn't break
-# this script.
+# this script. If you ever rename a column in Excel, update the key here
+# to match -- the sync will print a warning listing any header it
+# couldn't match, so a mismatch like this gets caught immediately next
+# run instead of silently dropping data.
 HEADER_MAP = {
     "DATE ORDER\nTAKEN": "dateTaken",
     "REQUESTED\n DATES": "requestedDates",
     " TAKEN BY": "takenBy",
     "REQUESTED BY": "requestedBy",
-    "TRAINER/FARM": "trainerFarm",
-    "ORIGIN": "origin",
+    "ORIGIN FARM": "originFarm",
+    "ORIGIN TRAINER": "originTrainer",
     "ORIGIN TRACK": "originTrack",
+    "ORIGIN": "origin",
     "DESTINATION": "destination",
     "DESTINATION TRACK": "track",
-    "FARM / TRAINER": "farmTrainer",
+    "DESTINATION TRAINER": "destinationTrainer",
+    "DESTINATION FARM": "destinationFarm",
     " STALL SPACE": "stallSpace",
     "COMPLETED": "completed",
     "TRIP DATE": "tripDate",
@@ -184,6 +189,22 @@ def parse_rows(values):
         normalized_map.get(h.strip()) if isinstance(h, str) else None
         for h in headers
     ]
+
+    # Warn loudly (but don't fail the run) about any sheet column that
+    # doesn't match anything in HEADER_MAP -- this is exactly the class
+    # of bug that let the origin/destination trainer & farm columns go
+    # silently missing before. Catch it here instead of on the board.
+    unmatched = [
+        h.strip() if isinstance(h, str) else h
+        for h, f in zip(headers, field_names)
+        if f is None and h not in (None, "")
+    ]
+    if unmatched:
+        print(
+            f"WARNING: {len(unmatched)} column header(s) in the sheet did not "
+            f"match HEADER_MAP and will be dropped: {unmatched}",
+            file=sys.stderr,
+        )
 
     orders = []
     for raw_row in values[1:]:
