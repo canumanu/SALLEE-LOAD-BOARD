@@ -107,20 +107,21 @@ function stallsBooked(load) {
   return load.orders.reduce((sum, o) => sum + (Number(o.stallSpace) || 0), 0);
 }
 
-function trainerFarmOf(o) {
-  return o.trainerFarm || null;
+function originNameOf(o) {
+  return o.originTrainer || o.originFarm || null;
 }
 
-function farmTrainerOf(o) {
-  return o.farmTrainer || null;
+function destinationNameOf(o) {
+  return o.destinationTrainer || o.destinationFarm || null;
 }
 
-/* Combines an order's two "who" fields into one readable name for
-   places that show a single order (the load detail manifest, the
-   ticker) — falls back gracefully if only one side is filled in. */
+/* Combines an order's origin-side and destination-side names into one
+   readable line for places that show a single order (the load detail
+   manifest, the ticker) — falls back gracefully if either side, or
+   both, are blank. */
 function combinedName(o) {
-  const a = trainerFarmOf(o);
-  const b = farmTrainerOf(o);
+  const a = originNameOf(o);
+  const b = destinationNameOf(o);
   return a && b ? `${a} → ${b}` : a || b || "Unassigned trainer/farm";
 }
 
@@ -259,7 +260,7 @@ function StallStrip({ load, capacity, onCapacityChange }) {
       >
         {placed.map((p, idx) => {
           const color = palette[idx % palette.length];
-          const name = p.order.trainerFarm || p.order.farmTrainer || "Unassigned";
+          const name = originNameOf(p.order) || destinationNameOf(p.order) || "Unassigned";
           return (
             <div
               key={p.order.id ?? idx}
@@ -937,8 +938,8 @@ function Ticker({ items, source }) {
 function BoardRow({ load, capacity, booked, justAnnounced, onClick }) {
   const status = statusFor(booked, capacity);
   const s = STATUS_STYLE[status];
-  const originNames = joinWithMore(uniqueList(load.orders, trainerFarmOf));
-  const destNames = joinWithMore(uniqueList(load.orders, farmTrainerOf));
+  const originNames = joinWithMore(uniqueList(load.orders, originNameOf));
+  const destNames = joinWithMore(uniqueList(load.orders, destinationNameOf));
   const dateSummary = requestedDateSummary(load);
 
   const originSubtext = [load.originTrack ? `via ${load.originTrack}` : null, originNames]
@@ -1081,7 +1082,7 @@ export default function SalleeLoadBoard() {
       if (query.trim()) {
         const q = query.trim().toUpperCase();
         const hay = l.orders
-          .map((o) => `${o.trainerFarm || ""} ${o.farmTrainer || ""} ${o.requestedBy || ""}`)
+          .map((o) => `${o.originTrainer || ""} ${o.originFarm || ""} ${o.destinationTrainer || ""} ${o.destinationFarm || ""} ${o.requestedBy || ""}`)
           .join(" ")
           .toUpperCase();
         if (!hay.includes(q)) return false;
