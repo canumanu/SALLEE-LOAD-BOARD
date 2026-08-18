@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-18T19:25:13.877401Z",
+  "syncedAt": "2026-08-18T19:30:18.422494Z",
   "orders": [
     {
       "dateTaken": "2026-08-17",
@@ -283,11 +283,11 @@
       "destination": "KENTUCKY",
       "track": "",
       "destinationTrainer": "",
-      "destinationFarm": "",
-      "stallSpace": "",
+      "destinationFarm": "STONERSIDE FARM",
+      "stallSpace": 1.5,
       "tripDate": "",
       "drivers": "",
-      "id": "5335db974bf4"
+      "id": "6a01c72d4ef2"
     },
     {
       "dateTaken": "2026-08-18",
