@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-19T16:00:24.250251Z",
+  "syncedAt": "2026-08-19T16:05:17.024830Z",
   "orders": [
     {
       "dateTaken": "2026-08-17",
@@ -36,24 +36,6 @@
       "tripDate": "",
       "drivers": "",
       "id": "f0764bb20c10"
-    },
-    {
-      "dateTaken": "2026-08-17",
-      "requestedDates": "WED AUGUST 19 2026",
-      "takenBy": "MANU",
-      "requestedBy": "HARRY",
-      "originFarm": "",
-      "originTrainer": "R MEDINA",
-      "originTrack": "CHURCHILL",
-      "origin": "KENTUCKY",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "R MEDINA",
-      "destinationFarm": "",
-      "stallSpace": 3,
-      "tripDate": "",
-      "drivers": "",
-      "id": "67418253207a"
     },
     {
       "dateTaken": "2026-08-17",
@@ -198,24 +180,6 @@
       "tripDate": "",
       "drivers": "",
       "id": "bd9aaeec8cf9"
-    },
-    {
-      "dateTaken": "2026-08-08",
-      "requestedDates": "ASAP",
-      "takenBy": "PHIL",
-      "requestedBy": "LINDA RICE",
-      "originFarm": "",
-      "originTrainer": "F BOGLE",
-      "originTrack": "HIGH POINT ",
-      "origin": "KENTUCKY",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "L RICE",
-      "destinationFarm": "",
-      "stallSpace": 3,
-      "tripDate": "",
-      "drivers": "",
-      "id": "9fa6c1d73ad3"
     },
     {
       "dateTaken": "2026-08-04",
