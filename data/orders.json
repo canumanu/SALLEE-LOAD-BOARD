@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-19T16:05:17.024830Z",
+  "syncedAt": "2026-08-19T16:10:15.300652Z",
   "orders": [
     {
       "dateTaken": "2026-08-17",
@@ -36,24 +36,6 @@
       "tripDate": "",
       "drivers": "",
       "id": "f0764bb20c10"
-    },
-    {
-      "dateTaken": "2026-08-17",
-      "requestedDates": "THU AUGUST 20 2026",
-      "takenBy": "VICKIE",
-      "requestedBy": "HARRY",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "ELLIS PARK",
-      "origin": "KENTUCKY",
-      "destination": "WOODBINE",
-      "track": "WOODBINE",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "stallSpace": 9,
-      "tripDate": "",
-      "drivers": "",
-      "id": "8a4c6854373f"
     },
     {
       "dateTaken": "2026-08-13",
