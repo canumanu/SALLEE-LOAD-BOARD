@@ -59,6 +59,66 @@ const SNAPSHOT_ORDERS = [{"id": 2, "dateTaken": "2024-07-31", "requestedDates": 
 
 const DEFAULT_CAPACITY = 21; // stalls per load — matches how loads are built in ORDERS
 const STALL_UNIT = 1.5; // every request is 1.5 or 3 stalls, so the strip is drawn in 1.5-stall bays
+// Add this near the top of SalleeLoadBoard.jsx, alongside the other
+// constants (e.g. right after DEFAULT_CAPACITY / STALL_UNIT).
+//
+// Maps a track name (as it appears in the ORDERS sheet, matched
+// case-insensitively) to a real street address, so Google Maps can
+// geocode it precisely instead of guessing from a bare name alone.
+// Farm names aren't included here since they're too numerous/private
+// to maintain a lookup table for — those still fall back to a plain
+// text search (see directionsHref below), which works reasonably well
+// as long as the region name is appended for context.
+
+const TRACK_ADDRESSES = {
+  "CHURCHILL": "700 Central Ave, Louisville, KY 40208",
+  "BELMONT": "2150 Hempstead Turnpike, Elmont, NY 11003",
+  "SARATOGA": "267 Union Ave, Saratoga Springs, NY 12866",
+  "KEENELAND": "4201 Versailles Rd, Lexington, KY 40510",
+  "TURFWAY": "7500 Turfway Rd, Florence, KY 41042",
+  "LAUREL": "198 Laurel Race Track Rd, Laurel, MD 20725",
+  "MONMOUTH": "175 Oceanport Ave, Oceanport, NJ 07757",
+  "PARX": "2999 Street Rd, Bensalem, PA 19020",
+  "DELAWARE": "777 Delaware Park Blvd, Wilmington, DE 19804",
+  "FAIR HILL": "3400 Training Center Dr, Fair Hill, MD 21921",
+  "COLONIAL DOWNS": "10515 Colonial Downs Pkwy, New Kent, VA 23124",
+  "GULF": "901 S Federal Hwy, Hallandale Beach, FL 33009",
+  "FAIRGROUNDS": "1751 Gentilly Blvd, New Orleans, LA 70119",
+  "PAYSON": "3103 SE Fox Brown Rd, Indiantown, FL 34956",
+  "WOODBINE": "555 Rexdale Blvd, Toronto, ON M9W 5L2, Canada",
+  "OAKLAWN": "2705 Central Ave, Hot Springs, AR 71901",
+  "CHARLESTOWN": "750 Hollywood Dr, Charles Town, WV 25414",
+  "ELLIS": "3300 US Hwy 41 N, Henderson, KY 42420",
+  "HORSESHOE INDIANA": "4200 N Michigan Rd, Shelbyville, IN 46176",
+  "FINGER LAKES": "5857 NY-96, Farmington, NY 14425",
+  "PENN NATIONAL": "777 Hollywood Blvd, Grantville, PA 17028",
+  "PRESQUE ISLE": "8199 Perry Hwy, Erie, PA 16509",
+  "TAMPA BAY": "11225 Racetrack Rd, Oldsmar, FL 34677",
+  "FORT ERIE": "230 Catherine St, Fort Erie, ON L2A 2M9, Canada",
+  "KENTUCKY DOWNS": "5629 Nashville Rd, Franklin, KY 42134",
+  // PMTC — flagged for confirmation. Most likely "Palm Meadows
+  // Training Center" (Boynton Beach, FL), a common Florida training
+  // base, but confirm before relying on this one:
+  "PMTC": "12295 Sabal Trace Pkwy, Boynton Beach, FL 33472",
+};
+
+// Looks up a track's real address by name (case-insensitive, trims
+// whitespace). Falls back to the raw name if it's not in the table —
+// still searchable by Google Maps, just less precise.
+function resolveTrackAddress(trackName) {
+  if (!trackName) return null;
+  const key = trackName.trim().toUpperCase();
+  return TRACK_ADDRESSES[key] || trackName;
+}
+
+// Builds the best available location string for directions: a known
+// track's real address > a farm name plus the broad region for context
+// > the broad region alone as a last resort.
+function bestDirectionsLocation(trackName, farmName, region) {
+  if (trackName) return resolveTrackAddress(trackName);
+  if (farmName) return `${farmName}, ${region}`;
+  return region;
+}
 
 /* ---------- helpers ---------- */
 
