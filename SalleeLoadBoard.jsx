@@ -369,6 +369,13 @@ function LoadModal({ load, capacity, onCapacityChange, onClose }) {
   const dateGroups = new Set(load.orders.map((o) => o.requestedDates || "date flexible"));
   const datesMismatched = dateGroups.size > 1;
 
+  const firstOrder = load.orders[0] || {};
+  const directionsHref = `https://www.google.com/maps/dir/?${new URLSearchParams({
+    api: "1",
+    origin: load.originTrack || firstOrder.originFarm || load.origin,
+    destination: load.track || firstOrder.destinationFarm || load.destination,
+  }).toString()}`;
+
   return (
     <div
       onClick={onClose}
@@ -411,6 +418,28 @@ function LoadModal({ load, capacity, onCapacityChange, onClose }) {
                 {load.originTrack && <span>via {load.originTrack}</span>}
                 {load.track && <span>via {load.track}</span>}
               </div>
+              <a
+                href={directionsHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: 6,
+                  marginTop: 10,
+                  padding: "6px 12px",
+                  borderRadius: 8,
+                  border: "1px solid #2c4a3a",
+                  color: "#7be0a8",
+                  fontSize: 12,
+                  fontWeight: 700,
+                  textDecoration: "none",
+                  width: "fit-content",
+                }}
+              >
+                🧭 Get Directions
+              </a>
             </div>
             <button onClick={onClose} style={{ ...btnSmall, width: 32, height: 32, fontSize: 18 }}>
               ×
@@ -469,6 +498,7 @@ function LoadModal({ load, capacity, onCapacityChange, onClose }) {
     </div>
   );
 }
+
 
 /* ---------- build-a-load modal (manual load creation/editing) ---------- */
 
