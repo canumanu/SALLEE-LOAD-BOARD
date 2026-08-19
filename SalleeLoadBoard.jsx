@@ -430,11 +430,11 @@ function LoadModal({ load, capacity, onCapacityChange, onClose }) {
   const datesMismatched = dateGroups.size > 1;
 
   const firstOrder = load.orders[0] || {};
-  const directionsHref = `https://www.google.com/maps/dir/?${new URLSearchParams({
-    api: "1",
-    origin: load.originTrack || firstOrder.originFarm || load.origin,
-    destination: load.track || firstOrder.destinationFarm || load.destination,
-  }).toString()}`;
+const directionsHref = `https://www.google.com/maps/dir/?${new URLSearchParams({
+  api: "1",
+  origin: bestDirectionsLocation(load.originTrack, firstOrder.originFarm, load.origin),
+  destination: bestDirectionsLocation(load.track, firstOrder.destinationFarm, load.destination),
+}).toString()}`;
 
   return (
     <div
