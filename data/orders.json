@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-20T14:35:13.973152Z",
+  "syncedAt": "2026-08-20T14:40:14.797744Z",
   "orders": [
     {
       "dateTaken": "2026-08-17",
@@ -162,24 +162,6 @@
       "tripDate": "",
       "drivers": "",
       "id": "bd9aaeec8cf9"
-    },
-    {
-      "dateTaken": "2026-08-04",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "VICKIE",
-      "requestedBy": "HELEN",
-      "originFarm": "ASHFORD STUD",
-      "originTrainer": "",
-      "originTrack": "",
-      "origin": "KENTUCKY",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "C BROWN",
-      "destinationFarm": "",
-      "stallSpace": 3,
-      "tripDate": "",
-      "drivers": "",
-      "id": "3a849d25b6fa"
     },
     {
       "dateTaken": "2026-08-18",
