@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-20T15:20:18.989191Z",
+  "syncedAt": "2026-08-20T15:25:13.781166Z",
   "orders": [
     {
       "dateTaken": "2026-08-17",
@@ -126,24 +126,6 @@
       "tripDate": "",
       "drivers": "",
       "id": "058f173b976e"
-    },
-    {
-      "dateTaken": "2026-08-15",
-      "requestedDates": "ASAP",
-      "takenBy": "LESLEY",
-      "requestedBy": "JENNIFER SHAPIRO",
-      "originFarm": "SALLEE YARD",
-      "originTrainer": "",
-      "originTrack": "",
-      "origin": "KENTUCKY",
-      "destination": "SOUTH FLORIDA",
-      "track": "WELLINGTON",
-      "destinationTrainer": "TBA",
-      "destinationFarm": "",
-      "stallSpace": 3,
-      "tripDate": "",
-      "drivers": "",
-      "id": "1b476ee715cd"
     },
     {
       "dateTaken": "2026-08-16",
