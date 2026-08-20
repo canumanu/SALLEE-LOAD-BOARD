@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-20T18:15:23.813549Z",
+  "syncedAt": "2026-08-20T18:18:24.938224Z",
   "orders": [
     {
       "dateTaken": "2026-08-17",
@@ -14,10 +14,24 @@
       "track": "KEENELAND",
       "destinationTrainer": "M NIHEI",
       "destinationFarm": "",
-      "stallSpace": "3,3,3",
       "tripDate": "",
       "drivers": "",
-      "id": "5755b08d34c4"
+      "horses": [
+        {
+          "name": null,
+          "stallSpace": 3.0
+        },
+        {
+          "name": null,
+          "stallSpace": 3.0
+        },
+        {
+          "name": null,
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 9.0,
+      "id": "bd49de191576"
     },
     {
       "dateTaken": "2026-08-17",
@@ -32,10 +46,24 @@
       "track": "FAIR HILL",
       "destinationTrainer": "M NIHEI",
       "destinationFarm": "",
-      "stallSpace": "3,3,3",
       "tripDate": "",
       "drivers": "",
-      "id": "2adcf03ab5e1"
+      "horses": [
+        {
+          "name": null,
+          "stallSpace": 3.0
+        },
+        {
+          "name": null,
+          "stallSpace": 3.0
+        },
+        {
+          "name": null,
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 9.0,
+      "id": "231bd60cc29d"
     },
     {
       "dateTaken": "2026-08-13",
@@ -50,10 +78,16 @@
       "track": "INGLESIDE TRAINING CENTER",
       "destinationTrainer": "",
       "destinationFarm": "",
-      "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "id": "7e64bbf613ff"
+      "horses": [
+        {
+          "name": null,
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "c73027e523ae"
     },
     {
       "dateTaken": "2026-08-03",
@@ -68,10 +102,20 @@
       "track": "",
       "destinationTrainer": "",
       "destinationFarm": "STONEWALL/SEQUEL",
-      "stallSpace": "3,3",
       "tripDate": "",
       "drivers": "",
-      "id": "aa8966b400e0"
+      "horses": [
+        {
+          "name": null,
+          "stallSpace": 3.0
+        },
+        {
+          "name": null,
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 6.0,
+      "id": "419402bfb50f"
     },
     {
       "dateTaken": "2026-08-03",
@@ -86,10 +130,16 @@
       "track": "NELSON JONES",
       "destinationTrainer": "C ORTIZ",
       "destinationFarm": "",
-      "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "id": "8bb4c275eab7"
+      "horses": [
+        {
+          "name": "IF WISHES 25",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "7fb9730ccdd9"
     },
     {
       "dateTaken": "2026-08-17",
@@ -104,9 +154,15 @@
       "track": "DELAWARE PARK",
       "destinationTrainer": "M STIDHAM",
       "destinationFarm": "",
-      "stallSpace": 1.5,
       "tripDate": "",
       "drivers": "",
+      "horses": [
+        {
+          "name": "PATROL SQUAD SIX",
+          "stallSpace": 1.5
+        }
+      ],
+      "stallSpace": 1.5,
       "id": "2fc32f06a161"
     },
     {
@@ -122,28 +178,16 @@
       "track": "DELAWARE PARK",
       "destinationTrainer": "M STIDHAM",
       "destinationFarm": "",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "STARTUP",
+          "stallSpace": 1.5
+        }
+      ],
       "stallSpace": 1.5,
-      "tripDate": "",
-      "drivers": "",
       "id": "058f173b976e"
-    },
-    {
-      "dateTaken": "2026-08-15",
-      "requestedDates": "ASAP",
-      "takenBy": "LESLEY",
-      "requestedBy": "JENNIFER SHAPIRO",
-      "origin": "KENTUCKY",
-      "originFarm": "SALLEE YARD",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "WELLINGTON",
-      "destinationTrainer": "TBA",
-      "destinationFarm": "",
-      "stallSpace": 3,
-      "tripDate": "",
-      "drivers": "",
-      "id": "1b476ee715cd"
     },
     {
       "dateTaken": "2026-08-16",
@@ -158,46 +202,16 @@
       "track": "SARATOGA",
       "destinationTrainer": "C DEVAUX",
       "destinationFarm": "",
-      "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "id": "bd9aaeec8cf9"
-    },
-    {
-      "dateTaken": "2026-08-04",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "VICKIE",
-      "requestedBy": "HELEN",
-      "origin": "KENTUCKY",
-      "originFarm": "ASHFORD STUD",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "C BROWN",
-      "destinationFarm": "",
-      "stallSpace": 3,
-      "tripDate": "",
-      "drivers": "",
-      "id": "3a849d25b6fa"
-    },
-    {
-      "dateTaken": "2026-08-16",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "C DAVID",
-      "originTrack": "ELLIS PARK",
-      "destination": "SOUTH FLORIDA",
-      "track": "PALM MEADOWS",
-      "destinationTrainer": "C DAVID",
-      "destinationFarm": "",
-      "stallSpace": 3,
-      "tripDate": "",
-      "drivers": "",
-      "id": "672dfa91e7e6"
+      "horses": [
+        {
+          "name": "ENGLISHMAN",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "5b8f0a1eae3c"
     },
     {
       "dateTaken": "2026-08-18",
@@ -212,10 +226,16 @@
       "track": "FAIR HILL ",
       "destinationTrainer": "B JACKSON",
       "destinationFarm": "",
-      "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "id": "133a23e4fcaf"
+      "horses": [
+        {
+          "name": "COACH JUICE",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "2ba464f7f01d"
     },
     {
       "dateTaken": "2026-08-18",
@@ -230,10 +250,20 @@
       "track": "WOODBINE",
       "destinationTrainer": "M CASSE",
       "destinationFarm": "",
-      "stallSpace": "3,3",
       "tripDate": "",
       "drivers": "",
-      "id": "932f7c81127a"
+      "horses": [
+        {
+          "name": null,
+          "stallSpace": 3.0
+        },
+        {
+          "name": null,
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 6.0,
+      "id": "0878fc103531"
     },
     {
       "dateTaken": "2026-08-18",
@@ -248,9 +278,15 @@
       "track": "",
       "destinationTrainer": "",
       "destinationFarm": "STONERSIDE FARM",
-      "stallSpace": 1.5,
       "tripDate": "",
       "drivers": "",
+      "horses": [
+        {
+          "name": null,
+          "stallSpace": 1.5
+        }
+      ],
+      "stallSpace": 1.5,
       "id": "6a01c72d4ef2"
     },
     {
@@ -266,10 +302,24 @@
       "track": "",
       "destinationTrainer": "",
       "destinationFarm": "VICTORIAM FARM",
-      "stallSpace": "3,3,3",
       "tripDate": "",
       "drivers": "",
-      "id": "ceef9516a6b2"
+      "horses": [
+        {
+          "name": "RUNUP",
+          "stallSpace": 3.0
+        },
+        {
+          "name": "RUNNUP 26",
+          "stallSpace": 3.0
+        },
+        {
+          "name": "SECURITY CODE 26",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 9.0,
+      "id": "3f2952e0799f"
     },
     {
       "dateTaken": "2026-08-18",
@@ -284,10 +334,20 @@
       "track": "",
       "destinationTrainer": "",
       "destinationFarm": "APRIL MAYBERRY",
-      "stallSpace": 6,
       "tripDate": "",
       "drivers": "",
-      "id": "000861e14892"
+      "horses": [
+        {
+          "name": "KATHERINE 25",
+          "stallSpace": 6.0
+        },
+        {
+          "name": "HOLLYWOODGIRL 25",
+          "stallSpace": null
+        }
+      ],
+      "stallSpace": 6.0,
+      "id": "a6bbe67ff3e9"
     },
     {
       "dateTaken": "2026-08-18",
@@ -302,10 +362,16 @@
       "track": "",
       "destinationTrainer": "",
       "destinationFarm": "APRIL MAYBERRY",
-      "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "id": "94b50c34d1db"
+      "horses": [
+        {
+          "name": "OLIVE YOU MORE 25",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "ef1cba15e963"
     },
     {
       "dateTaken": "2026-08-19",
@@ -320,10 +386,16 @@
       "track": "BELMONT",
       "destinationTrainer": "M CASSE",
       "destinationFarm": "",
-      "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "id": "8a44601d6243"
+      "horses": [
+        {
+          "name": "MARINER",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "8c784512acec"
     },
     {
       "dateTaken": "2026-08-18",
@@ -338,9 +410,15 @@
       "track": "GULFSTREAM PARK",
       "destinationTrainer": "J DELAGO",
       "destinationFarm": "",
-      "stallSpace": 1.5,
       "tripDate": "",
       "drivers": "",
+      "horses": [
+        {
+          "name": null,
+          "stallSpace": 1.5
+        }
+      ],
+      "stallSpace": 1.5,
       "id": "36362e2bd274"
     },
     {
@@ -356,9 +434,15 @@
       "track": "",
       "destinationTrainer": "",
       "destinationFarm": "WELLINGTON VIA SHUTTLE",
-      "stallSpace": 1.5,
       "tripDate": "",
       "drivers": "",
+      "horses": [
+        {
+          "name": null,
+          "stallSpace": 1.5
+        }
+      ],
+      "stallSpace": 1.5,
       "id": "8fd7c3ec7047"
     },
     {
@@ -374,10 +458,16 @@
       "track": "",
       "destinationTrainer": "NIALL BRENNAN",
       "destinationFarm": "NIALL BRENNAN STABLES",
-      "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "id": "712c2b0204cd"
+      "horses": [
+        {
+          "name": "NATIONAL DEBT",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "3e0a4d3f13d9"
     },
     {
       "dateTaken": "2026-08-20",
@@ -392,10 +482,16 @@
       "track": "OAK RIDGE TRAINING CENTER",
       "destinationTrainer": "GREG MARTIN",
       "destinationFarm": "",
-      "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "id": "68ad3e56bdd3"
+      "horses": [
+        {
+          "name": "BELLA CARA MIA 25",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "32df692860c0"
     },
     {
       "dateTaken": "2026-08-20",
@@ -410,9 +506,15 @@
       "track": "FAIR HILL ",
       "destinationTrainer": "KATHY NIELSON",
       "destinationFarm": "",
-      "stallSpace": 1.5,
       "tripDate": "",
       "drivers": "",
+      "horses": [
+        {
+          "name": null,
+          "stallSpace": 1.5
+        }
+      ],
+      "stallSpace": 1.5,
       "id": "0bd6743bbd05"
     },
     {
@@ -428,10 +530,16 @@
       "track": "SARATOGA",
       "destinationTrainer": "L ROBSON",
       "destinationFarm": "",
-      "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "id": "bf575a7002a9"
+      "horses": [
+        {
+          "name": "RIGHT TO WIN",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "74188e7aa73b"
     },
     {
       "dateTaken": "2026-08-19",
@@ -446,9 +554,15 @@
       "track": "",
       "destinationTrainer": "",
       "destinationFarm": "GARY BESSETTE",
-      "stallSpace": 1.5,
       "tripDate": "",
       "drivers": "",
+      "horses": [
+        {
+          "name": "ENDOW",
+          "stallSpace": 1.5
+        }
+      ],
+      "stallSpace": 1.5,
       "id": "b0252dd46b26"
     },
     {
@@ -464,10 +578,16 @@
       "track": "FAIR HILL ",
       "destinationTrainer": "B JACKSON",
       "destinationFarm": "",
-      "stallSpace": 3,
       "tripDate": "",
       "drivers": "",
-      "id": "8a759b04f226"
+      "horses": [
+        {
+          "name": "SHOCK AND AWE",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "e66212047604"
     }
   ]
 }
