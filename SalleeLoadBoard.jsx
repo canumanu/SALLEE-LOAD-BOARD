@@ -1,35 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 
-/* ============================================================
-   SALLEE LOAD BOARD — live departures-style board for
-   inbound shipping requests, grouped into loads like a
-   horse van's stall map.
-
-   LIVE DATA: this component polls ORDERS_JSON_URL (see below)
-   for data/orders.json, which the sync_orders.py script + the
-   sync-orders.yml GitHub Action keep up to date from the
-   SharePoint-hosted ORDERS worksheet. Every fetch is diffed
-   against the previous one, so the ticker and the row
-   highlight only fire for rows that are genuinely new on the
-   sheet.
-
-   If that fetch fails (e.g. previewing this file standalone,
-   or the JSON isn't deployed alongside it yet), it falls back
-   to SNAPSHOT_ORDERS below — a one-time pull from
-   automated_load_build_up_4.xlsm — so the board still renders
-   something sensible.
-
-   MANUALLY BUILT LOADS: dispatchers can also hand-pick requests
-   into a load with "+ Build a Load", independent of the
-   auto-grouped board above. Those live only in this browser's
-   localStorage (CREATED_LOADS_STORAGE_KEY) — they never touch
-   the ORDERS sheet. Any order used in a manually built load is
-   pulled out of the auto-grouped pool so it doesn't show up
-   twice.
-   ============================================================ */
-
-const ORDERS_JSON_URL = "data/orders.json"; // relative path — must NOT start with "/" since this site is served from a subpath (GitHub Pages project site), not the domain root
-const POLL_INTERVAL_MS = 30000; // how often to check SharePoint for changes
+const ORDERS_JSON_URL = "data/orders.json";
+const POLL_INTERVAL_MS = 30000;
 const CREATED_LOADS_STORAGE_KEY = "sallee-load-board:created-loads:v1";
 
 function loadCreatedLoads() {
@@ -47,7 +19,6 @@ function saveCreatedLoads(loads) {
   try {
     localStorage.setItem(CREATED_LOADS_STORAGE_KEY, JSON.stringify(loads));
   } catch {
-    // ignore write failures (e.g. private browsing / storage full)
   }
 }
 
@@ -55,20 +26,10 @@ function generateId() {
   return `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
 }
 
-const SNAPSHOT_ORDERS = [{"id": 2, "dateTaken": "2024-07-31", "requestedDates": "WEEK OF 8/5", "takenBy": "KK", "requestedBy": "NANCY", "trainerFarm": "PATRICK DIXON", "origin": "WOODBINE", "destination": "KENTUCKY", "track": null, "farmTrainer": "KENNEALLY", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 3, "dateTaken": "2024-07-08", "requestedDates": "8/28- 8/31", "takenBy": "LS", "requestedBy": "CARLOS", "trainerFarm": "U ORTEGA", "origin": "OCALA", "destination": "KENTUCKY", "track": "CHURCHILL", "farmTrainer": "I. QUESADA", "stallSpace": 1.5, "tripDate": null, "drivers": null}, {"id": 4, "dateTaken": "2024-07-15", "requestedDates": "2024-08-20", "takenBy": "MR", "requestedBy": "CARRIE", "trainerFarm": null, "origin": "SARATOGA", "destination": "SOUTH CAROLINA", "track": null, "farmTrainer": null, "stallSpace": 1.5, "tripDate": null, "drivers": null}, {"id": 5, "dateTaken": "2024-07-24", "requestedDates": "NEXT AVAILABLE", "takenBy": "MD", "requestedBy": "DEAN", "trainerFarm": null, "origin": "EAST COAST", "destination": "SOUTH CAROLINA", "track": null, "farmTrainer": null, "stallSpace": 1.5, "tripDate": null, "drivers": null}, {"id": 6, "dateTaken": "2024-07-16", "requestedDates": "EARLY SEPT", "takenBy": "FS", "requestedBy": null, "trainerFarm": "AUDREY HICKS", "origin": "SARATOGA", "destination": "SOUTH CAROLINA", "track": null, "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 7, "dateTaken": "2024-08-01", "requestedDates": "NEXT AVAILABLE", "takenBy": "AB", "requestedBy": "SANDY", "trainerFarm": "NORM CASSE", "origin": "KENTUCKY", "destination": "EAST COAST", "track": "PARX", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 8, "dateTaken": "2024-04-01", "requestedDates": "MID AUGUST", "takenBy": "AB", "requestedBy": "BAILEE", "trainerFarm": null, "origin": "KENTUCKY", "destination": "UPSTATE NEW YORK", "track": "UPSTATE NEW YORK", "farmTrainer": "STONEBRIDGE", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 9, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "OCALA", "destination": "EAST COAST", "track": "BELMONT", "farmTrainer": "BROWN", "stallSpace": 1.5, "tripDate": null, "drivers": null}, {"id": 10, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "OCALA", "destination": "EAST COAST", "track": "LAUREL", "farmTrainer": "RUSSEL", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 11, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "OCALA", "destination": "SARATOGA", "track": "SARATOGA", "farmTrainer": "BROWN", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 12, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "OCALA", "destination": "UPSTATE NEW YORK", "track": "FARM", "farmTrainer": "BROWN", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 13, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "OCALA", "destination": "EAST COAST", "track": "LAUREL", "farmTrainer": "MAKER", "stallSpace": 1.5, "tripDate": null, "drivers": null}, {"id": 14, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "OCALA", "destination": "EAST COAST", "track": "FAIR HILL", "farmTrainer": "JACKSON", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 15, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "OCALA", "destination": "EAST COAST", "track": "DELAWARE", "farmTrainer": "M.DINI", "stallSpace": 1.5, "tripDate": null, "drivers": null}, {"id": 16, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "OCALA", "destination": "EAST COAST", "track": "MONMOUTH", "farmTrainer": "BROWN", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 17, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "OCALA", "destination": "EAST COAST", "track": "PARX", "farmTrainer": "LAKE", "stallSpace": 1.5, "tripDate": null, "drivers": null}, {"id": 18, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "OCALA", "destination": "KENTUCKY", "track": "FARM", "farmTrainer": "STONE", "stallSpace": 1.5, "tripDate": null, "drivers": null}, {"id": 19, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "OCALA", "destination": "KENTUCKY", "track": "KEENELAND", "farmTrainer": "BROWN", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 20, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "OCALA", "destination": "SOUTH CAROLINA", "track": "FARM", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 21, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "OCALA", "destination": "KENTUCKY", "track": "TURFWAY", "farmTrainer": "MAKER", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 22, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "EAST COAST", "track": "FAIR HILL", "farmTrainer": "JACKSON", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 23, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "SFL", "track": "PAYSON", "farmTrainer": "BROWN", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 24, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "OCALA", "track": "FARM", "farmTrainer": "KINSMAN", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 25, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "SOUTH CAROLINA", "track": "FARM", "farmTrainer": "DURR", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 26, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "UPSTATE NEW YORK", "track": "FARM", "farmTrainer": "STONEBRIDGE", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 27, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "MICHIGAN", "track": "FARM", "farmTrainer": "DJ JOHNSON", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 28, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "EAST COAST", "track": "PARX", "farmTrainer": "RODRIGUEZ", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 29, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "EAST COAST", "track": "COLONIAL DOWNS", "farmTrainer": "CASSE", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 30, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "SARATOGA", "track": "TRACK", "farmTrainer": "BROWN", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 31, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "EAST COAST", "track": "MONMOUTH", "farmTrainer": "BROWN", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 32, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "BELMONT", "track": "TRACK", "farmTrainer": "BROWN", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 33, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "EAST COAST", "track": "DELAWARE", "farmTrainer": "DINI", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 34, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "FAIRGROUNDS", "track": "TRACK", "farmTrainer": "STIDHAM", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 35, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "SFL", "track": "GULF", "farmTrainer": "BROWN", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 36, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "SFL", "track": "PMTC", "farmTrainer": "BROWN", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 37, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "KENTUCKY", "destination": "EAST COAST", "track": "LAUREL", "farmTrainer": "B.RUSSEL", "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 44, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "KENTUCKY", "track": "FARM", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 45, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "KENTUCKY", "track": "CHURCHILL", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 46, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "KENTUCKY", "track": "KEENELAND", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 47, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "OCALA", "track": "FARM", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 48, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "PARX", "track": "TRACK", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 49, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "BELMONT", "track": "TRACK", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 50, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "FAIR HILL", "track": "FARM", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 51, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "UPSTATE NEW YORK", "track": "FARM", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 52, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "SOUTH CAROLINA", "track": "FARM", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 53, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "SARATOGA", "track": "TRACK", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 54, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "FAIRGROUNDS", "track": "TRACK", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 55, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "EAST COAST", "track": "PARX", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 56, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "EAST COAST", "track": "LAUREL", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 57, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "EAST COAST", "track": "FAIR HILL", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 60, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "EAST COAST", "track": "MONMOUTH", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 62, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "EAST COAST", "track": "FARM", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 63, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "EAST COAST", "track": "FARM", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}, {"id": 64, "dateTaken": "2024-08-08", "requestedDates": "NEXT AVAILABLE", "takenBy": "ME", "requestedBy": "ME", "trainerFarm": "WHAT EVER", "origin": "SFL", "destination": "EAST COAST", "track": "FARM", "farmTrainer": null, "stallSpace": 3, "tripDate": null, "drivers": null}]
+const SNAPSHOT_ORDERS = [];
 
-const DEFAULT_CAPACITY = 21; // stalls per load — matches how loads are built in ORDERS
-const STALL_UNIT = 1.5; // every request is 1.5 or 3 stalls, so the strip is drawn in 1.5-stall bays
-// Add this near the top of SalleeLoadBoard.jsx, alongside the other
-// constants (e.g. right after DEFAULT_CAPACITY / STALL_UNIT).
-//
-// Maps a track name (as it appears in the ORDERS sheet, matched
-// case-insensitively) to a real street address, so Google Maps can
-// geocode it precisely instead of guessing from a bare name alone.
-// Farm names aren't included here since they're too numerous/private
-// to maintain a lookup table for — those still fall back to a plain
-// text search (see directionsHref below), which works reasonably well
-// as long as the region name is appended for context.
+const DEFAULT_CAPACITY = 21;
+const STALL_UNIT = 1.5;
 
 const TRACK_ADDRESSES = {
   "CHURCHILL": "700 Central Ave, Louisville, KY 40208",
@@ -96,35 +57,21 @@ const TRACK_ADDRESSES = {
   "TAMPA BAY": "11225 Racetrack Rd, Oldsmar, FL 34677",
   "FORT ERIE": "230 Catherine St, Fort Erie, ON L2A 2M9, Canada",
   "KENTUCKY DOWNS": "5629 Nashville Rd, Franklin, KY 42134",
-  // PMTC — flagged for confirmation. Most likely "Palm Meadows
-  // Training Center" (Boynton Beach, FL), a common Florida training
-  // base, but confirm before relying on this one:
   "PMTC": "12295 Sabal Trace Pkwy, Boynton Beach, FL 33472",
 };
 
-// Looks up a track's real address by name (case-insensitive, trims
-// whitespace). Falls back to the raw name if it's not in the table —
-// still searchable by Google Maps, just less precise.
 function resolveTrackAddress(trackName) {
   if (!trackName) return null;
   const key = trackName.trim().toUpperCase();
   return TRACK_ADDRESSES[key] || trackName;
 }
 
-// Builds the best available location string for directions: a known
-// track's real address > a farm name plus the broad region for context
-// > the broad region alone as a last resort.
 function bestDirectionsLocation(trackName, farmName, region) {
   if (trackName) return resolveTrackAddress(trackName);
   if (farmName) return `${farmName}, ${region}`;
   return region;
 }
 
-/* ---------- helpers ---------- */
-
-/* Each row on the main board is now one order, full stop — the board
-   no longer guesses which requests belong on the same trailer. That
-   decision is made deliberately, by hand, in Build a Load. */
 function loadKey(o) {
   return String(o.id);
 }
@@ -152,9 +99,6 @@ function buildLoads(orders) {
   });
 }
 
-/* A load's orders can carry different requested dates. Surface that
-   plainly instead of silently picking one, so a dispatcher building a
-   load can catch a mismatch before it becomes a problem on the road. */
 function requestedDateSummary(load) {
   const dates = Array.from(
     new Set(load.orders.map((o) => o.requestedDates || "date flexible"))
@@ -175,10 +119,6 @@ function destinationNameOf(o) {
   return o.destinationTrainer || o.destinationFarm || null;
 }
 
-/* Combines an order's origin-side and destination-side names into one
-   readable line for places that show a single order (the load detail
-   manifest, the ticker) — falls back gracefully if either side, or
-   both, are blank. */
 function combinedName(o) {
   const a = originNameOf(o);
   const b = destinationNameOf(o);
@@ -194,8 +134,6 @@ function uniqueList(items, getter) {
   return out;
 }
 
-/* "BROWN, KENNEALLY +2 more" — used to summarize several orders'
-   worth of names into one line without the row growing unbounded. */
 function joinWithMore(list, max = 2) {
   if (list.length === 0) return null;
   if (list.length <= max) return list.join(", ");
@@ -214,8 +152,6 @@ const STATUS_STYLE = {
   FULL: { color: "#ff9d5c", label: "FULLY BOOKED" },
   OVERBOOKED: { color: "#ff6b6b", label: "OVERBOOKED" },
 };
-
-/* ---------- split flap character ---------- */
 
 function Flap({ ch }) {
   return (
@@ -251,10 +187,33 @@ function FlapText({ text, size = 15, color = "#f0c95a", weight = 700, spacing = 
   );
 }
 
-/* ---------- stall strip (seat map) ---------- */
-
 function formatStalls(n) {
   return Number.isInteger(n) ? String(n) : n.toFixed(1);
+}
+
+// Human label for a single horse's stall space -- "1 box" for a full
+// 3-stall space, "1.5 stall" for a half/single unit, otherwise a plain
+// fallback so unusual values still render sensibly.
+function stallLabel(n) {
+  if (n === 3) return "1 box";
+  if (n === 1.5) return "1.5 stall";
+  if (n === null || n === undefined) return "— stall";
+  return `${formatStalls(n)} stall${n === 1 ? "" : "s"}`;
+}
+
+// Returns this order's horses as a flat list of {name, stallSpace}.
+// Orders synced with the new HORSE NAME(S) / STALL SPACE format already
+// carry a `horses` array. Older orders synced before that (or ones with
+// nothing in HORSE NAME(S)) fall back to a single unnamed horse using
+// the order's total stallSpace, so nothing already on the board breaks.
+function orderHorses(o) {
+  if (Array.isArray(o.horses) && o.horses.length) {
+    return o.horses.map((h) => ({
+      name: h.name || null,
+      stallSpace: Number(h.stallSpace) || 0,
+    }));
+  }
+  return [{ name: null, stallSpace: Number(o.stallSpace) || 0 }];
 }
 
 function StallStrip({ load, capacity, onCapacityChange }) {
@@ -263,24 +222,41 @@ function StallStrip({ load, capacity, onCapacityChange }) {
   let cursor = 0;
   const placed = [];
   const overflow = [];
-
-  for (const o of orders) {
-    const span = Math.max(1, Math.round((Number(o.stallSpace) || 0) / STALL_UNIT));
-    if (cursor >= totalUnits) {
-      overflow.push(o);
-      continue;
-    }
-    const start = cursor;
-    const end = Math.min(totalUnits, cursor + span);
-    placed.push({ order: o, start, end, span: end - start });
-    cursor = end;
-  }
-
-  const openUnits = Math.max(0, totalUnits - cursor);
-  const bookedStalls = stallsBooked(load);
   const palette = [
     "#3fa66b", "#3f8fa6", "#a68f3f", "#8a5fd6", "#d65f9a", "#5fd6c6", "#d68a5f",
   ];
+
+  // Flatten every order into its individual horses -- each horse gets
+  // its own block sized to its own stall space, but horses from the
+  // same order share a color (by orderIdx) so the grouping still reads
+  // clearly even though they're now visually separate segments.
+  orders.forEach((o, orderIdx) => {
+    const horses = orderHorses(o);
+    const color = palette[orderIdx % palette.length];
+    horses.forEach((h, horseIdx) => {
+      const span = Math.max(1, Math.round((Number(h.stallSpace) || 0) / STALL_UNIT));
+      if (cursor >= totalUnits) {
+        overflow.push({ order: o, horse: h });
+        return;
+      }
+      const start = cursor;
+      const end = Math.min(totalUnits, cursor + span);
+      placed.push({
+        order: o,
+        horse: h,
+        orderIdx,
+        horseIdx,
+        color,
+        start,
+        end,
+        span: end - start,
+      });
+      cursor = end;
+    });
+  });
+
+  const openUnits = Math.max(0, totalUnits - cursor);
+  const bookedStalls = stallsBooked(load);
 
   return (
     <div>
@@ -319,43 +295,67 @@ function StallStrip({ load, capacity, onCapacityChange }) {
         }}
       >
         {placed.map((p, idx) => {
-          const color = palette[idx % palette.length];
-          const name = originNameOf(p.order) || destinationNameOf(p.order) || "Unassigned";
+          const prev = placed[idx - 1];
+          // A visible separator (not just the ordinary 4px flex gap)
+          // between horses that share the same order -- so two same-
+          // color blocks sitting together still read as two horses,
+          // not one.
+          const showSeparator = prev && prev.orderIdx === p.orderIdx;
+          const name = p.horse.name || originNameOf(p.order) || destinationNameOf(p.order) || "Unassigned";
+          const key = `${p.order.id ?? p.orderIdx}-${p.horseIdx}`;
           return (
-            <div
-              key={p.order.id ?? idx}
-              title={`${name} — ${formatStalls(p.order.stallSpace)} stall(s)`}
-              style={{
-                flex: `${p.span} 1 0`,
-                minWidth: p.span * 46,
-                height: 50,
-                borderRadius: 6,
-                background: color,
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                justifyContent: "center",
-                padding: "0 6px",
-                overflow: "hidden",
-              }}
-            >
-              <span
+            <React.Fragment key={key}>
+              {showSeparator && (
+                <div
+                  aria-hidden="true"
+                  style={{
+                    width: 6,
+                    alignSelf: "stretch",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    color: "#4a6a58",
+                    fontSize: 14,
+                    fontWeight: 900,
+                  }}
+                >
+                  ┊
+                </div>
+              )}
+              <div
+                title={`${name} — ${stallLabel(p.horse.stallSpace)}`}
                 style={{
-                  fontSize: 12,
-                  fontWeight: 800,
-                  color: "#06110b",
-                  whiteSpace: "nowrap",
+                  flex: `${p.span} 1 0`,
+                  minWidth: p.span * 46,
+                  height: 50,
+                  borderRadius: 6,
+                  background: p.color,
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  padding: "0 6px",
                   overflow: "hidden",
-                  textOverflow: "ellipsis",
-                  maxWidth: "100%",
                 }}
               >
-                {name}
-              </span>
-              <span style={{ fontSize: 10, color: "#0a2417", fontWeight: 700, marginTop: 1 }}>
-                {formatStalls(p.order.stallSpace)} stall{p.order.stallSpace === 1 ? "" : "s"}
-              </span>
-            </div>
+                <span
+                  style={{
+                    fontSize: 12,
+                    fontWeight: 800,
+                    color: "#06110b",
+                    whiteSpace: "nowrap",
+                    overflow: "hidden",
+                    textOverflow: "ellipsis",
+                    maxWidth: "100%",
+                  }}
+                >
+                  {name}
+                </span>
+                <span style={{ fontSize: 10, color: "#0a2417", fontWeight: 700, marginTop: 1 }}>
+                  {stallLabel(p.horse.stallSpace)}
+                </span>
+              </div>
+            </React.Fragment>
           );
         })}
         {Array.from({ length: openUnits }).map((_, i) => (
@@ -396,7 +396,7 @@ function StallStrip({ load, capacity, onCapacityChange }) {
           }}
         >
           <div style={{ fontSize: 12, fontWeight: 800, color: "#ff6b6b", letterSpacing: 1 }}>
-            {overflow.length} REQUEST{overflow.length === 1 ? "" : "S"} OVER CAPACITY
+            {overflow.length} HORSE{overflow.length === 1 ? "" : "S"} OVER CAPACITY
           </div>
           <div style={{ fontSize: 12, color: "#e0a3a3", marginTop: 4 }}>
             These don't fit on this trailer as sized — raise the capacity above, or plan a second load.
@@ -420,8 +420,6 @@ const btnSmall = {
   lineHeight: "1",
 };
 
-/* ---------- load detail modal (for auto-grouped loads) ---------- */
-
 function LoadModal({ load, capacity, onCapacityChange, onClose }) {
   const booked = stallsBooked(load);
   const status = statusFor(booked, capacity);
@@ -430,11 +428,11 @@ function LoadModal({ load, capacity, onCapacityChange, onClose }) {
   const datesMismatched = dateGroups.size > 1;
 
   const firstOrder = load.orders[0] || {};
-const directionsHref = `https://www.google.com/maps/dir/?${new URLSearchParams({
-  api: "1",
-  origin: bestDirectionsLocation(load.originTrack, firstOrder.originFarm, load.origin),
-  destination: bestDirectionsLocation(load.track, firstOrder.destinationFarm, load.destination),
-}).toString()}`;
+  const directionsHref = `https://www.google.com/maps/dir/?${new URLSearchParams({
+    api: "1",
+    origin: bestDirectionsLocation(load.originTrack, firstOrder.originFarm, load.origin),
+    destination: bestDirectionsLocation(load.track, firstOrder.destinationFarm, load.destination),
+  }).toString()}`;
 
   return (
     <div
@@ -513,41 +511,64 @@ const directionsHref = `https://www.google.com/maps/dir/?${new URLSearchParams({
         <div style={{ padding: "22px 26px" }}>
           <StallStrip load={load} capacity={capacity} onCapacityChange={onCapacityChange} />
 
-          <div style={{ marginTop: 22, fontSize: 11, letterSpacing: 2, color: "#7f9c8c", fontFamily: "ui-monospace, monospace", marginBottom: 10 }}>
-            PASSENGER MANIFEST — {load.orders.length} {load.orders.length === 1 ? "REQUEST" : "REQUESTS"}
-          </div>
+          {(() => {
+            const totalHorses = load.orders.reduce((sum, o) => sum + orderHorses(o).length, 0);
+            return (
+              <div style={{ marginTop: 22, fontSize: 11, letterSpacing: 2, color: "#7f9c8c", fontFamily: "ui-monospace, monospace", marginBottom: 10 }}>
+                PASSENGER MANIFEST — {totalHorses} {totalHorses === 1 ? "HORSE" : "HORSES"} · {load.orders.length} {load.orders.length === 1 ? "REQUEST" : "REQUESTS"}
+              </div>
+            );
+          })()}
           <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
             {load.orders.map((o) => {
               const orderDate = o.requestedDates || "date flexible";
+              const horses = orderHorses(o);
               return (
                 <div
                   key={o.id}
                   style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
                     padding: "10px 14px",
                     background: "#0f2419",
                     borderRadius: 10,
                     border: datesMismatched ? "1px solid #6b4a1f" : "1px solid #1d3527",
                   }}
                 >
-                  <div>
-                    <div style={{ fontWeight: 700, color: "#eaf3ec", fontSize: 14 }}>
-                      {combinedName(o)}
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                    <div>
+                      <div style={{ fontWeight: 700, color: "#eaf3ec", fontSize: 14 }}>
+                        {combinedName(o)}
+                      </div>
+                      <div style={{ fontSize: 12, color: "#8fae9c", marginTop: 2 }}>
+                        Requested by {o.requestedBy || "—"} ·{" "}
+                        <span style={{ fontWeight: 800, color: datesMismatched ? "#f0a95a" : "#c9dcd0", fontSize: 13 }}>
+                          {orderDate}
+                        </span>
+                      </div>
                     </div>
-                    <div style={{ fontSize: 12, color: "#8fae9c", marginTop: 2 }}>
-                      Requested by {o.requestedBy || "—"} ·{" "}
-                      <span style={{ fontWeight: 800, color: datesMismatched ? "#f0a95a" : "#c9dcd0", fontSize: 13 }}>
-                        {orderDate}
-                      </span>
-                    </div>
+                    <div style={{ fontSize: 11, color: "#6f8c7c", textAlign: "right" }}>taken by {o.takenBy || "—"}</div>
                   </div>
-                  <div style={{ textAlign: "right" }}>
-                    <div style={{ fontFamily: "ui-monospace, monospace", color: "#f0c95a", fontWeight: 800 }}>
-                      {o.stallSpace} stall{o.stallSpace === 1 ? "" : "s"}
-                    </div>
-                    <div style={{ fontSize: 11, color: "#6f8c7c" }}>taken by {o.takenBy || "—"}</div>
+
+                  <div style={{ marginTop: 8, display: "flex", flexDirection: "column", gap: 4 }}>
+                    {horses.map((h, i) => (
+                      <div
+                        key={i}
+                        style={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                          alignItems: "center",
+                          padding: "6px 10px",
+                          background: "#0a1c13",
+                          borderRadius: 6,
+                        }}
+                      >
+                        <div style={{ fontSize: 13, color: "#eaf3ec" }}>
+                          {h.name || combinedName(o)}
+                        </div>
+                        <div style={{ fontFamily: "ui-monospace, monospace", color: "#f0c95a", fontWeight: 800, fontSize: 13 }}>
+                          {stallLabel(h.stallSpace)}
+                        </div>
+                      </div>
+                    ))}
                   </div>
                 </div>
               );
@@ -558,9 +579,6 @@ const directionsHref = `https://www.google.com/maps/dir/?${new URLSearchParams({
     </div>
   );
 }
-
-
-/* ---------- build-a-load modal (manual load creation/editing) ---------- */
 
 const labelStyle = {
   fontSize: 10,
@@ -856,8 +874,6 @@ function BuildLoadModal({ pool, origins, destinations, initial, nextLoadNumber, 
   );
 }
 
-/* ---------- row for a manually built load ---------- */
-
 function CreatedLoadRow({ load, resolvedOrders, capacity, onClick, onDelete }) {
   const booked = stallsBooked({ orders: resolvedOrders });
   const status = statusFor(booked, capacity);
@@ -923,17 +939,11 @@ function CreatedLoadRow({ load, resolvedOrders, capacity, onClick, onDelete }) {
   );
 }
 
-/* ---------- live data hook ----------
-   Polls ORDERS_JSON_URL, falls back to the snapshot if it's
-   unreachable, and tracks which order IDs are new since the
-   last successful fetch so the UI can announce real changes
-   instead of a canned demo loop. */
-
 function useLiveOrders() {
   const [orders, setOrders] = useState(SNAPSHOT_ORDERS);
-  const [source, setSource] = useState("snapshot"); // "live" | "snapshot"
+  const [source, setSource] = useState("snapshot");
   const [syncedAt, setSyncedAt] = useState(null);
-  const [newlyAdded, setNewlyAdded] = useState([]); // most-recent-first queue of new orders
+  const [newlyAdded, setNewlyAdded] = useState([]);
   const seenIds = useRef(new Set(SNAPSHOT_ORDERS.map((o) => o.id)));
   const firstLiveFetch = useRef(true);
 
@@ -974,7 +984,6 @@ function useLiveOrders() {
       cancelled = true;
       clearInterval(id);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return { orders, source, syncedAt, newlyAdded };
@@ -1022,8 +1031,6 @@ function Ticker({ items, source }) {
     </div>
   );
 }
-
-/* ---------- board row (for auto-grouped loads) ---------- */
 
 function BoardRow({ load, capacity, booked, justAnnounced, onClick }) {
   const status = statusFor(booked, capacity);
@@ -1106,13 +1113,9 @@ function BoardRow({ load, capacity, booked, justAnnounced, onClick }) {
   );
 }
 
-/* ---------- main app ---------- */
-
 export default function SalleeLoadBoard() {
   const { orders, source, syncedAt, newlyAdded } = useLiveOrders();
 
-  // Manually built loads persist in this browser only (see
-  // CREATED_LOADS_STORAGE_KEY above) — they never touch the sheet.
   const [createdLoads, setCreatedLoads] = useState(() => loadCreatedLoads());
   useEffect(() => {
     saveCreatedLoads(createdLoads);
@@ -1123,11 +1126,9 @@ export default function SalleeLoadBoard() {
     () => new Set(createdLoads.flatMap((cl) => cl.orderIds)),
     [createdLoads]
   );
-  // The auto-grouped board and the "build a load" picker only ever see
-  // requests that haven't already been claimed by a manually built load.
   const openPool = useMemo(() => orders.filter((o) => !usedOrderIds.has(o.id)), [orders, usedOrderIds]);
 
-  const [editingLoad, setEditingLoad] = useState(null); // null closed, {} = create, {load} = edit
+  const [editingLoad, setEditingLoad] = useState(null);
 
   function handleSaveCreatedLoad(saved) {
     setCreatedLoads((prev) =>
@@ -1181,8 +1182,6 @@ export default function SalleeLoadBoard() {
     });
   }, [allLoads, fromFilter, toFilter, query]);
 
-  /* pagination / looping for the full board — grouped by origin so a
-     page never splits one origin's loads across two screens */
   const PAGE_SIZE = 8;
   const pages = useMemo(() => {
     const byOrigin = new Map();
@@ -1220,8 +1219,6 @@ export default function SalleeLoadBoard() {
   const currentPage = pages[page] || { origin: null, rows: [] };
   const visibleLoads = isSearching ? filteredLoads : currentPage.rows;
 
-  // Recently-new rows (real ones, from the live diff) stay highlighted on
-  // the board for a couple of minutes after they show up.
   const [announcedKeys, setAnnouncedKeys] = useState(new Set());
   useEffect(() => {
     if (!newlyAdded.length) return;
@@ -1260,7 +1257,6 @@ export default function SalleeLoadBoard() {
         fontFamily: "Arial, Helvetica, sans-serif",
       }}
     >
-      {/* header */}
       <div style={{ padding: "26px 26px 0 26px" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: 12 }}>
           <div>
@@ -1329,12 +1325,10 @@ export default function SalleeLoadBoard() {
         </div>
       </div>
 
-      {/* ticker */}
       <div style={{ marginTop: 18 }}>
         <Ticker items={newlyAdded} source={source} />
       </div>
 
-      {/* search / booking kiosk */}
       <div style={{ padding: "20px 26px 0 26px" }}>
         <div
           style={{
@@ -1391,7 +1385,6 @@ export default function SalleeLoadBoard() {
         </div>
       </div>
 
-      {/* board */}
       <div style={{ padding: "20px 26px 40px 26px" }}>
         {!isSearching && currentPage.origin && (
           <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 10, fontFamily: "ui-monospace, monospace", fontSize: 12, color: "#7f9c8c", letterSpacing: 1 }}>
@@ -1470,7 +1463,6 @@ export default function SalleeLoadBoard() {
         )}
       </div>
 
-      {/* manually built loads */}
       {createdLoads.length > 0 && (
         <div style={{ padding: "0 26px 40px 26px" }}>
           <div style={{ fontSize: 11, letterSpacing: 2, color: "#7f9c8c", fontFamily: "ui-monospace, monospace", marginBottom: 10 }}>
