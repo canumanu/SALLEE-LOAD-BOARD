@@ -31,6 +31,20 @@ Optional:
                                space -- matches the tab name in the
                                original workbook; change if you rename it)
     OUTPUT_PATH              - defaults to "data/orders.json"
+
+MULTI-HORSE ORDERS
+-------------------
+"HORSE NAME(S)" and " STALL SPACE" both support comma-separated lists for
+orders covering more than one horse from the same origin, e.g.:
+    HORSE NAME(S):  QUIRKY 25, MISS VEKOMA 25
+     STALL SPACE:   1.5, 3
+Entries are paired up by position (1st name <-> 1st stall value, etc).
+A single horse still works exactly as before -- just one name, one
+number, no comma needed. Each order's overall "stallSpace" field is the
+sum across all its horses, so existing capacity/board math is unaffected.
+If the two lists don't have the same count, that row is logged as a
+warning (see WARNING lines in the run's output) rather than silently
+guessed at.
 """
 
 import base64
@@ -133,6 +147,47 @@ def excel_serial_to_date(value):
     return value
 
 
+def split_list(raw):
+    """Splits a comma-separated cell value into trimmed, non-empty parts.
+    Handles the value coming through as a plain number (single-horse
+    orders with no comma) just as well as a comma-separated string."""
+    if raw is None or raw == "":
+        return []
+    return [p.strip() for p in str(raw).split(",") if p.strip() != ""]
+
+
+def parse_horses(names_raw, stalls_raw):
+    """Pairs up HORSE NAME(S) with STALL SPACE by position. Returns
+    (horses, mismatch). Handles a stall list with no names yet (creates
+    that many unnamed horses) just as well as fully-named orders. A
+    mismatch is only flagged when BOTH lists have entries but the counts
+    genuinely disagree -- an empty side isn't treated as an error, since
+    dispatch may enter stall counts before typing horse names."""
+    names = split_list(names_raw)
+    stall_strs = split_list(stalls_raw)
+
+    stalls = []
+    for s in stall_strs:
+        try:
+            stalls.append(float(s))
+        except ValueError:
+            stalls.append(None)
+
+    if not names and not stalls:
+        return [], False
+
+    count = max(len(names), len(stalls))
+    mismatch = len(names) > 0 and len(stalls) > 0 and len(names) != len(stalls)
+
+    horses = []
+    for i in range(count):
+        name = names[i] if i < len(names) else None
+        stall = stalls[i] if i < len(stalls) else None
+        horses.append({"name": name, "stallSpace": stall})
+
+    return horses, mismatch
+
+
 def stable_id(row_dict):
     """Content-based ID so the same request keeps the same ID even if
     rows get reordered or resorted in the sheet."""
@@ -156,8 +211,8 @@ def stable_id(row_dict):
 # Matched by header text so column reordering in the sheet doesn't break
 # this script. If you ever rename a column in Excel, update the key here
 # to match -- the sync will print a warning listing any header it
-# couldn't match, so a mismatch like this gets caught immediately next
-# run instead of silently dropping data.
+# couldn't match, so a mismatch gets caught immediately next run instead
+# of silently dropping data.
 HEADER_MAP = {
     "DATE ORDER\nTAKEN": "dateTaken",
     "REQUESTED\n DATES": "requestedDates",
@@ -171,12 +226,12 @@ HEADER_MAP = {
     "DESTINATION TRACK": "track",
     "DESTINATION TRAINER": "destinationTrainer",
     "DESTINATION FARM": "destinationFarm",
-    " STALL SPACE": "stallSpace",
+    "HORSE NAME(S)": "horseNamesRaw",
+    " STALL SPACE": "stallSpaceRaw",
     "COMPLETED": "completed",
     "TRIP DATE": "tripDate",
     "DRIVERS": "drivers",
-    "CANCEL": "cancel",
-    "CANCEL - WHY": "cancelWhy",
+    "CANCELED": "cancel",
 }
 
 
@@ -191,9 +246,7 @@ def parse_rows(values):
     ]
 
     # Warn loudly (but don't fail the run) about any sheet column that
-    # doesn't match anything in HEADER_MAP -- this is exactly the class
-    # of bug that let the origin/destination trainer & farm columns go
-    # silently missing before. Catch it here instead of on the board.
+    # doesn't match anything in HEADER_MAP.
     unmatched = [
         h.strip() if isinstance(h, str) else h
         for h, f in zip(headers, field_names)
@@ -207,6 +260,7 @@ def parse_rows(values):
         )
 
     orders = []
+    mismatch_count = 0
     for raw_row in values[1:]:
         row = {}
         for field, val in zip(field_names, raw_row):
@@ -229,10 +283,42 @@ def parse_rows(values):
         if completed or cancelled:
             continue  # only ship active requests to the board
 
+        # ---- multi-horse parsing ----
+        horses, mismatch = parse_horses(
+            row.pop("horseNamesRaw", None), row.pop("stallSpaceRaw", None)
+        )
+        if mismatch:
+            mismatch_count += 1
+            print(
+                f"WARNING: HORSE NAME(S) / STALL SPACE count mismatch on row "
+                f"(dateTaken={row.get('dateTaken')!r}, origin={row.get('origin')!r}, "
+                f"destination={row.get('destination')!r}) -- check that every "
+                f"horse listed has a matching stall number, in the same order.",
+                file=sys.stderr,
+            )
+
+        if not horses:
+            # Backward-compatible fallback: nothing in HORSE NAME(S), so
+            # treat it as a single unnamed horse using whatever raw
+            # stall value (if any) was present, same as the old format.
+            horses = [{"name": None, "stallSpace": None}]
+
+        row["horses"] = horses
+        row["stallSpace"] = sum(
+            h["stallSpace"] for h in horses if h["stallSpace"] is not None
+        )
+
         row["id"] = stable_id(row)
         row.pop("completed", None)
         row.pop("cancel", None)
         orders.append(row)
+
+    if mismatch_count:
+        print(
+            f"WARNING: {mismatch_count} row(s) had a HORSE NAME(S)/STALL SPACE "
+            f"mismatch this run -- see warnings above for which rows.",
+            file=sys.stderr,
+        )
 
     return orders
 
