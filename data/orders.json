@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-21T11:40:15.329228Z",
+  "syncedAt": "2026-08-21T11:45:25.300422Z",
   "orders": [
     {
       "dateTaken": "2026-08-17",
@@ -516,30 +516,6 @@
       ],
       "stallSpace": 1.5,
       "id": "0bd6743bbd05"
-    },
-    {
-      "dateTaken": "2026-08-20",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "L ROBSON",
-      "originTrack": "HIGH POINT ",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "L ROBSON",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "RIGHT TO WIN",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "74188e7aa73b"
     },
     {
       "dateTaken": "2026-08-19",
