@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-23T13:15:17.060892Z",
+  "syncedAt": "2026-08-23T13:20:16.195446Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -168,54 +168,6 @@
     {
       "dateTaken": "2026-08-18",
       "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "BREDIN",
-      "origin": "KENTUCKY",
-      "originFarm": "J WOJEZYNSKI",
-      "originTrainer": "",
-      "originTrack": "KY TRAINING CENTER",
-      "destination": "EAST COAST",
-      "track": "DELAWARE PARK",
-      "destinationTrainer": "M STIDHAM",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "STARTUP",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "058f173b976e"
-    },
-    {
-      "dateTaken": "2026-08-18",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY",
-      "originFarm": "DELL RIDGE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "FAIR HILL ",
-      "destinationTrainer": "B JACKSON",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "COACH JUICE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "2ba464f7f01d"
-    },
-    {
-      "dateTaken": "2026-08-18",
-      "requestedDates": "NEXT AVAILABLE",
       "takenBy": "DAVID",
       "requestedBy": "ELLIOT",
       "origin": "EAST COAST",
@@ -240,30 +192,6 @@
       ],
       "stallSpace": 6.0,
       "id": "0878fc103531"
-    },
-    {
-      "dateTaken": "2026-08-18",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM",
-      "originTrack": "DELAWARE PARK",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "STONERSIDE FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": null,
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "6a01c72d4ef2"
     },
     {
       "dateTaken": "2026-08-18",
@@ -299,30 +227,6 @@
     },
     {
       "dateTaken": "2026-08-19",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "CHURCHILL",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MARINER",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "8c784512acec"
-    },
-    {
-      "dateTaken": "2026-08-19",
       "requestedDates": "MUST BE 8/26 OR 27",
       "takenBy": "LESLEY",
       "requestedBy": "BARBARA WIGGINS",
@@ -344,54 +248,6 @@
       ],
       "stallSpace": 1.5,
       "id": "8fd7c3ec7047"
-    },
-    {
-      "dateTaken": "2026-08-20",
-      "requestedDates": "FRI AUGUT 21 2026",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "RESOLUTE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "FAIR HILL ",
-      "destinationTrainer": "KATHY NIELSON",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SEA ICE",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "0bd6743bbd05"
-    },
-    {
-      "dateTaken": "2026-08-20",
-      "requestedDates": "FRI AUGUT 21 2026",
-      "takenBy": "KAYLA",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY",
-      "originFarm": "DELL RIDGE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "FAIR HILL ",
-      "destinationTrainer": "B JACKSON",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SHOCK AND AWE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "e66212047604"
     },
     {
       "dateTaken": "2026-08-21",
