@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-24T15:05:16.573003Z",
+  "syncedAt": "2026-08-24T15:10:15.490023Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -31,7 +31,7 @@
     },
     {
       "dateTaken": "2026-08-03",
-      "requestedDates": "ANYTIME SEPTEMBER",
+      "requestedDates": "SEPTEMBER",
       "takenBy": "LESLEY",
       "requestedBy": "BOB CLARY",
       "origin": "KENTUCKY",
@@ -227,7 +227,7 @@
     },
     {
       "dateTaken": "2026-08-19",
-      "requestedDates": "MUST BE 8/26 OR 27",
+      "requestedDates": "MUST BE 8/26-8/28",
       "takenBy": "LESLEY",
       "requestedBy": "BARBARA WIGGINS",
       "origin": "KENTUCKY",
