@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-24T15:10:15.490023Z",
+  "syncedAt": "2026-08-24T15:15:14.997372Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -82,38 +82,6 @@
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "MANU",
       "requestedBy": "MICHELLE",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M NIHEI",
-      "originTrack": "FAIR HILL ",
-      "destination": "KENTUCKY",
-      "track": "KEENELAND",
-      "destinationTrainer": "M NIHEI",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": null,
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "bd49de191576"
-    },
-    {
-      "dateTaken": "2026-08-17",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "MICHELLE",
       "origin": "KENTUCKY",
       "originFarm": "",
       "originTrainer": "M NIHEI",
@@ -142,30 +110,6 @@
       "id": "231bd60cc29d"
     },
     {
-      "dateTaken": "2026-08-17",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SCOTT",
-      "requestedBy": "HILLARY",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "D ROMANS",
-      "originTrack": "CHURCHILL",
-      "destination": "EAST COAST",
-      "track": "DELAWARE PARK",
-      "destinationTrainer": "M STIDHAM",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PATROL SQUAD SIX",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "2fc32f06a161"
-    },
-    {
       "dateTaken": "2026-08-18",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "DAVID",
@@ -192,38 +136,6 @@
       ],
       "stallSpace": 6.0,
       "id": "0878fc103531"
-    },
-    {
-      "dateTaken": "2026-08-18",
-      "requestedDates": "AFTER AUGUST 23",
-      "takenBy": "LESLIE",
-      "requestedBy": "DAVID O'FARRELL",
-      "origin": "KENTUCKY",
-      "originFarm": "UPSON DOWNS",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "VICTORIAM FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "RUNUP",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "RUNNUP 26",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "SECURITY CODE 26",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "3f2952e0799f"
     },
     {
       "dateTaken": "2026-08-19",
@@ -320,38 +232,6 @@
       ],
       "stallSpace": 3.0,
       "id": "8a3625909b1b"
-    },
-    {
-      "dateTaken": "2026-08-21",
-      "requestedDates": "SUN AUGUST 23",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "S JOSEPH",
-      "originTrack": "PALM MEADOWS",
-      "destination": "EAST COAST",
-      "track": "COLONIAL DOWNS",
-      "destinationTrainer": "S JOSEPH",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": null,
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "4cc9f38205f3"
     },
     {
       "dateTaken": "2026-08-23",
