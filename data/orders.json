@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-25T20:30:25.006465Z",
+  "syncedAt": "2026-08-25T20:35:12.837322Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -886,12 +886,12 @@
       "drivers": "",
       "horses": [
         {
-          "name": null,
-          "stallSpace": null
+          "name": "RAMSES THE GREAT",
+          "stallSpace": 3.0
         }
       ],
-      "stallSpace": 0,
-      "id": "7a46ad8a24de"
+      "stallSpace": 3.0,
+      "id": "59bfd4119c99"
     },
     {
       "dateTaken": "2026-08-21",
