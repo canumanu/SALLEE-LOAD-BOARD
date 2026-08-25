@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-25T15:05:14.582413Z",
+  "syncedAt": "2026-08-25T15:10:16.100028Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -788,30 +788,6 @@
       ],
       "stallSpace": 6.0,
       "id": "4ee01b15246b"
-    },
-    {
-      "dateTaken": "2026-08-25",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "S JOSEPH",
-      "originTrack": "COLONIAL DOWNS",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "S JOSEPH",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": null,
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "0b5e78bbe85e"
     },
     {
       "dateTaken": "2026-08-25",
