@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-25T13:25:12.648207Z",
+  "syncedAt": "2026-08-25T13:30:18.486246Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -863,11 +863,11 @@
       "horses": [
         {
           "name": null,
-          "stallSpace": null
+          "stallSpace": 3.0
         }
       ],
-      "stallSpace": 0,
-      "id": "5cee376ce36e"
+      "stallSpace": 3.0,
+      "id": "f8861e57b7ad"
     }
   ]
 }
