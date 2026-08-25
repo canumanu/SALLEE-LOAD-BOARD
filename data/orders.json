@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-25T20:45:19.564988Z",
+  "syncedAt": "2026-08-25T20:50:12.430156Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -76,38 +76,6 @@
       ],
       "stallSpace": 3.0,
       "id": "228aaf29e31e"
-    },
-    {
-      "dateTaken": "2026-08-17",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "MICHELLE",
-      "origin": "KENTUCKY",
-      "originFarm": "CIRCLE 8",
-      "originTrainer": "M NIHEI",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "FAIR HILL",
-      "destinationTrainer": "M NIHEI",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SOPHIE'S SANCERRE",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "J BUG",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "WHITE BEFORE RED",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "231bd60cc29d"
     },
     {
       "dateTaken": "2026-08-18",
