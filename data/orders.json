@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-25T13:00:20.077790Z",
+  "syncedAt": "2026-08-25T13:10:14.494266Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -769,7 +769,7 @@
       "origin": "EAST COAST",
       "originFarm": "",
       "originTrainer": "M STIDHAM",
-      "originTrack": "DELAWARE PARK",
+      "originTrack": "FAIR HILL",
       "destination": "KENTUCKY",
       "track": "KENTUCKY DOWNS",
       "destinationTrainer": "M STIDHAM",
@@ -788,30 +788,6 @@
       ],
       "stallSpace": 6.0,
       "id": "4ee01b15246b"
-    },
-    {
-      "dateTaken": "2026-08-24",
-      "requestedDates": "TUE AUGUST 25",
-      "takenBy": "MANU",
-      "requestedBy": "JOHNSON HORSE TRANSPORT",
-      "origin": "KENTUCKY",
-      "originFarm": "OLIVE HILL SPORT HORSES",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "UPSTATE NEW YORK",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "MAKOTO @ SAUGERTIES HITS",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PROSECCO",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "0463e305905f"
     },
     {
       "dateTaken": "2026-08-25",
