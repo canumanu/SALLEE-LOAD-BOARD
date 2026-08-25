@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-25T14:00:23.216384Z",
+  "syncedAt": "2026-08-25T14:05:14.658496Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -172,7 +172,7 @@
       "originTrack": "COLONIAL DOWNS",
       "destination": "OCALA",
       "track": "",
-      "destinationTrainer": "CASSE TRAINING CENTER",
+      "destinationTrainer": "CASSE TC",
       "destinationFarm": "",
       "tripDate": "",
       "drivers": "",
@@ -244,7 +244,7 @@
       "originTrack": "ELLIS PARK",
       "destination": "OCALA",
       "track": "",
-      "destinationTrainer": "CASSE TRAINING CENTER",
+      "destinationTrainer": "CASSE TC",
       "destinationFarm": "",
       "tripDate": "",
       "drivers": "",
@@ -320,7 +320,7 @@
       "originTrack": "SARATOGA",
       "destination": "OCALA",
       "track": "",
-      "destinationTrainer": "CASSE TRAINING CENTER",
+      "destinationTrainer": "CASSE TC",
       "destinationFarm": "",
       "tripDate": "",
       "drivers": "",
@@ -392,7 +392,7 @@
       "originTrack": "WOODBINE",
       "destination": "OCALA",
       "track": "",
-      "destinationTrainer": "CASSE TRAINING CENTER",
+      "destinationTrainer": "CASSE TC",
       "destinationFarm": "",
       "tripDate": "",
       "drivers": "",
