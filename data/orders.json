@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-25T17:55:12.632151Z",
+  "syncedAt": "2026-08-25T18:00:24.182820Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -863,11 +863,11 @@
       "horses": [
         {
           "name": "MUYBRIDGE",
-          "stallSpace": null
+          "stallSpace": 3.0
         }
       ],
-      "stallSpace": 0,
-      "id": "8f657103dc8b"
+      "stallSpace": 3.0,
+      "id": "1fd0aae6de6a"
     }
   ]
 }
