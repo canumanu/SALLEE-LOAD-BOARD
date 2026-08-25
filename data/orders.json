@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-25T15:10:16.100028Z",
+  "syncedAt": "2026-08-25T15:15:20.823142Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -63,7 +63,7 @@
       "originTrainer": "",
       "originTrack": "",
       "destination": "EAST COAST",
-      "track": "INGLESIDE TRAINING CENTER",
+      "track": "INGLESIDE TC",
       "destinationTrainer": "",
       "destinationFarm": "",
       "tripDate": "",
@@ -75,7 +75,7 @@
         }
       ],
       "stallSpace": 3.0,
-      "id": "c73027e523ae"
+      "id": "228aaf29e31e"
     },
     {
       "dateTaken": "2026-08-17",
@@ -143,7 +143,7 @@
       "takenBy": "LESLEY",
       "requestedBy": "BARBARA WIGGINS",
       "origin": "KENTUCKY",
-      "originFarm": "BURLINGTON KY FARM",
+      "originFarm": "BURLINGTON KY ",
       "originTrainer": "",
       "originTrack": "",
       "destination": "SOUTH FLORIDA",
@@ -363,7 +363,7 @@
       "takenBy": "VICKIE",
       "requestedBy": "MITCH",
       "origin": "OCALA",
-      "originFarm": "CASSE TRAINING CENTER",
+      "originFarm": "CASSE TC",
       "originTrainer": "",
       "originTrack": "",
       "destination": "WOODBINE",
@@ -687,7 +687,7 @@
       "takenBy": "PEPE",
       "requestedBy": "",
       "origin": "OCALA",
-      "originFarm": "NIALL BRENNAN STABLE",
+      "originFarm": "NIALL BRENNAN",
       "originTrainer": "",
       "originTrack": "",
       "destination": "UPSTATE NEW YORK",
