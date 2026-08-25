@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-25T12:10:18.751692Z",
+  "syncedAt": "2026-08-25T12:15:14.728476Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -536,54 +536,6 @@
       ],
       "stallSpace": 3.0,
       "id": "1790ba27068c"
-    },
-    {
-      "dateTaken": "2026-08-24",
-      "requestedDates": "TUE AUGUST 25",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "J SHARP",
-      "originTrack": "TURFWAY PARK",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "J SHARP",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "AWESOME SAUCE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "2154492ca98d"
-    },
-    {
-      "dateTaken": "2026-08-24",
-      "requestedDates": "TUE AUGUST 25",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "K MCPEEK",
-      "originTrack": "CHURCHILL",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "K MCPEEK",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "UNMERITED FAVOR",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "d1088ce318d2"
     },
     {
       "dateTaken": "2026-08-24",
