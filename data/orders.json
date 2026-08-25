@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-25T15:20:16.936637Z",
+  "syncedAt": "2026-08-25T15:25:14.174249Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -136,30 +136,6 @@
       ],
       "stallSpace": 6.0,
       "id": "0878fc103531"
-    },
-    {
-      "dateTaken": "2026-08-19",
-      "requestedDates": "MUST BE 8/26-8/28",
-      "takenBy": "LESLEY",
-      "requestedBy": "BARBARA WIGGINS",
-      "origin": "KENTUCKY",
-      "originFarm": "BURLINGTON KY ",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "WELLINGTON VIA SHUTTLE",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": null,
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "8fd7c3ec7047"
     },
     {
       "dateTaken": "2026-08-21",
