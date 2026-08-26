@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-26T12:50:18.579670Z",
+  "syncedAt": "2026-08-26T12:55:15.208848Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -76,38 +76,6 @@
       ],
       "stallSpace": 3.0,
       "id": "228aaf29e31e"
-    },
-    {
-      "dateTaken": "2026-08-17",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "MICHELLE",
-      "origin": "KENTUCKY",
-      "originFarm": "CIRCLE 8",
-      "originTrainer": "M NIHEI",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "FAIR HILL",
-      "destinationTrainer": "M NIHEI",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SOPHIE'S SANCERRE",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "J BUG",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "WHITE BEFORE RED",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "231bd60cc29d"
     },
     {
       "dateTaken": "2026-08-18",
@@ -868,30 +836,6 @@
       ],
       "stallSpace": 3.0,
       "id": "1fd0aae6de6a"
-    },
-    {
-      "dateTaken": "2026-08-25",
-      "requestedDates": "WED AUGUST 26",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "N RAMSEY",
-      "originTrack": "TURFWAY PARK",
-      "destination": "EAST COAST",
-      "track": "DELAWARE PARK",
-      "destinationTrainer": "N RAMSEY",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "RAMSES THE GREAT",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "59bfd4119c99"
     },
     {
       "dateTaken": "2026-08-21",
