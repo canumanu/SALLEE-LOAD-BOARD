@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-26T13:05:15.722397Z",
+  "syncedAt": "2026-08-26T13:10:18.419157Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -764,30 +764,6 @@
       ],
       "stallSpace": 9.0,
       "id": "1ca80274cbd8"
-    },
-    {
-      "dateTaken": "2026-08-25",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE",
-      "requestedBy": "DAVID O'FARRELL",
-      "origin": "OCALA",
-      "originFarm": "OCALA STUD",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "FAIR HILL ",
-      "destinationTrainer": "B JACKSON",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LADY VALENTINE 24",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "f8861e57b7ad"
     },
     {
       "dateTaken": "2026-08-25",
