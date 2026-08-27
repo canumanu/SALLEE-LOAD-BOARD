@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-27T15:35:14.113800Z",
+  "syncedAt": "2026-08-27T15:40:16.145147Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -830,27 +830,27 @@
       "drivers": "",
       "horses": [
         {
-          "name": "6 HEAD",
+          "name": "BOARD OBSERVER",
           "stallSpace": 3.0
         },
         {
-          "name": null,
+          "name": "PRETTY FIERCE",
           "stallSpace": 3.0
         },
         {
-          "name": null,
+          "name": "UNCATALYZED",
           "stallSpace": 3.0
         },
         {
-          "name": null,
+          "name": "COST SAVINGS",
           "stallSpace": 3.0
         },
         {
-          "name": null,
+          "name": "VALUE TRAP",
           "stallSpace": 3.0
         },
         {
-          "name": null,
+          "name": "FISCAL DOMINANCE",
           "stallSpace": 3.0
         }
       ],
