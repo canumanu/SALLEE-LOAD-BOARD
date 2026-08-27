@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-27T13:25:15.708756Z",
+  "syncedAt": "2026-08-27T13:30:19.797987Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -279,30 +279,6 @@
     },
     {
       "dateTaken": "2026-08-24",
-      "requestedDates": "THU AUGUST 27 2026",
-      "takenBy": "VICKIE",
-      "requestedBy": "MITCH",
-      "origin": "OCALA",
-      "originFarm": "CASSE TC",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "WOODBINE",
-      "track": "CANADA",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "TNT FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "d9de81aa8dea"
-    },
-    {
-      "dateTaken": "2026-08-24",
       "requestedDates": "FRI AUGUST 28 2026",
       "takenBy": "VICKIE",
       "requestedBy": "MITCH ",
@@ -552,34 +528,6 @@
       ],
       "stallSpace": 3.0,
       "id": "c439ddcb41e0"
-    },
-    {
-      "dateTaken": "2026-08-24",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "ELLIS PARK",
-      "destination": "CANADA",
-      "track": "",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "TNT FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "YOU DIDN'T KNOW",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "FUNNY SURPRISE",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "46beb4575feb"
     },
     {
       "dateTaken": "2026-08-24",
