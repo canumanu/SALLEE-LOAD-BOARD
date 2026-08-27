@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-27T15:55:14.755999Z",
+  "syncedAt": "2026-08-27T16:00:24.286082Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -252,30 +252,6 @@
       ],
       "stallSpace": 3.0,
       "id": "bfb0953b5ac7"
-    },
-    {
-      "dateTaken": "2026-08-24",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "SARATOGA",
-      "destination": "WOODBINE",
-      "track": "WOODBINE",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "e2986ab33fd3"
     },
     {
       "dateTaken": "2026-08-24",
