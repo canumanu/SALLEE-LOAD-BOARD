@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-27T16:45:15.561780Z",
+  "syncedAt": "2026-08-27T16:50:14.821188Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -692,54 +692,6 @@
       ],
       "stallSpace": 3.0,
       "id": "1fd0aae6de6a"
-    },
-    {
-      "dateTaken": "2026-08-21",
-      "requestedDates": "THU AUGUST 27 2026",
-      "takenBy": "VICKIE",
-      "requestedBy": "ERIC",
-      "origin": "KENTUCKY",
-      "originFarm": "FLYING DUTCHMAN",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "OCALA STUD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "NIGHTSWIMMING",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "WONDER BLURRR",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "SECRET MENU",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "SHE'S A PARTY",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "THUMB WAR",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "PORTER'S IN TOWN",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "HOMER",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 21.0,
-      "id": "db86bb39b6b8"
     },
     {
       "dateTaken": "2026-08-25",
