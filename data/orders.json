@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-27T16:05:14.849543Z",
+  "syncedAt": "2026-08-27T16:10:14.477560Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -852,10 +852,14 @@
         {
           "name": "AMAZON WARRIOR",
           "stallSpace": 3.0
+        },
+        {
+          "name": "MR MIRACLE",
+          "stallSpace": 3.0
         }
       ],
-      "stallSpace": 3.0,
-      "id": "1f38b307e8a8"
+      "stallSpace": 6.0,
+      "id": "693613668200"
     },
     {
       "dateTaken": "2026-08-26",
