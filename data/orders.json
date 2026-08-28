@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-28T15:40:15.852990Z",
+  "syncedAt": "2026-08-28T15:45:21.981982Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -207,30 +207,6 @@
     },
     {
       "dateTaken": "2026-08-24",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "SARATOGA",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "CASSE TC",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "bfb0953b5ac7"
-    },
-    {
-      "dateTaken": "2026-08-24",
       "requestedDates": "FRI AUGUST 28 2026",
       "takenBy": "VICKIE",
       "requestedBy": "MITCH ",
@@ -384,30 +360,6 @@
       ],
       "stallSpace": 3.0,
       "id": "1790ba27068c"
-    },
-    {
-      "dateTaken": "2026-08-24",
-      "requestedDates": "AUG 30-SEP 1 2026",
-      "takenBy": "PEPE",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "A GREEN",
-      "originTrack": "SARATOGA",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "ARINDEL FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BAZOOKA",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "e736c90ed775"
     },
     {
       "dateTaken": "2026-08-24",
