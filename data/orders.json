@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-28T16:40:14.860046Z",
+  "syncedAt": "2026-08-28T16:46:15.688036Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -466,58 +466,6 @@
       "id": "2d483b8b4742"
     },
     {
-      "dateTaken": "2026-08-24",
-      "requestedDates": "THU AUGUST 27 2026",
-      "takenBy": "VICKIE",
-      "requestedBy": "SCOTT M ",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM",
-      "originTrack": "FAIR HILL",
-      "destination": "KENTUCKY",
-      "track": "KENTUCKY DOWNS",
-      "destinationTrainer": "M STIDHAM",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MAYCOCKS BAY",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "EPIC STYLE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "4ee01b15246b"
-    },
-    {
-      "dateTaken": "2026-08-25",
-      "requestedDates": "FRI AUGUST 28 2026",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "C DEVAUX",
-      "originTrack": "ELLIS PARK",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "C DEVAUX",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CAMPHOR",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "e51600f6f228"
-    },
-    {
       "dateTaken": "2026-08-25",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "LESLEY",
@@ -540,30 +488,6 @@
       ],
       "stallSpace": 3.0,
       "id": "1fd0aae6de6a"
-    },
-    {
-      "dateTaken": "2026-08-26",
-      "requestedDates": "SAT AUGUST 29 2026",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "B WALSH",
-      "originTrack": "TURFWAY PARK",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "B WALSH",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BLACK HORNET",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "d234f9affb09"
     },
     {
       "dateTaken": "2026-08-26",
