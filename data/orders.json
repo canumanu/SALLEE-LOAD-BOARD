@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-28T16:35:17.146092Z",
+  "syncedAt": "2026-08-28T16:40:14.860046Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -104,30 +104,6 @@
       ],
       "stallSpace": 6.0,
       "id": "0878fc103531"
-    },
-    {
-      "dateTaken": "2026-08-21",
-      "requestedDates": "BY SEPT 1, 2026",
-      "takenBy": "LESLIE",
-      "requestedBy": "LINDSAY HENSLEY",
-      "origin": "VIRGINIA ",
-      "originFarm": "PURCEILVILLE VA",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "WEIRSDALE, FL",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": null,
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "c5918e23dd14"
     },
     {
       "dateTaken": "2026-08-21",
@@ -390,30 +366,6 @@
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "PHIL",
       "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "W WALDEN",
-      "originTrack": "SARATOGA",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "DAVID SCANLON",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PRESIDER",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "8aa8aa640197"
-    },
-    {
-      "dateTaken": "2026-08-24",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "PHIL",
-      "requestedBy": "",
       "origin": "KENTUCKY",
       "originFarm": "",
       "originTrainer": "C DEVAUX",
@@ -543,30 +495,6 @@
     },
     {
       "dateTaken": "2026-08-25",
-      "requestedDates": "ASAP",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "S JOSEPH",
-      "originTrack": "COLONIAL DOWNS",
-      "destination": "SOUTH FLORIDA",
-      "track": "PALM MEADOWS",
-      "destinationTrainer": "S JOSEPH",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CALDERA",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "5784f984d6cc"
-    },
-    {
-      "dateTaken": "2026-08-25",
       "requestedDates": "FRI AUGUST 28 2026",
       "takenBy": "JASON",
       "requestedBy": "",
@@ -612,30 +540,6 @@
       ],
       "stallSpace": 3.0,
       "id": "1fd0aae6de6a"
-    },
-    {
-      "dateTaken": "2026-08-25",
-      "requestedDates": "THU AUGUST 27 2026",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "J ANTONUCCI",
-      "originTrack": "SARATOGA",
-      "destination": "KENTUCKY",
-      "track": "KENTUCKY DOWNS",
-      "destinationTrainer": "J ANTONUCCI",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LUMINOUS BEAUTY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "ee13ed4e7433"
     },
     {
       "dateTaken": "2026-08-26",
@@ -688,30 +592,6 @@
       ],
       "stallSpace": 6.0,
       "id": "693613668200"
-    },
-    {
-      "dateTaken": "2026-08-26",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "J D'ANGELO",
-      "originTrack": "SARATOGA",
-      "destination": "SOUTH FLORIDA",
-      "track": "PALM MEADOWS",
-      "destinationTrainer": "J D'ANGELO",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ARMY SALUTE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "fa21c98fd0c4"
     },
     {
       "dateTaken": "2026-08-27",
@@ -788,30 +668,6 @@
       ],
       "stallSpace": 3.0,
       "id": "531c4333671e"
-    },
-    {
-      "dateTaken": "2026-08-27",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "VIRGINIA ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "COLONIAL DOWNS",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "EWING",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "fec6e6b5f17a"
     },
     {
       "dateTaken": "2026-08-27",
