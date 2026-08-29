@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-29T17:25:13.181450Z",
+  "syncedAt": "2026-08-29T17:30:15.968719Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -419,30 +419,6 @@
     },
     {
       "dateTaken": "2026-08-26",
-      "requestedDates": "SAT AUGUST 29 2026",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "B WALSH",
-      "originTrack": "TURFWAY PARK",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "B WALSH",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BLACK HORNET",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "d234f9affb09"
-    },
-    {
-      "dateTaken": "2026-08-26",
       "requestedDates": "AFTER SEPT 1 2026",
       "takenBy": "KAYLA",
       "requestedBy": "NEAL",
@@ -720,30 +696,6 @@
       ],
       "stallSpace": 12.0,
       "id": "04dac449e2e1"
-    },
-    {
-      "dateTaken": "2026-08-28",
-      "requestedDates": "SAT AUG 29 2026",
-      "takenBy": "MANU",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M NIHEI",
-      "originTrack": "FAIR HILL",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CIRCLE 8",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "AMERICAN MUSCLE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "5edfb0e8533a"
     },
     {
       "dateTaken": "2026-08-28",
