@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-29T12:50:12.354529Z",
+  "syncedAt": "2026-08-29T12:55:12.616230Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -408,30 +408,6 @@
       ],
       "stallSpace": 3.0,
       "id": "2d483b8b4742"
-    },
-    {
-      "dateTaken": "2026-08-25",
-      "requestedDates": "FRI AUGUST 28 2026",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "C DEVAUX",
-      "originTrack": "ELLIS PARK",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "C DEVAUX",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CAMPHOR",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "e51600f6f228"
     },
     {
       "dateTaken": "2026-08-25",
