@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-30T18:35:15.999233Z",
+  "syncedAt": "2026-08-30T18:40:12.730260Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -648,30 +648,6 @@
       ],
       "stallSpace": 3.0,
       "id": "b0b07f52d1cb"
-    },
-    {
-      "dateTaken": "2026-08-29",
-      "requestedDates": "SEPT 2-SEPT 3",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M MEYERS",
-      "originTrack": "FAIR HILL",
-      "destination": "KENTUCKY",
-      "track": "KENTUCKY DOWNS",
-      "destinationTrainer": "M MEYERS",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "DESVIO",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "f27ba0b92a89"
     },
     {
       "dateTaken": "2026-08-29",
