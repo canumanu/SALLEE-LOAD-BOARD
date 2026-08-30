@@ -1,34 +1,6 @@
 {
-  "syncedAt": "2026-08-30T13:45:14.994400Z",
+  "syncedAt": "2026-08-30T13:50:13.963453Z",
   "orders": [
-    {
-      "dateTaken": "2026-08-03",
-      "requestedDates": "MON AUG 31 2026",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY",
-      "originFarm": "DELL RIDGE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "STONEWALL/SEQUEL",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BLANK SLATE",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "SILENT FRIGHT",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "419402bfb50f"
-    },
     {
       "dateTaken": "2026-08-03",
       "requestedDates": "SEPTEMBER",
@@ -267,54 +239,6 @@
     },
     {
       "dateTaken": "2026-08-24",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "PEPE",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "B WALSH",
-      "originTrack": "CHURCHILL",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "ARINDEL FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CROSSFIRE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "34980fcdc469"
-    },
-    {
-      "dateTaken": "2026-08-24",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "PHIL",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "C DEVAUX",
-      "originTrack": "CHURCHILL",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "DAVID SCANLON",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LEGALIZE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "c439ddcb41e0"
-    },
-    {
-      "dateTaken": "2026-08-24",
       "requestedDates": "AUG 31-SEP 1 2026",
       "takenBy": "PEPE",
       "requestedBy": "",
@@ -392,30 +316,6 @@
       ],
       "stallSpace": 3.0,
       "id": "2d483b8b4742"
-    },
-    {
-      "dateTaken": "2026-08-25",
-      "requestedDates": "MON AUG 31 2026",
-      "takenBy": "LESLEY",
-      "requestedBy": "MELANIE",
-      "origin": "KENTUCKY",
-      "originFarm": "STONE COLUMNS",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "FELIX QUINONES",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MUYBRIDGE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "1fd0aae6de6a"
     },
     {
       "dateTaken": "2026-08-26",
@@ -496,30 +396,6 @@
       ],
       "stallSpace": 6.0,
       "id": "d1008ea0aff7"
-    },
-    {
-      "dateTaken": "2026-08-27",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "UPSON DOWNS",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "PICKVIEW FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "GHETTO FANCY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "531c4333671e"
     },
     {
       "dateTaken": "2026-08-27",
