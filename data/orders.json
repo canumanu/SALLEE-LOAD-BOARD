@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T12:25:16.326235Z",
+  "syncedAt": "2026-08-31T12:30:19.037384Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -368,34 +368,6 @@
       ],
       "stallSpace": 1.5,
       "id": "aa30999dc526"
-    },
-    {
-      "dateTaken": "2026-08-27",
-      "requestedDates": "MON AUG 31 2026",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "C DEVAUX",
-      "originTrack": "SARATOGA",
-      "destination": "KENTUCKY",
-      "track": "KEENELAND",
-      "destinationTrainer": "C DEVAUX",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "GOLDEN TEMPO",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "ENGLISHMAN",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "d1008ea0aff7"
     },
     {
       "dateTaken": "2026-08-27",
