@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T16:05:21.511594Z",
+  "syncedAt": "2026-08-31T16:10:12.253920Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -24,30 +24,6 @@
       ],
       "stallSpace": 3.0,
       "id": "7fb9730ccdd9"
-    },
-    {
-      "dateTaken": "2026-08-13",
-      "requestedDates": "ASAP",
-      "takenBy": "LESLEY",
-      "requestedBy": "ALI ",
-      "origin": "KENTUCKY",
-      "originFarm": "CHESAPEAKE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "INGLESIDE TC",
-      "destinationTrainer": "",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "228aaf29e31e"
     },
     {
       "dateTaken": "2026-08-21",
