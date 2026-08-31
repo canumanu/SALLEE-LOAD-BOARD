@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T13:30:17.684280Z",
+  "syncedAt": "2026-08-31T13:35:12.683466Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -416,30 +416,6 @@
       ],
       "stallSpace": 3.0,
       "id": "cf17817457d3"
-    },
-    {
-      "dateTaken": "2026-08-27",
-      "requestedDates": "TUES SEPT 1",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "VIRGINIA ",
-      "originFarm": "",
-      "originTrainer": "J D'ANGELO",
-      "originTrack": "COLONIAL DOWNS",
-      "destination": "KENTUCKY",
-      "track": "KENTUCKY DOWNS",
-      "destinationTrainer": "J D'ANGELO",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ALTAMIRA SUR",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "e788136616bf"
     },
     {
       "dateTaken": "2026-08-28",
