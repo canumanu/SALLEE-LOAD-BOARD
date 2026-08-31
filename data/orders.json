@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-08-31T16:45:13.539120Z",
+  "syncedAt": "2026-08-31T16:50:16.256886Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -858,7 +858,7 @@
       "drivers": "",
       "horses": [
         {
-          "name": "2-3 MHD",
+          "name": "2-3 HD",
           "stallSpace": 3.0
         },
         {
