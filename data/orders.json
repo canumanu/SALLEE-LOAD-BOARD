@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-01T12:50:15.524635Z",
+  "syncedAt": "2026-09-01T12:55:15.038812Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -764,30 +764,6 @@
       ],
       "stallSpace": 3.0,
       "id": "bb7d24882e5f"
-    },
-    {
-      "dateTaken": "2026-09-01",
-      "requestedDates": "",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "R ATRAS",
-      "originTrack": "KENTUCKY DOWNS",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "TWIN CREEKS",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": null,
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "9a721dd62221"
     }
   ]
 }
