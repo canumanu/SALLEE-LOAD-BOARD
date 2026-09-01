@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-01T16:25:15.508854Z",
+  "syncedAt": "2026-09-01T16:30:23.756340Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -714,30 +714,6 @@
       "id": "bb7d24882e5f"
     },
     {
-      "dateTaken": "",
-      "requestedDates": "READY",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "R ATRAS",
-      "originTrack": "KENTUCKY DOWNS",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "R ATRAS",
-      "destinationFarm": "TWIN CREEKS",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CHASING LIBERTY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "c37b4fc0f8f7"
-    },
-    {
       "dateTaken": "2026-09-01",
       "requestedDates": "READY",
       "takenBy": "DAVID",
@@ -802,7 +778,7 @@
       "drivers": "",
       "horses": [
         {
-          "name": "4 HEAD",
+          "name": "4 HD",
           "stallSpace": 3.0
         },
         {
