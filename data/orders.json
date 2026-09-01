@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-01T12:30:17.958984Z",
+  "syncedAt": "2026-09-01T12:35:13.921082Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -752,62 +752,6 @@
       ],
       "stallSpace": 9.0,
       "id": "5f6953a54206"
-    },
-    {
-      "dateTaken": "2026-08-31",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "VIRGINIA ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "COLONIAL DOWNS",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TRAINING CENTER",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "2-3 HD",
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "7fb66bdbf09f"
-    },
-    {
-      "dateTaken": "2026-08-31",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE",
-      "requestedBy": "MARY ",
-      "origin": "VIRGINIA ",
-      "originFarm": "",
-      "originTrainer": "M LIGHTNER",
-      "originTrack": "COLONIAL DOWNS",
-      "destination": "OCALA",
-      "track": "OAKRIDGE",
-      "destinationTrainer": "M LIGHTNER",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "b7e9ce273f59"
     },
     {
       "dateTaken": "2026-08-31",
