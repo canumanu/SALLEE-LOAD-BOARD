@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-01T20:10:20.217023Z",
+  "syncedAt": "2026-09-01T20:15:17.500442Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -270,30 +270,6 @@
       "id": "67b5e88ea028"
     },
     {
-      "dateTaken": "2026-08-24",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "PEPE",
-      "requestedBy": "LUIS/ARINDEL",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "?",
-      "originTrack": "PALM MEADOWS",
-      "destination": "EAST COAST",
-      "track": "SARATOGA",
-      "destinationTrainer": "?",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "2d483b8b4742"
-    },
-    {
       "dateTaken": "2026-08-26",
       "requestedDates": "AFTER SEPT 1 2026",
       "takenBy": "KAYLA",
@@ -488,30 +464,6 @@
       ],
       "stallSpace": 3.0,
       "id": "cdc9483b595c"
-    },
-    {
-      "dateTaken": "2026-08-31",
-      "requestedDates": "ASAP",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "J D'ANGELO",
-      "originTrack": "PALM MEADOWS",
-      "destination": "VIRGINIA",
-      "track": "COLONIAL DOWNS",
-      "destinationTrainer": "J D'ANGELO",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "AZAM",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "6cc38a1fbb60"
     },
     {
       "dateTaken": "2026-08-31",
@@ -923,7 +875,7 @@
     },
     {
       "dateTaken": "2026-09-01",
-      "requestedDates": "NEXT AVAILABLE",
+      "requestedDates": "WED SEPT 2 2026",
       "takenBy": "PEPE",
       "requestedBy": "",
       "origin": "KENTUCKY",
@@ -947,7 +899,7 @@
     },
     {
       "dateTaken": "2026-09-01",
-      "requestedDates": "2026-09-02",
+      "requestedDates": "WED SEPT 2 2026",
       "takenBy": "LESLIE",
       "requestedBy": "",
       "origin": "KENTUCKY",
@@ -968,6 +920,30 @@
       ],
       "stallSpace": 1.5,
       "id": "40702088b4e8"
+    },
+    {
+      "dateTaken": "2026-09-01",
+      "requestedDates": "WED SEPT 2 2026",
+      "takenBy": "FAYE",
+      "requestedBy": "MARIANELA",
+      "origin": "KENTUCKY",
+      "originFarm": "SEPTEMBER FARM",
+      "originTrainer": "",
+      "originTrack": "",
+      "destination": "OCALA",
+      "track": "",
+      "destinationTrainer": "MARIANELA CENTENO",
+      "destinationFarm": "",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "INSIDE OUT 25",
+          "stallSpace": 1.5
+        }
+      ],
+      "stallSpace": 1.5,
+      "id": "f6fd26252f49"
     }
   ]
 }
