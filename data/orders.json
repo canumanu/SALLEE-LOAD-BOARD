@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-01T12:25:16.864804Z",
+  "syncedAt": "2026-09-01T12:30:17.958984Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -347,30 +347,6 @@
     },
     {
       "dateTaken": "2026-08-27",
-      "requestedDates": "MON AUG 31 2026",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM",
-      "originTrack": "FAIR HILL",
-      "destination": "KENTUCKY",
-      "track": "KENTUCKY DOWNS",
-      "destinationTrainer": "J SHARP",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PASSING GAME",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "05d866733541"
-    },
-    {
-      "dateTaken": "2026-08-27",
       "requestedDates": "SEPT 12 2026",
       "takenBy": "PEPE",
       "requestedBy": "",
@@ -498,54 +474,6 @@
       "id": "04dac449e2e1"
     },
     {
-      "dateTaken": "2026-08-28",
-      "requestedDates": "TUES SEPT 1",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM",
-      "originTrack": "FAIR HILL",
-      "destination": "KENTUCKY",
-      "track": "KENTUCKY DOWNS",
-      "destinationTrainer": "M STIDHAM",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ROSE ROOM",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "9ae0033ae9a2"
-    },
-    {
-      "dateTaken": "2026-08-28",
-      "requestedDates": "TUES SEPT 1",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM",
-      "originTrack": "DELAWARE",
-      "destination": "KENTUCKY",
-      "track": "KENTUCKY DOWNS",
-      "destinationTrainer": "M STIDHAM",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TOOCOOLFORSCHOOL",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "9ae0033ae9a2"
-    },
-    {
       "dateTaken": "2026-08-29",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "HARRY",
@@ -628,30 +556,6 @@
       ],
       "stallSpace": 6.0,
       "id": "ccbe2df03468"
-    },
-    {
-      "dateTaken": "2026-08-30",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM",
-      "originTrack": "DELAWARE",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "ROOD & RIDDLE",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LUV YOUR NEIGHBOR",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "1b38f831ca0c"
     },
     {
       "dateTaken": "2026-08-30",
@@ -928,6 +832,30 @@
       ],
       "stallSpace": 3.0,
       "id": "f983689da3c4"
+    },
+    {
+      "dateTaken": "2026-09-01",
+      "requestedDates": "READY",
+      "takenBy": "DAVID",
+      "requestedBy": "",
+      "origin": "SOUTH FLORIDA",
+      "originFarm": "",
+      "originTrainer": "E DOBLES",
+      "originTrack": "PALM MEADOWS",
+      "destination": "KENTUCKY",
+      "track": "KENTUCKY DOWNS",
+      "destinationTrainer": "E DOBLES",
+      "destinationFarm": "",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "PADIDDLE",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "bb7d24882e5f"
     }
   ]
 }
