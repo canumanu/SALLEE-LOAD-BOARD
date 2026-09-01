@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-01T20:20:14.289354Z",
+  "syncedAt": "2026-09-01T20:30:21.719634Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -636,30 +636,6 @@
       ],
       "stallSpace": 3.0,
       "id": "bb7d24882e5f"
-    },
-    {
-      "dateTaken": "2026-09-01",
-      "requestedDates": "READY",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "S JOSEPH",
-      "originTrack": "PALM MEADOWS",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "HARTWOOD FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LIBERO",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "7e393cdbfff2"
     },
     {
       "dateTaken": "2026-09-01",
