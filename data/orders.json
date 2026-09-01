@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-01T16:35:16.819380Z",
+  "syncedAt": "2026-09-01T16:40:16.780136Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -464,34 +464,6 @@
       ],
       "stallSpace": 3.0,
       "id": "b0b07f52d1cb"
-    },
-    {
-      "dateTaken": "2026-08-29",
-      "requestedDates": "AUG 31 2026",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "M CLEMENT",
-      "originTrack": "KENTUCKY DOWNS",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "M CLEMENT",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BAYFRONT",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "HE'S MY KIND",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "d53dd1c7a210"
     },
     {
       "dateTaken": "2026-08-30",
