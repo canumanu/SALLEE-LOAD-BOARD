@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-01T12:10:18.357712Z",
+  "syncedAt": "2026-09-01T12:15:15.524743Z",
   "orders": [
     {
       "dateTaken": "2026-08-03",
@@ -641,7 +641,7 @@
       "destination": "KENTUCKY",
       "track": "",
       "destinationTrainer": "",
-      "destinationFarm": "MARGAUX FARM",
+      "destinationFarm": "ROOD & RIDDLE",
       "tripDate": "",
       "drivers": "",
       "horses": [
@@ -904,30 +904,6 @@
       ],
       "stallSpace": 1.5,
       "id": "b7e9ce273f59"
-    },
-    {
-      "dateTaken": "2026-08-31",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "JERRY",
-      "requestedBy": "",
-      "origin": "VIRGINIA ",
-      "originFarm": "",
-      "originTrainer": "H SMULLEN",
-      "originTrack": "COLONIAL DOWNS",
-      "destination": "SOUTH FLORIDA",
-      "track": "GULFSTREAM PARK",
-      "destinationTrainer": "H SMULLEN",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "5ca60497601f"
     },
     {
       "dateTaken": "2026-08-31",
