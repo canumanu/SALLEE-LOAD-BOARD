@@ -1,30 +1,6 @@
 {
-  "syncedAt": "2026-09-02T12:30:16.829636Z",
+  "syncedAt": "2026-09-02T12:35:13.463002Z",
   "orders": [
-    {
-      "dateTaken": "2026-08-03",
-      "requestedDates": "SEPTEMBER",
-      "takenBy": "LESLEY",
-      "requestedBy": "BOB CLARY",
-      "origin": "KENTUCKY",
-      "originFarm": "AMENDE PLACE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "NELSON JONES",
-      "destinationTrainer": "C ORTIZ",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "IF WISHES 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "7fb9730ccdd9"
-    },
     {
       "dateTaken": "2026-08-21",
       "requestedDates": "MID-END SEPTEMBER",
@@ -827,102 +803,6 @@
     },
     {
       "dateTaken": "2026-09-01",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "IAN BRENNAN STABLES",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "DEFICIT SPENDING",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "da218dc9ec64"
-    },
-    {
-      "dateTaken": "2026-09-01",
-      "requestedDates": "WED SEPT 2 2026",
-      "takenBy": "PEPE",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "MARGAUX FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "LITTLE FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PERMISSION 25",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "ec7b75d6ee01"
-    },
-    {
-      "dateTaken": "2026-09-01",
-      "requestedDates": "WED SEPT 2 2026",
-      "takenBy": "LESLIE",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "EVERGREEN EQUINE",
-      "originTrack": "TURFWAY",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "DR. POMALES",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "KESSEL RUN",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "40702088b4e8"
-    },
-    {
-      "dateTaken": "2026-09-01",
-      "requestedDates": "WED SEPT 2 2026",
-      "takenBy": "FAYE",
-      "requestedBy": "MARIANELA",
-      "origin": "KENTUCKY",
-      "originFarm": "SEPTEMBER FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "MARIANELA CENTENO",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "INSIDE OUT 25",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "f6fd26252f49"
-    },
-    {
-      "dateTaken": "2026-09-01",
       "requestedDates": "TUE SEPT 1 2026",
       "takenBy": "HARRY",
       "requestedBy": "",
@@ -948,30 +828,6 @@
       ],
       "stallSpace": 6.0,
       "id": "f5c1c334a4b1"
-    },
-    {
-      "dateTaken": "2026-09-02",
-      "requestedDates": "WED SEPT 2 2026",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "R ARNOLD",
-      "originTrack": "KEENELAND",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "HARRIS FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BEST OF SEVEN",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "53afbf0a2820"
     }
   ]
 }
