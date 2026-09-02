@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-02T13:40:13.726380Z",
+  "syncedAt": "2026-09-02T13:45:23.877249Z",
   "orders": [
     {
       "dateTaken": "2026-08-21",
@@ -100,46 +100,6 @@
       ],
       "stallSpace": 3.0,
       "id": "8dc9a4588a1f"
-    },
-    {
-      "dateTaken": "2026-08-24",
-      "requestedDates": "SUN AUG 30 2026",
-      "takenBy": "DAVID",
-      "requestedBy": "ELLIOT",
-      "origin": "VIRGINIA ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "COLONIAL DOWNS",
-      "destination": "WOODBINE",
-      "track": "WOODBINE",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ETAWA",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "TOSEN WISH",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "ACHIEVE",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "SHIMMERING FROST",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "SHE INSPIRES",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 15.0,
-      "id": "58f4e3d04ccd"
     },
     {
       "dateTaken": "2026-08-24",
