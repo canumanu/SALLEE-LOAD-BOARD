@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-02T13:15:17.666142Z",
+  "syncedAt": "2026-09-02T13:25:14.236852Z",
   "orders": [
     {
       "dateTaken": "2026-08-21",
@@ -588,30 +588,6 @@
       ],
       "stallSpace": 3.0,
       "id": "f983689da3c4"
-    },
-    {
-      "dateTaken": "2026-09-01",
-      "requestedDates": "READY",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "E DOBLES",
-      "originTrack": "PALM MEADOWS",
-      "destination": "KENTUCKY",
-      "track": "KENTUCKY DOWNS",
-      "destinationTrainer": "E DOBLES",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PADIDDLE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "bb7d24882e5f"
     },
     {
       "dateTaken": "2026-09-01",
