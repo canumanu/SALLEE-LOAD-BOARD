@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-02T19:55:15.499122Z",
+  "syncedAt": "2026-09-02T20:00:19.279229Z",
   "orders": [
     {
       "dateTaken": "2026-08-21",
@@ -200,30 +200,6 @@
       ],
       "stallSpace": 6.0,
       "id": "693613668200"
-    },
-    {
-      "dateTaken": "2026-08-27",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "M MORRISON",
-      "originTrack": "GULFSTREAM",
-      "destination": "DELAWARE PARK",
-      "track": "",
-      "destinationTrainer": "M MORRISON",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TBD",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "aa30999dc526"
     },
     {
       "dateTaken": "2026-08-27",
