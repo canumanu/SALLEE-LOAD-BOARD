@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-03T19:05:20.256775Z",
+  "syncedAt": "2026-09-03T19:10:15.371652Z",
   "orders": [
     {
       "dateTaken": "2026-08-21",
@@ -772,38 +772,6 @@
       ],
       "stallSpace": 3.0,
       "id": "93f204d66b35"
-    },
-    {
-      "dateTaken": "2026-09-03",
-      "requestedDates": "FRI SEPT 4 2026",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "J BURKE",
-      "originTrack": "KEENELAND",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "B MOTT",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "FAMILIAR PATH",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "LADY BRAMPTON",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "RISING MOON",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "92ba3b9c64f0"
     },
     {
       "dateTaken": "2026-09-03",
