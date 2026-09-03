@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-03T18:10:20.968531Z",
+  "syncedAt": "2026-09-03T18:15:49.944945Z",
   "orders": [
     {
       "dateTaken": "2026-08-21",
@@ -184,7 +184,7 @@
       "originTrack": "",
       "destination": "UPSTATE NEW YORK",
       "track": "SARATOGA",
-      "destinationTrainer": "C BROWN",
+      "destinationTrainer": "C BROWN/M CLEMENT",
       "destinationFarm": "",
       "tripDate": "",
       "drivers": "",
@@ -196,6 +196,10 @@
         {
           "name": "MR MIRACLE",
           "stallSpace": 3.0
+        },
+        {
+          "name": "FOLLOW MY LEAD",
+          "stallSpace": null
         }
       ],
       "stallSpace": 6.0,
@@ -723,11 +727,11 @@
       "horses": [
         {
           "name": "A LITTLE SEXY",
-          "stallSpace": null
+          "stallSpace": 3.0
         }
       ],
-      "stallSpace": 0,
-      "id": "c3d38b5c6499"
+      "stallSpace": 3.0,
+      "id": "905cb1acd12c"
     },
     {
       "dateTaken": "2026-09-02",
