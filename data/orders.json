@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-03T18:20:34.818593Z",
+  "syncedAt": "2026-09-03T18:25:27.996728Z",
   "orders": [
     {
       "dateTaken": "2026-08-21",
@@ -174,38 +174,6 @@
       "id": "67b5e88ea028"
     },
     {
-      "dateTaken": "2026-08-26",
-      "requestedDates": "AFTER SEPT 1 2026",
-      "takenBy": "KAYLA",
-      "requestedBy": "NEAL",
-      "origin": "KENTUCKY",
-      "originFarm": "WINSTAR ",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "C BROWN/M CLEMENT",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "AMAZON WARRIOR",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "MR MIRACLE",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "FOLLOW MY LEAD",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "693613668200"
-    },
-    {
       "dateTaken": "2026-08-27",
       "requestedDates": "SEPT 12 2026",
       "takenBy": "PEPE",
@@ -312,58 +280,6 @@
       ],
       "stallSpace": 3.0,
       "id": "cdc9483b595c"
-    },
-    {
-      "dateTaken": "2026-08-31",
-      "requestedDates": "FRI SEPT 4 2026",
-      "takenBy": "VICKIE",
-      "requestedBy": "SHERRI",
-      "origin": "KENTUCKY",
-      "originFarm": "GAINESWAY",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "EISAMAN EQUINE",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "HOLIDAY BLUES",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "SALARY DRIVE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "20e7037328a7"
-    },
-    {
-      "dateTaken": "2026-08-31",
-      "requestedDates": "FRI SEPT 4 2026",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "VIRGINIA ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "COLONIAL DOWNS",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "HEARTWIRED",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "cfa346a8c107"
     },
     {
       "dateTaken": "2026-08-31",
@@ -711,54 +627,6 @@
     },
     {
       "dateTaken": "2026-09-02",
-      "requestedDates": "FRI SEPT 4 2026",
-      "takenBy": "LESLEY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "WASEDA FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "M CLEMENT",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "A LITTLE SEXY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "905cb1acd12c"
-    },
-    {
-      "dateTaken": "2026-09-02",
-      "requestedDates": "FRI SEPT 4 2026",
-      "takenBy": "LESLEY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "TTC",
-      "originTrainer": "J ARANHA",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "OCALA STUD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ROCKY JOY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "2a8b3393f365"
-    },
-    {
-      "dateTaken": "2026-09-02",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "MANU",
       "requestedBy": "",
@@ -780,34 +648,6 @@
       ],
       "stallSpace": 3.0,
       "id": "1ad78018be30"
-    },
-    {
-      "dateTaken": "2026-09-02",
-      "requestedDates": "THURS SEPT 3 2026",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "S JOSEPH",
-      "originTrack": "PMTC",
-      "destination": "KENTUCKY",
-      "track": "KENTUCKY DOWNS",
-      "destinationTrainer": "S JOSEPH",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TREASURED TIMES",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "ASSERTIVENESS",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "4eb5be25b6dc"
     },
     {
       "dateTaken": "2026-09-02",
@@ -836,54 +676,6 @@
       ],
       "stallSpace": 6.0,
       "id": "afef96e29fa5"
-    },
-    {
-      "dateTaken": "2026-09-02",
-      "requestedDates": "FRI SEPT 4 2026",
-      "takenBy": "LESLIE",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "DIAMOND A",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "EDDE HERRERA",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "DREAMS SHE DREAMS 26",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "cb19ba494178"
-    },
-    {
-      "dateTaken": "2026-09-02",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "J D'ANGELO",
-      "originTrack": "PMTC",
-      "destination": "KENTUCKY",
-      "track": "KENTUCKY DOWNS",
-      "destinationTrainer": "J D'ANGELO",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SHEPPING NACHES",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "2dd3f6bef70e"
     },
     {
       "dateTaken": "2026-09-02",
