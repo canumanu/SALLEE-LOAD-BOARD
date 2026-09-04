@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-04T19:45:13.276209Z",
+  "syncedAt": "2026-09-04T19:50:16.248484Z",
   "orders": [
     {
       "dateTaken": "2026-08-21",
@@ -474,6 +474,34 @@
       "id": "cda1ab02bfce"
     },
     {
+      "dateTaken": "2026-09-01",
+      "requestedDates": "TUE SEPT 1 2026",
+      "takenBy": "HARRY",
+      "requestedBy": "",
+      "origin": "VIRGINIA ",
+      "originFarm": "",
+      "originTrainer": "",
+      "originTrack": "COLONIAL DOWNS",
+      "destination": "KENTUCKY",
+      "track": "KENTUCKY DOWNS",
+      "destinationTrainer": "J D'ANGELO",
+      "destinationFarm": "",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "MOTOWN DIVA",
+          "stallSpace": 3.0
+        },
+        {
+          "name": "ITZA TEAMSTER",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 6.0,
+      "id": "f5c1c334a4b1"
+    },
+    {
       "dateTaken": "2026-09-02",
       "requestedDates": "SUN SEPT 6 2026",
       "takenBy": "LESLIE",
@@ -700,30 +728,6 @@
       ],
       "stallSpace": 3.0,
       "id": "2dd3f6bef70e"
-    },
-    {
-      "dateTaken": "2026-09-02",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "M CLEMENT",
-      "originTrack": "KENTUCKY DOWNS",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "M CLEMENT",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "NATIONAL ARCHIVE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "c88d0b3ff333"
     },
     {
       "dateTaken": "2026-09-02",
