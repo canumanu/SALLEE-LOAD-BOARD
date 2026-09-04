@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-04T13:15:14.197933Z",
+  "syncedAt": "2026-09-04T13:20:16.404199Z",
   "orders": [
     {
       "dateTaken": "2026-08-21",
@@ -656,30 +656,6 @@
       "requestedBy": "",
       "origin": "KENTUCKY",
       "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "KENTUCKY DOWNS",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BEACH SANDALS",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "298554ea070b"
-    },
-    {
-      "dateTaken": "2026-09-02",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
       "originTrainer": "M CLEMENT",
       "originTrack": "KENTUCKY DOWNS",
       "destination": "EAST COAST",
@@ -720,30 +696,6 @@
       ],
       "stallSpace": 3.0,
       "id": "0094e1ec6ba3"
-    },
-    {
-      "dateTaken": "2026-09-03",
-      "requestedDates": "FRI SEPT 4 2026",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "R ATRAS",
-      "originTrack": "KENTUCKY DOWNS",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "R ATRAS",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CHASING LIBERTY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "93f204d66b35"
     },
     {
       "dateTaken": "2026-09-03",
