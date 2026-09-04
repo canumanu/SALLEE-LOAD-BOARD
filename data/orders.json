@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-04T13:45:16.439049Z",
+  "syncedAt": "2026-09-04T13:50:14.468767Z",
   "orders": [
     {
       "dateTaken": "2026-08-21",
@@ -76,30 +76,6 @@
       ],
       "stallSpace": 3.0,
       "id": "5fc714dc5aa8"
-    },
-    {
-      "dateTaken": "2026-08-24",
-      "requestedDates": "SAT AUG 29 2026",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "VIRGINIA ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "COLONIAL DOWNS",
-      "destination": "KENTUCKY",
-      "track": "CHURCHILL",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "8dc9a4588a1f"
     },
     {
       "dateTaken": "2026-08-24",
