@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-04T13:25:16.171829Z",
+  "syncedAt": "2026-09-04T13:30:21.331673Z",
   "orders": [
     {
       "dateTaken": "2026-08-21",
@@ -651,30 +651,6 @@
     },
     {
       "dateTaken": "2026-09-02",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "M CLEMENT",
-      "originTrack": "KENTUCKY DOWNS",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "M CLEMENT",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "NATIONAL ARCHIVE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "c88d0b3ff333"
-    },
-    {
-      "dateTaken": "2026-09-02",
       "requestedDates": "SUN SEPT 6 2026",
       "takenBy": "HARRY",
       "requestedBy": "",
@@ -811,18 +787,26 @@
       "takenBy": "JASON",
       "requestedBy": "",
       "origin": "UPSTATE NEW YORK",
-      "originFarm": "IRISH HILLS FARM",
+      "originFarm": "IRISH HILLS/3 ORDERS",
       "originTrainer": "",
       "originTrack": "",
       "destination": "OCALA",
       "track": "",
       "destinationTrainer": "",
-      "destinationFarm": "ARINDEL FARM",
+      "destinationFarm": "ARINDEL/HOPPEL/VIRGINIA",
       "tripDate": "",
       "drivers": "",
       "horses": [
         {
-          "name": "6 WEANLINGS/3 BOXES",
+          "name": "6 WEANLINGS/3 BOXES + 1HD HOPPEL + 1 HD TO VIRGINIA",
+          "stallSpace": 3.0
+        },
+        {
+          "name": null,
+          "stallSpace": 3.0
+        },
+        {
+          "name": null,
           "stallSpace": 3.0
         },
         {
@@ -834,8 +818,8 @@
           "stallSpace": 3.0
         }
       ],
-      "stallSpace": 9.0,
-      "id": "ad764dcc61bd"
+      "stallSpace": 15.0,
+      "id": "97d55bea01ff"
     },
     {
       "dateTaken": "2026-09-03",
