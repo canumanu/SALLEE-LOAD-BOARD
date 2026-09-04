@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-04T12:35:15.017743Z",
+  "syncedAt": "2026-09-04T12:40:17.998838Z",
   "orders": [
     {
       "dateTaken": "2026-08-21",
@@ -228,34 +228,6 @@
       ],
       "stallSpace": 9.0,
       "id": "790b6eedf5e6"
-    },
-    {
-      "dateTaken": "2026-08-29",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "VIRGINIA ",
-      "originFarm": "",
-      "originTrainer": "W PAINE",
-      "originTrack": "COLONIAL DOWNS",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "W PAINE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "2 HD",
-          "stallSpace": 1.5
-        },
-        {
-          "name": null,
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "b0b07f52d1cb"
     },
     {
       "dateTaken": "2026-08-30",
