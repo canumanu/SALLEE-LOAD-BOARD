@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-05T14:05:11.346431Z",
+  "syncedAt": "2026-09-05T14:10:13.766103Z",
   "orders": [
     {
       "dateTaken": "2026-08-21",
@@ -603,30 +603,6 @@
     },
     {
       "dateTaken": "2026-09-02",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "J RITSON",
-      "originTrack": "MERCURY TRAINING CENTER",
-      "destination": "EAST COAST",
-      "track": "DELAWARE PARK",
-      "destinationTrainer": "M STIDHAM",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MYSTIC VOYAGE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "1ad78018be30"
-    },
-    {
-      "dateTaken": "2026-09-02",
       "requestedDates": "ASAP",
       "takenBy": "HARRY",
       "requestedBy": "",
@@ -652,30 +628,6 @@
       ],
       "stallSpace": 6.0,
       "id": "afef96e29fa5"
-    },
-    {
-      "dateTaken": "2026-09-02",
-      "requestedDates": "SUN SEPT 6 2026",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "K BRION",
-      "originTrack": "KENTUCKY DOWNS",
-      "destination": "EAST COAST",
-      "track": "FAIR HILL ",
-      "destinationTrainer": "K BRION",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PLANET CLARE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "0094e1ec6ba3"
     },
     {
       "dateTaken": "2026-09-03",
