@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-05T15:20:11.196567Z",
+  "syncedAt": "2026-09-05T15:25:13.021942Z",
   "orders": [
     {
       "dateTaken": "2026-08-21",
@@ -600,34 +600,6 @@
       ],
       "stallSpace": 3.0,
       "id": "c92c4a6418d7"
-    },
-    {
-      "dateTaken": "2026-09-02",
-      "requestedDates": "ASAP",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "S JOSEPH",
-      "originTrack": "KENTUCKY DOWNS",
-      "destination": "SOUTH FLORIDA",
-      "track": "PMTC",
-      "destinationTrainer": "S JOSEPH",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "2 HD",
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "afef96e29fa5"
     },
     {
       "dateTaken": "2026-09-03",
