@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-06T15:00:17.437082Z",
+  "syncedAt": "2026-09-06T15:05:13.188302Z",
   "orders": [
     {
       "dateTaken": "2026-08-21",
@@ -320,70 +320,6 @@
       ],
       "stallSpace": 12.0,
       "id": "1408dbfd057e"
-    },
-    {
-      "dateTaken": "2026-09-01",
-      "requestedDates": "MON SEPT 7 2026",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "BRIDLEWOOD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BREAKFAST TIME 25",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "CRYSTAL CLIFFS 25",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "PLAY A SONG FOR ME 25",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "MIND",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 12.0,
-      "id": "cda1ab02bfce"
-    },
-    {
-      "dateTaken": "2026-09-01",
-      "requestedDates": "MON SEPT 7 2026",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "PAUL SHARP",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "COREY SCORES 25",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "OSAKA GIRL 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "37fd082a1cdc"
     },
     {
       "dateTaken": "2026-09-01",
