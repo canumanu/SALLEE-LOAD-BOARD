@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-06T14:50:13.278832Z",
+  "syncedAt": "2026-09-06T14:55:12.122265Z",
   "orders": [
     {
       "dateTaken": "2026-08-21",
@@ -480,54 +480,6 @@
     {
       "dateTaken": "2026-09-02",
       "requestedDates": "SUN SEPT 6 2026",
-      "takenBy": "LESLIE",
-      "requestedBy": "NICOLE",
-      "origin": "OCALA",
-      "originFarm": "CASSE TRAINING CENTER",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "BENSON FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TAKING MY TIME",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "4c91af013477"
-    },
-    {
-      "dateTaken": "2026-09-02",
-      "requestedDates": "SUN SEPT 6 2026",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM",
-      "originTrack": "KENTUCKY DOWNS",
-      "destination": "EAST COAST",
-      "track": "DELAWARE PARK",
-      "destinationTrainer": "M STIDHAM",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TOOCOOLFORSCHOOL",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "89ad177548e4"
-    },
-    {
-      "dateTaken": "2026-09-02",
-      "requestedDates": "SUN SEPT 6 2026",
       "takenBy": "SCOTT",
       "requestedBy": "",
       "origin": "KENTUCKY",
@@ -552,30 +504,6 @@
       ],
       "stallSpace": 6.0,
       "id": "f37944ca8d0e"
-    },
-    {
-      "dateTaken": "2026-09-02",
-      "requestedDates": "SUN SEPT 6 2026",
-      "takenBy": "LESLIE",
-      "requestedBy": "",
-      "origin": "OCALA",
-      "originFarm": "EISAMAN EQUINE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "KENTUCKY",
-      "track": "ELLIS PARK",
-      "destinationTrainer": "C DEVAUX",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CORE PRINCIPLE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "7b35045fe44c"
     },
     {
       "dateTaken": "2026-09-01",
