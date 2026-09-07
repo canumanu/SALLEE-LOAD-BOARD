@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-07T17:45:12.755865Z",
+  "syncedAt": "2026-09-07T17:50:17.650584Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -240,30 +240,6 @@
       ],
       "stallSpace": 9.0,
       "id": "790b6eedf5e6"
-    },
-    {
-      "dateTaken": "2026-08-30",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "L SCHULTZ",
-      "originTrack": "CHURCHILL",
-      "destination": "EAST COAST",
-      "track": "MONMOUTH PARK",
-      "destinationTrainer": "L SCHULTZ",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "AMOUDI BAY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "cdc9483b595c"
     },
     {
       "dateTaken": "2026-08-31",
