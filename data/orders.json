@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-09T19:20:14.270126Z",
+  "syncedAt": "2026-09-09T19:25:11.435028Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -572,30 +572,6 @@
       ],
       "stallSpace": 3.0,
       "id": "125f205b51ef"
-    },
-    {
-      "dateTaken": "2026-09-04",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLEY",
-      "requestedBy": "DANICA",
-      "origin": "KENTUCKY",
-      "originFarm": "UPSON DOWNS",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "UPSTATE NEW YORK",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "SEQUEL ",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LUCKY LATKES",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "ccf6af08ca3d"
     },
     {
       "dateTaken": "2026-09-04",
