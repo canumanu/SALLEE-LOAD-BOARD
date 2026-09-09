@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-09T15:15:17.160978Z",
+  "syncedAt": "2026-09-09T15:20:14.403367Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -1205,17 +1205,21 @@
       "destination": "KENTUCKY",
       "track": "",
       "destinationTrainer": "",
-      "destinationFarm": "JONABELL ",
+      "destinationFarm": "JONABELL/TRIAD FARM",
       "tripDate": "",
       "drivers": "",
       "horses": [
         {
-          "name": "CLOCKWORK",
+          "name": "CLOCKWORK/SANTA LUZIA",
+          "stallSpace": 1.5
+        },
+        {
+          "name": null,
           "stallSpace": 1.5
         }
       ],
-      "stallSpace": 1.5,
-      "id": "584b1c7b809a"
+      "stallSpace": 3.0,
+      "id": "1cc52e4415b9"
     },
     {
       "dateTaken": "2026-09-09",
