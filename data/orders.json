@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-10T20:55:11.324535Z",
+  "syncedAt": "2026-09-10T21:00:20.001251Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -1336,10 +1336,14 @@
         {
           "name": "GHOST FOREST",
           "stallSpace": 1.5
+        },
+        {
+          "name": "CHARMED LUCK",
+          "stallSpace": 1.5
         }
       ],
-      "stallSpace": 3.0,
-      "id": "f57bc79ab6be"
+      "stallSpace": 4.5,
+      "id": "12851c70c9ee"
     }
   ]
 }
