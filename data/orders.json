@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-10T14:00:27.849928Z",
+  "syncedAt": "2026-09-10T14:05:16.433113Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -608,34 +608,6 @@
       ],
       "stallSpace": 3.0,
       "id": "fb79820a5f17"
-    },
-    {
-      "dateTaken": "2026-09-06",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "KAYLA",
-      "requestedBy": "DES",
-      "origin": "KENTUCKY",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "NIALL BRENNAN STABLES",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "GOLD RUNNER",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "WHEELMAN",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "696b05c78b22"
     },
     {
       "dateTaken": "2026-09-07",
@@ -1255,34 +1227,6 @@
     },
     {
       "dateTaken": "2026-09-09",
-      "requestedDates": "ASAP",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "FAIR HILL ",
-      "destinationTrainer": "B JACKSON",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "RISK LAYERING",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "PROFILE IN COURAGE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "4926469b4b5e"
-    },
-    {
-      "dateTaken": "2026-09-09",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "ALEXXIS",
       "requestedBy": "BRITTANY",
@@ -1372,30 +1316,6 @@
       ],
       "stallSpace": 18.0,
       "id": "0e7da7cfdf9e"
-    },
-    {
-      "dateTaken": "2026-09-10",
-      "requestedDates": "FRIDAY SEPT 11",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "CHURCHILL",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BANDITO",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "5cd726b300c9"
     },
     {
       "dateTaken": "2026-09-10",
