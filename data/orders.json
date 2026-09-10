@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-10T15:20:13.838403Z",
+  "syncedAt": "2026-09-10T15:25:15.388425Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -604,30 +604,6 @@
     {
       "dateTaken": "2026-09-07",
       "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "J D'ANGELO",
-      "originTrack": "KENTUCKY DOWNS",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA ",
-      "destinationTrainer": "J D'ANGELO",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MOTOWN DIVA",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "3d31bdcf696e"
-    },
-    {
-      "dateTaken": "2026-09-07",
-      "requestedDates": "NEXT AVAILABLE",
       "takenBy": "LESLIE",
       "requestedBy": "J VILLAGOMEZ",
       "origin": "VIRGINIA ",
@@ -695,19 +671,19 @@
       "originTrainer": "B MINSHALL",
       "originTrack": "WOODBINE",
       "destination": "KENTUCKY",
-      "track": "",
+      "track": "BINGO 25",
       "destinationTrainer": "GLENCREST FARM",
       "destinationFarm": "",
       "tripDate": "",
       "drivers": "",
       "horses": [
         {
-          "name": "BINGO 25",
+          "name": "1 HD",
           "stallSpace": 3.0
         }
       ],
       "stallSpace": 3.0,
-      "id": "31ee87192ac1"
+      "id": "28e95a0c4036"
     },
     {
       "dateTaken": "2026-09-08",
