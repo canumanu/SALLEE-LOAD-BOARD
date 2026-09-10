@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-10T15:05:17.918096Z",
+  "syncedAt": "2026-09-10T15:10:12.488675Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -456,34 +456,6 @@
       ],
       "stallSpace": 0,
       "id": "619c79f815ef"
-    },
-    {
-      "dateTaken": "2026-09-03",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "PEPE",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "I KANTARMACI",
-      "originTrack": "SARATOGA",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "ARINDEL FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BLACK JACK",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "+1 MORE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "c0d13012ea57"
     },
     {
       "dateTaken": "2026-09-04",
