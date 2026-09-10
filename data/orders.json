@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-10T17:10:14.669920Z",
+  "syncedAt": "2026-09-10T17:15:15.962251Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -404,30 +404,6 @@
       ],
       "stallSpace": 0,
       "id": "619c79f815ef"
-    },
-    {
-      "dateTaken": "2026-09-04",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "L RICE",
-      "originTrack": "SARATOGA",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "MARGAUX FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "JACK'S WORLD",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "caedec5e0cf8"
     },
     {
       "dateTaken": "2026-09-04",
