@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-10T15:10:12.488675Z",
+  "syncedAt": "2026-09-10T15:15:14.818919Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -251,30 +251,6 @@
     },
     {
       "dateTaken": "2026-09-01",
-      "requestedDates": "SEPT 9 2026",
-      "takenBy": "LESLIE",
-      "requestedBy": "",
-      "origin": "OCALA",
-      "originFarm": "TWELVE TOES",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "KENTUCKY",
-      "track": "KEENELAND SALE",
-      "destinationTrainer": "TAYLOR MADE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "RISE ABOVE 25 (HIP 182)",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "3b8aa5980ece"
-    },
-    {
-      "dateTaken": "2026-09-01",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "PEPE",
       "requestedBy": "",
@@ -296,34 +272,6 @@
       ],
       "stallSpace": 3.0,
       "id": "c92c4a6418d7"
-    },
-    {
-      "dateTaken": "2026-09-02",
-      "requestedDates": "SUN SEPT 6 2026",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM ",
-      "originTrack": "KENTUCKY DOWNS",
-      "destination": "EAST COAST",
-      "track": "FAIR HILL ",
-      "destinationTrainer": "M STIDHAM",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ROSE ROOM",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "PRIMA DONNA",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "f37944ca8d0e"
     },
     {
       "dateTaken": "2026-09-03",
@@ -670,16 +618,12 @@
       "drivers": "",
       "horses": [
         {
-          "name": "ITZA TEAMSTER",
-          "stallSpace": 3.0
-        },
-        {
           "name": "MOTOWN DIVA",
           "stallSpace": 3.0
         }
       ],
-      "stallSpace": 6.0,
-      "id": "01bfbe04258a"
+      "stallSpace": 3.0,
+      "id": "3d31bdcf696e"
     },
     {
       "dateTaken": "2026-09-07",
@@ -751,19 +695,19 @@
       "originTrainer": "B MINSHALL",
       "originTrack": "WOODBINE",
       "destination": "KENTUCKY",
-      "track": "BINGO 25",
+      "track": "",
       "destinationTrainer": "GLENCREST FARM",
       "destinationFarm": "",
       "tripDate": "",
       "drivers": "",
       "horses": [
         {
-          "name": "1 HD",
+          "name": "BINGO 25",
           "stallSpace": 3.0
         }
       ],
       "stallSpace": 3.0,
-      "id": "28e95a0c4036"
+      "id": "31ee87192ac1"
     },
     {
       "dateTaken": "2026-09-08",
