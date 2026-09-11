@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-11T14:45:15.794503Z",
+  "syncedAt": "2026-09-11T14:50:17.467709Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -712,30 +712,6 @@
       ],
       "stallSpace": 3.0,
       "id": "2b21a264a572"
-    },
-    {
-      "dateTaken": "2026-09-08",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "PEPE",
-      "requestedBy": "",
-      "origin": "OCALA",
-      "originFarm": "BRIDLEWOOD",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "C BROWN",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "83ed011aac2f"
     },
     {
       "dateTaken": "2026-09-08",
