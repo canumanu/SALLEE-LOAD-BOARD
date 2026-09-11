@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-11T14:05:15.057309Z",
+  "syncedAt": "2026-09-11T14:10:14.646498Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -216,38 +216,6 @@
       ],
       "stallSpace": 9.0,
       "id": "790b6eedf5e6"
-    },
-    {
-      "dateTaken": "2026-08-31",
-      "requestedDates": "",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "VIRGINIA ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "COLONIAL DOWNS",
-      "destination": "WOODBINE",
-      "track": "WOODBINE",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "2-3 HD",
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "5f6953a54206"
     },
     {
       "dateTaken": "2026-09-01",
