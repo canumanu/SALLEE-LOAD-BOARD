@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-11T18:25:10.804311Z",
+  "syncedAt": "2026-09-11T18:30:16.330115Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -768,58 +768,6 @@
       ],
       "stallSpace": 3.0,
       "id": "ee8fed002419"
-    },
-    {
-      "dateTaken": "2026-09-09",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM ",
-      "originTrack": "FAIR HILL",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "JONABELL ",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ROSE ROOM",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "584b1c7b809a"
-    },
-    {
-      "dateTaken": "2026-09-09",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM ",
-      "originTrack": "DELAWARE PARK",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "JONABELL/TRIAD FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CLOCKWORK/SANTA LUZIA",
-          "stallSpace": 1.5
-        },
-        {
-          "name": null,
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "1cc52e4415b9"
     },
     {
       "dateTaken": "2026-09-09",
