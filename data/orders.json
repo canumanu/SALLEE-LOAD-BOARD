@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-11T17:00:19.092890Z",
+  "syncedAt": "2026-09-11T17:05:47.116390Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -360,34 +360,6 @@
       ],
       "stallSpace": 1.5,
       "id": "cb4023bd257d"
-    },
-    {
-      "dateTaken": "2026-09-05",
-      "requestedDates": "WED SEPT 9 2026",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "VIRGINIA ",
-      "originFarm": "",
-      "originTrainer": "J D'ANGELO",
-      "originTrack": "COLONIAL DOWNS",
-      "destination": "SOUTH FLORIDA",
-      "track": "PMTC",
-      "destinationTrainer": "J D'ANGELO",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "THUNDER ZEUS",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "PAPA GOLF",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "cf78ead88277"
     },
     {
       "dateTaken": "2026-09-05",
@@ -1088,38 +1060,6 @@
       ],
       "stallSpace": 1.5,
       "id": "a85e1ca1a2c9"
-    },
-    {
-      "dateTaken": "2026-09-10",
-      "requestedDates": "THURS SEPT 10 2026",
-      "takenBy": "MANU",
-      "requestedBy": "",
-      "origin": "VIRGINIA ",
-      "originFarm": "",
-      "originTrainer": "S JOSEPH",
-      "originTrack": "COLONIAL DOWNS",
-      "destination": "KENTUCKY",
-      "track": "CHURCHILL",
-      "destinationTrainer": "S JOSEPH",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MY SWEET DOVE",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "MEDALLA",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "U LITE U MY LIFE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "958bbe01578e"
     },
     {
       "dateTaken": "2026-09-10",
