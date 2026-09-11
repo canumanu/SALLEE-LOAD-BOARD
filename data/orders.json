@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-11T15:35:13.096049Z",
+  "syncedAt": "2026-09-11T15:40:14.266485Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -88,30 +88,6 @@
       ],
       "stallSpace": 6.0,
       "id": "f53e723d7e25"
-    },
-    {
-      "dateTaken": "2026-08-24",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "SARATOGA",
-      "destination": "KENTUCKY",
-      "track": "ELLIS PARK",
-      "destinationTrainer": "M MAKER",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "5fc714dc5aa8"
     },
     {
       "dateTaken": "2026-08-24",
@@ -240,42 +216,6 @@
       ],
       "stallSpace": 3.0,
       "id": "c92c4a6418d7"
-    },
-    {
-      "dateTaken": "2026-09-03",
-      "requestedDates": "SEPT 9-13",
-      "takenBy": "LESLIE",
-      "requestedBy": "NICK ESLER",
-      "origin": "OCALA",
-      "originFarm": "N ESLER",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "MOTT/MORLEY/HANDAL",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MAGIC N BIRD",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "THIRTY FOUR JACKSON",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "IRISH WHISPER 24",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "LARMORE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 12.0,
-      "id": "51a9f1766c4a"
     },
     {
       "dateTaken": "2026-09-03",
