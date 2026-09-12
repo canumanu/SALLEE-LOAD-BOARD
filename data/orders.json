@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-12T12:10:11.900755Z",
+  "syncedAt": "2026-09-12T12:15:13.632046Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -60,34 +60,6 @@
       ],
       "stallSpace": 3.0,
       "id": "8a3625909b1b"
-    },
-    {
-      "dateTaken": "2026-08-24",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "M MAKER",
-      "originTrack": "SARATOGA",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "M MAKER",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "2 HD",
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "f53e723d7e25"
     },
     {
       "dateTaken": "2026-08-24",
