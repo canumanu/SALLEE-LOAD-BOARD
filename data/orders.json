@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-13T12:15:12.636841Z",
+  "syncedAt": "2026-09-13T12:20:12.649337Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -980,30 +980,6 @@
       ],
       "stallSpace": 1.5,
       "id": "a85e1ca1a2c9"
-    },
-    {
-      "dateTaken": "2026-09-10",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "PEPE",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "A GREEN",
-      "originTrack": "BELMONT",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "ARINDEL FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BAZOOKA",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "492ff8746b77"
     },
     {
       "dateTaken": "2026-09-10",
