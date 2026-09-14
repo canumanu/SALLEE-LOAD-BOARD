@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-14T12:25:11.485500Z",
+  "syncedAt": "2026-09-14T12:30:18.023033Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -860,54 +860,6 @@
       ],
       "stallSpace": 3.0,
       "id": "949469b75b5f"
-    },
-    {
-      "dateTaken": "2026-09-09",
-      "requestedDates": "MON SEPT 14TH 2026",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "TRISTAN DEMERIC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "INTERPOLATE 25",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "TANGENTIAL 25",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "THOUGHT EXPERIMENT 25",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "TRIAL AND ERROR 25",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "UNDERVALUED ASSET 25",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "ROUNDING ERROR 25",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "SPREADSHEET 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 21.0,
-      "id": "f85f8caf6c48"
     },
     {
       "dateTaken": "2026-09-10",
