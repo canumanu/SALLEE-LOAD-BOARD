@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-15T13:25:12.990261Z",
+  "syncedAt": "2026-09-15T13:30:17.210769Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -164,30 +164,6 @@
       ],
       "stallSpace": 3.0,
       "id": "c24679f4e2c2"
-    },
-    {
-      "dateTaken": "2026-09-03",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "SARATOGA",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "a09bd11677ac"
     },
     {
       "dateTaken": "2026-09-03",
