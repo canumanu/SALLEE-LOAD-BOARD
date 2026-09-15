@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-15T17:15:14.366739Z",
+  "syncedAt": "2026-09-15T17:20:15.129932Z",
   "orders": [
     {
       "dateTaken": "2026-01-13",
@@ -680,30 +680,6 @@
       ],
       "stallSpace": 3.0,
       "id": "bc3e448c348d"
-    },
-    {
-      "dateTaken": "2026-09-13",
-      "requestedDates": "TUE SEPT 15 2026",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM ",
-      "originTrack": "FAIR HILL",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "ROOD AND RIDDLE",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BLOND ROAST",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "59e304b14140"
     },
     {
       "dateTaken": "2026-09-13",
