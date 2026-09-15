@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-15T12:35:11.233094Z",
+  "syncedAt": "2026-09-15T12:40:15.266353Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -523,30 +523,6 @@
     },
     {
       "dateTaken": "2026-09-08",
-      "requestedDates": "SEPT 11 2026",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "ELLIS PARK",
-      "destination": "VIRGINIA",
-      "track": "LAUREL",
-      "destinationTrainer": "T KEEFE ",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "FRENCH FRICTION",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "75f7275a8d03"
-    },
-    {
-      "dateTaken": "2026-09-08",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "LESLIE",
       "requestedBy": "FELIX",
@@ -814,54 +790,6 @@
       "id": "649b5ae76aff"
     },
     {
-      "dateTaken": "2026-09-09",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "BRIDLEWOOD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MILSPOUSE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "949469b75b5f"
-    },
-    {
-      "dateTaken": "2026-09-09",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "KINSMAN STUD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BORN TO KISS",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "949469b75b5f"
-    },
-    {
       "dateTaken": "2026-09-10",
       "requestedDates": "WITHIN 2 WEEKS",
       "takenBy": "LESLIE",
@@ -960,54 +888,6 @@
       ],
       "stallSpace": 3.0,
       "id": "6194a45a5a0f"
-    },
-    {
-      "dateTaken": "2026-09-11",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SANDY",
-      "requestedBy": "J DIVITO",
-      "origin": "KENTUCKY",
-      "originFarm": "HERMITAGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "CRUPIS",
-      "destinationFarm": "BO HUNT",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BONITA PRINCE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "7d684331de3c"
-    },
-    {
-      "dateTaken": "2026-09-11",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "ASHFORD",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "ROBBIE HARRIS",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "UDONIS",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "5d4c9c6a3f66"
     },
     {
       "dateTaken": "2026-09-12",
@@ -1138,30 +1018,6 @@
       "id": "bc3e448c348d"
     },
     {
-      "dateTaken": "2026-09-12",
-      "requestedDates": "ASAP",
-      "takenBy": "MANU",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "TAYLOR MADE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "M CLEMENT",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CITRUS SPRINGS",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "55aa6ee985af"
-    },
-    {
       "dateTaken": "2026-09-13",
       "requestedDates": "TUE SEPT 15 2026",
       "takenBy": "SCOTT",
@@ -1208,30 +1064,6 @@
       ],
       "stallSpace": 3.0,
       "id": "262f7ba2aafe"
-    },
-    {
-      "dateTaken": "2026-09-13",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "WINSTAR",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "M CLEMENT",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SAPPHIRE SPIRIT",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "0d311efd024e"
     },
     {
       "dateTaken": "2026-09-14",
@@ -1283,9 +1115,9 @@
     },
     {
       "dateTaken": "2026-09-14",
-      "requestedDates": "SEPT 15 2026",
+      "requestedDates": "NEXT AVAILABLE",
       "takenBy": "HARRY",
-      "requestedBy": "",
+      "requestedBy": "CASSE",
       "origin": "KENTUCKY",
       "originFarm": "",
       "originTrainer": "M CASSE",
@@ -1307,7 +1139,7 @@
         }
       ],
       "stallSpace": 6.0,
-      "id": "999d998f3159"
+      "id": "a9705678fc63"
     },
     {
       "dateTaken": "2026-09-14",
