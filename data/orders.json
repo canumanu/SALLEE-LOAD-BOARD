@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-15T16:45:14.032674Z",
+  "syncedAt": "2026-09-15T16:50:49.017395Z",
   "orders": [
     {
       "dateTaken": "2026-01-13",
@@ -528,30 +528,6 @@
       ],
       "stallSpace": 3.0,
       "id": "883dcc6233e2"
-    },
-    {
-      "dateTaken": "2026-09-10",
-      "requestedDates": "ASAP",
-      "takenBy": "LESLEY",
-      "requestedBy": "KIMBERLY ECKERLE",
-      "origin": "KENTUCKY",
-      "originFarm": "GEORGETOWN FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "UPSTATE NEW YORK",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CHATHAM NY FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MEKU",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "a85e1ca1a2c9"
     },
     {
       "dateTaken": "2026-09-10",
