@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-15T13:20:17.043581Z",
+  "syncedAt": "2026-09-15T13:25:12.990261Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -656,38 +656,6 @@
       ],
       "stallSpace": 3.0,
       "id": "6ea573523249"
-    },
-    {
-      "dateTaken": "2026-09-12",
-      "requestedDates": "SEPT 17-18",
-      "takenBy": "PHIL",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "B JACKSON",
-      "originTrack": "FAIR HILL",
-      "destination": "KENTUCKY",
-      "track": "TURFWAY",
-      "destinationTrainer": "A DELACOUR",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "3 HD",
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "84939650018b"
     },
     {
       "dateTaken": "2026-09-12",
