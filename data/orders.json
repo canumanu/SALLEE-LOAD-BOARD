@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-15T13:10:14.311435Z",
+  "syncedAt": "2026-09-15T13:15:14.781523Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -311,30 +311,6 @@
     },
     {
       "dateTaken": "2026-09-07",
-      "requestedDates": "AFTER SEPT 11 2026",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "AMANDA SIMMONS",
-      "origin": "KENTUCKY",
-      "originFarm": "MARGAUX FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "FAIR HILL ",
-      "destinationTrainer": "K BRION",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "NEW MOON",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "1128801b21fd"
-    },
-    {
-      "dateTaken": "2026-09-07",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "LESLIE",
       "requestedBy": "J VILLAGOMEZ",
@@ -356,42 +332,6 @@
       ],
       "stallSpace": 3.0,
       "id": "f87ccd6df16a"
-    },
-    {
-      "dateTaken": "2026-09-08",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "DAN",
-      "requestedBy": "",
-      "origin": "WOODBINE",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "WOODBINE",
-      "destination": "KENTUCKY",
-      "track": "GAINESWAY, TAYLOR MADE, FAWN LEAP, SHADOWLAWN",
-      "destinationTrainer": "",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "WILL REIGN",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "ABDUL",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "APPRECIATIVELY",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "TAP THIS WAY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 12.0,
-      "id": "491f15b28f92"
     },
     {
       "dateTaken": "2026-09-08",
@@ -500,30 +440,6 @@
       ],
       "stallSpace": 3.0,
       "id": "c46adaf2da82"
-    },
-    {
-      "dateTaken": "2026-09-08",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLEY",
-      "requestedBy": "SARA CAHILL",
-      "origin": "KENTUCKY",
-      "originFarm": "THREE SISTERS",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "M NEVIN",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "COME ON GET HAPPY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "9f70ee612ac6"
     },
     {
       "dateTaken": "2026-09-09",
