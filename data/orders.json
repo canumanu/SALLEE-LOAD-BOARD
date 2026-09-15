@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-15T16:05:13.182334Z",
+  "syncedAt": "2026-09-15T16:10:14.696721Z",
   "orders": [
     {
       "dateTaken": "2026-01-13",
@@ -336,30 +336,6 @@
       ],
       "stallSpace": 3.0,
       "id": "2b21a264a572"
-    },
-    {
-      "dateTaken": "2026-09-08",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "MARCY",
-      "origin": "KENTUCKY",
-      "originFarm": "LEXINGTON",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "UPSTATE NEW YORK",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "SARATOGA FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MARE AND FOAL",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "c46adaf2da82"
     },
     {
       "dateTaken": "2026-09-09",
