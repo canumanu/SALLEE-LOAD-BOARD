@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-16T12:40:15.117112Z",
+  "syncedAt": "2026-09-16T12:45:12.966412Z",
   "orders": [
     {
       "dateTaken": "2026-01-13",
@@ -288,30 +288,6 @@
     {
       "dateTaken": "2026-09-08",
       "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "DAN",
-      "requestedBy": "",
-      "origin": "WOODBINE",
-      "originFarm": "",
-      "originTrainer": "B MINSHALL",
-      "originTrack": "WOODBINE",
-      "destination": "KENTUCKY",
-      "track": "BINGO 25",
-      "destinationTrainer": "GLENCREST FARM",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "28e95a0c4036"
-    },
-    {
-      "dateTaken": "2026-09-08",
-      "requestedDates": "NEXT AVAILABLE",
       "takenBy": "LESLIE",
       "requestedBy": "FELIX",
       "origin": "EAST COAST",
@@ -555,38 +531,6 @@
     },
     {
       "dateTaken": "2026-09-12",
-      "requestedDates": "SEPT 17-18",
-      "takenBy": "PHIL",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "B JACKSON",
-      "originTrack": "FAIR HILL",
-      "destination": "KENTUCKY",
-      "track": "TURFWAY",
-      "destinationTrainer": "A DELACOUR",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ATLAS MAJOR",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "ESTEEMED GUEST",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "DREAM AUDIANCE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "84939650018b"
-    },
-    {
-      "dateTaken": "2026-09-12",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "JASON",
       "requestedBy": "",
@@ -806,54 +750,6 @@
       "id": "f3b3dc178b01"
     },
     {
-      "dateTaken": "2026-09-14",
-      "requestedDates": "SEPT 16 2026",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "R MOTT",
-      "originTrack": "KEENELAND",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA",
-      "destinationTrainer": "R MOTT",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MODAROSA",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "7a2ea0a34b2f"
-    },
-    {
-      "dateTaken": "2026-09-15",
-      "requestedDates": "SEPT 17-18",
-      "takenBy": "PHIL",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "L SCHULTZ",
-      "originTrack": "MONMOUTH",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "STONE FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "FARRAND",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "a15a4128b9b8"
-    },
-    {
       "dateTaken": "2026-09-15",
       "requestedDates": "SEPT 17-18",
       "takenBy": "PHIL",
@@ -880,46 +776,6 @@
       ],
       "stallSpace": 6.0,
       "id": "487e534d1bd1"
-    },
-    {
-      "dateTaken": "2026-09-15",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "DANNY",
-      "requestedBy": "",
-      "origin": "WOODBINE",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "WOODBINE",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "5 HD",
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 15.0,
-      "id": "dfced09d0960"
     },
     {
       "dateTaken": "2026-09-15",
