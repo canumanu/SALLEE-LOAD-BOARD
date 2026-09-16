@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-16T12:45:12.966412Z",
+  "syncedAt": "2026-09-16T12:50:15.114216Z",
   "orders": [
     {
       "dateTaken": "2026-01-13",
@@ -748,34 +748,6 @@
       ],
       "stallSpace": 3.0,
       "id": "f3b3dc178b01"
-    },
-    {
-      "dateTaken": "2026-09-15",
-      "requestedDates": "SEPT 17-18",
-      "takenBy": "PHIL",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "C BROWN",
-      "originTrack": "MONMOUTH",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "2 HD",
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "487e534d1bd1"
     },
     {
       "dateTaken": "2026-09-15",
