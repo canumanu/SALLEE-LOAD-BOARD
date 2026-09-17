@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-17T17:40:13.438491Z",
+  "syncedAt": "2026-09-17T17:45:15.900791Z",
   "orders": [
     {
       "dateTaken": "2026-01-13",
@@ -611,54 +611,6 @@
     },
     {
       "dateTaken": "2026-09-15",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "B WALSH",
-      "originTrack": "TURFWAY",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "BECKY THOMAS",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "WHTRUWEARINGFRLFRND",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "299038945994"
-    },
-    {
-      "dateTaken": "2026-09-15",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "CHURCHILL",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PIERETTE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "f4a9b4335234"
-    },
-    {
-      "dateTaken": "2026-09-15",
       "requestedDates": "SEPT 29 2026",
       "takenBy": "HARRY",
       "requestedBy": "",
@@ -796,30 +748,6 @@
     {
       "dateTaken": "2026-09-16",
       "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "BRIDLEWOOD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BISHOP BOOMING",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "5553df8e50a1"
-    },
-    {
-      "dateTaken": "2026-09-16",
-      "requestedDates": "NEXT AVAILABLE",
       "takenBy": "JASON",
       "requestedBy": "",
       "origin": "UPSTATE NEW YORK",
@@ -844,30 +772,6 @@
       ],
       "stallSpace": 6.0,
       "id": "8ffe3252f508"
-    },
-    {
-      "dateTaken": "2026-09-16",
-      "requestedDates": "FRI SEPT 18 ",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY",
-      "originFarm": "DELL RIDGE ",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "PAUL SHARP",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MONETTE 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "5553df8e50a1"
     },
     {
       "dateTaken": "2026-09-16",
@@ -916,34 +820,6 @@
       ],
       "stallSpace": 0,
       "id": "bbfc09d154b8"
-    },
-    {
-      "dateTaken": "2026-09-17",
-      "requestedDates": "SEPT 18 2026",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "EMILY ",
-      "origin": "KENTUCKY",
-      "originFarm": "TAYLOR MADE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "STEVEN VENOSA",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SIPPICAN HARBOR 25",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "VALENTIA ISLAND 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "763e8a9520e3"
     }
   ]
 }
