@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-17T12:30:17.202620Z",
+  "syncedAt": "2026-09-17T12:35:14.193705Z",
   "orders": [
     {
       "dateTaken": "2026-01-13",
@@ -504,54 +504,6 @@
       ],
       "stallSpace": 3.0,
       "id": "6ea573523249"
-    },
-    {
-      "dateTaken": "2026-09-12",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "C BROWN",
-      "originTrack": "SARATOGA",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "???",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "bcd8823dde97"
-    },
-    {
-      "dateTaken": "2026-09-12",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "C BROWN",
-      "originTrack": "SARATOGA  ",
-      "destination": "EAST COAST",
-      "track": "LAUREL",
-      "destinationTrainer": "B RUSSELL",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1HD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "199e0b3c424f"
     },
     {
       "dateTaken": "2026-09-12",
