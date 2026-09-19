@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-19T14:20:15.878397Z",
+  "syncedAt": "2026-09-19T14:25:11.351240Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -844,30 +844,6 @@
       ],
       "stallSpace": 3.0,
       "id": "f07672205462"
-    },
-    {
-      "dateTaken": "2026-09-17",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "PHIL",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "W BECKMAN",
-      "originTrack": "BELMONT",
-      "destination": "KENTUCKY",
-      "track": "CHURCHILL",
-      "destinationTrainer": "W BECKMAN",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "d5b4d04a7a98"
     },
     {
       "dateTaken": "2026-09-17",
