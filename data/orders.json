@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-20T17:40:12.740038Z",
+  "syncedAt": "2026-09-20T17:45:14.233541Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -892,30 +892,6 @@
       ],
       "stallSpace": 3.0,
       "id": "824d52ab8d7a"
-    },
-    {
-      "dateTaken": "2026-09-18",
-      "requestedDates": "ASAP",
-      "takenBy": "VICKIE",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "BELMONT",
-      "destination": "KENTUCKY",
-      "track": "ELLIS PARK",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SILENT TACTIC",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "f686027af2d1"
     },
     {
       "dateTaken": "2026-09-18",
