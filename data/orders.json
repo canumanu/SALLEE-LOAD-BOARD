@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-21T16:25:11.346564Z",
+  "syncedAt": "2026-09-21T16:30:17.211833Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -562,30 +562,6 @@
       "id": "a9705678fc63"
     },
     {
-      "dateTaken": "2026-09-14",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "HUNTER VALLEY",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "FAIRHILL ",
-      "destinationTrainer": "E MERRYMAN",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ZEE ZEE ZOOM ZOOM 24",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "f3b3dc178b01"
-    },
-    {
       "dateTaken": "2026-09-15",
       "requestedDates": "SEPT 29 2026",
       "takenBy": "HARRY",
@@ -696,30 +672,6 @@
       ],
       "stallSpace": 3.0,
       "id": "23b7e91706a5"
-    },
-    {
-      "dateTaken": "2026-09-16",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "S KURTZ",
-      "originTrack": "ELLIS PARK",
-      "destination": "EAST COAST",
-      "track": "FAIRHILL ",
-      "destinationTrainer": "K NIELSON",
-      "destinationFarm": "OR SANNA NIELSON'S FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "KICKING CLEAR",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "2a9cf61f5afa"
     },
     {
       "dateTaken": "2026-09-16",
