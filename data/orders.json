@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-22T12:40:14.792787Z",
+  "syncedAt": "2026-09-22T12:45:25.374049Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -700,30 +700,6 @@
       ],
       "stallSpace": 1.5,
       "id": "c8063a9315fb"
-    },
-    {
-      "dateTaken": "2026-09-17",
-      "requestedDates": "SEPT 20 2026",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "S JOSEPH",
-      "originTrack": "PMTC",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "TWIN OAKS",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "2 HD",
-          "stallSpace": 6.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "ad1c728ee5c4"
     },
     {
       "dateTaken": "2026-09-17",
