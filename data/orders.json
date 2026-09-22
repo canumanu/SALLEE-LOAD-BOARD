@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-22T12:35:16.568791Z",
+  "syncedAt": "2026-09-22T12:40:14.792787Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -713,7 +713,7 @@
       "destination": "KENTUCKY",
       "track": "",
       "destinationTrainer": "",
-      "destinationFarm": "TBD",
+      "destinationFarm": "TWIN OAKS",
       "tripDate": "",
       "drivers": "",
       "horses": [
@@ -820,30 +820,6 @@
       ],
       "stallSpace": 3.0,
       "id": "9dbb30783dd3"
-    },
-    {
-      "dateTaken": "2026-09-19",
-      "requestedDates": "SEPT 22 2026",
-      "takenBy": "VICKIE",
-      "requestedBy": "MITCH",
-      "origin": "OCALA",
-      "originFarm": "CASSE TC",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "WOODBINE",
-      "track": "WOODBINE",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "DOC DOWN",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "bb35ba6ad9ae"
     },
     {
       "dateTaken": "2026-09-19",
