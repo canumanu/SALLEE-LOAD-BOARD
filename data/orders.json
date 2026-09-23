@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-23T17:30:16.719741Z",
+  "syncedAt": "2026-09-23T17:35:15.773259Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -1070,12 +1070,12 @@
       "drivers": "",
       "horses": [
         {
-          "name": null,
-          "stallSpace": null
+          "name": "WEAPONIZED",
+          "stallSpace": 1.5
         }
       ],
-      "stallSpace": 0,
-      "id": "1b0df41b3ea2"
+      "stallSpace": 1.5,
+      "id": "df7c91a537e0"
     }
   ]
 }
