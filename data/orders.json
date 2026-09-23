@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-23T17:05:13.845309Z",
+  "syncedAt": "2026-09-23T17:10:16.673739Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -510,34 +510,6 @@
       "id": "2ff2991fdc59"
     },
     {
-      "dateTaken": "2026-09-14",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "CASSE",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "ELLIS PARK",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MALIBU DANCER",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "MEDINAH",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "a9705678fc63"
-    },
-    {
       "dateTaken": "2026-09-15",
       "requestedDates": "SEPT 29 2026",
       "takenBy": "HARRY",
@@ -904,54 +876,6 @@
       ],
       "stallSpace": 0,
       "id": "9dbfb43fcbf1"
-    },
-    {
-      "dateTaken": "2026-09-21",
-      "requestedDates": "ASAP",
-      "takenBy": "KAYLA",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "K DANNER ",
-      "originTrack": "?",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "K DANNER",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LOVELY GRA",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "9cc0df8cc7e6"
-    },
-    {
-      "dateTaken": "2026-09-21",
-      "requestedDates": "THU SPET 24 2026",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "R MEDINA",
-      "originTrack": "KY HORSE CENTER",
-      "destination": "EAST COAST",
-      "track": "DELAWARE PARK",
-      "destinationTrainer": "R MEDINA",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SPECTACULAR ADAM",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "c57b00f5888e"
     },
     {
       "dateTaken": "2026-09-22",
