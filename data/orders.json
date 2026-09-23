@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-23T18:15:13.006710Z",
+  "syncedAt": "2026-09-23T18:20:13.417229Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -390,30 +390,6 @@
       "id": "a763cf50d560"
     },
     {
-      "dateTaken": "2026-09-12",
-      "requestedDates": "SEPT 21-23",
-      "takenBy": "PEPE",
-      "requestedBy": "",
-      "origin": "OCALA",
-      "originFarm": "ARINDEL FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "BROOKSTONE FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "DIZZY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "bc3e448c348d"
-    },
-    {
       "dateTaken": "2026-09-13",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "MANU",
@@ -484,30 +460,6 @@
       ],
       "stallSpace": 21.0,
       "id": "5353457da6f8"
-    },
-    {
-      "dateTaken": "2026-09-14",
-      "requestedDates": "SEPT 23 2026",
-      "takenBy": "LESLIE",
-      "requestedBy": "",
-      "origin": "OCALA",
-      "originFarm": "BRIARDALE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "KENTUCKY",
-      "track": "KEENELAND SALE",
-      "destinationTrainer": "",
-      "destinationFarm": "PARAMOUNT",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "NO BID KID 25/HIP 4601",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "2ff2991fdc59"
     },
     {
       "dateTaken": "2026-09-15",
@@ -907,30 +859,6 @@
     },
     {
       "dateTaken": "2026-09-22",
-      "requestedDates": "WED SEPT 23 2026",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "",
-      "origin": "OCALA",
-      "originFarm": "ISLAND FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "KENTUCKY ",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "DOUBLE B FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TOTO",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "5adcab1f8931"
-    },
-    {
-      "dateTaken": "2026-09-22",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "JASON",
       "requestedBy": "",
@@ -1007,27 +935,31 @@
     },
     {
       "dateTaken": "2026-09-23",
-      "requestedDates": "SEPT 24 2026",
-      "takenBy": "SANDY",
+      "requestedDates": "AFTER 9/25",
+      "takenBy": "LESLIE",
       "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "B LYNCH",
-      "originTrack": "CHURCHILL",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "D GARGAN",
+      "origin": "OCALA",
+      "originFarm": "EISAMAN",
+      "originTrainer": "",
+      "originTrack": "",
+      "destination": "FAIRGROUNDS",
+      "track": "",
+      "destinationTrainer": "C DEVAUX",
       "destinationFarm": "",
       "tripDate": "",
       "drivers": "",
       "horses": [
         {
-          "name": "SISTER TROINNE",
-          "stallSpace": 3.0
+          "name": "LADY SERENA 24",
+          "stallSpace": 6.0
+        },
+        {
+          "name": "PHYSIQUE",
+          "stallSpace": null
         }
       ],
-      "stallSpace": 3.0,
-      "id": "5e279c9ab785"
+      "stallSpace": 6.0,
+      "id": "a1d57e82dd32"
     },
     {
       "dateTaken": "2026-09-23",
