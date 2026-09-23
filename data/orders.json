@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-23T14:00:20.460305Z",
+  "syncedAt": "2026-09-23T14:05:17.194706Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -562,46 +562,6 @@
       "id": "7d218a64ed1e"
     },
     {
-      "dateTaken": "2026-09-15",
-      "requestedDates": "SEPT 24 2026",
-      "takenBy": "LESLEY",
-      "requestedBy": "ERIC",
-      "origin": "KENTUCKY",
-      "originFarm": "FLYING DUTCHMAN",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "OCALA STUD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TURBO TACO",
-          "stallSpace": 15.0
-        },
-        {
-          "name": "BIG CLAY MAN",
-          "stallSpace": null
-        },
-        {
-          "name": "GOATED",
-          "stallSpace": null
-        },
-        {
-          "name": "IT'S THE CLIMATE",
-          "stallSpace": null
-        },
-        {
-          "name": "FLIGHT THE POWER",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 15.0,
-      "id": "9f4b83c635d2"
-    },
-    {
       "dateTaken": "2026-09-16",
       "requestedDates": "SEPT 29-30",
       "takenBy": "LESLIE",
@@ -676,30 +636,6 @@
       ],
       "stallSpace": 1.5,
       "id": "c8063a9315fb"
-    },
-    {
-      "dateTaken": "2026-09-17",
-      "requestedDates": "SEPT 24 2026",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "B LYNCH",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SISTER TROINNE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "682adcd84132"
     },
     {
       "dateTaken": "2026-09-17",
