@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-23T15:45:13.379459Z",
+  "syncedAt": "2026-09-23T15:50:13.336903Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -883,30 +883,6 @@
     },
     {
       "dateTaken": "2026-09-20",
-      "requestedDates": "WEEK OF 9/20",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "J O'DWYER",
-      "originTrack": "KY HORSE CENTER",
-      "destination": "TAMPA",
-      "track": "ENFIELD TC",
-      "destinationTrainer": "T DAVIS",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "KISS THE PRINCESS",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "aee70c2fadbc"
-    },
-    {
-      "dateTaken": "2026-09-20",
       "requestedDates": "READY FRIDAY 9/25",
       "takenBy": "BEN",
       "requestedBy": "",
@@ -976,58 +952,6 @@
       ],
       "stallSpace": 3.0,
       "id": "c57b00f5888e"
-    },
-    {
-      "dateTaken": "2026-09-21",
-      "requestedDates": "9/24-9/25 2026",
-      "takenBy": "KAYLA",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "NIALL BRENNAN ",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SIMPLY JUSTIFIED",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "MARKET HOURS",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "19a774898ae6"
-    },
-    {
-      "dateTaken": "2026-09-22",
-      "requestedDates": "9/24-9/25 2026",
-      "takenBy": "KAYLA",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "BRIDLEWOOD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LIQUID ASSET",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "55cfec03072e"
     },
     {
       "dateTaken": "2026-09-22",
