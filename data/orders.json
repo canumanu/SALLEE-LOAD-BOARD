@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-23T15:55:13.966551Z",
+  "syncedAt": "2026-09-23T16:00:23.745498Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -795,19 +795,19 @@
       "originTrainer": "T KEEFE",
       "originTrack": "LAUREL",
       "destination": "KENTUCKY",
-      "track": "ELLIS PARK",
-      "destinationTrainer": "T KEEFE",
+      "track": "CHURCHILL",
+      "destinationTrainer": "M CASSE",
       "destinationFarm": "",
       "tripDate": "",
       "drivers": "",
       "horses": [
         {
-          "name": "FRENCH FICTION",
+          "name": "FRENCH FRICTION",
           "stallSpace": 3.0
         }
       ],
       "stallSpace": 3.0,
-      "id": "2bf152063920"
+      "id": "6c53a9fe0020"
     },
     {
       "dateTaken": "2026-09-19",
@@ -1080,34 +1080,6 @@
       ],
       "stallSpace": 3.0,
       "id": "1ec4a501f692"
-    },
-    {
-      "dateTaken": "2026-09-23",
-      "requestedDates": "AFTER 9/25",
-      "takenBy": "LESLIE",
-      "requestedBy": "",
-      "origin": "OCALA",
-      "originFarm": "EISAMAN",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "FAIRGROUNDS",
-      "track": "",
-      "destinationTrainer": "C DEVAUX",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LADY SERENA 24",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "PHYSIQUE",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "a1d57e82dd32"
     },
     {
       "dateTaken": "2026-09-23",
