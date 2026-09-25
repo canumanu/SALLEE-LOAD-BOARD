@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-25T15:15:18.327756Z",
+  "syncedAt": "2026-09-25T15:20:14.324859Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -292,30 +292,6 @@
       ],
       "stallSpace": 0,
       "id": "26508bc2652f"
-    },
-    {
-      "dateTaken": "2026-09-09",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE",
-      "requestedBy": "CARLOS MORALES",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "",
-      "originTrack": "MONMOUTH",
-      "destination": "SOUTH FLORIDA",
-      "track": "PMTC",
-      "destinationTrainer": "?",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "fef2d7fc89ba"
     },
     {
       "dateTaken": "2026-09-09",
@@ -939,30 +915,6 @@
     },
     {
       "dateTaken": "2026-09-23",
-      "requestedDates": "BEFORE 9/28",
-      "takenBy": "LESLIE",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M MAKER",
-      "originTrack": "CHURCHILL",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "MOUSE RANCH",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "WEAPONIZED",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "df7c91a537e0"
-    },
-    {
-      "dateTaken": "2026-09-23",
       "requestedDates": "SATURDAY SEPT 26",
       "takenBy": "HARRY",
       "requestedBy": "",
@@ -1172,6 +1124,30 @@
       ],
       "stallSpace": 0,
       "id": "bb29cbd9ccbb"
+    },
+    {
+      "dateTaken": "2026-09-25",
+      "requestedDates": "NEXT AVAILABLE",
+      "takenBy": "LESLIE",
+      "requestedBy": "ANDREW DIXON",
+      "origin": "OCALA",
+      "originFarm": "",
+      "originTrainer": "",
+      "originTrack": "NEW WPIDSOE",
+      "destination": "",
+      "track": "",
+      "destinationTrainer": "PARX",
+      "destinationFarm": "",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "1 HD",
+          "stallSpace": 1.5
+        }
+      ],
+      "stallSpace": 1.5,
+      "id": "9beadc17d90c"
     }
   ]
 }
