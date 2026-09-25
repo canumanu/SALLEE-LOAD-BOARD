@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-25T17:55:14.094683Z",
+  "syncedAt": "2026-09-25T18:00:19.684640Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -784,30 +784,6 @@
       ],
       "stallSpace": 6.0,
       "id": "98c5c02152d1"
-    },
-    {
-      "dateTaken": "2026-09-22",
-      "requestedDates": "FRI 9/25 2026",
-      "takenBy": "VICKIE",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "ROYAL OAK FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "APRIL MAYBERRY ",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ARGENT AFFAIR 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "f18e8acfe825"
     },
     {
       "dateTaken": "2026-09-23",
