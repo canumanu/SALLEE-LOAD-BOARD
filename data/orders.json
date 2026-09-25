@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-25T14:10:16.983925Z",
+  "syncedAt": "2026-09-25T14:15:14.538904Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -660,30 +660,6 @@
       ],
       "stallSpace": 6.0,
       "id": "2a253945458f"
-    },
-    {
-      "dateTaken": "2026-09-19",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "DAVID",
-      "requestedBy": "MATT DUNMIRE",
-      "origin": "KENTUCKY ",
-      "originFarm": "PARIS FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "LAKE WORTH FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 COLT",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "bdad16f50428"
     },
     {
       "dateTaken": "2026-09-19",
