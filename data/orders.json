@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-27T17:00:20.077571Z",
+  "syncedAt": "2026-09-27T17:05:17.327066Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -587,30 +587,6 @@
     },
     {
       "dateTaken": "2026-09-19",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "PEPE",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "K MCPEEK",
-      "originTrack": "CHURCHILL",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "ARINDEL",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "JUNEAU",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "ea6a7bccafc7"
-    },
-    {
-      "dateTaken": "2026-09-19",
       "requestedDates": "WEEK OF 9/20",
       "takenBy": "HARRY",
       "requestedBy": "",
@@ -660,30 +636,6 @@
       ],
       "stallSpace": 3.0,
       "id": "6c53a9fe0020"
-    },
-    {
-      "dateTaken": "2026-09-19",
-      "requestedDates": "SEPT 25-27",
-      "takenBy": "LESLEY",
-      "requestedBy": "CARLOS ",
-      "origin": "KENTUCKY ",
-      "originFarm": "RIVER OAK FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SHACKADELIC 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "77e9019d5a7e"
     },
     {
       "dateTaken": "2026-09-20",
@@ -950,30 +902,6 @@
       "id": "9dc6ce460f64"
     },
     {
-      "dateTaken": "2026-09-24",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "J D'ANGELO",
-      "originTrack": "GULFSTREAM",
-      "destination": "KENTUCKY ",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "KNOCKGRIFFIN FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "STARSHIP JULIETTE",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "7566a6a99568"
-    },
-    {
       "dateTaken": "2026-09-25",
       "requestedDates": "10/1/2026-10/2/2026",
       "takenBy": "SANDY",
@@ -1186,11 +1114,11 @@
       "drivers": "",
       "horses": [
         {
-          "name": "AYE EYE. YASTRZEMSKI",
+          "name": "AYE EYE",
           "stallSpace": 3.0
         },
         {
-          "name": null,
+          "name": "YASTRZEMSKI",
           "stallSpace": 3.0
         }
       ],
