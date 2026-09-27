@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-27T17:20:11.773468Z",
+  "syncedAt": "2026-09-27T17:25:12.201536Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -72,30 +72,6 @@
       ],
       "stallSpace": 21.0,
       "id": "1a12c04bbecf"
-    },
-    {
-      "dateTaken": "2026-08-24",
-      "requestedDates": "ASAP",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "KY HORSE PARK",
-      "originTrainer": "A WELLS",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "",
-      "destinationTrainer": "A WELLS",
-      "destinationFarm": "AIKEN HORSE PARK",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SWAYZE",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "67b5e88ea028"
     },
     {
       "dateTaken": "2026-09-03",
