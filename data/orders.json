@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-27T16:05:14.283706Z",
+  "syncedAt": "2026-09-27T16:10:11.813290Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -1196,30 +1196,6 @@
       ],
       "stallSpace": 6.0,
       "id": "b031d360ab73"
-    },
-    {
-      "dateTaken": "2026-09-26",
-      "requestedDates": "AFTER 10/1/2026",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "K DANNER ",
-      "originTrack": "BELMONT",
-      "destination": "KENTUCKY ",
-      "track": "TURFWAY",
-      "destinationTrainer": "K DANNER",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LOVELY GREY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "cba2cb0c6a2d"
     }
   ]
 }
