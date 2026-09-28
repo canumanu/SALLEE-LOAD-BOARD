@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-28T13:25:14.240751Z",
+  "syncedAt": "2026-09-28T13:30:19.976384Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -896,30 +896,6 @@
       ],
       "stallSpace": 3.0,
       "id": "5bf81275fa32"
-    },
-    {
-      "dateTaken": "2026-09-25",
-      "requestedDates": "ASAP",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "R MEDINA",
-      "originTrack": "DELAWARE PARK",
-      "destination": "KENTUCKY ",
-      "track": "KY HORSE CENTER",
-      "destinationTrainer": "R MEDINA",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SPECTACULAR ADAM",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "0c7299f31162"
     },
     {
       "dateTaken": "2026-09-25",
