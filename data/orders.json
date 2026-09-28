@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-28T14:30:20.159542Z",
+  "syncedAt": "2026-09-28T14:35:15.074641Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -292,30 +292,6 @@
       ],
       "stallSpace": 3.0,
       "id": "d868a24119b5"
-    },
-    {
-      "dateTaken": "2026-09-14",
-      "requestedDates": "SEPT 27 2026",
-      "takenBy": "LESLIE",
-      "requestedBy": "CAMILLE",
-      "origin": "KENTUCKY",
-      "originFarm": "KY HORSE PARK",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CAMILLE MAYNARD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "9 HD/TRUCK",
-          "stallSpace": 21.0
-        }
-      ],
-      "stallSpace": 21.0,
-      "id": "5353457da6f8"
     },
     {
       "dateTaken": "2026-09-15",
