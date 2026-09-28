@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-28T19:15:15.477276Z",
+  "syncedAt": "2026-09-28T19:20:14.598424Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -466,34 +466,6 @@
       "id": "9dbb30783dd3"
     },
     {
-      "dateTaken": "2026-09-19",
-      "requestedDates": "WEEK OF 9/20",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "TAYLOR MADE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "VOLCANO",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "COFFEE",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "2a253945458f"
-    },
-    {
       "dateTaken": "2026-09-20",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "JERRY",
@@ -568,30 +540,6 @@
       ],
       "stallSpace": 6.0,
       "id": "98c5c02152d1"
-    },
-    {
-      "dateTaken": "2026-09-23",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLEY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "TAYLOR MADE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "NIALL BRENNAN ",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "HAMO 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "1ec4a501f692"
     },
     {
       "dateTaken": "2026-09-23",
@@ -672,38 +620,6 @@
       ],
       "stallSpace": 3.0,
       "id": "f151c3729923"
-    },
-    {
-      "dateTaken": "2026-09-24",
-      "requestedDates": "AFTER 9/30",
-      "takenBy": "LESLEY",
-      "requestedBy": "EMILY",
-      "origin": "KENTUCKY ",
-      "originFarm": "TAYLOR MADE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "NIALL BRENNAN ",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "NEW NORMAL 25",
-          "stallSpace": 9.0
-        },
-        {
-          "name": "FILA PRIMERA 25",
-          "stallSpace": null
-        },
-        {
-          "name": "NURSE RUBY 25",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "9dc6ce460f64"
     },
     {
       "dateTaken": "2026-09-25",
@@ -855,30 +771,6 @@
     },
     {
       "dateTaken": "2026-09-26",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "CARL MCENTEE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "NIALL BRENNAN ",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MAGICAL THOUGHT 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "12919630a1a5"
-    },
-    {
-      "dateTaken": "2026-09-26",
       "requestedDates": "ASAP",
       "takenBy": "LESLIE",
       "requestedBy": "",
@@ -904,30 +796,6 @@
       ],
       "stallSpace": 6.0,
       "id": "b031d360ab73"
-    },
-    {
-      "dateTaken": "2026-09-28",
-      "requestedDates": "ASAP",
-      "takenBy": "KEITH",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "JOE MULHOLLAND",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "DELUCA & SONS",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BOERNE 25",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "619437edaa8e"
     },
     {
       "dateTaken": "2026-09-28",
