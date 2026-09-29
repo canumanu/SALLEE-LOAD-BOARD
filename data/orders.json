@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-29T12:25:12.863055Z",
+  "syncedAt": "2026-09-29T12:30:15.442813Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -1113,21 +1113,17 @@
       "destination": "OCALA",
       "track": "",
       "destinationTrainer": "",
-      "destinationFarm": "P SHARP/OCALA STUD",
+      "destinationFarm": "OCALA STUD",
       "tripDate": "",
       "drivers": "",
       "horses": [
-        {
-          "name": "NICHOLES LUCKYCHARM 25",
-          "stallSpace": 1.5
-        },
         {
           "name": "SOMA 25",
           "stallSpace": 1.5
         }
       ],
-      "stallSpace": 3.0,
-      "id": "ff45458eaede"
+      "stallSpace": 1.5,
+      "id": "2c94c9498513"
     },
     {
       "dateTaken": "2026-09-28",
