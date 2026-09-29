@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-29T12:35:11.763261Z",
+  "syncedAt": "2026-09-29T12:40:16.299557Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -594,34 +594,6 @@
       "id": "9875e18c4572"
     },
     {
-      "dateTaken": "2026-09-24",
-      "requestedDates": "WEEK OF 9/28",
-      "takenBy": "LESLEY",
-      "requestedBy": "BARRY ",
-      "origin": "KENTUCKY ",
-      "originFarm": "FEDAMORE ",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "C DUNNE",
-      "destinationFarm": "WAVERTREE",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SHOWMETHEMAGIC",
-          "stallSpace": 1.5
-        },
-        {
-          "name": "REALISTIC",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "f151c3729923"
-    },
-    {
       "dateTaken": "2026-09-25",
       "requestedDates": "10/1/2026-10/2/2026",
       "takenBy": "SANDY",
@@ -892,34 +864,6 @@
       ],
       "stallSpace": 9.0,
       "id": "a0bbd13565b1"
-    },
-    {
-      "dateTaken": "2026-09-28",
-      "requestedDates": "TUE 9/29/26",
-      "takenBy": "VICKIE",
-      "requestedBy": "PHIL",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "F BOGLE",
-      "originTrack": "HIGH POINT TRAINING CENTER",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "L RICE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "GLAZIN FURY",
-          "stallSpace": 1.5
-        },
-        {
-          "name": "SYSTEMIC CHANGE",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "9f7183b01bd4"
     },
     {
       "dateTaken": "2026-09-28",
