@@ -1,54 +1,6 @@
 {
-  "syncedAt": "2026-09-30T18:25:13.009570Z",
+  "syncedAt": "2026-09-30T18:30:19.878048Z",
   "orders": [
-    {
-      "dateTaken": "2026-04-20",
-      "requestedDates": "MID SEPTEMBER",
-      "takenBy": "BEN",
-      "requestedBy": "DENNIS",
-      "origin": "TENNESSEE",
-      "originFarm": "IN ROSSVILLE TN",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "4 HD",
-          "stallSpace": 12.0
-        }
-      ],
-      "stallSpace": 12.0,
-      "id": "1408dbfd057e"
-    },
-    {
-      "dateTaken": "2026-08-21",
-      "requestedDates": "MID-END SEPTEMBER",
-      "takenBy": "LESLIE",
-      "requestedBy": "LINDSAY HENSLEY",
-      "origin": "INDIANA",
-      "originFarm": "LAWRENCEBURG, IN",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "WEIRSDALE, FL",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "8a3625909b1b"
-    },
     {
       "dateTaken": "2026-09-03",
       "requestedDates": "OCTOBER 8 2026",
