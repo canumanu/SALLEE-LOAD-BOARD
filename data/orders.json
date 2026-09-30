@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-30T12:35:13.801805Z",
+  "syncedAt": "2026-09-30T12:40:17.496919Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -244,30 +244,6 @@
       ],
       "stallSpace": 3.0,
       "id": "a763cf50d560"
-    },
-    {
-      "dateTaken": "2026-09-13",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "STEVE",
-      "origin": "KENTUCKY",
-      "originFarm": "TAYLOR MADE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "TOM MCCROCKLIN",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SOCIETY'S SONG 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "d868a24119b5"
     },
     {
       "dateTaken": "2026-09-15",
