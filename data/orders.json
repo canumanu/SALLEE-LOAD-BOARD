@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-30T12:30:17.929653Z",
+  "syncedAt": "2026-09-30T12:35:13.801805Z",
   "orders": [
     {
       "dateTaken": "2026-04-20",
@@ -867,34 +867,6 @@
     },
     {
       "dateTaken": "2026-09-28",
-      "requestedDates": "10/1-10/2",
-      "takenBy": "VICKIE",
-      "requestedBy": "PETER",
-      "origin": "KENTUCKY ",
-      "originFarm": "HILL N DALE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "OCALA STUD ",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SWEET ACHIEVER 25",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "PUT TOGETHER 25",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "f298e84ff0a5"
-    },
-    {
-      "dateTaken": "2026-09-28",
       "requestedDates": "10/1-10/6",
       "takenBy": "LESLEY",
       "requestedBy": "RANDY",
@@ -952,30 +924,6 @@
     {
       "dateTaken": "2026-09-28",
       "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLEY",
-      "requestedBy": "MAKAYLA",
-      "origin": "KENTUCKY ",
-      "originFarm": "DENALI",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "OCALA STUD ",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "NIGHT AND DAY 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "da0d6421d8d7"
-    },
-    {
-      "dateTaken": "2026-09-28",
-      "requestedDates": "NEXT AVAILABLE",
       "takenBy": "LESLIE",
       "requestedBy": "LEXI",
       "origin": "EAST COAST",
@@ -1020,30 +968,6 @@
       ],
       "stallSpace": 1.5,
       "id": "0d093599616d"
-    },
-    {
-      "dateTaken": "2026-09-28",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLEY",
-      "requestedBy": "CHRISTINE",
-      "origin": "KENTUCKY ",
-      "originFarm": "ASHVIEW",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "OCALA STUD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SOMA 25",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "2c94c9498513"
     },
     {
       "dateTaken": "2026-09-28",
@@ -1119,30 +1043,6 @@
     },
     {
       "dateTaken": "2026-09-29",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "STEVE",
-      "origin": "KENTUCKY ",
-      "originFarm": "TAYLOR MADE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "TOM MCCROCKLIN",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SOCIETY SONG 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "602181544def"
-    },
-    {
-      "dateTaken": "2026-09-29",
       "requestedDates": "WEEK OF 10/5",
       "takenBy": "LESLEY",
       "requestedBy": "TOM",
@@ -1192,6 +1092,30 @@
       ],
       "stallSpace": 1.5,
       "id": "dd90f373248c"
+    },
+    {
+      "dateTaken": "2026-09-30",
+      "requestedDates": "AROUND OCT 15 2026",
+      "takenBy": "LESLEY",
+      "requestedBy": "JULIA",
+      "origin": "KENTUCKY ",
+      "originFarm": "NEWTOWN STATION",
+      "originTrainer": "",
+      "originTrack": "",
+      "destination": "OCALA",
+      "track": "",
+      "destinationTrainer": "",
+      "destinationFarm": "JULIA WORDEN",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "TALLWATER",
+          "stallSpace": 1.5
+        }
+      ],
+      "stallSpace": 1.5,
+      "id": "2d10bb0073ee"
     },
     {
       "dateTaken": "2026-09-30",
