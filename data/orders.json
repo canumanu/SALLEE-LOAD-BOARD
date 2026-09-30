@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-09-30T18:30:19.878048Z",
+  "syncedAt": "2026-09-30T18:35:14.567308Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -463,15 +463,11 @@
       "horses": [
         {
           "name": "LADY SERENA 24",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "PHYSIQUE",
-          "stallSpace": null
+          "stallSpace": 3.0
         }
       ],
-      "stallSpace": 6.0,
-      "id": "a1d57e82dd32"
+      "stallSpace": 3.0,
+      "id": "a31cdc8ed0f4"
     },
     {
       "dateTaken": "2026-09-23",
