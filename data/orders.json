@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-01T15:20:17.159492Z",
+  "syncedAt": "2026-10-01T15:25:14.665598Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -320,30 +320,6 @@
       ],
       "stallSpace": 3.0,
       "id": "cacbd4ce9d95"
-    },
-    {
-      "dateTaken": "2026-09-18",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "PEPE",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "WARRENTON VA",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "MARIO",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "?",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "9dbb30783dd3"
     },
     {
       "dateTaken": "2026-09-20",
