@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-01T15:05:14.367660Z",
+  "syncedAt": "2026-10-01T15:10:18.427986Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -148,30 +148,6 @@
       ],
       "stallSpace": 0,
       "id": "645340ffe0d3"
-    },
-    {
-      "dateTaken": "2026-09-09",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "JJ TONER",
-      "originTrack": "PMTC",
-      "destination": "EAST COAST",
-      "track": "VIRGINIA OR LAUREL",
-      "destinationTrainer": "RETIREMENT HOME",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "26508bc2652f"
     },
     {
       "dateTaken": "2026-09-12",
@@ -368,30 +344,6 @@
       ],
       "stallSpace": 3.0,
       "id": "9dbb30783dd3"
-    },
-    {
-      "dateTaken": "2026-09-20",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "JERRY",
-      "requestedBy": "",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "D HURTAK",
-      "originTrack": "GULFSTREAM",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "",
-      "destinationFarm": "A DEVAUX",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LEE'S ON THE LOOSE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "d137112dab46"
     },
     {
       "dateTaken": "2026-09-20",
@@ -868,30 +820,6 @@
       ],
       "stallSpace": 0,
       "id": "2997307ddabf"
-    },
-    {
-      "dateTaken": "2026-09-28",
-      "requestedDates": "ASAP",
-      "takenBy": "MIKE",
-      "requestedBy": "LESLIE",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "B DIBONA",
-      "originTrack": "GULFSTREAM",
-      "destination": "EAST COAST",
-      "track": "PARX",
-      "destinationTrainer": "R DANCLY ",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "COMPASS RISE",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "0d093599616d"
     },
     {
       "dateTaken": "2026-09-28",
