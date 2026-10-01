@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-01T12:35:15.408437Z",
+  "syncedAt": "2026-10-01T12:40:16.632744Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -992,30 +992,6 @@
       ],
       "stallSpace": 6.0,
       "id": "a037c74ed0ce"
-    },
-    {
-      "dateTaken": "2026-09-29",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "KAYLA",
-      "requestedBy": "CAROL",
-      "origin": "KENTUCKY ",
-      "originFarm": "MARGAUX",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "PALM MEADOWS",
-      "destinationTrainer": "N TOMLINSON",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CAPELLA CARMINA",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "dd90f373248c"
     },
     {
       "dateTaken": "2026-09-30",
