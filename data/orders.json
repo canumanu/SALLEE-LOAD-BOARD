@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-02T16:25:23.904940Z",
+  "syncedAt": "2026-10-02T16:30:20.129226Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -719,30 +719,6 @@
     },
     {
       "dateTaken": "2026-09-28",
-      "requestedDates": "10/1-10/6",
-      "takenBy": "LESLEY",
-      "requestedBy": "RANDY",
-      "origin": "KENTUCKY ",
-      "originFarm": "TOM VANMETER",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "D MCKATHAN",
-      "destinationFarm": "GRASSROOTS",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "GOLD TRADER",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "542ca76c2622"
-    },
-    {
-      "dateTaken": "2026-09-28",
       "requestedDates": "AFTER 10/4",
       "takenBy": "LESLEY",
       "requestedBy": "MARK",
@@ -971,30 +947,6 @@
     },
     {
       "dateTaken": "2026-09-30",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "CHURCHILL",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TRAINING CENTER",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PRIDE ROCK",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "7c066bff843f"
-    },
-    {
-      "dateTaken": "2026-09-30",
       "requestedDates": "SUNDAY, 10/4/26",
       "takenBy": "DAVID",
       "requestedBy": "",
@@ -1016,102 +968,6 @@
       ],
       "stallSpace": 1.5,
       "id": "4b7e7b5ea145"
-    },
-    {
-      "dateTaken": "2026-09-30",
-      "requestedDates": "ASAP",
-      "takenBy": "LESLIE",
-      "requestedBy": "PEPE",
-      "origin": "KENTUCKY ",
-      "originFarm": "TAYLOR MADE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "ARINDEL",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SCENIC OVERLOOK 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "53b7fb0a1537"
-    },
-    {
-      "dateTaken": "2026-10-01",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "KAYLA",
-      "requestedBy": "ROBERTO",
-      "origin": "KENTUCKY ",
-      "originFarm": "BROWNSTEAD FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "NORTHWEST STUD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "VALIANT PRIASE 25",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "b5beb54ff81f"
-    },
-    {
-      "dateTaken": "2026-10-01",
-      "requestedDates": "SUNDAY, 10/4/26",
-      "takenBy": "KAYLA",
-      "requestedBy": "ALI",
-      "origin": "KENTUCKY ",
-      "originFarm": "CHESAPEAKE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "SHADYBROOK FARM ",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CADDY LOOPER",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "028de3c208d7"
-    },
-    {
-      "dateTaken": "2026-10-01",
-      "requestedDates": "SUNDAY, 10/4/26",
-      "takenBy": "KAYLA",
-      "requestedBy": "ALI",
-      "origin": "KENTUCKY ",
-      "originFarm": "CHESAPEAKE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "KINGS EQUINE",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PRIMACY 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "028de3c208d7"
     },
     {
       "dateTaken": "2026-10-02",
