@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-02T13:15:16.157443Z",
+  "syncedAt": "2026-10-02T13:20:15.067962Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -734,7 +734,7 @@
       "drivers": "",
       "horses": [
         {
-          "name": "GOLD TRADER 25",
+          "name": "GOLD TRADER",
           "stallSpace": 1.5
         }
       ],
