@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-03T16:50:13.683298Z",
+  "syncedAt": "2026-10-03T16:55:13.115782Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -968,30 +968,6 @@
       ],
       "stallSpace": 3.0,
       "id": "b64e5eb5c135"
-    },
-    {
-      "dateTaken": "2026-10-02",
-      "requestedDates": "SUNDAY, 10/4/26",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "L SCHULTZ",
-      "originTrack": "KEENELAND",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "T DONAHUE",
-      "destinationFarm": "CASTLE GATE",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "GERRARD'S CROSS",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "a8c7db0c7358"
     },
     {
       "dateTaken": "2026-10-02",
