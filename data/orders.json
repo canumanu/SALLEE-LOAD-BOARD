@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-05T15:55:14.513318Z",
+  "syncedAt": "2026-10-05T16:00:20.914667Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -248,30 +248,6 @@
       ],
       "stallSpace": 6.0,
       "id": "8ffe3252f508"
-    },
-    {
-      "dateTaken": "2026-09-16",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "PEPE",
-      "requestedBy": "",
-      "origin": "OCALA",
-      "originFarm": "LITTLE TREE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "LAUREL",
-      "track": "",
-      "destinationTrainer": "TBD",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "?",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "c8063a9315fb"
     },
     {
       "dateTaken": "2026-09-17",
