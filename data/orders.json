@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-05T13:20:18.638273Z",
+  "syncedAt": "2026-10-05T13:25:16.784290Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -803,30 +803,6 @@
     },
     {
       "dateTaken": "2026-09-30",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "KAYLA",
-      "requestedBy": "JOE MILLER",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "D O'NEILL",
-      "originTrack": "KEENELAND",
-      "destination": "SOUTH FLORIDA",
-      "track": "PALM MEADOWS",
-      "destinationTrainer": "S JOSEPH",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "COLTH",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "226cf1768fd3"
-    },
-    {
-      "dateTaken": "2026-09-30",
       "requestedDates": "SUNDAY, 10/4/26",
       "takenBy": "DAVID",
       "requestedBy": "",
@@ -848,6 +824,30 @@
       ],
       "stallSpace": 1.5,
       "id": "4b7e7b5ea145"
+    },
+    {
+      "dateTaken": "2026-10-01",
+      "requestedDates": "NEXT AVAILABLE",
+      "takenBy": "KAYLA",
+      "requestedBy": "ROBERTO",
+      "origin": "KENTUCKY ",
+      "originFarm": "BROWNSTEAD FARM",
+      "originTrainer": "",
+      "originTrack": "",
+      "destination": "OCALA",
+      "track": "",
+      "destinationTrainer": "",
+      "destinationFarm": "NELSON JONES",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "VALIANT PRIASE 25",
+          "stallSpace": 1.5
+        }
+      ],
+      "stallSpace": 1.5,
+      "id": "b5beb54ff81f"
     },
     {
       "dateTaken": "2026-10-02",
@@ -1140,34 +1140,6 @@
     {
       "dateTaken": "2026-10-05",
       "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "C DAVID",
-      "originTrack": "KEENELAND",
-      "destination": "SOUTH FLORIDA",
-      "track": "PALM MEADOWS",
-      "destinationTrainer": "C DAVID",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "RAGING CURRENT",
-          "stallSpace": 1.5
-        },
-        {
-          "name": "EDITOR",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "15834ef1c3d8"
-    },
-    {
-      "dateTaken": "2026-10-05",
-      "requestedDates": "NEXT AVAILABLE",
       "takenBy": "LESLIE",
       "requestedBy": "",
       "origin": "KENTUCKY ",
@@ -1212,6 +1184,30 @@
       ],
       "stallSpace": 0,
       "id": "4f6d7d238af0"
+    },
+    {
+      "dateTaken": "2026-10-03",
+      "requestedDates": "NEXT AVAILABLE",
+      "takenBy": "LESLEY",
+      "requestedBy": "",
+      "origin": "KENTUCKY ",
+      "originFarm": "BROWNSTEAD FARM",
+      "originTrainer": "",
+      "originTrack": "",
+      "destination": "OCALA",
+      "track": "",
+      "destinationTrainer": "",
+      "destinationFarm": "NEW EPISODE",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "HERKIMER DIAMOND 25",
+          "stallSpace": null
+        }
+      ],
+      "stallSpace": 0,
+      "id": "831f8246bb83"
     }
   ]
 }
