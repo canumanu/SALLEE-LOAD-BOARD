@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-06T12:45:16.538130Z",
+  "syncedAt": "2026-10-06T12:50:18.525098Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -1019,30 +1019,6 @@
     },
     {
       "dateTaken": "2026-10-03",
-      "requestedDates": "TUESDAY 10/6",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "CHURCHILL",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ZIPLINE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "d4f398cb0fd2"
-    },
-    {
-      "dateTaken": "2026-10-03",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "LESLEY",
       "requestedBy": "",
@@ -1064,30 +1040,6 @@
       ],
       "stallSpace": 0,
       "id": "831f8246bb83"
-    },
-    {
-      "dateTaken": "2026-10-04",
-      "requestedDates": "TUESDAY 10/6",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "B WALSH",
-      "originTrack": "TURFWAY",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "B WALSH ",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SUN GATE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "ab525702ce22"
     },
     {
       "dateTaken": "2026-10-04",
