@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-06T14:45:18.611307Z",
+  "syncedAt": "2026-10-06T14:50:51.201833Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -120,30 +120,6 @@
       ],
       "stallSpace": 3.0,
       "id": "a763cf50d560"
-    },
-    {
-      "dateTaken": "2026-09-16",
-      "requestedDates": "SEPT 29-30",
-      "takenBy": "LESLIE",
-      "requestedBy": "",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "R SPATZ",
-      "originTrack": "GULFSTREAM",
-      "destination": "KENTUCKY",
-      "track": "KEENELAND  ",
-      "destinationTrainer": "B COLEBROOK",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "HERACLES",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "23b7e91706a5"
     },
     {
       "dateTaken": "2026-09-16",
