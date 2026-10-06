@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-06T19:35:15.778896Z",
+  "syncedAt": "2026-10-06T19:40:14.091953Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -928,30 +928,6 @@
       ],
       "stallSpace": 3.0,
       "id": "c0b1ed520397"
-    },
-    {
-      "dateTaken": "2026-10-06",
-      "requestedDates": "WEDNESDAY 10/7",
-      "takenBy": "LESLEY",
-      "requestedBy": "KIM",
-      "origin": "KENTUCKY ",
-      "originFarm": "MILL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "PAYTON TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SHURAKAA 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "ad6d6d3b289e"
     }
   ]
 }
