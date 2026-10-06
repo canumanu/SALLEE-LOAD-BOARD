@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-06T16:30:17.995841Z",
+  "syncedAt": "2026-10-06T16:35:16.290987Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -400,38 +400,6 @@
       ],
       "stallSpace": 9.0,
       "id": "a0bbd13565b1"
-    },
-    {
-      "dateTaken": "2026-09-28",
-      "requestedDates": "AFTER 10/4",
-      "takenBy": "LESLEY",
-      "requestedBy": "MARK",
-      "origin": "KENTUCKY ",
-      "originFarm": "MIACOMET",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "KINSMAN",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "3 FILLIES",
-          "stallSpace": 1.5
-        },
-        {
-          "name": null,
-          "stallSpace": 1.5
-        },
-        {
-          "name": null,
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 4.5,
-      "id": "adc1b6cfc343"
     },
     {
       "dateTaken": "2026-09-28",
