@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-06T13:50:15.541719Z",
+  "syncedAt": "2026-10-06T13:55:14.264086Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -48,34 +48,6 @@
       ],
       "stallSpace": 3.0,
       "id": "f87ccd6df16a"
-    },
-    {
-      "dateTaken": "2026-09-08",
-      "requestedDates": "AROUND OCT 15 2026",
-      "takenBy": "LESLIE",
-      "requestedBy": "FELIX",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M NUNEZ",
-      "originTrack": "DELAWARE PARK",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "F QUINNONES",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "GOLDINTHESKY",
-          "stallSpace": 1.5
-        },
-        {
-          "name": "BAHA SECRET",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "2b21a264a572"
     },
     {
       "dateTaken": "2026-09-09",
@@ -450,30 +422,6 @@
       "id": "77b467ae65bc"
     },
     {
-      "dateTaken": "2026-09-25",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "BEN",
-      "requestedBy": "SARAH",
-      "origin": "EAST COAST",
-      "originFarm": "SUGAR MAPLE, NY ",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "ARINDEL",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "2 HD",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "0f8e77559523"
-    },
-    {
       "dateTaken": "2026-09-26",
       "requestedDates": "ASAP",
       "takenBy": "LESLIE",
@@ -504,30 +452,6 @@
     {
       "dateTaken": "2026-09-28",
       "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE",
-      "requestedBy": "PEPE",
-      "origin": "OCALA",
-      "originFarm": "GOLDEN LEGACY",
-      "originTrainer": "B PEREZ",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "TBD",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BARTOLITO",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "dab9ed6a788e"
-    },
-    {
-      "dateTaken": "2026-09-28",
-      "requestedDates": "NEXT AVAILABLE",
       "takenBy": "VICKIE",
       "requestedBy": "MITCH",
       "origin": "OCALA",
@@ -548,30 +472,6 @@
       ],
       "stallSpace": 9.0,
       "id": "a0bbd13565b1"
-    },
-    {
-      "dateTaken": "2026-09-28",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE",
-      "requestedBy": "C WHEELER",
-      "origin": "OCALA",
-      "originFarm": "C WHEELER",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "FAIR HILL",
-      "destinationTrainer": "C LYNCH",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "JUSTIFINA 24",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "7a6b04d8b324"
     },
     {
       "dateTaken": "2026-09-28",
@@ -652,30 +552,6 @@
       ],
       "stallSpace": 3.0,
       "id": "0bebd65a36a9"
-    },
-    {
-      "dateTaken": "2026-09-29",
-      "requestedDates": "AFTER 10/2",
-      "takenBy": "FAYE",
-      "requestedBy": "JOE",
-      "origin": "OCALA",
-      "originFarm": "JOE HENNESSEY",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "M MICELLI",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BEST PARTNER",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "6b77b2f1a057"
     },
     {
       "dateTaken": "2026-09-29",
@@ -995,6 +871,30 @@
     },
     {
       "dateTaken": "2026-10-03",
+      "requestedDates": "TUESDAY 10/6",
+      "takenBy": "SANDY",
+      "requestedBy": "",
+      "origin": "KENTUCKY ",
+      "originFarm": "",
+      "originTrainer": "M CASSE",
+      "originTrack": "CHURCHILL",
+      "destination": "EAST COAST",
+      "track": "BELMONT",
+      "destinationTrainer": "M CASSE",
+      "destinationFarm": "",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "ZIPLINE",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "d4f398cb0fd2"
+    },
+    {
+      "dateTaken": "2026-10-03",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "LESLEY",
       "requestedBy": "",
@@ -1016,6 +916,30 @@
       ],
       "stallSpace": 0,
       "id": "831f8246bb83"
+    },
+    {
+      "dateTaken": "2026-10-04",
+      "requestedDates": "TUESDAY 10/6",
+      "takenBy": "SANDY",
+      "requestedBy": "",
+      "origin": "KENTUCKY ",
+      "originFarm": "",
+      "originTrainer": "B WALSH",
+      "originTrack": "TURFWAY",
+      "destination": "EAST COAST",
+      "track": "BELMONT",
+      "destinationTrainer": "B WALSH ",
+      "destinationFarm": "",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "SUN GATE",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "ab525702ce22"
     },
     {
       "dateTaken": "2026-10-04",
