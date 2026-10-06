@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-06T13:45:14.869172Z",
+  "syncedAt": "2026-10-06T13:50:15.541719Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -24,30 +24,6 @@
       ],
       "stallSpace": 3.0,
       "id": "c24679f4e2c2"
-    },
-    {
-      "dateTaken": "2026-09-05",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "NEW YORK",
-      "originFarm": "",
-      "originTrainer": "B LEVINE",
-      "originTrack": "SARATOGA/BELMONT",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "fb79820a5f17"
     },
     {
       "dateTaken": "2026-09-07",
