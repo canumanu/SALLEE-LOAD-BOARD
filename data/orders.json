@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-07T12:40:20.661836Z",
+  "syncedAt": "2026-10-07T12:45:17.382299Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -568,54 +568,6 @@
       ],
       "stallSpace": 1.5,
       "id": "a018d8a499dc"
-    },
-    {
-      "dateTaken": "2026-10-02",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "ROSE HILL",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "P SHARP",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TOOSWEETTOBESOUR",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "ccf82fead764"
-    },
-    {
-      "dateTaken": "2026-10-02",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "G ESQUIVEL",
-      "originTrack": "KY TRAINING CENTER",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "???",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ANIMAL FRIES",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "02b16a952be6"
     },
     {
       "dateTaken": "2026-10-03",
