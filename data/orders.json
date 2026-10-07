@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-07T12:50:15.451561Z",
+  "syncedAt": "2026-10-07T12:55:18.143678Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -568,30 +568,6 @@
       ],
       "stallSpace": 1.5,
       "id": "a018d8a499dc"
-    },
-    {
-      "dateTaken": "2026-10-03",
-      "requestedDates": "WEDNESDAY 10/7",
-      "takenBy": "PHIL",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "BELMONT",
-      "destination": "KENTUCKY ",
-      "track": "KEENELAND  ",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "NITROGEN",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "e86c90cefc66"
     },
     {
       "dateTaken": "2026-10-03",
