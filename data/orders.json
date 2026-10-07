@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-07T12:55:18.143678Z",
+  "syncedAt": "2026-10-07T13:01:28.290464Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -644,30 +644,6 @@
     {
       "dateTaken": "2026-10-05",
       "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "S CAMACHO",
-      "originTrack": "KEENELAND",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "S CAMACHO",
-      "destinationFarm": "OCALA HORSE COMPLEX",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "GAME SAYAYIN",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "9ef4013b5971"
-    },
-    {
-      "dateTaken": "2026-10-05",
-      "requestedDates": "NEXT AVAILABLE",
       "takenBy": "DAVID",
       "requestedBy": "",
       "origin": "EAST COAST",
@@ -760,102 +736,6 @@
       ],
       "stallSpace": 1.5,
       "id": "c54246c9aa44"
-    },
-    {
-      "dateTaken": "2026-10-06",
-      "requestedDates": "WEDNESDAY 10/7",
-      "takenBy": "KAYLA",
-      "requestedBy": "HARRY",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "R ARNOLD",
-      "originTrack": "KEENELAND",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "WAVERTREE",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "cde6e3c8321a"
-    },
-    {
-      "dateTaken": "2026-10-06",
-      "requestedDates": "WEDNESDAY 10/7",
-      "takenBy": "KAYLA",
-      "requestedBy": "HARRY",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "KEENELAND",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TRAINING CENTER",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "1fc13d01ba5e"
-    },
-    {
-      "dateTaken": "2026-10-06",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "KAYLA",
-      "requestedBy": "MANU",
-      "origin": "KENTUCKY ",
-      "originFarm": "WINSTAR TB",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "OCALA STUD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "FLYING LIAM",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "04295bb96c5d"
-    },
-    {
-      "dateTaken": "2026-10-06",
-      "requestedDates": "WEDNESDAY 10/7",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "L ROBSON",
-      "originTrack": "HIGH POINTE TC",
-      "destination": "OCALA",
-      "track": "?",
-      "destinationTrainer": "?",
-      "destinationFarm": "?",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ENRAPTURED",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "c0b1ed520397"
     },
     {
       "dateTaken": "2026-10-06",
