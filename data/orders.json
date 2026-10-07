@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-07T15:20:14.566335Z",
+  "syncedAt": "2026-10-07T15:25:16.146869Z",
   "orders": [
     {
       "dateTaken": "2026-09-03",
@@ -738,30 +738,6 @@
       "id": "49bb9d9b4944"
     },
     {
-      "dateTaken": "2026-10-05",
-      "requestedDates": "READY AFTER 10/7",
-      "takenBy": "BEN",
-      "requestedBy": "JEFF MACKOR",
-      "origin": "OCALA",
-      "originFarm": "GRASSROOTS",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "KENTUCKY ",
-      "track": "CHURCHILL",
-      "destinationTrainer": "R MOQUETT",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "c54246c9aa44"
-    },
-    {
       "dateTaken": "2026-10-06",
       "requestedDates": "TUESDAY 10/13",
       "takenBy": "MANU",
@@ -880,6 +856,118 @@
       ],
       "stallSpace": 3.0,
       "id": "1ed09f2ab307"
+    },
+    {
+      "dateTaken": "2026-10-07",
+      "requestedDates": "NEXT AVAILABLE",
+      "takenBy": "VICKIE",
+      "requestedBy": "KIM",
+      "origin": "KENTUCKY ",
+      "originFarm": "MILL RIDGE",
+      "originTrainer": "",
+      "originTrack": "",
+      "destination": "OCALA",
+      "track": "",
+      "destinationTrainer": "",
+      "destinationFarm": "BRIDLEWOOD",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "GABERIA 25",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "51d922d37fad"
+    },
+    {
+      "dateTaken": "2026-10-07",
+      "requestedDates": "NEXT AVAILABLE",
+      "takenBy": "VICKIE",
+      "requestedBy": "KIM",
+      "origin": "KENTUCKY ",
+      "originFarm": "MILL RIDGE",
+      "originTrainer": "",
+      "originTrack": "",
+      "destination": "OCALA",
+      "track": "",
+      "destinationTrainer": "",
+      "destinationFarm": "PAT HOPPEL",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "WILD SILK 25",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "51d922d37fad"
+    },
+    {
+      "dateTaken": "2026-10-07",
+      "requestedDates": "THURSDAY 10/8",
+      "takenBy": "VICKIE",
+      "requestedBy": "KIM",
+      "origin": "KENTUCKY ",
+      "originFarm": "MILL RIDGE",
+      "originTrainer": "",
+      "originTrack": "",
+      "destination": "OCALA",
+      "track": "",
+      "destinationTrainer": "",
+      "destinationFarm": "TOM MCCROCKLIN",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "HUMOR ME DIXIE 25",
+          "stallSpace": 9.0
+        },
+        {
+          "name": "PATNA 25",
+          "stallSpace": null
+        },
+        {
+          "name": "MORNING RUN 25",
+          "stallSpace": null
+        }
+      ],
+      "stallSpace": 9.0,
+      "id": "0abaa3026252"
+    },
+    {
+      "dateTaken": "2026-10-07",
+      "requestedDates": "THURSDAY 10/8",
+      "takenBy": "VICKIE",
+      "requestedBy": "KIM",
+      "origin": "KENTUCKY ",
+      "originFarm": "MILL RIDGE",
+      "originTrainer": "",
+      "originTrack": "",
+      "destination": "OCALA",
+      "track": "",
+      "destinationTrainer": "",
+      "destinationFarm": "JESSE HOPPEL",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "ANTHROPOLOGY 25",
+          "stallSpace": null
+        },
+        {
+          "name": "ROMY 25",
+          "stallSpace": null
+        },
+        {
+          "name": "EFFECTIVE 25",
+          "stallSpace": null
+        }
+      ],
+      "stallSpace": 0,
+      "id": "08300d005340"
     }
   ]
 }
