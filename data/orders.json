@@ -1,30 +1,6 @@
 {
-  "syncedAt": "2026-10-08T15:40:16.149873Z",
+  "syncedAt": "2026-10-08T15:45:16.226282Z",
   "orders": [
-    {
-      "dateTaken": "2026-09-03",
-      "requestedDates": "OCTOBER 8 2026",
-      "takenBy": "LESLEY",
-      "requestedBy": "CARLOS",
-      "origin": "KENTUCKY",
-      "originFarm": "RIVER OAK FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "UPSTATE NEW YORK",
-      "track": "SARATOGA OCT SALE",
-      "destinationTrainer": "",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MARIA MOON",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "c24679f4e2c2"
-    },
     {
       "dateTaken": "2026-09-07",
       "requestedDates": "NEXT AVAILABLE",
@@ -524,54 +500,6 @@
     {
       "dateTaken": "2026-10-02",
       "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE",
-      "requestedBy": "NELLIE",
-      "origin": "OCALA",
-      "originFarm": "TWO SPRINGS",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "?",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "b64e5eb5c135"
-    },
-    {
-      "dateTaken": "2026-10-02",
-      "requestedDates": "AFTER 10/6",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "OCALA",
-      "originFarm": "MOUSE RANCH",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "KENTUCKY ",
-      "track": "CHURCHILL",
-      "destinationTrainer": "M MCCARTHY",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TREASURE MAP",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "a018d8a499dc"
-    },
-    {
-      "dateTaken": "2026-10-02",
-      "requestedDates": "NEXT AVAILABLE",
       "takenBy": "ALEXXIS",
       "requestedBy": "",
       "origin": "KENTUCKY",
@@ -904,70 +832,6 @@
       ],
       "stallSpace": 3.0,
       "id": "51d922d37fad"
-    },
-    {
-      "dateTaken": "2026-10-07",
-      "requestedDates": "THURSDAY 10/8",
-      "takenBy": "VICKIE",
-      "requestedBy": "KIM",
-      "origin": "KENTUCKY ",
-      "originFarm": "MILL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "TOM MCCROCKLIN",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "HUMOR ME DIXIE 25",
-          "stallSpace": 9.0
-        },
-        {
-          "name": "PATNA 25",
-          "stallSpace": null
-        },
-        {
-          "name": "MORNING RUN 25",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "0abaa3026252"
-    },
-    {
-      "dateTaken": "2026-10-07",
-      "requestedDates": "THURSDAY 10/8",
-      "takenBy": "VICKIE",
-      "requestedBy": "KIM",
-      "origin": "KENTUCKY ",
-      "originFarm": "MILL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "JESSE HOPPEL",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ANTHROPOLOGY 25",
-          "stallSpace": null
-        },
-        {
-          "name": "ROMY 25",
-          "stallSpace": null
-        },
-        {
-          "name": "EFFECTIVE 25",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "08300d005340"
     },
     {
       "dateTaken": "2026-10-07",
