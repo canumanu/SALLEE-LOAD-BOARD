@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-08T19:10:16.920297Z",
+  "syncedAt": "2026-10-08T19:15:15.355941Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -496,30 +496,6 @@
       ],
       "stallSpace": 1.5,
       "id": "b5beb54ff81f"
-    },
-    {
-      "dateTaken": "2026-10-02",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "",
-      "originTrainer": "G ESQUIVEL",
-      "originTrack": "SPORTS SPECTRUM",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "OAK RIDGE",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ANIMAL FRIES",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "89953716a741"
     },
     {
       "dateTaken": "2026-10-03",
