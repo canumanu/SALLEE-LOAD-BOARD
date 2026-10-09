@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-09T14:45:14.493756Z",
+  "syncedAt": "2026-10-09T14:50:14.709171Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -224,30 +224,6 @@
       ],
       "stallSpace": 6.0,
       "id": "98c5c02152d1"
-    },
-    {
-      "dateTaken": "2026-09-23",
-      "requestedDates": "AFTER 9/25",
-      "takenBy": "LESLIE",
-      "requestedBy": "",
-      "origin": "OCALA",
-      "originFarm": "EISAMAN",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "FAIRGROUNDS",
-      "track": "",
-      "destinationTrainer": "C DEVAUX",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LADY SERENA 24",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "a31cdc8ed0f4"
     },
     {
       "dateTaken": "2026-09-25",
@@ -1072,6 +1048,30 @@
       ],
       "stallSpace": 1.5,
       "id": "86bb45464744"
+    },
+    {
+      "dateTaken": "2026-10-09",
+      "requestedDates": "NEXT AVAILABLE",
+      "takenBy": "PEPE",
+      "requestedBy": "",
+      "origin": "EAST COAST",
+      "originFarm": "",
+      "originTrainer": "I KANTARMACI",
+      "originTrack": "BELMONT",
+      "destination": "OCALA",
+      "track": "",
+      "destinationTrainer": "",
+      "destinationFarm": "ARINDEL",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "MEDIEVAL",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "0258a296f087"
     }
   ]
 }
