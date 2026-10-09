@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-09T13:25:14.076466Z",
+  "syncedAt": "2026-10-09T13:30:16.144551Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -808,30 +808,6 @@
       ],
       "stallSpace": 3.0,
       "id": "51d922d37fad"
-    },
-    {
-      "dateTaken": "2026-10-07",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "KAYLA",
-      "requestedBy": "ALI",
-      "origin": "KENTUCKY ",
-      "originFarm": "CHESAPEAKE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "NEW HAVEN FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "GO ON THEN",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "6673e39544f9"
     },
     {
       "dateTaken": "2026-10-07",
