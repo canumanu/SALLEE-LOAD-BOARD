@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-11T11:35:15.125510Z",
+  "syncedAt": "2026-10-11T11:41:30.716716Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -738,78 +738,6 @@
       "id": "1ed09f2ab307"
     },
     {
-      "dateTaken": "2026-10-07",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "VICKIE",
-      "requestedBy": "KIM",
-      "origin": "KENTUCKY ",
-      "originFarm": "MILL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "BRIDLEWOOD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "GABERIA 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "51d922d37fad"
-    },
-    {
-      "dateTaken": "2026-10-07",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "VICKIE",
-      "requestedBy": "KIM",
-      "origin": "KENTUCKY ",
-      "originFarm": "MILL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "PAT HOPPEL",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "WILD SILK 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "51d922d37fad"
-    },
-    {
-      "dateTaken": "2026-10-07",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "CONSIDINE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "NELSON JONES",
-      "destinationTrainer": "N ESLER",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BELLA FIGURA 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "bed9e79b8a9c"
-    },
-    {
       "dateTaken": "2026-10-08",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "LESLEY",
@@ -904,54 +832,6 @@
       ],
       "stallSpace": 0,
       "id": "40e13517929c"
-    },
-    {
-      "dateTaken": "2026-10-08",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "R ARNOLD",
-      "originTrack": "KEENELAND",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "HARRIS FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CONROY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "df88deb07a0e"
-    },
-    {
-      "dateTaken": "2026-10-08",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "R ARNOLD",
-      "originTrack": "CHURCHILL",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "DOUBLE DIAMOND",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "UNCLE ANTHONY",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "b6d0bd1bef4b"
     },
     {
       "dateTaken": "2026-10-08",
