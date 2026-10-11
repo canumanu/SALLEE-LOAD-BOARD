@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-11T16:30:17.513508Z",
+  "syncedAt": "2026-10-11T16:35:13.130601Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -426,30 +426,6 @@
       "id": "784664355885"
     },
     {
-      "dateTaken": "2026-09-30",
-      "requestedDates": "SUNDAY, 10/4/26",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "N PALMER",
-      "originTrack": "PALM MEADOWS",
-      "destination": "KENTUCKY ",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CELESTIA FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "VINO FOR THE QUEEN",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "4b7e7b5ea145"
-    },
-    {
       "dateTaken": "2026-10-01",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "KAYLA",
@@ -687,34 +663,6 @@
     },
     {
       "dateTaken": "2026-10-07",
-      "requestedDates": "SUN 10/11/2026",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "B WALSH",
-      "originTrack": "BELMONT",
-      "destination": "KENTUCKY ",
-      "track": "TURFWAY",
-      "destinationTrainer": "B WALSH ",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SUN GATE",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "LEARN TO DISCOVER",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "de250494bcf7"
-    },
-    {
-      "dateTaken": "2026-10-07",
       "requestedDates": "2026-10-22",
       "takenBy": "LESLEY",
       "requestedBy": "KELLY",
@@ -880,30 +828,6 @@
       ],
       "stallSpace": 0,
       "id": "bd5f5d3fcba3"
-    },
-    {
-      "dateTaken": "2026-10-09",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM ",
-      "originTrack": "DELAWARE PARK",
-      "destination": "KENTUCKY ",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "TBD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1HD",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "86bb45464744"
     },
     {
       "dateTaken": "2026-10-09",
