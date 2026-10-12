@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-12T13:00:24.181382Z",
+  "syncedAt": "2026-10-12T13:05:14.577357Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -570,30 +570,6 @@
       "id": "02aca5f64ab1"
     },
     {
-      "dateTaken": "2025-10-05",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "KAYLA",
-      "requestedBy": "CURTIS GREEN",
-      "origin": "KENTUCKY ",
-      "originFarm": "BELMAR FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "GULFSTREAM",
-      "destinationTrainer": "?",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "49bb9d9b4944"
-    },
-    {
       "dateTaken": "2026-10-06",
       "requestedDates": "TUESDAY 10/13",
       "takenBy": "MANU",
@@ -616,50 +592,6 @@
       ],
       "stallSpace": 3.0,
       "id": "fd5879b8ea8f"
-    },
-    {
-      "dateTaken": "2026-10-07",
-      "requestedDates": "MON 10/12",
-      "takenBy": "LESLEY",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "SCANLON TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "AZAELIA 25",
-          "stallSpace": 18.0
-        },
-        {
-          "name": "BLEECKER STREET 25",
-          "stallSpace": null
-        },
-        {
-          "name": "BOSTON POST ROAD 25",
-          "stallSpace": null
-        },
-        {
-          "name": "DUNBAR ROAD 25",
-          "stallSpace": null
-        },
-        {
-          "name": "REGAL GLORY 25",
-          "stallSpace": null
-        },
-        {
-          "name": "TEETOALER 25",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 18.0,
-      "id": "6375e76f4750"
     },
     {
       "dateTaken": "2026-10-07",
@@ -798,7 +730,7 @@
       "drivers": "",
       "horses": [
         {
-          "name": "?",
+          "name": "SPOKE",
           "stallSpace": 3.0
         }
       ],
@@ -900,30 +832,6 @@
       ],
       "stallSpace": 3.0,
       "id": "01564bad1c54"
-    },
-    {
-      "dateTaken": "2026-10-10",
-      "requestedDates": "MONDAY 10/12",
-      "takenBy": "LESLEY",
-      "requestedBy": "DES",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "GULFSTREAM",
-      "destinationTrainer": "",
-      "destinationFarm": "S COLE",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PLAYING TRICKS",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "70655b647581"
     },
     {
       "dateTaken": "2026-10-10",
