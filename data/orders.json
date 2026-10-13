@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-13T15:40:19.775623Z",
+  "syncedAt": "2026-10-13T15:45:16.535324Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -302,34 +302,6 @@
       "id": "77b467ae65bc"
     },
     {
-      "dateTaken": "2026-09-26",
-      "requestedDates": "ASAP",
-      "takenBy": "LESLIE",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "TBD",
-      "originTrack": "DELAWARE PARK",
-      "destination": "SOUTH FLORIDA",
-      "track": "GULFSTREAM",
-      "destinationTrainer": "J ORSENO",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "AYE EYE",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "YASTRZEMSKI",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "b031d360ab73"
-    },
-    {
       "dateTaken": "2026-09-28",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "VICKIE",
@@ -352,30 +324,6 @@
       ],
       "stallSpace": 9.0,
       "id": "a0bbd13565b1"
-    },
-    {
-      "dateTaken": "2026-09-28",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE",
-      "requestedBy": "LEXI",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "",
-      "originTrack": "MONMOUTH PARK",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "2997307ddabf"
     },
     {
       "dateTaken": "2026-09-30",
@@ -616,30 +564,6 @@
       ],
       "stallSpace": 0,
       "id": "7a90f651b9f3"
-    },
-    {
-      "dateTaken": "2026-10-08",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "PEPE",
-      "requestedBy": "J IMBESI",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "",
-      "originTrack": "DELAWARE PARK",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "GOLDEN LEGACY",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "?",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "bd5f5d3fcba3"
     },
     {
       "dateTaken": "2026-10-09",
