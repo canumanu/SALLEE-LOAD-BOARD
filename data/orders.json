@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-13T15:50:18.827915Z",
+  "syncedAt": "2026-10-13T15:55:12.399338Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -96,34 +96,6 @@
       ],
       "stallSpace": 3.0,
       "id": "a763cf50d560"
-    },
-    {
-      "dateTaken": "2026-09-16",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "LAUREL GLEN FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "2 HD",
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "8ffe3252f508"
     },
     {
       "dateTaken": "2026-09-17",
@@ -224,30 +196,6 @@
       ],
       "stallSpace": 6.0,
       "id": "98c5c02152d1"
-    },
-    {
-      "dateTaken": "2026-09-25",
-      "requestedDates": "10/1/2026-10/2/2026",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "CHURCHILL",
-      "destination": "WOODBINE",
-      "track": "WOODBINE",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "3 HD",
-          "stallSpace": 9.0
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "8fcb012e121f"
     },
     {
       "dateTaken": "2026-09-25",
@@ -512,30 +460,6 @@
       ],
       "stallSpace": 0,
       "id": "c57e8c748869"
-    },
-    {
-      "dateTaken": "2026-10-08",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE",
-      "requestedBy": "PEPE",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "TBD",
-      "originTrack": "DELAWARE PARK",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "B PEREZ",
-      "destinationFarm": "GOLDEN LEGACY",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "?",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "7a90f651b9f3"
     },
     {
       "dateTaken": "2026-10-09",
