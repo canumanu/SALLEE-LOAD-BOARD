@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-13T15:45:16.535324Z",
+  "syncedAt": "2026-10-13T15:50:18.827915Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -272,34 +272,6 @@
       ],
       "stallSpace": 1.5,
       "id": "27b2186b2423"
-    },
-    {
-      "dateTaken": "2026-09-25",
-      "requestedDates": "ASAP",
-      "takenBy": "MANU",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "J ORTIZ",
-      "originTrack": "SPORTS SPECTRUM",
-      "destination": "EAST COAST",
-      "track": "LAUREL PARK ",
-      "destinationTrainer": "J NIXON",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MORRILTON",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "TOLEDO BEND",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "77b467ae65bc"
     },
     {
       "dateTaken": "2026-09-28",
