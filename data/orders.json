@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-13T14:10:16.654042Z",
+  "syncedAt": "2026-10-13T14:15:17.721753Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -950,12 +950,12 @@
       "drivers": "",
       "horses": [
         {
-          "name": "SORCING NETWORK 25",
-          "stallSpace": null
+          "name": "SOURCING NETWORK 25",
+          "stallSpace": 3.0
         }
       ],
-      "stallSpace": 0,
-      "id": "48e30931837d"
+      "stallSpace": 3.0,
+      "id": "18005fb20adc"
     }
   ]
 }
