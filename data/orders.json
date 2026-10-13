@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-13T16:05:14.713882Z",
+  "syncedAt": "2026-10-13T16:10:15.128680Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -120,30 +120,6 @@
       ],
       "stallSpace": 3.0,
       "id": "f07672205462"
-    },
-    {
-      "dateTaken": "2026-09-17",
-      "requestedDates": "WED SEPT 30 2026",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "R ARNOLD",
-      "originTrack": "KEENELAND",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "R ARNOLD",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "cacbd4ce9d95"
     },
     {
       "dateTaken": "2026-09-20",
