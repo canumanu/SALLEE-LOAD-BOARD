@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-13T16:00:23.667212Z",
+  "syncedAt": "2026-10-13T16:05:14.713882Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -170,34 +170,6 @@
       "id": "9dbfb43fcbf1"
     },
     {
-      "dateTaken": "2026-09-22",
-      "requestedDates": "MON SEPT 28 2026",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "B WALSH",
-      "originTrack": "SARATOGA ",
-      "destination": "KENTUCKY ",
-      "track": "KEENELAND",
-      "destinationTrainer": "B WALSH ",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1-2 HD",
-          "stallSpace": 3.0
-        },
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "98c5c02152d1"
-    },
-    {
       "dateTaken": "2026-09-25",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "LESLIE",
@@ -340,30 +312,6 @@
       ],
       "stallSpace": 0,
       "id": "e305e4129433"
-    },
-    {
-      "dateTaken": "2026-10-05",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "G WEAVER",
-      "originTrack": "BELMONT",
-      "destination": "SOUTH FLORIDA",
-      "track": "GULFSTREAM",
-      "destinationTrainer": "G WEAVER",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "4f6d7d238af0"
     },
     {
       "dateTaken": "2026-10-05",
