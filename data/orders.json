@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-14T12:35:13.490565Z",
+  "syncedAt": "2026-10-14T12:40:16.415405Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -192,30 +192,6 @@
       ],
       "stallSpace": 9.0,
       "id": "a0bbd13565b1"
-    },
-    {
-      "dateTaken": "2026-09-30",
-      "requestedDates": "OCTOBER 14 2026",
-      "takenBy": "LESLEY",
-      "requestedBy": "JULIA",
-      "origin": "KENTUCKY ",
-      "originFarm": "NEWTOWN STATION",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "JULIA WORDEN",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TALLWATER",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "2d10bb0073ee"
     },
     {
       "dateTaken": "2026-09-30",
@@ -459,82 +435,6 @@
     },
     {
       "dateTaken": "2026-10-10",
-      "requestedDates": "MONDAY 10/12",
-      "takenBy": "LESLEY",
-      "requestedBy": "DES",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "NIALL BRENNAN",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SATISFACTION 25",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "POINT OF REFERENCE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "22ea771e26e5"
-    },
-    {
-      "dateTaken": "2026-10-10",
-      "requestedDates": "MONDAY 10/12",
-      "takenBy": "LESLEY",
-      "requestedBy": "DES",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "BRIDLEWOOD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PRIMARY CHALLENGE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "dfd75e10e77c"
-    },
-    {
-      "dateTaken": "2026-10-10",
-      "requestedDates": "MONDAY 10/12",
-      "takenBy": "LESLEY",
-      "requestedBy": "DES",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "BRIDLEWOOD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PRIME BROKER",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "dfd75e10e77c"
-    },
-    {
-      "dateTaken": "2026-10-10",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "JASON",
       "requestedBy": "",
@@ -676,30 +576,6 @@
       ],
       "stallSpace": 3.0,
       "id": "51f418f50afc"
-    },
-    {
-      "dateTaken": "2026-10-13",
-      "requestedDates": "WED OCT 14 2026",
-      "takenBy": "KAYLA",
-      "requestedBy": "DES",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "K KEEGAN",
-      "destinationFarm": "LUCAN BLOODSTOCK",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SOURCING NETWORK 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "18005fb20adc"
     },
     {
       "dateTaken": "2026-10-13",
