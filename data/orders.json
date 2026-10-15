@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-15T12:35:14.380772Z",
+  "syncedAt": "2026-10-15T12:40:16.585795Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -619,11 +619,27 @@
       "horses": [
         {
           "name": "SMELL OF MONEY",
-          "stallSpace": 3.0
+          "stallSpace": 15.0
+        },
+        {
+          "name": "CASABLANCA QUEEN",
+          "stallSpace": null
+        },
+        {
+          "name": "AUTUMN EVENING",
+          "stallSpace": null
+        },
+        {
+          "name": "ALTAMIRA SUR",
+          "stallSpace": null
+        },
+        {
+          "name": "COMPETITIVE MARKET",
+          "stallSpace": null
         }
       ],
-      "stallSpace": 3.0,
-      "id": "8801bece20de"
+      "stallSpace": 15.0,
+      "id": "f70319568e22"
     },
     {
       "dateTaken": "2026-10-13",
