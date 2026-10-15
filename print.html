@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sallee Load Board — Print</title>
+<style>
+  :root {
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #05100b;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eaf3ec;
+  }
+  a { color: inherit; }
+
+  .screen-only { }
+  .print-only { display: none; }
+
+  #app {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 26px 20px 60px 20px;
+  }
+
+  header.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+  header.topbar .brand {
+    font-size: 12px;
+    letter-spacing: 6px;
+    color: #e8c96a;
+    font-weight: 800;
+  }
+  header.topbar h1 {
+    font-size: 26px;
+    margin: 4px 0 0 0;
+    letter-spacing: 1px;
+  }
+  header.topbar a.back-link {
+    font-size: 12px;
+    color: #7be0a8;
+    text-decoration: none;
+    border: 1px solid #2c4a3a;
+    border-radius: 8px;
+    padding: 8px 12px;
+  }
+
+  .panel {
+    background: #0b1c14;
+    border: 1px solid #1d3527;
+    border-radius: 14px;
+    padding: 18px;
+    margin-bottom: 18px;
+  }
+
+  .field-label {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #6f8c7c;
+    font-weight: 700;
+    font-family: ui-monospace, monospace;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .field-row {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+  }
+  .field-row > div { flex: 1 1 160px; }
+  input[type="text"], select {
+    width: 100%;
+    background: #0f2419;
+    border: 1px solid #2c4a3a;
+    color: #eaf3ec;
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 13px;
+    font-family: ui-monospace, monospace;
+    outline: none;
+  }
+
+  .btn {
+    background: #f0c95a;
+    color: #0a2417;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-weight: 800;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .btn.secondary {
+    background: transparent;
+    color: #9fb8a8;
+    border: 1px solid #2c4a3a;
+  }
+  .btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  .order-pick {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 12px;
+    border: 1px solid #1d3527;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  .order-pick.checked {
+    border-color: #f0c95a;
+    background: rgba(240,201,90,0.08);
+  }
+  .order-pick .meta { font-size: 12px; color: #8fae9c; margin-top: 2px; }
+  .order-pick .name { font-weight: 700; font-size: 14px; }
+  .order-pick .stall {
+    font-family: ui-monospace, monospace;
+    color: #f0c95a;
+    font-weight: 800;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .empty-note {
+    padding: 18px 4px;
+    color: #6f8c7c;
+    font-size: 13px;
+  }
+
+  .sheet-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  /* --- printable sheet (shown on screen too, styled to preview the print) --- */
+  #sheet {
+    background: #ffffff;
+    color: #111;
+    border-radius: 8px;
+    padding: 28px 32px;
+  }
+  #sheet .sheet-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 3px solid #0a2417;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+  }
+  #sheet .sheet-head h2 {
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  #sheet .sheet-head .sub {
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #555;
+    font-weight: 700;
+  }
+  #sheet .sheet-head .printed-at {
+    font-size: 11px;
+    color: #555;
+    text-align: right;
+  }
+  #sheet .meta-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+  #sheet .meta-grid .box {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px 10px;
+  }
+  #sheet .meta-grid .box .lbl {
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    color: #777;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  #sheet .meta-grid .box .val {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 2px;
+    min-height: 1.2em;
+  }
+  #sheet .order-block {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin-bottom: 12px;
+    break-inside: avoid;
+  }
+  #sheet .order-block .lane {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 2px;
+  }
+  #sheet .order-block .lane .req-date {
+    font-size: 12px;
+    color: #444;
+    font-weight: 700;
+  }
+  #sheet .order-block .parties {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  #sheet table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+  #sheet table th {
+    text-align: left;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666;
+    border-bottom: 1px solid #bbb;
+    padding: 4px 6px;
+  }
+  #sheet table td {
+    padding: 5px 6px;
+    border-bottom: 1px solid #eee;
+  }
+  #sheet .totals {
+    margin-top: 4px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 700;
+    color: #333;
+  }
+  #sheet .sign-row {
+    display: flex;
+    gap: 24px;
+    margin-top: 28px;
+  }
+  #sheet .sign-row .sign {
+    flex: 1;
+    border-top: 1px solid #333;
+    padding-top: 4px;
+    font-size: 11px;
+    color: #555;
+  }
+  #sheet .footnote {
+    margin-top: 18px;
+    font-size: 10px;
+    color: #888;
+  }
+
+  @media print {
+    html, body { background: #fff; }
+    .screen-only { display: none !important; }
+    .print-only { display: block !important; }
+    #app { max-width: none; padding: 0; }
+    #sheet { border-radius: 0; padding: 0; }
+    #sheet .order-block { border-color: #999; }
+    @page { margin: 14mm; }
+  }
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<script>
+(function () {
+  var ORDERS_URL = "data/orders.json";
+
+  function qs() {
+    var p = new URLSearchParams(window.location.search);
+    return {
+      ids: (p.get("ids") || "").split(",").map(function (s) { return s.trim(); }).filter(Boolean),
+      label: p.get("label") || "",
+      driver: p.get("driver") || "",
+      tripDate: p.get("tripDate") || "",
+    };
+  }
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  function formatStalls(n) {
+    n = Number(n) || 0;
+    return Number.isInteger(n) ? String(n) : n.toFixed(1);
+  }
+
+  function stallLabel(n) {
+    if (n === 3) return "1 box";
+    if (n === 1.5) return "1.5 stall";
+    if (n === null || n === undefined) return "— stall";
+    return formatStalls(n) + " stall" + (n === 1 ? "" : "s");
+  }
+
+  function orderHorses(o) {
+    if (Array.isArray(o.horses) && o.horses.length) {
+      return o.horses.map(function (h) {
+        return { name: h.name || null, stallSpace: Number(h.stallSpace) || 0 };
+      });
+    }
+    return [{ name: null, stallSpace: Number(o.stallSpace) || 0 }];
+  }
+
+  function originParty(o) {
+    return [o.originTrainer, o.originFarm].filter(Boolean).join(" / ") || "—";
+  }
+  function destParty(o) {
+    return [o.destinationTrainer, o.destinationFarm].filter(Boolean).join(" / ") || "—";
+  }
+
+  function orderLabel(o) {
+    return (o.origin || "?") + " → " + (o.destination || "?");
+  }
+
+  var state = {
+    loading: true,
+    error: null,
+    orders: [],
+    selected: new Set(qs().ids),
+    query: "",
+    label: qs().label,
+    driver: qs().driver,
+    tripDate: qs().tripDate,
+    deepLinked: qs().ids.length > 0,
+  };
+
+  function ordersByIdMap() {
+    var m = {};
+    state.orders.forEach(function (o) { m[o.id] = o; });
+    return m;
+  }
+
+  function selectedOrders() {
+    var m = ordersByIdMap();
+    return Array.from(state.selected).map(function (id) { return m[id]; }).filter(Boolean);
+  }
+
+  function render() {
+    var app = document.getElementById("app");
+    if (state.loading) {
+      app.innerHTML = '<div class="screen-only" style="padding:40px;text-align:center;color:#8fae9c;">Loading orders…</div>';
+      return;
+    }
+    if (state.error) {
+      app.innerHTML = '<div class="screen-only" style="padding:40px;text-align:center;color:#ff9d9d;">' +
+        'Could not load data/orders.json (' + esc(state.error) + '). ' +
+        'Open this page from the load board, or make sure it sits next to data/orders.json.</div>';
+      return;
+    }
+
+    var picked = selectedOrders();
+    var html = "";
+
+    html += '<div class="screen-only">';
+    html += '<header class="topbar">';
+    html += '  <div><div class="brand">SALLEE HORSE VANS</div><h1>Print a Load / Order</h1></div>';
+    html += '  <a class="back-link" href="index.html">← Back to board</a>';
+    html += '</header>';
+
+    html += '<div class="panel">';
+    html += '  <div class="field-row">';
+    html += '    <div><label class="field-label">LOAD LABEL</label><input type="text" id="f-label" placeholder="e.g. Load #4" value="' + esc(state.label) + '"></div>';
+    html += '    <div><label class="field-label">DRIVER</label><input type="text" id="f-driver" placeholder="—" value="' + esc(state.driver) + '"></div>';
+    html += '    <div><label class="field-label">TRIP DATE</label><input type="text" id="f-tripdate" placeholder="—" value="' + esc(state.tripDate) + '"></div>';
+    html += '  </div>';
+    html += '  <div style="font-size:12px;color:#7f9c8c;">These fields are just for this printout — they don’t save anywhere or touch the board.</div>';
+    html += '</div>';
+
+    if (!state.deepLinked) {
+      html += '<div class="panel">';
+      html += '  <div class="field-row"><div style="flex:1 1 260px;"><label class="field-label">SEARCH ORDERS</label><input type="text" id="f-query" placeholder="origin, destination, trainer, farm…" value="' + esc(state.query) + '"></div></div>';
+      var pool = state.orders.filter(function (o) {
+        if (!state.query.trim()) return true;
+        var q = state.query.trim().toUpperCase();
+        var hay = [o.origin, o.destination, o.originTrainer, o.originFarm, o.destinationTrainer, o.destinationFarm, o.requestedBy]
+          .filter(Boolean).join(" ").toUpperCase();
+        return hay.indexOf(q) !== -1;
+      });
+      if (pool.length === 0) {
+        html += '<div class="empty-note">No open orders match that search.</div>';
+      }
+      pool.forEach(function (o) {
+        var checked = state.selected.has(o.id);
+        html += '<div class="order-pick' + (checked ? ' checked' : '') + '" data-id="' + esc(o.id) + '">';
+        html += '  <div><div class="name">' + esc(orderLabel(o)) + '</div><div class="meta">' + esc(originParty(o)) + ' → ' + esc(destParty(o)) + ' · requested by ' + esc(o.requestedBy || '—') + ' · ' + esc(o.requestedDates || 'date flexible') + '</div></div>';
+        html += '  <div class="stall">' + esc(formatStalls(o.stallSpace)) + ' stall' + (o.stallSpace === 1 ? '' : 's') + '</div>';
+        html += '</div>';
+      });
+      html += '</div>';
+    }
+
+    html += '<div class="sheet-bar">';
+    html += '  <div style="font-size:12px;color:#7f9c8c;">' + picked.length + ' order' + (picked.length === 1 ? '' : 's') + ' selected</div>';
+    html += '  <div style="display:flex;gap:10px;">';
+    if (state.deepLinked) {
+      html += '    <button class="btn secondary" id="pick-more">Change selection</button>';
+    }
+    html += '    <button class="btn" id="do-print" ' + (picked.length === 0 ? 'disabled' : '') + '>🖨 Print</button>';
+    html += '  </div>';
+    html += '</div>';
+    html += '</div>'; // end screen-only
+
+    // --- printable sheet, shown on screen as a preview and used as-is when printing ---
+    html += '<div id="sheet" class="print-only-when-empty">';
+    if (picked.length === 0) {
+      html += '<div class="screen-only" style="padding:20px;color:#888;text-align:center;">Pick one or more orders above to preview the printout.</div>';
+    } else {
+      var totalStalls = picked.reduce(function (s, o) { return s + (Number(o.stallSpace) || 0); }, 0);
+      var totalHorses = picked.reduce(function (s, o) { return s + orderHorses(o).length; }, 0);
+      html += '<div class="sheet-head">';
+      html += '  <div><h2>SALLEE HORSE VANS</h2><div class="sub">LOAD / ORDER MANIFEST</div></div>';
+      html += '  <div class="printed-at">Printed ' + esc(new Date().toLocaleString()) + '</div>';
+      html += '</div>';
+      html += '<div class="meta-grid">';
+      html += '  <div class="box"><div class="lbl">Load</div><div class="val">' + esc(state.label || '—') + '</div></div>';
+      html += '  <div class="box"><div class="lbl">Driver</div><div class="val">' + esc(state.driver || '—') + '</div></div>';
+      html += '  <div class="box"><div class="lbl">Trip Date</div><div class="val">' + esc(state.tripDate || '—') + '</div></div>';
+      html += '  <div class="box"><div class="lbl">Total</div><div class="val">' + totalHorses + ' horse' + (totalHorses === 1 ? '' : 's') + ' · ' + formatStalls(totalStalls) + ' stalls</div></div>';
+      html += '</div>';
+
+      picked.forEach(function (o) {
+        html += '<div class="order-block">';
+        html += '  <div class="lane"><span>' + esc(orderLabel(o)) + (o.originTrack ? ' (via ' + esc(o.originTrack) + ')' : '') + (o.track ? ' → via ' + esc(o.track) : '') + '</span><span class="req-date">' + esc(o.requestedDates || 'date flexible') + '</span></div>';
+        html += '  <div class="parties">' + esc(originParty(o)) + '  →  ' + esc(destParty(o)) + ' · requested by ' + esc(o.requestedBy || '—') + ' · taken by ' + esc(o.takenBy || '—') + '</div>';
+        html += '  <table><thead><tr><th>Horse</th><th>Stall Space</th></tr></thead><tbody>';
+        orderHorses(o).forEach(function (h) {
+          html += '<tr><td>' + esc(h.name || '(unnamed)') + '</td><td>' + esc(stallLabel(h.stallSpace)) + '</td></tr>';
+        });
+        html += '  </tbody></table>';
+        html += '</div>';
+      });
+
+      html += '<div class="totals">' + totalHorses + ' horse' + (totalHorses === 1 ? '' : 's') + ' · ' + formatStalls(totalStalls) + ' stalls total</div>';
+
+      html += '<div class="sign-row">';
+      html += '  <div class="sign">Driver signature</div>';
+      html += '  <div class="sign">Date / time</div>';
+      html += '</div>';
+      html += '<div class="footnote">Operational manifest only — NAV remains the system of record for billing and BOL. Generated from the Sallee Load Board.</div>';
+    }
+    html += '</div>';
+
+    app.innerHTML = html;
+    wireUp();
+  }
+
+  function wireUp() {
+    var labelEl = document.getElementById("f-label");
+    var driverEl = document.getElementById("f-driver");
+    var tripEl = document.getElementById("f-tripdate");
+    var queryEl = document.getElementById("f-query");
+    var printBtn = document.getElementById("do-print");
+    var pickMoreBtn = document.getElementById("pick-more");
+
+    if (labelEl) labelEl.addEventListener("input", function (e) { state.label = e.target.value; render(); preserveFocus("f-label"); });
+    if (driverEl) driverEl.addEventListener("input", function (e) { state.driver = e.target.value; render(); preserveFocus("f-driver"); });
+    if (tripEl) tripEl.addEventListener("input", function (e) { state.tripDate = e.target.value; render(); preserveFocus("f-tripdate"); });
+    if (queryEl) queryEl.addEventListener("input", function (e) { state.query = e.target.value; render(); preserveFocus("f-query"); });
+    if (printBtn) printBtn.addEventListener("click", function () { window.print(); });
+    if (pickMoreBtn) pickMoreBtn.addEventListener("click", function () { state.deepLinked = false; render(); });
+
+    Array.prototype.forEach.call(document.querySelectorAll(".order-pick"), function (el) {
+      el.addEventListener("click", function () {
+        var id = el.getAttribute("data-id");
+        if (state.selected.has(id)) state.selected.delete(id); else state.selected.add(id);
+        render();
+      });
+    });
+  }
+
+  // Re-render rebuilds the whole DOM (this page has no diffing), which would
+  // normally steal focus out of whichever field the user is typing in --
+  // this puts it back and restores the caret position after every keystroke.
+  function preserveFocus(id) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    var val = el.value;
+    el.focus();
+    el.setSelectionRange(val.length, val.length);
+  }
+
+  fetch(ORDERS_URL + "?t=" + Date.now(), { cache: "no-store" })
+    .then(function (res) {
+      if (!res.ok) throw new Error("status " + res.status);
+      return res.json();
+    })
+    .then(function (payload) {
+      var orders = Array.isArray(payload) ? payload : payload.orders;
+      if (!Array.isArray(orders)) throw new Error("unexpected payload shape");
+      state.orders = orders;
+      state.loading = false;
+      render();
+    })
+    .catch(function (err) {
+      state.loading = false;
+      state.error = err.message || String(err);
+      render();
+    });
+
+  render();
+})();
+</script>
+</body>
+</html>
