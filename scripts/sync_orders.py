@@ -2,7 +2,14 @@
 """
 Pulls the 'ORDERS' worksheet out of the SharePoint-hosted Excel workbook
 via Microsoft Graph and writes the active (not completed, not cancelled)
-rows to data/orders.json.
+rows to data/orders.json. Also pulls OPEN orders entered through the
+board's own "+ New Order" (the "Load Orders" SharePoint list, built
+2026-10-15) and appends them to the same file as sp-<itemId> entries with
+source: "app" -- this is what lets the dispatch board's Browse (which only
+ever reads orders.json, never signs in to the load board itself) see
+those orders too. The load board itself doesn't need this for app orders
+it shows live after sign-in; this is purely for everything downstream of
+orders.json.
 
 Run on a schedule (see .github/workflows/sync-orders.yml). Designed to be
 safe to run every few minutes: it does a clean read of the whole sheet
@@ -31,6 +38,18 @@ Optional:
                                space -- matches the tab name in the
                                original workbook; change if you rename it)
     OUTPUT_PATH              - defaults to "data/orders.json"
+
+    LOAD_ORDERS_HOSTNAME     - defaults to "salleehorsevans.sharepoint.com"
+    LOAD_ORDERS_SITE_PATH    - defaults to "/sites/SALLEEDISPATCHBOARD"
+    LOAD_ORDERS_LIST_NAME    - defaults to "Load Orders"
+
+    These three point at the SharePoint list behind "+ New Order" (see
+    LOAD_ORDERS_SETUP.md). Read with the SAME app credentials above (that
+    app registration's Sites.Read.All *application* permission already
+    covers the whole tenant) -- no extra Azure setup needed. If the list
+    read fails for any reason (not created yet, a permissions hiccup,
+    etc.), this script logs a WARNING and the spreadsheet sync still
+    completes normally -- a Load Orders problem never breaks the sheet sync.
 
 MULTI-HORSE ORDERS
 -------------------
@@ -323,9 +342,170 @@ def parse_rows(values):
     return orders
 
 
+# ----------------------------------------------------------------------
+# Load Orders list (orders entered through the board's own "+ New Order")
+# ----------------------------------------------------------------------
+# Column DISPLAY names from setup/Load_Orders_list_template.xlsx -> our
+# field keys. Resolved through the list's own /columns endpoint rather
+# than assumed, the same caution src/sharepoint.js takes on the JS side --
+# a list created via "New list > From Excel" doesn't reliably keep a
+# column's internal (Graph) name matching its display name.
+LOAD_ORDERS_FIELD_DISPLAY_NAMES = {
+    "requestedBy": "RequestedBy",
+    "requestedDates": "RequestedDates",
+    "dateTaken": "DateTaken",
+    "takenBy": "TakenBy",
+    "origin": "Origin",
+    "originTrack": "OriginTrack",
+    "originFarm": "OriginFarm",
+    "originTrainer": "OriginTrainer",
+    "destination": "Destination",
+    "track": "DestinationTrack",
+    "destinationTrainer": "DestinationTrainer",
+    "destinationFarm": "DestinationFarm",
+    "horseNames": "HorseNames",
+    "stallSpace": "StallSpace",
+    "notes": "Notes",
+    "tripDate": "TripDate",
+    "drivers": "Drivers",
+    "status": "Status",
+}
+
+
+def resolve_sp_site(token, hostname, site_path):
+    url = f"{GRAPH}/sites/{hostname}:{site_path}"
+    resp = requests.get(url, headers={"Authorization": f"Bearer {token}"}, timeout=30)
+    resp.raise_for_status()
+    return resp.json()["id"]
+
+
+def find_list_id(token, site_id, list_name):
+    url = f"{GRAPH}/sites/{site_id}/lists"
+    resp = requests.get(url, headers={"Authorization": f"Bearer {token}"}, timeout=30)
+    resp.raise_for_status()
+    for lst in resp.json().get("value", []):
+        if lst.get("displayName") == list_name:
+            return lst["id"]
+    return None
+
+
+def resolve_list_column_map(token, site_id, list_id):
+    url = f"{GRAPH}/sites/{site_id}/lists/{list_id}/columns"
+    resp = requests.get(url, headers={"Authorization": f"Bearer {token}"}, timeout=30)
+    resp.raise_for_status()
+    by_display = {}
+    for col in resp.json().get("value", []):
+        by_display[col.get("displayName")] = col.get("name")
+    col_map = {}
+    missing = []
+    for our_key, display_name in LOAD_ORDERS_FIELD_DISPLAY_NAMES.items():
+        internal = by_display.get(display_name)
+        if internal:
+            col_map[our_key] = internal
+        else:
+            missing.append(display_name)
+    if missing:
+        print(
+            f"WARNING: Load Orders list is missing expected column(s): {missing} "
+            f"-- double-check setup/Load_Orders_list_template.xlsx was imported with every column intact.",
+            file=sys.stderr,
+        )
+    return col_map
+
+
+def fetch_list_items(token, site_id, list_id):
+    items = []
+    url = f"{GRAPH}/sites/{site_id}/lists/{list_id}/items?expand=fields&$top=200"
+    while url:
+        resp = requests.get(url, headers={"Authorization": f"Bearer {token}"}, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+        items.extend(data.get("value", []))
+        url = data.get("@odata.nextLink")
+    return items
+
+
+def fetch_app_orders(token, hostname, site_path, list_name):
+    """Pulls OPEN orders off the Load Orders list and shapes them exactly
+    like a spreadsheet row (same keys buildLoads()/StallStrip expect on
+    the JS side), so downstream consumers of orders.json -- today, the
+    dispatch board's Browse -- don't need to special-case them. Never
+    raises: any failure here is logged as a WARNING and returns [], so a
+    Load Orders problem (list not created yet, a permissions hiccup, site
+    rename, etc.) never breaks the spreadsheet sync that the rest of this
+    script exists for."""
+    try:
+        site_id = resolve_sp_site(token, hostname, site_path)
+        list_id = find_list_id(token, site_id, list_name)
+        if not list_id:
+            print(
+                f"WARNING: SharePoint list '{list_name}' not found at {hostname}{site_path} -- "
+                f"app orders won't appear in orders.json until it's created (see LOAD_ORDERS_SETUP.md).",
+                file=sys.stderr,
+            )
+            return []
+        col_map = resolve_list_column_map(token, site_id, list_id)
+        items = fetch_list_items(token, site_id, list_id)
+    except Exception as e:
+        print(
+            f"WARNING: couldn't read the Load Orders list ({e}) -- "
+            f"continuing with spreadsheet orders only.",
+            file=sys.stderr,
+        )
+        return []
+
+    def get(fields, our_key):
+        internal = col_map.get(our_key)
+        return fields.get(internal) if internal else None
+
+    orders = []
+    for item in items:
+        fields = item.get("fields", {}) or {}
+        status = (get(fields, "status") or "Open").strip()
+        if status not in ("Open", ""):
+            continue  # Completed / Canceled app orders don't belong on the board
+
+        horses, mismatch = parse_horses(get(fields, "horseNames"), get(fields, "stallSpace"))
+        if mismatch:
+            print(
+                f"WARNING: Load Orders list item {item.get('id')} has a "
+                f"HorseNames/StallSpace count mismatch.",
+                file=sys.stderr,
+            )
+        if not horses:
+            horses = [{"name": None, "stallSpace": None}]
+
+        orders.append(
+            {
+                "id": f"sp-{item.get('id')}",
+                "source": "app",
+                "dateTaken": get(fields, "dateTaken") or "",
+                "requestedDates": get(fields, "requestedDates") or "",
+                "takenBy": get(fields, "takenBy") or "",
+                "requestedBy": get(fields, "requestedBy") or "",
+                "origin": get(fields, "origin") or "",
+                "originFarm": get(fields, "originFarm") or "",
+                "originTrainer": get(fields, "originTrainer") or "",
+                "originTrack": get(fields, "originTrack") or "",
+                "destination": get(fields, "destination") or "",
+                "track": get(fields, "track") or "",
+                "destinationTrainer": get(fields, "destinationTrainer") or "",
+                "destinationFarm": get(fields, "destinationFarm") or "",
+                "tripDate": get(fields, "tripDate") or "",
+                "drivers": get(fields, "drivers") or "",
+                "horses": horses,
+                "stallSpace": sum(h["stallSpace"] for h in horses if h["stallSpace"] is not None),
+            }
+        )
+    return orders
+
+
 def main():
     worksheet_name = env("WORKSHEET_NAME", default="ORDERS ", required=False)
     output_path = env("OUTPUT_PATH", default="data/orders.json", required=False)
+    load_orders_hostname = env("LOAD_ORDERS_HOSTNAME", default="salleehorsevans.sharepoint.com", required=False)
+    load_orders_site_path = env("LOAD_ORDERS_SITE_PATH", default="/sites/SALLEEDISPATCHBOARD", required=False)
+    load_orders_list_name = env("LOAD_ORDERS_LIST_NAME", default="Load Orders", required=False)
 
     token = get_token()
 
@@ -343,6 +523,9 @@ def main():
     values = get_used_range(token, drive_id, item_id, worksheet_name)
     orders = parse_rows(values)
 
+    app_orders = fetch_app_orders(token, load_orders_hostname, load_orders_site_path, load_orders_list_name)
+    orders = orders + app_orders
+
     os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
     with open(output_path, "w") as f:
         json.dump(
@@ -354,7 +537,10 @@ def main():
             indent=2,
         )
 
-    print(f"Synced {len(orders)} active orders to {output_path}")
+    print(
+        f"Synced {len(orders)} active orders to {output_path} "
+        f"({len(app_orders)} entered in the app, {len(orders) - len(app_orders)} from the spreadsheet)"
+    )
 
 
 if __name__ == "__main__":
