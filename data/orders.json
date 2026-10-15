@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-15T17:00:22.001067Z",
+  "syncedAt": "2026-10-15T17:05:16.196915Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -67,11 +67,11 @@
       "horses": [
         {
           "name": "2 HD",
-          "stallSpace": null
+          "stallSpace": 1.5
         }
       ],
-      "stallSpace": 0,
-      "id": "645340ffe0d3"
+      "stallSpace": 1.5,
+      "id": "2d55e263c2c4"
     },
     {
       "dateTaken": "2026-09-12",
@@ -139,11 +139,11 @@
       "horses": [
         {
           "name": "1 HD",
-          "stallSpace": null
+          "stallSpace": 1.5
         }
       ],
-      "stallSpace": 0,
-      "id": "9dbfb43fcbf1"
+      "stallSpace": 1.5,
+      "id": "af4389168501"
     },
     {
       "dateTaken": "2026-09-25",
@@ -235,11 +235,11 @@
       "horses": [
         {
           "name": "3 HD",
-          "stallSpace": null
+          "stallSpace": 1.5
         }
       ],
-      "stallSpace": 0,
-      "id": "4578782acdba"
+      "stallSpace": 1.5,
+      "id": "b442d117921b"
     },
     {
       "dateTaken": "2026-10-04",
@@ -259,11 +259,11 @@
       "horses": [
         {
           "name": "1 HD",
-          "stallSpace": null
+          "stallSpace": 1.5
         }
       ],
-      "stallSpace": 0,
-      "id": "e305e4129433"
+      "stallSpace": 1.5,
+      "id": "def87b7feb58"
     },
     {
       "dateTaken": "2026-10-05",
