@@ -115,12 +115,53 @@ export default function Intro({ onDone }) {
           </g>
 
           <g className="sallee-intro-horse">
-            <ellipse cx="0" cy="4" rx="24" ry="12" fill="#f0c95a" stroke="#0a2417" strokeWidth="1.5" />
-            <path d="M 20 -2 Q 32 -7 34 3 Q 32 9 22 7 Z" fill="#3a2a1a" />
-            <rect x="-18" y="12" width="5" height="15" fill="#3a2a1a" />
-            <rect x="-5" y="12" width="5" height="15" fill="#3a2a1a" />
-            <rect x="7" y="12" width="5" height="15" fill="#3a2a1a" />
-            <rect x="18" y="12" width="5" height="15" fill="#3a2a1a" />
+            {/* tail */}
+            <path
+              d="M -24 -4 Q -37 0 -34 10 Q -39 17 -32 23"
+              fill="none"
+              stroke="#2a160a"
+              strokeWidth="3"
+              strokeLinecap="round"
+            />
+            {/* hind legs */}
+            <rect x="-16" y="7" width="4" height="17" rx="1" fill="#2a160a" />
+            <rect x="-9" y="9" width="4" height="15" rx="1" fill="#2a160a" />
+            {/* body */}
+            <ellipse cx="-2" cy="0" rx="22" ry="9" fill="#6b4226" stroke="#2a160a" strokeWidth="1.5" />
+            {/* front legs */}
+            <rect x="8" y="9" width="4" height="15" rx="1" fill="#2a160a" />
+            <rect x="15" y="7" width="4" height="17" rx="1" fill="#2a160a" />
+            {/* arched neck + long head/muzzle */}
+            <path
+              d="M 12 -6
+                 C 15 -17, 21 -26, 29 -30
+                 C 33 -32, 37 -31, 39 -28
+                 L 47 -25
+                 C 51 -23.5, 51 -19.5, 47 -18.5
+                 L 41 -17.5
+                 C 41.5 -15, 40.5 -12, 38 -10.5
+                 L 35 -2
+                 C 34.3 1, 30.5 1, 30 -2
+                 L 29 -8
+                 C 24 -9.5, 16 -9, 12 -6
+                 Z"
+              fill="#6b4226"
+              stroke="#2a160a"
+              strokeWidth="1.5"
+            />
+            {/* nostril */}
+            <ellipse cx="44" cy="-21.5" rx="1.6" ry="1" fill="#2a160a" />
+            {/* ear */}
+            <path d="M 31 -29.5 L 29 -37 L 36 -31 Z" fill="#2a160a" />
+            {/* mane */}
+            <path
+              d="M 13 -8 L 17 -14 L 20 -10 L 24 -19 L 27 -15 L 31 -24 L 34 -20"
+              fill="none"
+              stroke="#2a160a"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
           </g>
         </svg>
 
