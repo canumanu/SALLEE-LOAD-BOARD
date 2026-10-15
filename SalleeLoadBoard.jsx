@@ -76,6 +76,19 @@ function loadKey(o) {
   return String(o.id);
 }
 
+// Builds a link to the standalone print view (print.html) for a set of
+// orders, carrying just enough context (label/driver/trip date) to prefill
+// that page's printout. print.html re-fetches data/orders.json itself, so
+// this only ever needs to pass order ids, not the order data.
+function buildPrintHref(orders, { label, driver, tripDate } = {}) {
+  const params = new URLSearchParams();
+  params.set("ids", orders.map((o) => o.id).join(","));
+  if (label) params.set("label", label);
+  if (driver) params.set("driver", driver);
+  if (tripDate) params.set("tripDate", tripDate);
+  return `print.html?${params.toString()}`;
+}
+
 function buildLoads(orders) {
   const map = new Map();
   for (const o of orders) {
@@ -476,28 +489,50 @@ function LoadModal({ load, capacity, onCapacityChange, onClose }) {
                 {load.originTrack && <span>via {load.originTrack}</span>}
                 {load.track && <span>via {load.track}</span>}
               </div>
-              <a
-                href={directionsHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={(e) => e.stopPropagation()}
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: 6,
-                  marginTop: 10,
-                  padding: "6px 12px",
-                  borderRadius: 8,
-                  border: "1px solid #2c4a3a",
-                  color: "#7be0a8",
-                  fontSize: 12,
-                  fontWeight: 700,
-                  textDecoration: "none",
-                  width: "fit-content",
-                }}
-              >
-                🧭 Get Directions
-              </a>
+              <div style={{ display: "flex", gap: 8, marginTop: 10 }}>
+                <a
+                  href={directionsHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: 6,
+                    padding: "6px 12px",
+                    borderRadius: 8,
+                    border: "1px solid #2c4a3a",
+                    color: "#7be0a8",
+                    fontSize: 12,
+                    fontWeight: 700,
+                    textDecoration: "none",
+                    width: "fit-content",
+                  }}
+                >
+                  🧭 Get Directions
+                </a>
+                <a
+                  href={buildPrintHref(load.orders, { label: `${load.origin} → ${load.destination}` })}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: 6,
+                    padding: "6px 12px",
+                    borderRadius: 8,
+                    border: "1px solid #2c4a3a",
+                    color: "#f0c95a",
+                    fontSize: 12,
+                    fontWeight: 700,
+                    textDecoration: "none",
+                    width: "fit-content",
+                  }}
+                >
+                  🖨 Print
+                </a>
+              </div>
             </div>
             <button onClick={onClose} style={{ ...btnSmall, width: 32, height: 32, fontSize: 18 }}>
               ×
@@ -925,6 +960,16 @@ function CreatedLoadRow({ load, resolvedOrders, capacity, onClick, onDelete }) {
         >
           {s.label}
         </span>
+        <a
+          href={buildPrintHref(resolvedOrders, { label: load.label, driver: load.driver, tripDate: load.tripDate })}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={(e) => e.stopPropagation()}
+          title="Print this load"
+          style={{ ...btnSmall, width: 28, height: 28, fontSize: 13, display: "inline-flex", alignItems: "center", justifyContent: "center", textDecoration: "none" }}
+        >
+          🖨
+        </a>
         <button
           onClick={(e) => {
             e.stopPropagation();
