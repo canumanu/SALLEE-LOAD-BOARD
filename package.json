@@ -1,0 +1,16 @@
+{
+  "name": "sallee-load-board",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sallee Horse Vans load board — React app, no framework beyond esbuild for bundling.",
+  "scripts": {
+    "build": "esbuild src/main.jsx --bundle --minify --loader:.jsx=jsx --define:process.env.NODE_ENV='\"production\"' --outfile=bundle.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.5"
+  }
+}
