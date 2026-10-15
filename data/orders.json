@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-15T14:10:14.487135Z",
+  "syncedAt": "2026-10-15T14:15:18.056318Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -410,30 +410,6 @@
       "id": "0588c6d6daab"
     },
     {
-      "dateTaken": "2026-10-09",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "PEPE",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "B WALSH",
-      "originTrack": "KEENELAND",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "ARINDEL",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SMOKE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "01564bad1c54"
-    },
-    {
       "dateTaken": "2026-10-10",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "JASON",
@@ -507,30 +483,6 @@
     },
     {
       "dateTaken": "2026-10-12",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "JESS RITSON",
-      "origin": "KENTUCKY ",
-      "originFarm": "MERCURY TRAINING CENTER",
-      "originTrainer": "J RITSON",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "PALM MEADOWS",
-      "destinationTrainer": "J TILTON",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "UNCLE JOHN",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "f0e64dcd78d9"
-    },
-    {
-      "dateTaken": "2026-10-12",
       "requestedDates": "2026-11-06",
       "takenBy": "FAYE",
       "requestedBy": "BETH BAYER",
@@ -552,30 +504,6 @@
       ],
       "stallSpace": 3.0,
       "id": "0cf632e460c9"
-    },
-    {
-      "dateTaken": "2026-10-13",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "KAYLA",
-      "requestedBy": "DES",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "FAIR HILL",
-      "destinationTrainer": "B JACKSON",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "OFFSHORE FUND",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "51f418f50afc"
     },
     {
       "dateTaken": "2026-10-13",
@@ -643,30 +571,6 @@
     },
     {
       "dateTaken": "2026-10-13",
-      "requestedDates": "ASAP",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "JUDDMONTE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "LINDY FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "JUBILEE PARADE  (FT DIGITAL HIP 21)",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "eb8195efc0f9"
-    },
-    {
-      "dateTaken": "2026-10-13",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "HARRY",
       "requestedBy": "",
@@ -688,30 +592,6 @@
       ],
       "stallSpace": 1.5,
       "id": "edc2cf44d809"
-    },
-    {
-      "dateTaken": "2026-10-14",
-      "requestedDates": "ASAP",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "B MAKER",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "SHUG",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ELLA FORTE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "9bdd286e6997"
     },
     {
       "dateTaken": "2026-10-14",
@@ -904,54 +784,6 @@
       ],
       "stallSpace": 1.5,
       "id": "9862adbbc05d"
-    },
-    {
-      "dateTaken": "2026-10-14",
-      "requestedDates": "SAT 10/17",
-      "takenBy": "LESLEY",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "B JACKSON",
-      "originTrack": "FAIR HILL",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "R DUTROW",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "INDIE GET YOUR GUN",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "3fd74c875b0a"
-    },
-    {
-      "dateTaken": "2026-10-14",
-      "requestedDates": "FRIDAY 10/16/26",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "CHESAPEAKE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "MOUNTAIN VIEW FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MIGHTY GHOSTLY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "744938281782"
     },
     {
       "dateTaken": "2026-10-15",
