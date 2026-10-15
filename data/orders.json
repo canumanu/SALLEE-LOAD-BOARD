@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-15T14:45:15.108136Z",
+  "syncedAt": "2026-10-15T14:50:14.158258Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -336,30 +336,6 @@
       ],
       "stallSpace": 3.0,
       "id": "1ed09f2ab307"
-    },
-    {
-      "dateTaken": "2026-10-08",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLEY",
-      "requestedBy": "",
-      "origin": "OHIO",
-      "originFarm": "",
-      "originTrainer": "P CHAIN",
-      "originTrack": "BELTERRA",
-      "destination": "INFIELD FL",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "c57e8c748869"
     },
     {
       "dateTaken": "2026-10-09",
