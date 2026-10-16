@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-16T12:50:14.612557Z",
+  "syncedAt": "2026-10-16T12:55:13.700749Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -738,30 +738,6 @@
       "id": "c0667ae6178e"
     },
     {
-      "dateTaken": "2026-10-14",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "STOCKPLACE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "TRISTAN DEMERIC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ALARM CLOCK 25",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "9862adbbc05d"
-    },
-    {
       "dateTaken": "2026-10-15",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "LESLIE ",
@@ -811,30 +787,6 @@
     },
     {
       "dateTaken": "2026-10-15",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE ",
-      "requestedBy": "PEPE",
-      "origin": "KENTUCKY ",
-      "originFarm": "IN GOOD COMPANY",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "G OCHOA",
-      "destinationFarm": "DERBY DREAMS",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "HANG ON SLOOPY 25",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "47076c705b6b"
-    },
-    {
-      "dateTaken": "2026-10-15",
       "requestedDates": "END OF OCTOBER",
       "takenBy": "JASON",
       "requestedBy": "",
@@ -859,7 +811,7 @@
     },
     {
       "dateTaken": "2026-10-15",
-      "requestedDates": "ASA[",
+      "requestedDates": "ASAP",
       "takenBy": "HARRY",
       "requestedBy": "",
       "origin": "OCALA",
