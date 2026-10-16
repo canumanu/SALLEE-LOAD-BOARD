@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-16T19:10:18.391206Z",
+  "syncedAt": "2026-10-16T19:15:17.465716Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -840,31 +840,6 @@
       ],
       "stallSpace": 3.0,
       "id": "6057d3f04b6e"
-    },
-    {
-      "id": "sp-1",
-      "source": "app",
-      "dateTaken": "2026-01-01",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SAMPLE",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "SAMPLE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "SAMPLE FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SAMPLE HORSE",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5
     },
     {
       "id": "sp-2",
