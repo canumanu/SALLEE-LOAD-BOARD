@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-16T20:35:11.842044Z",
+  "syncedAt": "2026-10-16T20:40:17.444264Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -2715,6 +2715,31 @@
         }
       ],
       "stallSpace": 0
+    },
+    {
+      "id": "sp-77",
+      "source": "app",
+      "dateTaken": "2026-10-16",
+      "requestedDates": "ASAP",
+      "takenBy": "Manu",
+      "requestedBy": "",
+      "origin": "EAST COAST",
+      "originFarm": "",
+      "originTrainer": "saffie joseph",
+      "originTrack": "saratoga",
+      "destination": "KENTUCKY",
+      "track": "gulfstream",
+      "destinationTrainer": "saffie joseph",
+      "destinationFarm": "",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "R KANT MISS",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0
     }
   ]
 }
