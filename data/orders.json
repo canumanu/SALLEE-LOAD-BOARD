@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-17T17:25:14.819636Z",
+  "syncedAt": "2026-10-17T17:30:17.074841Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -648,30 +648,6 @@
       ],
       "stallSpace": 3.0,
       "id": "c0667ae6178e"
-    },
-    {
-      "dateTaken": "2026-10-15",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE ",
-      "requestedBy": "CHRIS HERMANN",
-      "origin": "OCALA",
-      "originFarm": "CITRA FL",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "PARX",
-      "destinationTrainer": "F FLORES-COBA",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MINDSTARS",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "b4767943d3f5"
     },
     {
       "dateTaken": "2026-10-15",
