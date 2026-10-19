@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-19T12:30:17.722257Z",
+  "syncedAt": "2026-10-19T12:35:12.998954Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -720,30 +720,6 @@
       ],
       "stallSpace": 3.0,
       "id": "7134287b6599"
-    },
-    {
-      "dateTaken": "2026-10-16",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "CHURCHILL",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "STORM DIVA",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "4e049e1e745b"
     },
     {
       "dateTaken": "2026-10-16",
