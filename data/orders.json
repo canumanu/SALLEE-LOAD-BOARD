@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-19T20:45:14.000189Z",
+  "syncedAt": "2026-10-19T20:50:24.698647Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -384,54 +384,6 @@
       ],
       "stallSpace": 3.0,
       "id": "0588c6d6daab"
-    },
-    {
-      "dateTaken": "2026-10-10",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "M CLEMENT",
-      "originTrack": "SARATOGA ",
-      "destination": "WOODBINE",
-      "track": "",
-      "destinationTrainer": "G COX",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TBD",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "48db419ee0c1"
-    },
-    {
-      "dateTaken": "2026-10-10",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "UPSTATE NEW YORK",
-      "originFarm": "",
-      "originTrainer": "R LEARMAN",
-      "originTrack": "SARATOGA ",
-      "destination": "WOODBINE",
-      "track": "",
-      "destinationTrainer": "TBD",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TBD",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "a3ef25b4b569"
     },
     {
       "dateTaken": "2026-10-10",
