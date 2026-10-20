@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-20T18:05:15.730880Z",
+  "syncedAt": "2026-10-20T18:10:16.840822Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -480,30 +480,6 @@
       ],
       "stallSpace": 1.5,
       "id": "63190c884f21"
-    },
-    {
-      "dateTaken": "2026-10-14",
-      "requestedDates": "TUESDAY 10/20",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM ",
-      "originTrack": "DELAWARE PARK",
-      "destination": "KENTUCKY ",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "ROOD & RIDDLE",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "OFF",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "dc61a1b8b28e"
     },
     {
       "dateTaken": "2026-10-14",
