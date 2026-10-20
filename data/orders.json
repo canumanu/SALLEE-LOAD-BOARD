@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-20T12:25:14.069415Z",
+  "syncedAt": "2026-10-20T12:30:17.698434Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -720,54 +720,6 @@
       ],
       "stallSpace": 1.5,
       "id": "87c3d290caf2"
-    },
-    {
-      "dateTaken": "2026-10-17",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "J SHARP",
-      "originTrack": "CHURCHILL",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "J SHARP",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 FILLY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "879f384d888c"
-    },
-    {
-      "dateTaken": "2026-10-17",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "J SHARP",
-      "originTrack": "KEENELAND",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "J SHARP",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 FILLY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "879f384d888c"
     },
     {
       "dateTaken": "2026-10-17",
