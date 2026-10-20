@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-20T14:15:14.654241Z",
+  "syncedAt": "2026-10-20T14:20:16.135457Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -1002,7 +1002,11 @@
           "stallSpace": 9.0
         },
         {
-          "name": "KERBY. ELEANOR",
+          "name": "KERBY",
+          "stallSpace": null
+        },
+        {
+          "name": "ELEANOR",
           "stallSpace": null
         }
       ],
