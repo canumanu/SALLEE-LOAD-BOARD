@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-20T17:50:16.853232Z",
+  "syncedAt": "2026-10-20T17:55:14.963375Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -836,30 +836,6 @@
       ],
       "stallSpace": 9.0,
       "id": "9f0a5bc882bf"
-    },
-    {
-      "dateTaken": "2026-10-19",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "KAYLA",
-      "requestedBy": "BRAD BEESON",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "L SCHULTZ",
-      "originTrack": "MONMOUTH PARK",
-      "destination": "KENTUCKY ",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "ELEANOR STINSON",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SUGAR COOKIE",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "81e72b5e82e0"
     },
     {
       "dateTaken": "2026-10-19",
