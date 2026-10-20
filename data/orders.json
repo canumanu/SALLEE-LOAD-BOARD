@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-20T15:50:19.464379Z",
+  "syncedAt": "2026-10-20T15:55:15.944861Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -456,30 +456,6 @@
       ],
       "stallSpace": 1.5,
       "id": "edc2cf44d809"
-    },
-    {
-      "dateTaken": "2026-10-14",
-      "requestedDates": "ASAP",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "L GAUDET",
-      "originTrack": "LAUREL",
-      "destination": "KENTUCKY ",
-      "track": "TRACKSIDE",
-      "destinationTrainer": "D HEATH",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CAIRO STREET (FT DIGITAL HIP 73)",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "a3a920e996a5"
     },
     {
       "dateTaken": "2026-10-14",
