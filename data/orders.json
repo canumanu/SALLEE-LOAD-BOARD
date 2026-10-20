@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-20T13:15:18.557664Z",
+  "syncedAt": "2026-10-20T13:20:15.777871Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -531,30 +531,6 @@
     },
     {
       "dateTaken": "2026-10-14",
-      "requestedDates": "ASAP",
-      "takenBy": "LESLIE",
-      "requestedBy": "PEPE",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "S ASMUSSEN",
-      "originTrack": "ELLIS PARK",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "G OCHOA",
-      "destinationFarm": "DERBY DREAMS",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "EPIC RULER",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "70055374997b"
-    },
-    {
-      "dateTaken": "2026-10-14",
       "requestedDates": "END OF OCTOBER",
       "takenBy": "MANU",
       "requestedBy": "P BIANCONE",
@@ -576,30 +552,6 @@
       ],
       "stallSpace": 3.0,
       "id": "69bf012e5d69"
-    },
-    {
-      "dateTaken": "2026-10-14",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "WINSTAR ",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "OCALA STUD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "GILDED CRAKEN",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "c0667ae6178e"
     },
     {
       "dateTaken": "2026-10-15",
@@ -908,78 +860,6 @@
       ],
       "stallSpace": 9.0,
       "id": "9f0a5bc882bf"
-    },
-    {
-      "dateTaken": "2026-10-19",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "VICKIE",
-      "requestedBy": "HOPE WALDEN",
-      "origin": "KENTUCKY ",
-      "originFarm": "ASHFORD",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "DAVID SCANLON",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SLOANE SQUARE 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "2a88edfc57a8"
-    },
-    {
-      "dateTaken": "2026-10-19",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "VICKIE",
-      "requestedBy": "HOPE WALDEN",
-      "origin": "KENTUCKY ",
-      "originFarm": "ASHFORD",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CARTOUCHE 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "2a88edfc57a8"
-    },
-    {
-      "dateTaken": "2026-10-19",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "VICKIE",
-      "requestedBy": "MARK",
-      "origin": "KENTUCKY ",
-      "originFarm": "MIACOMET",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "KINSMAN ",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TEDDY'S ROCKET",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "9d56666b57ab"
     },
     {
       "dateTaken": "2026-10-19",
