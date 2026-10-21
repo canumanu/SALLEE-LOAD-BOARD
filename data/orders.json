@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-21T12:15:15.893634Z",
+  "syncedAt": "2026-10-21T12:20:16.703759Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -626,54 +626,6 @@
       "id": "87c3d290caf2"
     },
     {
-      "dateTaken": "2026-10-17",
-      "requestedDates": "BEFORE 10/21",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "G WEAVER",
-      "originTrack": "KEENELAND",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "G WEAVER",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 FILLY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "24b7af7f6ab9"
-    },
-    {
-      "dateTaken": "2026-10-17",
-      "requestedDates": "OCTOBER 20TH",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "LINDY FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "KENTUCKY ",
-      "track": "KEENELAND",
-      "destinationTrainer": "P ANTONACCI",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "300ad2d65f99"
-    },
-    {
       "dateTaken": "2026-10-18",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "BEN",
@@ -696,30 +648,6 @@
       ],
       "stallSpace": 1.5,
       "id": "c10fc62321fa"
-    },
-    {
-      "dateTaken": "2026-10-18",
-      "requestedDates": "OCTOBER 25TH",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M CLEMENT",
-      "originTrack": "KEENELAND",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "M CLEMENT",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BOTTAS",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "1d8c87cda768"
     },
     {
       "dateTaken": "2026-10-19",
