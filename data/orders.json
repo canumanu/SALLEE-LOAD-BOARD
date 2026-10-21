@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-21T12:25:14.877624Z",
+  "syncedAt": "2026-10-21T12:30:18.721123Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -576,30 +576,6 @@
       ],
       "stallSpace": 3.0,
       "id": "7134287b6599"
-    },
-    {
-      "dateTaken": "2026-10-16",
-      "requestedDates": "**HOLD**",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "CHURCHILL",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SUGAR TIME",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "6057d3f04b6e"
     },
     {
       "dateTaken": "2026-10-16",
