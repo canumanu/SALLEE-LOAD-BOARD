@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-21T12:10:16.502703Z",
+  "syncedAt": "2026-10-21T12:15:15.893634Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -627,30 +627,6 @@
     },
     {
       "dateTaken": "2026-10-17",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "A DEVAUX",
-      "originTrack": "KEENELAND",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "A DEVAUX",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SKY LOW LOW + GOAT",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "1c6e3d6737e6"
-    },
-    {
-      "dateTaken": "2026-10-17",
       "requestedDates": "BEFORE 10/21",
       "takenBy": "HARRY",
       "requestedBy": "",
@@ -887,30 +863,6 @@
     },
     {
       "dateTaken": "2026-10-19",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "D ONEILL",
-      "originTrack": "KEENELAND",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "C SUMMERS",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "DR RUBEN M",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "4f9a14242a64"
-    },
-    {
-      "dateTaken": "2026-10-19",
       "requestedDates": "10/26-10/27",
       "takenBy": "KAYLA",
       "requestedBy": "CARRIE EDMUND",
@@ -1062,7 +1014,7 @@
       "id": "44ba7866da2c"
     },
     {
-      "dateTaken": "",
+      "dateTaken": "2026-10-21",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "HARRY",
       "requestedBy": "",
@@ -1083,7 +1035,7 @@
         }
       ],
       "stallSpace": 3.0,
-      "id": "375d96938b6b"
+      "id": "effe6576ddec"
     },
     {
       "id": "sp-2",
