@@ -289,6 +289,22 @@
 (function () {
   var ORDERS_URL = "data/orders.json";
 
+  // Decodes the compact order data SalleeLoadBoard.jsx's buildPrintHref()
+  // encodes into the "data" param -- the mirror of its
+  // btoa(encodeURIComponent(json)) encoding. This lets a just-created
+  // "+ New Order" order print correctly right away, without waiting on
+  // (or depending on) data/orders.json's periodic sync to pick it up.
+  function decodeInlineOrders(raw) {
+    if (!raw) return [];
+    try {
+      var parsed = JSON.parse(decodeURIComponent(atob(raw)));
+      return Array.isArray(parsed) ? parsed : [];
+    } catch (err) {
+      console.warn("print.html: could not decode inline order data from the link", err);
+      return [];
+    }
+  }
+
   function qs() {
     var p = new URLSearchParams(window.location.search);
     return {
@@ -296,6 +312,7 @@
       label: p.get("label") || "",
       driver: p.get("driver") || "",
       tripDate: p.get("tripDate") || "",
+      inlineOrders: decodeInlineOrders(p.get("data")),
     };
   }
 
@@ -337,16 +354,26 @@
     return (o.origin || "?") + " → " + (o.destination || "?");
   }
 
+  // Read once -- used both for initial state and later, when the
+  // background orders.json fetch resolves, to merge the fresher inline
+  // copies back in (see the fetch handler below).
+  var initialQs = qs();
+
   var state = {
-    loading: true,
+    // If the link already carried the order data we need (the normal case
+    // when printing from the board), there's nothing to wait on -- show
+    // the printout immediately. Otherwise (direct/bookmarked links, or an
+    // older link format without a "data" param) fall back to waiting on
+    // the data/orders.json fetch like before.
+    loading: initialQs.inlineOrders.length === 0,
     error: null,
-    orders: [],
-    selected: new Set(qs().ids),
+    orders: initialQs.inlineOrders,
+    selected: new Set(initialQs.ids),
     query: "",
-    label: qs().label,
-    driver: qs().driver,
-    tripDate: qs().tripDate,
-    deepLinked: qs().ids.length > 0,
+    label: initialQs.label,
+    driver: initialQs.driver,
+    tripDate: initialQs.tripDate,
+    deepLinked: initialQs.ids.length > 0,
   };
 
   function ordersByIdMap() {
@@ -512,11 +539,29 @@
     .then(function (payload) {
       var orders = Array.isArray(payload) ? payload : payload.orders;
       if (!Array.isArray(orders)) throw new Error("unexpected payload shape");
-      state.orders = orders;
+      // orders.json is the full dataset (needed for the "pick more" search
+      // picker), but the order(s) passed inline in the link are the
+      // freshest copy of the order(s) actually being printed -- e.g. a
+      // brand-new app order the periodic sync hasn't written into
+      // orders.json yet -- so they win over any stale/missing entry with
+      // the same id.
+      var merged = orders.slice();
+      var indexById = {};
+      merged.forEach(function (o, i) { indexById[o.id] = i; });
+      initialQs.inlineOrders.forEach(function (o) {
+        if (indexById.hasOwnProperty(o.id)) merged[indexById[o.id]] = o;
+        else merged.push(o);
+      });
+      state.orders = merged;
       state.loading = false;
       render();
     })
     .catch(function (err) {
+      // If we've already got inline order data to work with, a failed or
+      // slow orders.json fetch isn't fatal -- the printout itself still
+      // works, it just can't offer "pick more"/search across every other
+      // open order until a future load succeeds.
+      if (initialQs.inlineOrders.length > 0) return;
       state.loading = false;
       state.error = err.message || String(err);
       render();
