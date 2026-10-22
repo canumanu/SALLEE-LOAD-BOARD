@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-22T12:25:12.671687Z",
+  "syncedAt": "2026-10-22T12:30:18.181164Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -716,54 +716,6 @@
       ],
       "stallSpace": 0,
       "id": "be0e44221981"
-    },
-    {
-      "dateTaken": "2026-10-19",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "F MAUK",
-      "originTrack": "?",
-      "destination": "FAIRGROUNDS",
-      "track": "",
-      "destinationTrainer": "M STIDHAM",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "RUDE PROCEDURE",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "be23b16a5d3f"
-    },
-    {
-      "dateTaken": "2026-10-19",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M HOGAN",
-      "originTrack": "GENESIS TC",
-      "destination": "FAIRGROUNDS",
-      "track": "",
-      "destinationTrainer": "M STIDHAM",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ROLE PLAYER",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "4cd62e6805cb"
     },
     {
       "dateTaken": "2026-10-19",
