@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-22T14:40:16.223438Z",
+  "syncedAt": "2026-10-22T14:45:17.089480Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -480,30 +480,6 @@
       ],
       "stallSpace": 1.5,
       "id": "63190c884f21"
-    },
-    {
-      "dateTaken": "2026-10-14",
-      "requestedDates": "END OF OCTOBER",
-      "takenBy": "MANU",
-      "requestedBy": "P BIANCONE",
-      "origin": "KENTUCKY ",
-      "originFarm": "TAYLOR MADE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "PALM MEADOWS",
-      "destinationTrainer": "P BIANCONE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BEACH GOLD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "69bf012e5d69"
     },
     {
       "dateTaken": "2026-10-15",
