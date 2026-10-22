@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-22T14:00:23.353147Z",
+  "syncedAt": "2026-10-22T14:05:15.739093Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -868,30 +868,6 @@
       ],
       "stallSpace": 3.0,
       "id": "44ba7866da2c"
-    },
-    {
-      "dateTaken": "2026-10-21",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "KEENELAND",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MY BOY PRINCE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "effe6576ddec"
     },
     {
       "dateTaken": "2026-10-21",
