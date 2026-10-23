@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-23T13:45:15.385244Z",
+  "syncedAt": "2026-10-23T13:50:13.755370Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -1099,7 +1099,7 @@
       "horses": [
         {
           "name": "FINAL STORY",
-          "stallSpace": null
+          "stallSpace": 15.0
         },
         {
           "name": "GREATEST HITS",
@@ -1118,8 +1118,8 @@
           "stallSpace": null
         }
       ],
-      "stallSpace": 0,
-      "id": "251a74b98fa3"
+      "stallSpace": 15.0,
+      "id": "2f62a8306757"
     },
     {
       "id": "sp-2",
