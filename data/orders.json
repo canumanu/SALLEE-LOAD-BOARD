@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-25T13:40:17.475274Z",
+  "syncedAt": "2026-10-25T13:45:13.329413Z",
   "orders": [
     {
       "dateTaken": "2026-09-07",
@@ -750,54 +750,6 @@
       "id": "23b1749dc956"
     },
     {
-      "dateTaken": "2026-10-20",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "TROY",
-      "origin": "KENTUCKY ",
-      "originFarm": "CIRCLE 8",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "PICKVIEW FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SARALIN 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "4f442279a760"
-    },
-    {
-      "dateTaken": "2026-10-20",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "G FORSTER",
-      "originTrack": "SPORTS SPECTRUM",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "LAMBHOLM SOUTH",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "FAITHFUL DEPARTED",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "0c244a93909f"
-    },
-    {
       "dateTaken": "2026-10-21",
       "requestedDates": "MONDAY 10/26",
       "takenBy": "LESLEY",
@@ -1024,30 +976,6 @@
       ],
       "stallSpace": 3.0,
       "id": "82e474273d0d"
-    },
-    {
-      "dateTaken": "2026-10-23",
-      "requestedDates": "ASAP",
-      "takenBy": "LESLIE ",
-      "requestedBy": "OMAR",
-      "origin": "KENTUCKY ",
-      "originFarm": "MARK TUCKER FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "PENINSULA TC",
-      "destinationTrainer": "O RAMIREZ",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MISS MO'LICIOUS 25",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "009861666b61"
     },
     {
       "dateTaken": "2026-10-23",
