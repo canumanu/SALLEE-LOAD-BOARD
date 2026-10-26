@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-26T15:25:15.444727Z",
+  "syncedAt": "2026-10-26T15:30:18.908527Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -776,30 +776,6 @@
       ],
       "stallSpace": 3.0,
       "id": "c83f5d937ba7"
-    },
-    {
-      "dateTaken": "2026-10-21",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLEY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "WINCHESTER PLACE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "J ANTONUCCI",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "METONIC",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "fd05eb8e47ca"
     },
     {
       "dateTaken": "2026-10-21",
