@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-27T19:40:15.376420Z",
+  "syncedAt": "2026-10-27T19:45:15.796684Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -1032,30 +1032,6 @@
       ],
       "stallSpace": 3.0,
       "id": "4d60e6d33399"
-    },
-    {
-      "dateTaken": "2026-10-26",
-      "requestedDates": "MON 10/26/26",
-      "takenBy": "DAVID W",
-      "requestedBy": "",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "S JOSEPH ",
-      "originTrack": "PALM MEADOWS",
-      "destination": "KENTUCKY ",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "TAYLOR MADE",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LUVUMORGAN",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "d9971ba4e814"
     },
     {
       "dateTaken": "2026-10-26",
