@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-27T15:30:21.631936Z",
+  "syncedAt": "2026-10-27T15:35:15.761403Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -976,30 +976,6 @@
       ],
       "stallSpace": 3.0,
       "id": "e67a1bc00b5f"
-    },
-    {
-      "dateTaken": "2026-10-24",
-      "requestedDates": "BEFORE 10/29",
-      "takenBy": "LESLIE ",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "J ABREU",
-      "originTrack": "BELMONT",
-      "destination": "OCALA",
-      "track": "PENNSTON",
-      "destinationTrainer": "",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "GET A JOB",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "30705da4a1b1"
     },
     {
       "dateTaken": "2026-10-24",
