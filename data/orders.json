@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-27T14:45:15.801728Z",
+  "syncedAt": "2026-10-27T14:50:15.999714Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -832,30 +832,6 @@
       ],
       "stallSpace": 3.0,
       "id": "2d6a5afb8aae"
-    },
-    {
-      "dateTaken": "2026-10-22",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE ",
-      "requestedBy": "ELAINE",
-      "origin": "OCALA",
-      "originFarm": "EISMAN ",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "FAIRGROUNDS",
-      "track": "FAIRGROUNDS",
-      "destinationTrainer": "C DEVAUX",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "REVIVE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "ec8ff1209898"
     },
     {
       "dateTaken": "2026-10-22",
