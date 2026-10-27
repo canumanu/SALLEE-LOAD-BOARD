@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-27T15:55:14.752690Z",
+  "syncedAt": "2026-10-27T16:00:26.919204Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -795,7 +795,7 @@
       "horses": [
         {
           "name": "COINVESTMENT",
-          "stallSpace": 3.0
+          "stallSpace": 15.0
         },
         {
           "name": "CONSUMER SENTIMENT",
@@ -804,10 +804,18 @@
         {
           "name": "RELATIVE VALUE",
           "stallSpace": null
+        },
+        {
+          "name": "METRICS",
+          "stallSpace": null
+        },
+        {
+          "name": "LETTER OF CREDIT",
+          "stallSpace": null
         }
       ],
-      "stallSpace": 3.0,
-      "id": "2d6a5afb8aae"
+      "stallSpace": 15.0,
+      "id": "60d0d5090a22"
     },
     {
       "dateTaken": "2026-10-23",
