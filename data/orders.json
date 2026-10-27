@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-27T19:45:15.796684Z",
+  "syncedAt": "2026-10-27T19:50:15.064193Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -756,30 +756,6 @@
     {
       "dateTaken": "2026-10-21",
       "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLEY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "WINCHESTER PLACE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "J ANTONUCCI",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "METONIC",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "fd05eb8e47ca"
-    },
-    {
-      "dateTaken": "2026-10-21",
-      "requestedDates": "NEXT AVAILABLE",
       "takenBy": "VICKIE",
       "requestedBy": "",
       "origin": "KENTUCKY ",
@@ -1184,30 +1160,6 @@
       ],
       "stallSpace": 3.0,
       "id": "c6362140a45f"
-    },
-    {
-      "dateTaken": "2026-10-27",
-      "requestedDates": "WEDNESDAY 10/28/26",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "B WALSH",
-      "originTrack": "CHURCHILL",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "B WALSH ",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "EAST AVENUE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "29f71ad0af2b"
     },
     {
       "id": "sp-2",
