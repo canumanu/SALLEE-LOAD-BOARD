@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-28T15:20:23.025943Z",
+  "syncedAt": "2026-10-28T15:25:13.985815Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -776,46 +776,6 @@
       ],
       "stallSpace": 3.0,
       "id": "ea82e10292f4"
-    },
-    {
-      "dateTaken": "2026-10-22",
-      "requestedDates": "WEDNESDAY 10/28/26",
-      "takenBy": "KAYLA",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "PAYSON PARK ",
-      "destinationTrainer": "C BROWN",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "COINVESTMENT",
-          "stallSpace": 15.0
-        },
-        {
-          "name": "CONSUMER SENTIMENT",
-          "stallSpace": null
-        },
-        {
-          "name": "RELATIVE VALUE",
-          "stallSpace": null
-        },
-        {
-          "name": "METRICS",
-          "stallSpace": null
-        },
-        {
-          "name": "LETTER OF CREDIT",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 15.0,
-      "id": "60d0d5090a22"
     },
     {
       "dateTaken": "2026-10-23",
