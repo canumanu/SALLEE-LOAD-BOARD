@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-28T18:40:17.129316Z",
+  "syncedAt": "2026-10-28T18:45:14.974520Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -571,7 +571,7 @@
       "horses": [
         {
           "name": "GALINDA",
-          "stallSpace": 9.0
+          "stallSpace": 7.5
         },
         {
           "name": "BROOKLYN STYLES",
@@ -588,14 +588,10 @@
         {
           "name": "KIRKWOOD",
           "stallSpace": null
-        },
-        {
-          "name": "AMMO",
-          "stallSpace": null
         }
       ],
-      "stallSpace": 9.0,
-      "id": "9f0a5bc882bf"
+      "stallSpace": 7.5,
+      "id": "d1f272ae4042"
     },
     {
       "dateTaken": "2026-10-19",
