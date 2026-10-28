@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-28T17:00:20.508949Z",
+  "syncedAt": "2026-10-28T17:05:16.394455Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -1096,30 +1096,6 @@
       ],
       "stallSpace": 1.5,
       "id": "f94cf75aa969"
-    },
-    {
-      "dateTaken": "2026-10-27",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE ",
-      "requestedBy": "HARRY",
-      "origin": "OCALA",
-      "originFarm": "OEH",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "KENTUCKY",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "HIDDEN BROOK",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "VINCEY GIRL",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "c6362140a45f"
     },
     {
       "dateTaken": "2026-10-28",
