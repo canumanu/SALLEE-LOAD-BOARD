@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-29T12:55:18.389048Z",
+  "syncedAt": "2026-10-29T13:00:23.772847Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -434,30 +434,6 @@
       "id": "edc2cf44d809"
     },
     {
-      "dateTaken": "2026-10-14",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM ",
-      "originTrack": "DELAWARE PARK",
-      "destination": "KENTUCKY ",
-      "track": "KEENELAND",
-      "destinationTrainer": "M STIDHAM",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CORNWALL BOSS",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "63190c884f21"
-    },
-    {
       "dateTaken": "2026-10-15",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "LESLIE ",
@@ -579,54 +555,6 @@
     },
     {
       "dateTaken": "2026-10-21",
-      "requestedDates": "MONDAY 10/26",
-      "takenBy": "LESLEY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "STONESTREET",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CORRELATION TRADE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "44ba7866da2c"
-    },
-    {
-      "dateTaken": "2026-10-21",
-      "requestedDates": "MONDAY 10/26",
-      "takenBy": "LESLEY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "BRIDLEWOOD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "INADMISSABLE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "44ba7866da2c"
-    },
-    {
-      "dateTaken": "2026-10-21",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "SANDY",
       "requestedBy": "",
@@ -700,38 +628,6 @@
       ],
       "stallSpace": 6.0,
       "id": "9534dea4540d"
-    },
-    {
-      "dateTaken": "2026-10-23",
-      "requestedDates": "SUNDAY 11/1",
-      "takenBy": "KAYLA",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "BRIDLEWOOD",
-      "destinationTrainer": "",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ELEVATOR SHAFT 25",
-          "stallSpace": 9.0
-        },
-        {
-          "name": "SLEVKA 25",
-          "stallSpace": null
-        },
-        {
-          "name": "BIG STARLIGHT 25",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "8503c813217a"
     },
     {
       "dateTaken": "2026-10-23",
@@ -1200,6 +1096,30 @@
       ],
       "stallSpace": 3.0,
       "id": "886f04f7b490"
+    },
+    {
+      "dateTaken": "2026-10-28",
+      "requestedDates": "MONDAY 11/1",
+      "takenBy": "SCOTT",
+      "requestedBy": "",
+      "origin": "KENTUCKY ",
+      "originFarm": "",
+      "originTrainer": "M STIDHAM ",
+      "originTrack": "KEENELAND",
+      "destination": "FAIRGROUNDS",
+      "track": "",
+      "destinationTrainer": "M STIDHAM",
+      "destinationFarm": "",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "CORNWALL BOSS",
+          "stallSpace": null
+        }
+      ],
+      "stallSpace": 0,
+      "id": "fa075200248d"
     },
     {
       "dateTaken": "2026-10-29",
