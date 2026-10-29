@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-29T18:05:18.484302Z",
+  "syncedAt": "2026-10-29T18:10:14.718637Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -242,30 +242,6 @@
       "id": "def87b7feb58"
     },
     {
-      "dateTaken": "2026-10-05",
-      "requestedDates": "READY",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "VIRGINIA",
-      "originFarm": "HIDDEN RIDGE INTERNATIONAL",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "SPECTRUM SHOW STABLES",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LUI",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "02aca5f64ab1"
-    },
-    {
       "dateTaken": "2026-10-07",
       "requestedDates": "2026-10-22",
       "takenBy": "LESLEY",
@@ -408,30 +384,6 @@
       ],
       "stallSpace": 1.5,
       "id": "edc2cf44d809"
-    },
-    {
-      "dateTaken": "2026-10-15",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE ",
-      "requestedBy": "CLAUDIA HEATH",
-      "origin": "VIRGINIA",
-      "originFarm": "SPRINGHILL FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "SALLEE YARD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "?",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "4b24d3f20924"
     },
     {
       "dateTaken": "2026-10-15",
