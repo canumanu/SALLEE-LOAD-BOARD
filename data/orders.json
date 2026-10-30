@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-30T12:25:12.863091Z",
+  "syncedAt": "2026-10-30T12:30:21.782072Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -574,54 +574,6 @@
       "id": "2f62a8306757"
     },
     {
-      "dateTaken": "2026-10-23",
-      "requestedDates": "ASAP",
-      "takenBy": "LESLIE ",
-      "requestedBy": "RENEE",
-      "origin": "KENTUCKY ",
-      "originFarm": "BOONESBORO FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "PENINSULA TC",
-      "destinationTrainer": "O RAMIREZ",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CASTLESINAIR 25",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "dc3bf283d2a6"
-    },
-    {
-      "dateTaken": "2026-10-24",
-      "requestedDates": "ASAP",
-      "takenBy": "LESLIE ",
-      "requestedBy": "CARLOS MORALES",
-      "origin": "KENTUCKY ",
-      "originFarm": "COAL RIDGE LANE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "GLOBAL THOROUGHBREDS",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "DIAMOND SPARKLES 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "18e10a2b21e6"
-    },
-    {
       "dateTaken": "2026-10-24",
       "requestedDates": "NEXT TRIP",
       "takenBy": "LESLIE ",
@@ -716,38 +668,6 @@
       ],
       "stallSpace": 0,
       "id": "2c7b2f27d457"
-    },
-    {
-      "dateTaken": "2026-10-26",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "KAYLA",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "STONE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "SGV THOROUGHBREDS",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BOPPY 25",
-          "stallSpace": 9.0
-        },
-        {
-          "name": "WAIT FOR NAIROBI 25",
-          "stallSpace": null
-        },
-        {
-          "name": "YES I'LL GO 25",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "70daded91fc4"
     },
     {
       "dateTaken": "2026-10-26",
@@ -976,30 +896,6 @@
       ],
       "stallSpace": 4.5,
       "id": "248bb7917f9b"
-    },
-    {
-      "dateTaken": "2026-10-28",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "LESLEY",
-      "requestedBy": "EMILY",
-      "origin": "KENTUCKY ",
-      "originFarm": "TAYLOR MADE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "NIALL BRENNAN",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BEAUTIFUL DREAMER",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "886f04f7b490"
     },
     {
       "dateTaken": "2026-10-28",
