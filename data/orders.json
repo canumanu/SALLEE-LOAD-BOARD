@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-10-31T12:50:16.140260Z",
+  "syncedAt": "2026-10-31T12:55:12.683147Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -432,30 +432,6 @@
       ],
       "stallSpace": 3.0,
       "id": "7134287b6599"
-    },
-    {
-      "dateTaken": "2026-10-19",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "DOUG",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "D ANDERSON",
-      "originTrack": "KY HORSE CENTER",
-      "destination": "FAIRGROUNDS",
-      "track": "",
-      "destinationTrainer": "T TRACEY",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "be0e44221981"
     },
     {
       "dateTaken": "2026-10-21",
