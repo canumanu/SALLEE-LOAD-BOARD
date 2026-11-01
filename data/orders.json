@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-01T19:40:14.659041Z",
+  "syncedAt": "2026-11-01T19:45:15.202366Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -464,30 +464,6 @@
     {
       "dateTaken": "2026-10-21",
       "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "J BURKE",
-      "originTrack": "THOROUGHBRED CENTER",
-      "destination": "FAIRGROUNDS",
-      "track": "FAIRGROUNDS",
-      "destinationTrainer": "J BURKE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ELATION",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "c83f5d937ba7"
-    },
-    {
-      "dateTaken": "2026-10-21",
-      "requestedDates": "NEXT AVAILABLE",
       "takenBy": "VICKIE",
       "requestedBy": "",
       "origin": "KENTUCKY ",
@@ -872,30 +848,6 @@
       ],
       "stallSpace": 4.5,
       "id": "248bb7917f9b"
-    },
-    {
-      "dateTaken": "2026-10-28",
-      "requestedDates": "SUNDAY 11/1/2026",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM ",
-      "originTrack": "KEENELAND",
-      "destination": "FAIRGROUNDS",
-      "track": "",
-      "destinationTrainer": "M STIDHAM",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CORNWALL BOSS",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "fa075200248d"
     },
     {
       "dateTaken": "2026-10-29",
