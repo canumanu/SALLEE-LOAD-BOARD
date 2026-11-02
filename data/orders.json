@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-02T19:35:22.610859Z",
+  "syncedAt": "2026-11-02T19:40:13.798422Z",
   "orders": [
     {
       "dateTaken": "2026-10-12",
@@ -735,11 +735,11 @@
       "horses": [
         {
           "name": "1 HD",
-          "stallSpace": null
+          "stallSpace": 1.5
         }
       ],
-      "stallSpace": 0,
-      "id": "fe1c40b0e672"
+      "stallSpace": 1.5,
+      "id": "31616675e2cf"
     },
     {
       "id": "sp-2",
