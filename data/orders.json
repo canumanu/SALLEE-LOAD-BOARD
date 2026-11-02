@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-02T15:50:21.281069Z",
+  "syncedAt": "2026-11-02T15:55:23.405615Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -976,30 +976,6 @@
       ],
       "stallSpace": 3.0,
       "id": "e8430d8fcb22"
-    },
-    {
-      "dateTaken": "2026-11-01",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "DAVID W",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "C DAVID",
-      "originTrack": "CHURCHILL",
-      "destination": "SOUTH FLORIDA",
-      "track": "PALM MEADOWS",
-      "destinationTrainer": "C DAVID",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SALTWATER COWBOY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "157349ca78d2"
     },
     {
       "dateTaken": "2026-11-02",
