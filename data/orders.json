@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-02T16:40:13.861885Z",
+  "syncedAt": "2026-11-02T16:45:23.924954Z",
   "orders": [
     {
       "dateTaken": "2026-09-09",
@@ -288,30 +288,6 @@
       ],
       "stallSpace": 3.0,
       "id": "0258a296f087"
-    },
-    {
-      "dateTaken": "2026-10-09",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE",
-      "requestedBy": "R DEPOLO",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "J SANCHEZ",
-      "originTrack": "MONMOUTH PARK",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "C WHEELER",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BAR ROOM QUEEN",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "0588c6d6daab"
     },
     {
       "dateTaken": "2026-10-10",
