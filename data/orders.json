@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-04T15:00:21.720330Z",
+  "syncedAt": "2026-11-04T15:10:46.674884Z",
   "orders": [
     {
       "dateTaken": "2026-10-12",
@@ -251,86 +251,6 @@
     },
     {
       "dateTaken": "2026-10-28",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "MEGAN",
-      "origin": "KENTUCKY ",
-      "originFarm": "MEGAN JONES",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "RANDY MILES/CRUPI'S",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "DETERMINED TRUTH 24",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "POPPY FLOWER 25",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "bf64df329391"
-    },
-    {
-      "dateTaken": "2026-10-28",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "MEGAN",
-      "origin": "KENTUCKY ",
-      "originFarm": "MEGAN JONES",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "KINGS EQUINE/RAUL REYES",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TUTTIPAESI 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "3e1b052cec6e"
-    },
-    {
-      "dateTaken": "2026-10-28",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "MANU",
-      "requestedBy": "MEGAN",
-      "origin": "KENTUCKY ",
-      "originFarm": "MEGAN JONES",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "TWO SPRINGS/NELLIE BREEDEN",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BRUSQUER 25",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "NISHARORA 25",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "bf64df329391"
-    },
-    {
-      "dateTaken": "2026-10-28",
       "requestedDates": "ASAP",
       "takenBy": "LESLIE ",
       "requestedBy": "LOYVICK",
@@ -528,30 +448,6 @@
       "requestedBy": "HARRY",
       "origin": "KENTUCKY ",
       "originFarm": "",
-      "originTrainer": "R ARNOLD",
-      "originTrack": "KEENELAND",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "HARRIS TRAINING CENTER",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "GOOD TO BE KING",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "bd0f938eba3d"
-    },
-    {
-      "dateTaken": "2026-11-01",
-      "requestedDates": "ASAP",
-      "takenBy": "KAYLA",
-      "requestedBy": "HARRY",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
       "originTrainer": "C DEVAUX",
       "originTrack": "KEENELAND",
       "destination": "OCALA",
@@ -596,30 +492,6 @@
       ],
       "stallSpace": 6.0,
       "id": "27766cadd060"
-    },
-    {
-      "dateTaken": "2026-11-02",
-      "requestedDates": "WED/THUR",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "I WILKES",
-      "originTrack": "SKYLIGHT",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "NOVEMBER HILL ",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "YO FANCY",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "c69a63aadd24"
     },
     {
       "dateTaken": "2026-11-02",
@@ -771,30 +643,6 @@
     },
     {
       "dateTaken": "2026-11-03",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "LESLEY",
-      "requestedBy": "PHIL",
-      "origin": "KENTUCKY ",
-      "originFarm": "WINSTAR",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "KENTUCKY ",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "DAVID SCANLON",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "b4e4e9a321bb"
-    },
-    {
-      "dateTaken": "2026-11-03",
       "requestedDates": "BY END OF NOV",
       "takenBy": "LESLIE ",
       "requestedBy": "CATHERINE",
@@ -844,30 +692,6 @@
       ],
       "stallSpace": 3.0,
       "id": "76934d66c1c8"
-    },
-    {
-      "dateTaken": "2026-11-03",
-      "requestedDates": "ASAP",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "CLEAR VIEW EQUESTRAIN CENTER",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TRAINING CENTER",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "QUALITY OUTLAW",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "fe5c1c2688bb"
     },
     {
       "dateTaken": "2026-11-03",
