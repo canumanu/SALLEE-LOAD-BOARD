@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-05T15:35:15.750698Z",
+  "syncedAt": "2026-11-05T15:40:18.508079Z",
   "orders": [
     {
       "dateTaken": "2026-10-12",
@@ -172,34 +172,6 @@
       ],
       "stallSpace": 1.5,
       "id": "3b002af108da"
-    },
-    {
-      "dateTaken": "2026-10-28",
-      "requestedDates": "SUN 11/1/26",
-      "takenBy": "DAVID W",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "SHAUNA THOMPSON",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "ROOD & RIDDLE WELLINGTON",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "FARUK",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "TRIGGER",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "486acf5da59f"
     },
     {
       "dateTaken": "2026-10-28",
@@ -727,9 +699,9 @@
       "originTrainer": "",
       "originTrack": "",
       "destination": "OCALA",
-      "track": "KINSMAN",
+      "track": "",
       "destinationTrainer": "",
-      "destinationFarm": "",
+      "destinationFarm": "KINSMAN",
       "tripDate": "",
       "drivers": "",
       "horses": [
@@ -739,7 +711,7 @@
         }
       ],
       "stallSpace": 1.5,
-      "id": "a74a9f08669a"
+      "id": "f430f368e154"
     },
     {
       "dateTaken": "2026-11-04",
@@ -788,6 +760,30 @@
       ],
       "stallSpace": 3.0,
       "id": "09740d236806"
+    },
+    {
+      "dateTaken": "2026-11-05",
+      "requestedDates": "SAT 11/7/2026",
+      "takenBy": "VICKIE",
+      "requestedBy": "MITCH",
+      "origin": "OCALA",
+      "originFarm": "CASSE TRAINING CENTER",
+      "originTrainer": "",
+      "originTrack": "",
+      "destination": "EAST COAST",
+      "track": "BELMONT",
+      "destinationTrainer": "M CASSE",
+      "destinationFarm": "",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "SHIFTY",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "0fb9f41b8b0d"
     },
     {
       "id": "sp-2",
