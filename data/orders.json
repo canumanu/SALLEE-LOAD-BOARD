@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-05T18:35:13.610241Z",
+  "syncedAt": "2026-11-05T18:40:17.672074Z",
   "orders": [
     {
       "dateTaken": "2026-10-12",
@@ -978,12 +978,16 @@
       "drivers": "",
       "horses": [
         {
-          "name": null,
-          "stallSpace": null
+          "name": "CUTE LEGGY LADY",
+          "stallSpace": 1.5
+        },
+        {
+          "name": "WHITE ZINFANDEL",
+          "stallSpace": 1.5
         }
       ],
-      "stallSpace": 0,
-      "id": "74deed7488f9"
+      "stallSpace": 3.0,
+      "id": "cb5681d96828"
     },
     {
       "id": "sp-2",
