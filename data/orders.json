@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-05T19:40:14.857502Z",
+  "syncedAt": "2026-11-05T19:45:17.998414Z",
   "orders": [
     {
       "dateTaken": "2026-10-12",
@@ -960,34 +960,6 @@
       ],
       "stallSpace": 3.0,
       "id": "d101937e0883"
-    },
-    {
-      "dateTaken": "2026-11-05",
-      "requestedDates": "ASAP",
-      "takenBy": "LESLEY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "SPY COAST FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "PETERSON SMITH",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CUTE LEGGY LADY",
-          "stallSpace": 1.5
-        },
-        {
-          "name": "WHITE ZINFANDEL",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "cb5681d96828"
     },
     {
       "id": "sp-2",
