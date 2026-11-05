@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-05T13:40:20.499773Z",
+  "syncedAt": "2026-11-05T13:45:24.020742Z",
   "orders": [
     {
       "dateTaken": "2026-10-12",
@@ -492,30 +492,6 @@
       ],
       "stallSpace": 3.0,
       "id": "71aac95d2dc6"
-    },
-    {
-      "dateTaken": "2026-11-02",
-      "requestedDates": "END OF WEEK",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "SILVER SPRINGS",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "FAIRGROUNDS",
-      "track": "FAIR GROUNDS",
-      "destinationTrainer": "L SCHULTZ",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "4 HD",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "368dc46b4742"
     },
     {
       "dateTaken": "2026-11-02",
