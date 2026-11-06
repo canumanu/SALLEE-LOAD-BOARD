@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-06T15:25:13.634093Z",
+  "syncedAt": "2026-11-06T15:30:20.384641Z",
   "orders": [
     {
       "dateTaken": "2026-10-12",
@@ -488,30 +488,6 @@
       ],
       "stallSpace": 1.5,
       "id": "31616675e2cf"
-    },
-    {
-      "dateTaken": "2026-11-03",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "N PESSIN",
-      "originTrack": "CHURCHILL",
-      "destination": "FAIRGROUNDS",
-      "track": "FAIR GROUNDS",
-      "destinationTrainer": "N PESSIN",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "EENYMEANYMIGHTY MO",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "1d90b0bdb573"
     },
     {
       "dateTaken": "2026-11-03",
