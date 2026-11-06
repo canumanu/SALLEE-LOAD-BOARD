@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-06T15:30:20.384641Z",
+  "syncedAt": "2026-11-06T15:35:14.530813Z",
   "orders": [
     {
       "dateTaken": "2026-10-12",
@@ -244,30 +244,6 @@
       ],
       "stallSpace": 3.0,
       "id": "ac38cd14da41"
-    },
-    {
-      "dateTaken": "2026-10-29",
-      "requestedDates": "11/5-11/7",
-      "takenBy": "LESLEY",
-      "requestedBy": "MARK",
-      "origin": "KENTUCKY ",
-      "originFarm": "MIACOMET",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "PAYSON PARK",
-      "destinationTrainer": "M CLEMENT",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "5 HD",
-          "stallSpace": 7.5
-        }
-      ],
-      "stallSpace": 7.5,
-      "id": "2baa819719c3"
     },
     {
       "dateTaken": "2026-10-29",
@@ -571,42 +547,6 @@
     },
     {
       "dateTaken": "2026-11-03",
-      "requestedDates": "THIS WEEK",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "CONSIDINE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "SANDHURST TBS",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MANGROVE 25",
-          "stallSpace": 12.0
-        },
-        {
-          "name": "RAYYA 25",
-          "stallSpace": null
-        },
-        {
-          "name": "URBAN HILL 25",
-          "stallSpace": null
-        },
-        {
-          "name": "WHAT A FEELING 25",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 12.0,
-      "id": "8597ac474c2f"
-    },
-    {
-      "dateTaken": "2026-11-03",
       "requestedDates": "ASAP",
       "takenBy": "MANU",
       "requestedBy": "",
@@ -652,30 +592,6 @@
       ],
       "stallSpace": 0,
       "id": "cfd6cef9ee18"
-    },
-    {
-      "dateTaken": "2026-11-04",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "LESLEY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "MIACOMET",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "KINSMAN",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BRIGHTLINE BULLET",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "f430f368e154"
     },
     {
       "dateTaken": "2026-11-04",
