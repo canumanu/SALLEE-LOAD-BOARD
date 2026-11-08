@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-08T15:00:17.350506Z",
+  "syncedAt": "2026-11-08T15:05:12.184089Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -344,30 +344,6 @@
       ],
       "stallSpace": 6.0,
       "id": "595efea234ef"
-    },
-    {
-      "dateTaken": "2026-11-02",
-      "requestedDates": "ASAP",
-      "takenBy": "JASON",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "N RAMSEY",
-      "originTrack": "TURFWAY",
-      "destination": "SOUTH FLORIDA",
-      "track": "GULFSTREAM",
-      "destinationTrainer": "N RAMSEY",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "HIDDEN RECIPE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "71aac95d2dc6"
     },
     {
       "dateTaken": "2026-11-03",
