@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-09T19:15:19.344570Z",
+  "syncedAt": "2026-11-09T19:20:14.638407Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -746,12 +746,16 @@
       "drivers": "",
       "horses": [
         {
-          "name": null,
+          "name": "DEPICTION",
+          "stallSpace": 6.0
+        },
+        {
+          "name": "SIGALDRY",
           "stallSpace": null
         }
       ],
-      "stallSpace": 0,
-      "id": "4337a6570465"
+      "stallSpace": 6.0,
+      "id": "7771055b825b"
     },
     {
       "id": "sp-2",
