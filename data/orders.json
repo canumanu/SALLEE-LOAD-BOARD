@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-09T17:15:14.439173Z",
+  "syncedAt": "2026-11-09T17:20:16.401520Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -124,30 +124,6 @@
       ],
       "stallSpace": 1.5,
       "id": "3b002af108da"
-    },
-    {
-      "dateTaken": "2026-10-28",
-      "requestedDates": "ASAP",
-      "takenBy": "LESLIE ",
-      "requestedBy": "LOYVICK",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "",
-      "originTrack": "DELAWARE PARK",
-      "destination": "SOUTH FLORIDA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "HORSE COUNTRY CLUB",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "3 HD",
-          "stallSpace": 4.5
-        }
-      ],
-      "stallSpace": 4.5,
-      "id": "248bb7917f9b"
     },
     {
       "dateTaken": "2026-10-29",
