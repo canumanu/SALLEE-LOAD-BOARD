@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-10T16:15:16.672104Z",
+  "syncedAt": "2026-11-10T16:20:15.249179Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -750,12 +750,12 @@
       "drivers": "",
       "horses": [
         {
-          "name": null,
-          "stallSpace": null
+          "name": "LADYS ISLAND 25",
+          "stallSpace": 3.0
         }
       ],
-      "stallSpace": 0,
-      "id": "d2356e37f548"
+      "stallSpace": 3.0,
+      "id": "eab9428f035e"
     },
     {
       "dateTaken": "2026-11-10",
@@ -769,17 +769,21 @@
       "destination": "OCALA",
       "track": "",
       "destinationTrainer": "",
-      "destinationFarm": "",
+      "destinationFarm": "KINSMAN",
       "tripDate": "",
       "drivers": "",
       "horses": [
         {
-          "name": null,
+          "name": "ZUSHA 25",
+          "stallSpace": 6.0
+        },
+        {
+          "name": "FINANCIAL RECOVERY 25",
           "stallSpace": null
         }
       ],
-      "stallSpace": 0,
-      "id": "d2356e37f548"
+      "stallSpace": 6.0,
+      "id": "0b431d2bc74a"
     },
     {
       "id": "sp-2",
