@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-10T13:25:12.996921Z",
+  "syncedAt": "2026-11-10T13:30:19.861360Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -648,34 +648,6 @@
       ],
       "stallSpace": 3.0,
       "id": "1b09a7760118"
-    },
-    {
-      "dateTaken": "2026-11-08",
-      "requestedDates": "TUES 11/10/2026",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "CHURCHILL",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TRAM MO",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "DREXEL DRIVE",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "a982b0b1f135"
     },
     {
       "dateTaken": "2026-11-09",
