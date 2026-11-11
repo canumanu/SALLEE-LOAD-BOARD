@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-11T13:45:18.462137Z",
+  "syncedAt": "2026-11-11T13:50:16.738940Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -306,30 +306,6 @@
       "requestedDates": "BY END OF NOV",
       "takenBy": "LESLIE ",
       "requestedBy": "CATHERINE",
-      "origin": "OCALA",
-      "originFarm": "HARE HILL",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "NORTHVIEW STALLION MD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MISS MANATEE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "4bd80dadf238"
-    },
-    {
-      "dateTaken": "2026-11-03",
-      "requestedDates": "BY END OF NOV",
-      "takenBy": "LESLIE ",
-      "requestedBy": "CATHERINE",
       "origin": "EAST COAST ",
       "originFarm": "NORTHVIEW STALLIONS MD",
       "originTrainer": "",
@@ -432,54 +408,6 @@
       ],
       "stallSpace": 9.0,
       "id": "eac17b6d8bf9"
-    },
-    {
-      "dateTaken": "2026-11-05",
-      "requestedDates": "FRI 11/6/26",
-      "takenBy": "LESLIE ",
-      "requestedBy": "LOYVICK",
-      "origin": "OCALA",
-      "originFarm": "DR POMALES",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "KENTUCKY ",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "TOM MULLIKINS",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SWEET HOLIDAY",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "3d00ee8c3c97"
-    },
-    {
-      "dateTaken": "2026-11-05",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLIE ",
-      "requestedBy": "",
-      "origin": "OCALA",
-      "originFarm": "",
-      "originTrainer": "J VILLAGOMEZ",
-      "originTrack": "NELSON JONES",
-      "destination": "KENTUCKY ",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "DELL RIDGE",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ELEGANT MISS",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "d101937e0883"
     },
     {
       "dateTaken": "2026-11-09",
