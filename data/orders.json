@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-11T13:40:14.460513Z",
+  "syncedAt": "2026-11-11T13:45:18.462137Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -124,54 +124,6 @@
       ],
       "stallSpace": 1.5,
       "id": "3b002af108da"
-    },
-    {
-      "dateTaken": "2026-10-29",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "BEN ",
-      "requestedBy": "HEATHER LARSON",
-      "origin": "KENTUCKY ",
-      "originFarm": "MULHOLLAND SPRINGS",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "HEATHER CARSON",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "2 HD",
-          "stallSpace": 6.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "bec66fb8a90e"
-    },
-    {
-      "dateTaken": "2026-10-29",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "LESLEY",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "PALM MEADOWS",
-      "destinationTrainer": "R MOTT",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TINO TIME",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "ac38cd14da41"
     },
     {
       "dateTaken": "2026-10-29",
@@ -403,54 +355,6 @@
     },
     {
       "dateTaken": "2026-11-04",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "LESLEY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "FEDAMORE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "PALM MEADOWS",
-      "destinationTrainer": "B WALSH",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "4 HD",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "cfd6cef9ee18"
-    },
-    {
-      "dateTaken": "2026-11-04",
-      "requestedDates": "NEXT WEEK ",
-      "takenBy": "VICKIE",
-      "requestedBy": "SANDRA",
-      "origin": "KENTUCKY ",
-      "originFarm": "GOLDENVALE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "DAVID SCANLON",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "CAPABLE 25",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "acc6a3f15e53"
-    },
-    {
-      "dateTaken": "2026-11-04",
       "requestedDates": "READY 11/6/26",
       "takenBy": "VICKIE",
       "requestedBy": "MITCH",
@@ -531,30 +435,6 @@
     },
     {
       "dateTaken": "2026-11-05",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "KAYLA ",
-      "requestedBy": "SARAH",
-      "origin": "KENTUCKY ",
-      "originFarm": "THREE SISTERS",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "PMTC",
-      "destinationTrainer": "G WEAVER",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "WARRIOR MISCHIEF",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "3462907d0cb8"
-    },
-    {
-      "dateTaken": "2026-11-05",
       "requestedDates": "FRI 11/6/26",
       "takenBy": "LESLIE ",
       "requestedBy": "LOYVICK",
@@ -602,30 +482,6 @@
       "id": "d101937e0883"
     },
     {
-      "dateTaken": "2026-11-07",
-      "requestedDates": "AFTER 11/9",
-      "takenBy": "LESLEY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "OAK LODGE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "C STEWART",
-      "destinationFarm": "HUNTER FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "RAITAN",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "1b09a7760118"
-    },
-    {
       "dateTaken": "2026-11-09",
       "requestedDates": "AFTER WEDNESDAY ",
       "takenBy": "HARRY",
@@ -652,30 +508,6 @@
       ],
       "stallSpace": 6.0,
       "id": "4bbdc267fe78"
-    },
-    {
-      "dateTaken": "2026-11-09",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "KAYLA ",
-      "requestedBy": "MARK ",
-      "origin": "KENTUCKY ",
-      "originFarm": "MIACOMET",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "PAYSON PARK",
-      "destinationTrainer": "TBD",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "3 HD",
-          "stallSpace": 4.5
-        }
-      ],
-      "stallSpace": 4.5,
-      "id": "25f4de424ef4"
     },
     {
       "dateTaken": "2026-11-09",
