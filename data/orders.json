@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-11T18:55:13.970334Z",
+  "syncedAt": "2026-11-11T19:00:22.867133Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -272,34 +272,6 @@
       ],
       "stallSpace": 6.0,
       "id": "595efea234ef"
-    },
-    {
-      "dateTaken": "2026-11-03",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "LESLIE ",
-      "requestedBy": "NEENAH ",
-      "origin": "OCALA",
-      "originFarm": "GENTRY FARMS",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "KENTUCKY ",
-      "track": "HEARTWOOD FARM",
-      "destinationTrainer": "",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "COFFEE KISSES",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "BARDOT",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "5e7bac6d93d9"
     },
     {
       "dateTaken": "2026-11-03",
