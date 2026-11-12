@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-12T13:30:17.077414Z",
+  "syncedAt": "2026-11-12T13:35:11.546128Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -175,30 +175,6 @@
     },
     {
       "dateTaken": "2026-11-01",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "CHURCHILL",
-      "destination": "CANADA",
-      "track": "",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "684366297b9d"
-    },
-    {
-      "dateTaken": "2026-11-01",
       "requestedDates": "ASAP",
       "takenBy": "KAYLA",
       "requestedBy": "HARRY",
@@ -220,34 +196,6 @@
       ],
       "stallSpace": 3.0,
       "id": "e8430d8fcb22"
-    },
-    {
-      "dateTaken": "2026-11-02",
-      "requestedDates": "WED/THUR",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "I WILKES",
-      "originTrack": "SKYLIGHT",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "LAMBHOLME SOUTH",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BURNHAM SQUARE",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "PASEO",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "27766cadd060"
     },
     {
       "dateTaken": "2026-11-02",
@@ -564,30 +512,6 @@
       ],
       "stallSpace": 6.0,
       "id": "f88b62b253a7"
-    },
-    {
-      "dateTaken": "2026-11-11",
-      "requestedDates": "READY",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "C ANDERSON",
-      "originTrack": "THOROUGHBRED CENTER",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "EDILBERTO HERRERA",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MADDIE JOSEPHINE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "14e4f8061fa8"
     },
     {
       "dateTaken": "2026-11-11",
