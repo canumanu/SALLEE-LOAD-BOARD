@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-13T14:30:28.869905Z",
+  "syncedAt": "2026-11-13T14:35:16.756294Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -258,34 +258,6 @@
       "id": "eac17b6d8bf9"
     },
     {
-      "dateTaken": "2026-11-09",
-      "requestedDates": "AFTER WEDNESDAY ",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "TRACKSIDE",
-      "originTrainer": "J BAKER",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "J TERRANOVA",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LADY BLAKE",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "GALATINA",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "4bbdc267fe78"
-    },
-    {
       "dateTaken": "2026-11-10",
       "requestedDates": "SUN OR MON 11/15 OR 11/16",
       "takenBy": "ALEXXIS",
@@ -364,54 +336,6 @@
       ],
       "stallSpace": 6.0,
       "id": "0b431d2bc74a"
-    },
-    {
-      "dateTaken": "2026-11-10",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "FAIRGROUNDS",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM",
-      "originTrack": "FAIRGROUNDS",
-      "destination": "KENTUCKY ",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "GODOLPHIN",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "FRONTIER",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "fa32a6286822"
-    },
-    {
-      "dateTaken": "2026-11-10",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "EAST COAST ",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM",
-      "originTrack": "DELAWARE PARK",
-      "destination": "KENTUCKY ",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "GODOLPHIN",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BRANSON",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "69a10b5ba47b"
     },
     {
       "dateTaken": "2026-11-10",
@@ -515,30 +439,6 @@
     },
     {
       "dateTaken": "2026-11-12",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "J BURKE",
-      "originTrack": "THOROUGHBRED CENTER",
-      "destination": "FAIRGROUNDS",
-      "track": "FAIRGROUNDS",
-      "destinationTrainer": "B WALSH",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PARRISH",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "f28b818e8f09"
-    },
-    {
-      "dateTaken": "2026-11-12",
       "requestedDates": "NEXT TRIP",
       "takenBy": "LESLEY",
       "requestedBy": "KIM",
@@ -632,6 +532,54 @@
       ],
       "stallSpace": 1.5,
       "id": "2e9ce340a9dd"
+    },
+    {
+      "dateTaken": "2026-11-13",
+      "requestedDates": "NEXT TRIP",
+      "takenBy": "DAVID",
+      "requestedBy": "",
+      "origin": "SOUTH FLORIDA",
+      "originFarm": "",
+      "originTrainer": "M SANCAL",
+      "originTrack": "PALM MEADOWS",
+      "destination": "KENTUCKY ",
+      "track": "",
+      "destinationTrainer": "",
+      "destinationFarm": "ELMENDORF FARM",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "FORGED VALOR",
+          "stallSpace": 1.5
+        }
+      ],
+      "stallSpace": 1.5,
+      "id": "d6694cd8f6c0"
+    },
+    {
+      "dateTaken": "2026-11-13",
+      "requestedDates": "NEXT TRIP",
+      "takenBy": "DAVID",
+      "requestedBy": "",
+      "origin": "KENTUCKY ",
+      "originFarm": "",
+      "originTrainer": "C DAVID",
+      "originTrack": "SPORTS SPECTRUM",
+      "destination": "SOUTH FLORIDA",
+      "track": "PALM MEADOWS",
+      "destinationTrainer": "",
+      "destinationFarm": "",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "2 HD",
+          "stallSpace": null
+        }
+      ],
+      "stallSpace": 0,
+      "id": "d540e65dacb5"
     },
     {
       "id": "sp-2",
