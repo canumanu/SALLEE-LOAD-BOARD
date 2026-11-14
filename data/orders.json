@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-14T13:10:14.044397Z",
+  "syncedAt": "2026-11-14T13:15:21.675784Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -311,34 +311,6 @@
     },
     {
       "dateTaken": "2026-11-10",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "LESLEY",
-      "requestedBy": "LESTER",
-      "origin": "KENTUCKY ",
-      "originFarm": "GAINESWAY",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "KINSMAN",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ZUSHA 25",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "FINANCIAL RECOVERY 25",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "0b431d2bc74a"
-    },
-    {
-      "dateTaken": "2026-11-10",
       "requestedDates": "READY ",
       "takenBy": "HARRY",
       "requestedBy": "",
@@ -627,11 +599,11 @@
       "horses": [
         {
           "name": "ERICA'S BEACH",
-          "stallSpace": null
+          "stallSpace": 3.0
         }
       ],
-      "stallSpace": 0,
-      "id": "f3f60d33d783"
+      "stallSpace": 3.0,
+      "id": "97fc3bfdca24"
     },
     {
       "id": "sp-2",
