@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-14T15:10:13.337950Z",
+  "syncedAt": "2026-11-14T15:15:13.860410Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -411,7 +411,7 @@
     },
     {
       "dateTaken": "2026-11-12",
-      "requestedDates": "NEXT TRIP",
+      "requestedDates": "NOT BEFORE 11/18",
       "takenBy": "LESLEY",
       "requestedBy": "KIM",
       "origin": "KENTUCKY ",
