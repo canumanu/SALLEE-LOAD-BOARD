@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-14T13:05:15.597590Z",
+  "syncedAt": "2026-11-14T13:10:14.044397Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -608,6 +608,30 @@
       ],
       "stallSpace": 0,
       "id": "58a9ba42cf7d"
+    },
+    {
+      "dateTaken": "2026-11-14",
+      "requestedDates": "NEXT TRIP",
+      "takenBy": "SANDY",
+      "requestedBy": "",
+      "origin": "KENTUCKY ",
+      "originFarm": "",
+      "originTrainer": "M CASSE",
+      "originTrack": "CHURCHILL",
+      "destination": "OCALA",
+      "track": "",
+      "destinationTrainer": "",
+      "destinationFarm": "SOLERA FARM",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "ERICA'S BEACH",
+          "stallSpace": null
+        }
+      ],
+      "stallSpace": 0,
+      "id": "f3f60d33d783"
     },
     {
       "id": "sp-2",
