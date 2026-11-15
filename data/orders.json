@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-15T18:05:13.282445Z",
+  "syncedAt": "2026-11-15T18:10:12.773833Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -2553,35 +2553,6 @@
         }
       ],
       "stallSpace": 3.0
-    },
-    {
-      "id": "sp-79",
-      "source": "app",
-      "dateTaken": "2026-10-22",
-      "requestedDates": "ON OR AFTER 11/2",
-      "takenBy": "Manu",
-      "requestedBy": "",
-      "origin": "KENTUCKY",
-      "originFarm": "WINSTAR",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "PAYSON",
-      "destinationTrainer": "C BROWN",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "GOSTOSA",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "ENCHANTED STAR",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 6.0
     },
     {
       "id": "sp-80",
