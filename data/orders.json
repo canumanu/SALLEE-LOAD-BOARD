@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-16T16:55:15.200484Z",
+  "syncedAt": "2026-11-16T17:00:27.666924Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -275,15 +275,27 @@
       "horses": [
         {
           "name": "LADY MAURA",
-          "stallSpace": 6.0
+          "stallSpace": 15.0
         },
         {
           "name": "BY STARLIGHT",
           "stallSpace": null
+        },
+        {
+          "name": "RELATED PARTY",
+          "stallSpace": null
+        },
+        {
+          "name": "CORPORATE CONTROL",
+          "stallSpace": null
+        },
+        {
+          "name": "SUPERIOR RETURNS",
+          "stallSpace": null
         }
       ],
-      "stallSpace": 6.0,
-      "id": "08b1ed20bcd6"
+      "stallSpace": 15.0,
+      "id": "8873c8d2c21e"
     },
     {
       "dateTaken": "2026-11-10",
