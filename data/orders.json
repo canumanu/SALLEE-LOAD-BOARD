@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-17T13:05:13.001614Z",
+  "syncedAt": "2026-11-17T13:10:14.992043Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -259,46 +259,6 @@
     },
     {
       "dateTaken": "2026-11-10",
-      "requestedDates": "SUN OR MON 11/15 OR 11/16",
-      "takenBy": "ALEXXIS",
-      "requestedBy": "BRITTANY",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "BRIDLEWOOD",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LADY MAURA",
-          "stallSpace": 15.0
-        },
-        {
-          "name": "BY STARLIGHT",
-          "stallSpace": null
-        },
-        {
-          "name": "RELATED PARTY",
-          "stallSpace": null
-        },
-        {
-          "name": "CORPORATE CONTROL",
-          "stallSpace": null
-        },
-        {
-          "name": "SUPERIOR RETURNS",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 15.0,
-      "id": "8873c8d2c21e"
-    },
-    {
-      "dateTaken": "2026-11-10",
       "requestedDates": "NEXT TRIP",
       "takenBy": "LESLEY",
       "requestedBy": "LESTER",
@@ -472,30 +432,6 @@
     {
       "dateTaken": "2026-11-13",
       "requestedDates": "NEXT TRIP",
-      "takenBy": "LESLEY",
-      "requestedBy": "HARRY",
-      "origin": "KENTUCKY ",
-      "originFarm": "CONSIDINE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "SANDHURST",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "TBD",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "0beb166284a3"
-    },
-    {
-      "dateTaken": "2026-11-13",
-      "requestedDates": "NEXT TRIP",
       "takenBy": "DAVID",
       "requestedBy": "GIANNA",
       "origin": "KENTUCKY ",
@@ -540,34 +476,6 @@
       ],
       "stallSpace": 1.5,
       "id": "d6694cd8f6c0"
-    },
-    {
-      "dateTaken": "2026-11-13",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "C DAVID",
-      "originTrack": "SPORTS SPECTRUM",
-      "destination": "SOUTH FLORIDA",
-      "track": "PALM MEADOWS",
-      "destinationTrainer": "",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SALTWATER COWBOY",
-          "stallSpace": 1.5
-        },
-        {
-          "name": "NO CALLER ID",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "1fda4c7dad29"
     },
     {
       "dateTaken": "2026-11-13",
