@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-17T13:10:14.992043Z",
+  "syncedAt": "2026-11-17T13:15:15.051742Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -259,30 +259,6 @@
     },
     {
       "dateTaken": "2026-11-10",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "LESLEY",
-      "requestedBy": "LESTER",
-      "origin": "KENTUCKY ",
-      "originFarm": "GAINESWAY",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "JULIE DAVIES",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LADYS ISLAND 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "eab9428f035e"
-    },
-    {
-      "dateTaken": "2026-11-10",
       "requestedDates": "READY ",
       "takenBy": "HARRY",
       "requestedBy": "",
@@ -452,30 +428,6 @@
       ],
       "stallSpace": 1.5,
       "id": "2e9ce340a9dd"
-    },
-    {
-      "dateTaken": "2026-11-13",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "DAVID",
-      "requestedBy": "",
-      "origin": "SOUTH FLORIDA",
-      "originFarm": "",
-      "originTrainer": "M SANCAL",
-      "originTrack": "PALM MEADOWS",
-      "destination": "KENTUCKY ",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "ELMENDORF FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "FORGED VALOR",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "d6694cd8f6c0"
     },
     {
       "dateTaken": "2026-11-13",
