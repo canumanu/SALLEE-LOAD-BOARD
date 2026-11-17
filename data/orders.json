@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-17T13:20:15.859983Z",
+  "syncedAt": "2026-11-17T13:25:16.652329Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -378,30 +378,6 @@
       "id": "2e9ce340a9dd"
     },
     {
-      "dateTaken": "2026-11-13",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "MANU",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "SHANTERA",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "PAYSON PARK",
-      "destinationTrainer": "M CLEMENT",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BALISA AND MAYBE 2 MORE",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 0,
-      "id": "58a9ba42cf7d"
-    },
-    {
       "dateTaken": "2026-11-14",
       "requestedDates": "NEXT TRIP",
       "takenBy": "SANDY",
@@ -424,30 +400,6 @@
       ],
       "stallSpace": 3.0,
       "id": "97fc3bfdca24"
-    },
-    {
-      "dateTaken": "2026-11-15",
-      "requestedDates": "TUE 11/17",
-      "takenBy": "MANU",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M MAKER",
-      "originTrack": "CHURCHILL",
-      "destination": "SOUTH FLORIDA",
-      "track": "GULFSTREAM",
-      "destinationTrainer": "L RAMIREZ",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "BLAST RADIUS",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "1b3560c81eb7"
     },
     {
       "dateTaken": "2026-11-16",
@@ -594,12 +546,60 @@
       "drivers": "",
       "horses": [
         {
-          "name": null,
-          "stallSpace": null
+          "name": "ALMALFI DRIVE",
+          "stallSpace": 1.5
         }
       ],
-      "stallSpace": 0,
-      "id": "5ea678812cf8"
+      "stallSpace": 1.5,
+      "id": "0dc52b4afceb"
+    },
+    {
+      "dateTaken": "2026-11-17",
+      "requestedDates": "NEXT AVAILABLE",
+      "takenBy": "SCOTT",
+      "requestedBy": "",
+      "origin": "EAST COAST ",
+      "originFarm": "",
+      "originTrainer": "M STIDHAM",
+      "originTrack": "FAIRHILL",
+      "destination": "FAIRGROUNDS",
+      "track": "FAIRGROUNDS",
+      "destinationTrainer": "M STIDHAM",
+      "destinationFarm": "",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "COMPATRIOT",
+          "stallSpace": 1.5
+        }
+      ],
+      "stallSpace": 1.5,
+      "id": "ed6f166fa705"
+    },
+    {
+      "dateTaken": "2026-11-17",
+      "requestedDates": "NEXT AVAILABLE",
+      "takenBy": "SCOTT",
+      "requestedBy": "",
+      "origin": "KENTUCKY ",
+      "originFarm": "MT BRILLIANT FARM",
+      "originTrainer": "",
+      "originTrack": "",
+      "destination": "EAST COAST",
+      "track": "FAIR HILL",
+      "destinationTrainer": "M STIDHAM",
+      "destinationFarm": "",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "1 HD",
+          "stallSpace": 1.5
+        }
+      ],
+      "stallSpace": 1.5,
+      "id": "31dd3897c85b"
     },
     {
       "id": "sp-2",
