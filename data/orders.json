@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-18T21:20:14.984111Z",
+  "syncedAt": "2026-11-18T21:25:24.827077Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -306,78 +306,6 @@
       "id": "bad14f2ef846"
     },
     {
-      "dateTaken": "2026-11-12",
-      "requestedDates": "NOT BEFORE 11/18",
-      "takenBy": "LESLEY",
-      "requestedBy": "KIM",
-      "origin": "KENTUCKY ",
-      "originFarm": "MILL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "SUMMER MAYBERRY",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "OLIVE U MORE 26",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "3b1d6ce6c4e9"
-    },
-    {
-      "dateTaken": "2026-11-13",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "LESLEY",
-      "requestedBy": "BARRY",
-      "origin": "KENTUCKY ",
-      "originFarm": "FEDAMORE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "DOUBLE DIAMOND",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "HOMEAWAYFROMHOME",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "f27d42d0d6f5"
-    },
-    {
-      "dateTaken": "2026-11-13",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "DAVID",
-      "requestedBy": "GIANNA",
-      "origin": "KENTUCKY ",
-      "originFarm": "400 IRONWORKS",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "NW 165 ST",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "AL GRATIN",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "2e9ce340a9dd"
-    },
-    {
       "dateTaken": "2026-11-14",
       "requestedDates": "NEXT TRIP",
       "takenBy": "SANDY",
@@ -400,30 +328,6 @@
       ],
       "stallSpace": 3.0,
       "id": "97fc3bfdca24"
-    },
-    {
-      "dateTaken": "2026-11-16",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "KAYLA",
-      "requestedBy": "HARRY",
-      "origin": "KENTUCKY ",
-      "originFarm": "STONEBECK FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "QUICK DECISION 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "8a1dad9c93b0"
     },
     {
       "dateTaken": "2026-11-16",
