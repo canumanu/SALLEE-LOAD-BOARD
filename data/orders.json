@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-20T16:30:24.868044Z",
+  "syncedAt": "2026-11-20T16:35:17.585757Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -307,34 +307,6 @@
     },
     {
       "dateTaken": "2026-11-16",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "KAYLA",
-      "requestedBy": "SALLY ",
-      "origin": "KENTUCKY ",
-      "originFarm": "SALLY THOMAS",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "TWELVE TOES",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "LOLA LOLA 26",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "SASSY SIENNA 26",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "c8a86553504e"
-    },
-    {
-      "dateTaken": "2026-11-16",
       "requestedDates": "TUE 11/17",
       "takenBy": "DAVID",
       "requestedBy": "",
@@ -387,30 +359,6 @@
     },
     {
       "dateTaken": "2026-11-17",
-      "requestedDates": "ASAP",
-      "takenBy": "SCOTT",
-      "requestedBy": "HILLARY",
-      "origin": "EAST COAST ",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM",
-      "originTrack": "FAIRHILL",
-      "destination": "KENTUCKY ",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "STONERSIDE FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ALMALFI DRIVE",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "0dc52b4afceb"
-    },
-    {
-      "dateTaken": "2026-11-17",
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "SCOTT",
       "requestedBy": "",
@@ -456,34 +404,6 @@
       ],
       "stallSpace": 1.5,
       "id": "31dd3897c85b"
-    },
-    {
-      "dateTaken": "2026-11-17",
-      "requestedDates": "2026-11-21",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "CHURCHILL",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "M CASSE",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "GOOSE QUILL",
-          "stallSpace": 6.0
-        },
-        {
-          "name": "SIGALDRY",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "5d7b8c930ba9"
     },
     {
       "dateTaken": "2026-11-17",
@@ -560,30 +480,6 @@
       ],
       "stallSpace": 6.0,
       "id": "cd35f9da565c"
-    },
-    {
-      "dateTaken": "2026-11-17",
-      "requestedDates": "AFTER 11/18",
-      "takenBy": "LESLEY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "MIACOMET",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "KINSMAN",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PLUCKY LASS 25",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "b09da3780a02"
     },
     {
       "dateTaken": "2026-11-17",
@@ -680,54 +576,6 @@
       ],
       "stallSpace": 3.0,
       "id": "587cee624a74"
-    },
-    {
-      "dateTaken": "2026-11-18",
-      "requestedDates": "SAT/SUN NEXT WK",
-      "takenBy": "KAYLA",
-      "requestedBy": "VICTOR",
-      "origin": "KENTUCKY ",
-      "originFarm": "KESMARC",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "SOUTH FLORIDA",
-      "track": "PALM MEADOWS",
-      "destinationTrainer": "J D'ANGELO",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SNAPPY COMEBACK",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "cd5ce47a6022"
-    },
-    {
-      "dateTaken": "2026-11-19",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "KAYLA",
-      "requestedBy": "ALI",
-      "origin": "KENTUCKY ",
-      "originFarm": "CHESAPEAKE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "C STEWART",
-      "destinationFarm": "GRACEFULL OAKS",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "ALONG CAME POLLY 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "cd4c31a957ba"
     },
     {
       "dateTaken": "2026-11-19",
