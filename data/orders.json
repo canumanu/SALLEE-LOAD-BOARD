@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-20T14:40:17.835111Z",
+  "syncedAt": "2026-11-20T14:45:17.506249Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -487,30 +487,6 @@
     },
     {
       "dateTaken": "2026-11-17",
-      "requestedDates": "NEX TRIP",
-      "takenBy": "KAYLA",
-      "requestedBy": "PARTICIA",
-      "origin": "KENTUCKY ",
-      "originFarm": "CEAHORSE FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "RANDY BRADSHAW",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "RED RUBY 25",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "e52f8dac3058"
-    },
-    {
-      "dateTaken": "2026-11-17",
       "requestedDates": "ASAP",
       "takenBy": "LESLEY",
       "requestedBy": "JOSE CAMEJO",
@@ -800,6 +776,78 @@
       ],
       "stallSpace": 1.5,
       "id": "6091f5ec36ee"
+    },
+    {
+      "dateTaken": "2026-11-20",
+      "requestedDates": "NEXT TRIP",
+      "takenBy": "SANDY",
+      "requestedBy": "",
+      "origin": "KENTUCKY ",
+      "originFarm": "",
+      "originTrainer": "M CASSE",
+      "originTrack": "CHURCHILL",
+      "destination": "OCALA",
+      "track": "",
+      "destinationTrainer": "",
+      "destinationFarm": "CASSE TC",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "THE BRIGADE",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "4672e61c2677"
+    },
+    {
+      "dateTaken": "2026-11-20",
+      "requestedDates": "NEXT TRIP",
+      "takenBy": "SCOTT",
+      "requestedBy": "",
+      "origin": "FAIR GROUNDS",
+      "originFarm": "",
+      "originTrainer": "C DEVAUX",
+      "originTrack": "",
+      "destination": "KENTUCKY ",
+      "track": "",
+      "destinationTrainer": "",
+      "destinationFarm": "TBD",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "PHYSIQUE",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 3.0,
+      "id": "a8c92daf009e"
+    },
+    {
+      "dateTaken": "2026-11-20",
+      "requestedDates": "NEXT TRIP",
+      "takenBy": "SANDY",
+      "requestedBy": "",
+      "origin": "KENTUCKY ",
+      "originFarm": "",
+      "originTrainer": "M CASSE",
+      "originTrack": "CHURCHILL",
+      "destination": "OAKLAWN",
+      "track": "",
+      "destinationTrainer": "M CASSE",
+      "destinationFarm": "",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "2 HD",
+          "stallSpace": 6.0
+        }
+      ],
+      "stallSpace": 6.0,
+      "id": "8adaf6852a9e"
     },
     {
       "id": "sp-2",
