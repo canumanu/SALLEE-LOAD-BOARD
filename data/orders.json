@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-20T20:30:18.783985Z",
+  "syncedAt": "2026-11-20T20:35:13.568032Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -224,38 +224,6 @@
       ],
       "stallSpace": 3.0,
       "id": "faf33a5deafb"
-    },
-    {
-      "dateTaken": "2026-11-05",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "LESLEY",
-      "requestedBy": "LAURIE",
-      "origin": "KENTUCKY ",
-      "originFarm": "FAWN LEAP",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "MISS MOCKINBIRD 25",
-          "stallSpace": 9.0
-        },
-        {
-          "name": "SKY MY SKY 25",
-          "stallSpace": null
-        },
-        {
-          "name": "BEAUTIFUL DANCER 25",
-          "stallSpace": null
-        }
-      ],
-      "stallSpace": 9.0,
-      "id": "eac17b6d8bf9"
     },
     {
       "dateTaken": "2026-11-11",
@@ -516,8 +484,8 @@
       "originTrack": "",
       "destination": "OCALA",
       "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CARL KEEGAN",
+      "destinationTrainer": "K KEEGAN",
+      "destinationFarm": "LUCAN BLOODSTOCK",
       "tripDate": "",
       "drivers": "",
       "horses": [
@@ -600,30 +568,6 @@
       ],
       "stallSpace": 3.0,
       "id": "a3179d81b382"
-    },
-    {
-      "dateTaken": "2026-11-19",
-      "requestedDates": "ASAP",
-      "takenBy": "LESLIE ",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "LAS MERCEDES FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "YG FARM",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "051ca3b15ce3"
     },
     {
       "dateTaken": "2026-11-20",
