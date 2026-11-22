@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-22T13:35:16.657856Z",
+  "syncedAt": "2026-11-22T13:40:17.485678Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -306,30 +306,6 @@
       "requestedDates": "NEXT AVAILABLE",
       "takenBy": "SCOTT",
       "requestedBy": "",
-      "origin": "EAST COAST ",
-      "originFarm": "",
-      "originTrainer": "M STIDHAM",
-      "originTrack": "FAIRHILL",
-      "destination": "FAIRGROUNDS",
-      "track": "FAIRGROUNDS",
-      "destinationTrainer": "M STIDHAM",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "COMPATRIOT",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "ed6f166fa705"
-    },
-    {
-      "dateTaken": "2026-11-17",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
       "origin": "KENTUCKY ",
       "originFarm": "MT BRILLIANT FARM",
       "originTrainer": "",
@@ -568,6 +544,30 @@
       ],
       "stallSpace": 6.0,
       "id": "8adaf6852a9e"
+    },
+    {
+      "dateTaken": "2026-11-22",
+      "requestedDates": "NEXT TRIP",
+      "takenBy": "SCOTT",
+      "requestedBy": "",
+      "origin": "EAST COAST ",
+      "originFarm": "",
+      "originTrainer": "M STIDHAM",
+      "originTrack": "FAIRHILL",
+      "destination": "KENTUCKY ",
+      "track": "",
+      "destinationTrainer": "",
+      "destinationFarm": "WINSTAR",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "EPIC STYLE",
+          "stallSpace": 1.5
+        }
+      ],
+      "stallSpace": 1.5,
+      "id": "47958d1d5341"
     },
     {
       "id": "sp-2",
