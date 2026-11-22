@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-22T13:30:18.714726Z",
+  "syncedAt": "2026-11-22T13:35:16.657856Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -28,30 +28,6 @@
       ],
       "stallSpace": 6.0,
       "id": "78bcc9c7c570"
-    },
-    {
-      "dateTaken": "2026-10-21",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "VICKIE",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "SUNNY OAK FARM",
-      "originTrainer": "AND SPRINGHOUSE",
-      "originTrack": "",
-      "destination": "LOUISIANA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "HANDLE BAR RANCH",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "HIP 603 + 748",
-          "stallSpace": 6.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "9534dea4540d"
     },
     {
       "dateTaken": "2026-10-26",
@@ -484,30 +460,6 @@
       "originTrack": "",
       "destination": "OCALA",
       "track": "",
-      "destinationTrainer": "K KEEGAN",
-      "destinationFarm": "LUCAN BLOODSTOCK",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "SAMARITAN'S PURSE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "95fffc606244"
-    },
-    {
-      "dateTaken": "2026-11-18",
-      "requestedDates": "TUE/WED NEXT WK",
-      "takenBy": "KAYLA",
-      "requestedBy": "DES",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
       "destinationTrainer": "",
       "destinationFarm": "TBA ",
       "tripDate": "",
@@ -525,9 +477,9 @@
       "dateTaken": "2026-11-18",
       "requestedDates": "NEXT TRIP",
       "takenBy": "KAYLA",
-      "requestedBy": "MARY ",
+      "requestedBy": "MICHELLE",
       "origin": "KENTUCKY ",
-      "originFarm": "STONE FARM",
+      "originFarm": "BROOKSTONE FARM",
       "originTrainer": "",
       "originTrack": "",
       "destination": "OCALA",
@@ -543,7 +495,7 @@
         }
       ],
       "stallSpace": 3.0,
-      "id": "587cee624a74"
+      "id": "3a4f48efb42b"
     },
     {
       "dateTaken": "2026-11-19",
@@ -568,30 +520,6 @@
       ],
       "stallSpace": 3.0,
       "id": "a3179d81b382"
-    },
-    {
-      "dateTaken": "2026-11-20",
-      "requestedDates": "NEXT TRIP",
-      "takenBy": "SANDY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "M CASSE",
-      "originTrack": "CHURCHILL",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "CASSE TC",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "THE BRIGADE",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "4672e61c2677"
     },
     {
       "dateTaken": "2026-11-20",
