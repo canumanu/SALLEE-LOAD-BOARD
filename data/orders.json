@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-23T12:45:17.984180Z",
+  "syncedAt": "2026-11-23T12:50:16.267979Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -403,7 +403,7 @@
     },
     {
       "dateTaken": "2026-11-17",
-      "requestedDates": "AFTER 11/18",
+      "requestedDates": "AFTER 12/6",
       "takenBy": "LESLEY",
       "requestedBy": "",
       "origin": "KENTUCKY ",
@@ -424,30 +424,6 @@
       ],
       "stallSpace": 1.5,
       "id": "b09da3780a02"
-    },
-    {
-      "dateTaken": "2026-11-18",
-      "requestedDates": "TUE/WED NEXT WK",
-      "takenBy": "KAYLA",
-      "requestedBy": "DES",
-      "origin": "KENTUCKY ",
-      "originFarm": "DELL RIDGE",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "OCALA",
-      "track": "",
-      "destinationTrainer": "",
-      "destinationFarm": "TBA ",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "PM DAWN",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "95fffc606244"
     },
     {
       "dateTaken": "2026-11-18",
@@ -472,30 +448,6 @@
       ],
       "stallSpace": 3.0,
       "id": "3a4f48efb42b"
-    },
-    {
-      "dateTaken": "2026-11-19",
-      "requestedDates": "MONDAY 11/23",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "R ARNOLD",
-      "originTrack": "KEENELAND",
-      "destination": "EAST COAST",
-      "track": "BELMONT",
-      "destinationTrainer": "SHUG",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "FOLLOW YOUR HEART",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0,
-      "id": "a3179d81b382"
     },
     {
       "dateTaken": "2026-11-20",
