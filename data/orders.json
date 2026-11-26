@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-26T13:15:19.495949Z",
+  "syncedAt": "2026-11-26T13:20:19.445841Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -2719,31 +2719,6 @@
         }
       ],
       "stallSpace": 0
-    },
-    {
-      "id": "sp-78",
-      "source": "app",
-      "dateTaken": "2026-10-16",
-      "requestedDates": "ASAP",
-      "takenBy": "Manu",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "Saffie joseph",
-      "originTrack": "Saratoga",
-      "destination": "SOUTH FLORIDA",
-      "track": "Gulfstream",
-      "destinationTrainer": "Saffie joseph",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": null,
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0
     },
     {
       "id": "sp-80",
