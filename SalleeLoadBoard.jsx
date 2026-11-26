@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
+import OrderForm from "./src/OrderForm.jsx";
+import { fetchAppOrders, createAppOrder, updateAppOrder, markCompleted, markCanceled } from "./src/sharepoint.js";
 
 const ORDERS_JSON_URL = "data/orders.json";
 const POLL_INTERVAL_MS = 30000;
@@ -433,7 +435,7 @@ const btnSmall = {
   lineHeight: "1",
 };
 
-function LoadModal({ load, capacity, onCapacityChange, onClose }) {
+function LoadModal({ load, capacity, onCapacityChange, onClose, onEditAppOrder }) {
   const booked = stallsBooked(load);
   const status = statusFor(booked, capacity);
   const s = STATUS_STYLE[status];
@@ -604,6 +606,31 @@ function LoadModal({ load, capacity, onCapacityChange, onClose }) {
                         </div>
                       </div>
                     ))}
+                  </div>
+
+                  <div style={{ marginTop: 8, display: "flex", justifyContent: "flex-end" }}>
+                    {o.source === "app" && onEditAppOrder ? (
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          onEditAppOrder(o);
+                        }}
+                        style={{
+                          background: "transparent",
+                          border: "1px solid #2c4a3a",
+                          color: "#f0c95a",
+                          borderRadius: 6,
+                          padding: "4px 10px",
+                          fontSize: 11,
+                          fontWeight: 700,
+                          cursor: "pointer",
+                        }}
+                      >
+                        ✎ Edit / close out
+                      </button>
+                    ) : (
+                      <span style={{ fontSize: 11, color: "#4a6a58", fontStyle: "italic" }}>from spreadsheet</span>
+                    )}
                   </div>
                 </div>
               );
@@ -984,6 +1011,97 @@ function CreatedLoadRow({ load, resolvedOrders, capacity, onClick, onDelete }) {
   );
 }
 
+// Polls the "+ New Order" Load Orders SharePoint list (live, via the
+// signed-in user's own Graph token) whenever sign-in is available. Kept
+// completely separate from useLiveOrders()/data-orders.json below -- these
+// are two independent data sources that only get combined by
+// mergeAppOrders(), right before the board renders them.
+function useAppOrders(enabled) {
+  const [appOrders, setAppOrders] = useState([]);
+  const [appOrdersError, setAppOrdersError] = useState(null);
+  const [appOrdersLoaded, setAppOrdersLoaded] = useState(false);
+  const pollMs =
+    (typeof window !== "undefined" && window.SALLEE_LOAD_BOARD_CONFIG && window.SALLEE_LOAD_BOARD_CONFIG.pollIntervalMs) ||
+    30000;
+
+  useEffect(() => {
+    if (!enabled) {
+      setAppOrders([]);
+      setAppOrdersError(null);
+      setAppOrdersLoaded(false);
+      return;
+    }
+    let cancelled = false;
+    async function load() {
+      try {
+        const result = await fetchAppOrders();
+        if (cancelled) return;
+        setAppOrders(result);
+        setAppOrdersError(null);
+      } catch (err) {
+        if (cancelled) return;
+        console.error("Load Orders list fetch failed", err);
+        setAppOrdersError(err);
+      } finally {
+        if (!cancelled) setAppOrdersLoaded(true);
+      }
+    }
+    load();
+    const interval = setInterval(load, pollMs);
+    return () => {
+      cancelled = true;
+      clearInterval(interval);
+    };
+  }, [enabled, pollMs]);
+
+  return { appOrders, setAppOrders, appOrdersError, appOrdersLoaded };
+}
+
+// App orders (the "+ New Order" SharePoint list) always win over a
+// spreadsheet order sharing the same id -- in practice ids never collide
+// (app orders are "sp-<itemId>"), this just keeps the merge safe either way.
+function mergeAppOrders(spreadsheetOrders, appOrders) {
+  if (!appOrders.length) return spreadsheetOrders;
+  const appIds = new Set(appOrders.map((o) => o.id));
+  return [...spreadsheetOrders.filter((o) => !appIds.has(o.id)), ...appOrders];
+}
+
+// Turns a thrown Graph API error (see auth.js's graphFetch -- it throws
+// `Graph API <status>: <raw response body>`) into a short, specific reason
+// instead of a generic "connection issue" -- so when something like a
+// permissions problem happens, the alert actually says so. Falls back to
+// the generic fallback text for anything that doesn't look like a Graph
+// response (a real dropped connection, CORS, etc).
+function describeGraphError(err, fallback) {
+  if (!err) return fallback;
+  if (err.status === 403) {
+    return (
+      "You don't have permission to update this order on the Load Orders list — ask your dispatch admin for " +
+      "Contribute access (or Edit access to items other people created)."
+    );
+  }
+  if (err.status === 404) {
+    return "That order couldn't be found on the Load Orders list anymore — someone may have already changed or removed it. Try refreshing the board.";
+  }
+  if (err.status === 401) {
+    return "Your sign-in expired. Please sign out and back in, then try again.";
+  }
+  if (typeof err.status === "number") {
+    const match = /Graph API \d+: ([\s\S]*)$/.exec(err.message || "");
+    if (match) {
+      try {
+        const parsed = JSON.parse(match[1]);
+        const msg = parsed && parsed.error && parsed.error.message;
+        if (msg) return `${fallback} (${err.status}: ${msg})`;
+      } catch {
+        // Response body wasn't JSON -- fall through to the status-only message.
+      }
+    }
+    return `${fallback} (error ${err.status})`;
+  }
+  return fallback;
+}
+
 function useLiveOrders() {
   const [orders, setOrders] = useState(SNAPSHOT_ORDERS);
   const [source, setSource] = useState("snapshot");
@@ -1158,8 +1276,14 @@ function BoardRow({ load, capacity, booked, justAnnounced, onClick }) {
   );
 }
 
-export default function SalleeLoadBoard() {
-  const { orders, source, syncedAt, newlyAdded } = useLiveOrders();
+export default function SalleeLoadBoard({ demoMode = true, account = null, onSignOut = null }) {
+  const { orders: liveOrders, source, syncedAt, newlyAdded } = useLiveOrders();
+
+  // "+ New Order" is only available once someone's actually signed in --
+  // demo mode and a signed-out board both fall back to spreadsheet-only.
+  const appOrdersEnabled = !demoMode && !!account;
+  const { appOrders, setAppOrders, appOrdersError, appOrdersLoaded } = useAppOrders(appOrdersEnabled);
+  const orders = useMemo(() => mergeAppOrders(liveOrders, appOrders), [liveOrders, appOrders]);
 
   const [createdLoads, setCreatedLoads] = useState(() => loadCreatedLoads());
   useEffect(() => {
@@ -1174,6 +1298,64 @@ export default function SalleeLoadBoard() {
   const openPool = useMemo(() => orders.filter((o) => !usedOrderIds.has(o.id)), [orders, usedOrderIds]);
 
   const [editingLoad, setEditingLoad] = useState(null);
+
+  // "+ New Order" / per-order edit, mark-completed, and cancel -- all three
+  // write straight to the Load Orders SharePoint list via the signed-in
+  // user's own Graph token (see src/sharepoint.js), independent of the
+  // read-only spreadsheet sync.
+  const [editingOrder, setEditingOrder] = useState(null); // null | {} (new) | { editing: order }
+  const [savingOrder, setSavingOrder] = useState(false);
+  const [orderSaveError, setOrderSaveError] = useState(null);
+
+  async function handleSaveOrder(draft) {
+    setSavingOrder(true);
+    setOrderSaveError(null);
+    try {
+      if (editingOrder && editingOrder.editing) {
+        const current = editingOrder.editing;
+        await updateAppOrder(current._spItemId, draft);
+        setAppOrders((prev) => prev.map((o) => (o.id === current.id ? { ...o, ...draft } : o)));
+      } else {
+        const created = await createAppOrder(draft);
+        setAppOrders((prev) => [...prev, created]);
+      }
+      setEditingOrder(null);
+    } catch (err) {
+      console.error("Save order failed", err);
+      setOrderSaveError(
+        err && err.status === 403
+          ? "You don't have permission to save to the Load Orders list — ask your dispatch admin for Contribute access."
+          : "Couldn't save that order (connection or permissions issue). It hasn't been added to the board."
+      );
+    } finally {
+      setSavingOrder(false);
+    }
+  }
+
+  async function handleMarkCompleted(order) {
+    try {
+      await markCompleted(order._spItemId);
+      setAppOrders((prev) => prev.filter((o) => o.id !== order.id));
+      setSelectedKey(null);
+      setEditingOrder(null);
+    } catch (err) {
+      console.error("Mark completed failed", err);
+      alert(describeGraphError(err, "Couldn't mark that order completed"));
+    }
+  }
+
+  async function handleMarkCanceled(order) {
+    if (!window.confirm("Cancel this order? It will drop off the board.")) return;
+    try {
+      await markCanceled(order._spItemId);
+      setAppOrders((prev) => prev.filter((o) => o.id !== order.id));
+      setSelectedKey(null);
+      setEditingOrder(null);
+    } catch (err) {
+      console.error("Cancel order failed", err);
+      alert(describeGraphError(err, "Couldn't cancel that order"));
+    }
+  }
 
   function handleSaveCreatedLoad(saved) {
     setCreatedLoads((prev) =>
@@ -1337,6 +1519,44 @@ export default function SalleeLoadBoard() {
                 {now.toLocaleDateString([], { weekday: "long", month: "long", day: "numeric" })}
               </div>
             </div>
+            {appOrdersEnabled && (
+              <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <span
+                  style={{ fontSize: 11, color: "#9fb8a8", fontFamily: "ui-monospace, monospace", whiteSpace: "nowrap" }}
+                  title={account.username || ""}
+                >
+                  {(account.name || "").split(" ")[0] || "Signed in"}
+                </span>
+                {onSignOut && (
+                  <button
+                    onClick={onSignOut}
+                    style={{ ...btnSmall, width: "auto", padding: "0 10px", fontSize: 11 }}
+                    title="Sign out of this board"
+                  >
+                    Sign out
+                  </button>
+                )}
+              </div>
+            )}
+            {appOrdersEnabled && (
+              <button
+                onClick={() => setEditingOrder({})}
+                style={{
+                  background: "transparent",
+                  border: "1px solid #7be0a8",
+                  color: "#7be0a8",
+                  borderRadius: 10,
+                  padding: "12px 18px",
+                  fontWeight: 800,
+                  fontSize: 13,
+                  letterSpacing: 0.5,
+                  cursor: "pointer",
+                  whiteSpace: "nowrap",
+                }}
+              >
+                + New Order
+              </button>
+            )}
             <button
               onClick={() => setEditingLoad({})}
               style={{
@@ -1363,6 +1583,15 @@ export default function SalleeLoadBoard() {
           <div><span style={{ color: "#f0c95a", fontWeight: 800 }}>{totalStalls}</span> stalls requested</div>
           {createdLoads.length > 0 && (
             <div><span style={{ color: "#f0c95a", fontWeight: 800 }}>{createdLoads.length}</span> {createdLoads.length === 1 ? "load" : "loads"} created</div>
+          )}
+          {appOrdersEnabled && (
+            <div
+              title={appOrdersError ? `Couldn't reach the Load Orders list: ${appOrdersError.message || appOrdersError}` : ""}
+              style={{ color: appOrdersError ? "#f0a95a" : undefined }}
+            >
+              {appOrdersError ? "⚠ " : null}
+              <span style={{ color: appOrdersError ? "#f0a95a" : "#f0c95a", fontWeight: 800 }}>{appOrders.length}</span> entered in app
+            </div>
           )}
           {source === "live" && syncedAt && (
             <div>synced {new Date(syncedAt).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}</div>
@@ -1537,6 +1766,7 @@ export default function SalleeLoadBoard() {
           capacity={getCapacity(selectedLoad.key)}
           onCapacityChange={(v) => setCapacity(selectedLoad.key, v)}
           onClose={() => setSelectedKey(null)}
+          onEditAppOrder={appOrdersEnabled ? (o) => setEditingOrder({ editing: o }) : null}
         />
       )}
 
@@ -1557,6 +1787,58 @@ export default function SalleeLoadBoard() {
           onSave={handleSaveCreatedLoad}
           onDelete={() => editingLoad.load && handleDeleteCreatedLoad(editingLoad.load.id)}
           onClose={() => setEditingLoad(null)}
+        />
+      )}
+
+      {editingOrder && (
+        <OrderForm
+          initial={editingOrder.editing || null}
+          defaultTakenBy={(account && (account.name || "").split(" ")[0]) || ""}
+          origins={origins}
+          destinations={destinations}
+          saving={savingOrder}
+          errorText={orderSaveError}
+          onSave={handleSaveOrder}
+          onClose={() => {
+            setEditingOrder(null);
+            setOrderSaveError(null);
+          }}
+          extraActions={
+            editingOrder.editing ? (
+              <>
+                <button
+                  onClick={() => handleMarkCompleted(editingOrder.editing)}
+                  style={{
+                    background: "transparent",
+                    border: "1px solid #7be0a8",
+                    color: "#7be0a8",
+                    borderRadius: 8,
+                    padding: "10px 14px",
+                    fontWeight: 700,
+                    fontSize: 13,
+                    cursor: "pointer",
+                  }}
+                >
+                  Mark completed
+                </button>
+                <button
+                  onClick={() => handleMarkCanceled(editingOrder.editing)}
+                  style={{
+                    background: "transparent",
+                    border: "1px solid #ff6b6b",
+                    color: "#ff9d9d",
+                    borderRadius: 8,
+                    padding: "10px 14px",
+                    fontWeight: 700,
+                    fontSize: 13,
+                    cursor: "pointer",
+                  }}
+                >
+                  Cancel order
+                </button>
+              </>
+            ) : null
+          }
         />
       )}
     </div>
