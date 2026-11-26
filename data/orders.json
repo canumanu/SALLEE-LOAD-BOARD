@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-26T13:10:15.368776Z",
+  "syncedAt": "2026-11-26T13:15:19.495949Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -2721,31 +2721,6 @@
       "stallSpace": 0
     },
     {
-      "id": "sp-77",
-      "source": "app",
-      "dateTaken": "2026-10-16",
-      "requestedDates": "ASAP",
-      "takenBy": "Manu",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "saffie joseph",
-      "originTrack": "saratoga",
-      "destination": "SOUTH FLORIDA",
-      "track": "gulfstream",
-      "destinationTrainer": "saffie joseph",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "R KANT MISS",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 3.0
-    },
-    {
       "id": "sp-78",
       "source": "app",
       "dateTaken": "2026-10-16",
@@ -2822,39 +2797,6 @@
         }
       ],
       "stallSpace": 12.0
-    },
-    {
-      "id": "sp-81",
-      "source": "app",
-      "dateTaken": "2026-11-07",
-      "requestedDates": "NOVEMBER 9, 2026",
-      "takenBy": "Manu",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "Saffie joseph",
-      "originTrack": "Belmont",
-      "destination": "KENTUCKY",
-      "track": "CHURCHILL",
-      "destinationTrainer": "Saffie joseph",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "Bravaro",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "Laken",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "Indy bay",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 9.0
     },
     {
       "id": "sp-82",
