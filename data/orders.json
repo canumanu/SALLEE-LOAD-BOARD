@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-26T15:10:18.024028Z",
+  "syncedAt": "2026-11-26T15:15:18.140879Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -2849,9 +2849,13 @@
         {
           "name": "TBA",
           "stallSpace": 3.0
+        },
+        {
+          "name": "TBA",
+          "stallSpace": 3.0
         }
       ],
-      "stallSpace": 6.0
+      "stallSpace": 9.0
     },
     {
       "id": "sp-88",
