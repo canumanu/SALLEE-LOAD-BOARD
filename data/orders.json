@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-26T13:45:19.710177Z",
+  "syncedAt": "2026-11-26T13:55:22.699256Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -796,30 +796,6 @@
       ],
       "stallSpace": 1.5,
       "id": "837fdbe37969"
-    },
-    {
-      "dateTaken": "2026-11-25",
-      "requestedDates": "THIS WEEK",
-      "takenBy": "HARRY",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "",
-      "originTrainer": "C DEVAUX",
-      "originTrack": "KEENELAND",
-      "destination": "FAIRGROUNDS",
-      "track": "FAIRGROUNDS",
-      "destinationTrainer": "C DEVAUX",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "2 HD",
-          "stallSpace": 6.0
-        }
-      ],
-      "stallSpace": 6.0,
-      "id": "b244cab4ec7d"
     },
     {
       "dateTaken": "2026-11-25",
