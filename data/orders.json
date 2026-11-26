@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-26T14:05:13.782382Z",
+  "syncedAt": "2026-11-26T14:10:18.069547Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -2785,47 +2785,6 @@
         },
         {
           "name": "Tahlequah",
-          "stallSpace": 3.0
-        }
-      ],
-      "stallSpace": 15.0
-    },
-    {
-      "id": "sp-83",
-      "source": "app",
-      "dateTaken": "2026-11-07",
-      "requestedDates": "NOVEMBER 9, 2026",
-      "takenBy": "Manu",
-      "requestedBy": "",
-      "origin": "EAST COAST",
-      "originFarm": "",
-      "originTrainer": "Saffie joseph",
-      "originTrack": "Belmont",
-      "destination": "SOUTH FLORIDA",
-      "track": "Palm meadows",
-      "destinationTrainer": "Saffie joseph",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "Palace joy",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "Frienship and love",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "Outlaw man",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "Ticket to ride",
-          "stallSpace": 3.0
-        },
-        {
-          "name": "Midtown lights",
           "stallSpace": 3.0
         }
       ],
