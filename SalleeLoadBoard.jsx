@@ -1073,10 +1073,10 @@ function mergeAppOrders(spreadsheetOrders, appOrders) {
 // the generic fallback text for anything that doesn't look like a Graph
 // response (a real dropped connection, CORS, etc).
 function describeGraphError(err, fallback) {
-  if (!err) return fallback;
+  if (!err) return `${fallback}.`;
   if (err.status === 403) {
     return (
-      "You don't have permission to update this order on the Load Orders list — ask your dispatch admin for " +
+      "You don't have permission to make this change on the Load Orders list — ask your dispatch admin for " +
       "Contribute access (or Edit access to items other people created)."
     );
   }
@@ -1092,14 +1092,14 @@ function describeGraphError(err, fallback) {
       try {
         const parsed = JSON.parse(match[1]);
         const msg = parsed && parsed.error && parsed.error.message;
-        if (msg) return `${fallback} (${err.status}: ${msg})`;
+        if (msg) return `${fallback} (${err.status}: ${msg}).`;
       } catch {
         // Response body wasn't JSON -- fall through to the status-only message.
       }
     }
-    return `${fallback} (error ${err.status})`;
+    return `${fallback} (error ${err.status}).`;
   }
-  return fallback;
+  return `${fallback} (connection issue — ${err.message || "no further detail"}).`;
 }
 
 function useLiveOrders() {
@@ -1322,11 +1322,7 @@ export default function SalleeLoadBoard({ demoMode = true, account = null, onSig
       setEditingOrder(null);
     } catch (err) {
       console.error("Save order failed", err);
-      setOrderSaveError(
-        err && err.status === 403
-          ? "You don't have permission to save to the Load Orders list — ask your dispatch admin for Contribute access."
-          : "Couldn't save that order (connection or permissions issue). It hasn't been added to the board."
-      );
+      setOrderSaveError(`${describeGraphError(err, "Couldn't save that order")} It hasn't been added to the board.`);
     } finally {
       setSavingOrder(false);
     }
