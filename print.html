@@ -213,19 +213,49 @@
   #sheet .order-block .lane {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    font-weight: 700;
-    font-size: 15px;
-    margin-bottom: 2px;
+    align-items: flex-start;
+    margin-bottom: 6px;
   }
   #sheet .order-block .lane .req-date {
     font-size: 12px;
     color: #444;
     font-weight: 700;
+    white-space: nowrap;
+    margin-left: 10px;
   }
-  #sheet .order-block .parties {
+  #sheet .order-block .route {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  #sheet .order-block .route .leg {
+    display: flex;
+    flex-direction: column;
+  }
+  #sheet .order-block .route .leg .region {
+    font-weight: 700;
+    font-size: 15px;
+  }
+  #sheet .order-block .route .leg .track {
+    font-size: 10px;
+    color: #666;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 1px;
+  }
+  #sheet .order-block .route .leg .party {
     font-size: 12px;
     color: #333;
+    margin-top: 3px;
+  }
+  #sheet .order-block .route .arrow {
+    font-size: 16px;
+    color: #999;
+  }
+  #sheet .order-block .meta-line {
+    font-size: 11px;
+    color: #666;
     margin-bottom: 8px;
   }
   #sheet table {
@@ -472,8 +502,23 @@
 
       picked.forEach(function (o) {
         html += '<div class="order-block">';
-        html += '  <div class="lane"><span>' + esc(orderLabel(o)) + (o.originTrack ? ' (via ' + esc(o.originTrack) + ')' : '') + (o.track ? ' → via ' + esc(o.track) : '') + '</span><span class="req-date">' + esc(o.requestedDates || 'date flexible') + '</span></div>';
-        html += '  <div class="parties">' + esc(originParty(o)) + '  →  ' + esc(destParty(o)) + ' · requested by ' + esc(o.requestedBy || '—') + ' · taken by ' + esc(o.takenBy || '—') + '</div>';
+        html += '  <div class="lane">';
+        html += '    <div class="route">';
+        html += '      <div class="leg">';
+        html += '        <div class="region">' + esc(o.origin || '?') + '</div>';
+        if (o.originTrack) html += '        <div class="track">' + esc(o.originTrack) + '</div>';
+        html += '        <div class="party">' + esc(originParty(o)) + '</div>';
+        html += '      </div>';
+        html += '      <div class="arrow">→</div>';
+        html += '      <div class="leg">';
+        html += '        <div class="region">' + esc(o.destination || '?') + '</div>';
+        if (o.track) html += '        <div class="track">' + esc(o.track) + '</div>';
+        html += '        <div class="party">' + esc(destParty(o)) + '</div>';
+        html += '      </div>';
+        html += '    </div>';
+        html += '    <span class="req-date">' + esc(o.requestedDates || 'date flexible') + '</span>';
+        html += '  </div>';
+        html += '  <div class="meta-line">requested by ' + esc(o.requestedBy || '—') + ' · taken by ' + esc(o.takenBy || '—') + '</div>';
         html += '  <table><thead><tr><th>Horse</th><th>Stall Space</th></tr></thead><tbody>';
         orderHorses(o).forEach(function (h) {
           html += '<tr><td>' + esc(h.name || '(unnamed)') + '</td><td>' + esc(stallLabel(h.stallSpace)) + '</td></tr>';
