@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-26T14:35:17.142249Z",
+  "syncedAt": "2026-11-26T14:40:27.664876Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -2823,6 +2823,35 @@
         }
       ],
       "stallSpace": 3.0
+    },
+    {
+      "id": "sp-87",
+      "source": "app",
+      "dateTaken": "2026-11-26",
+      "requestedDates": "READY",
+      "takenBy": "Manu",
+      "requestedBy": "",
+      "origin": "KENTUCKY",
+      "originFarm": "",
+      "originTrainer": "G Weaver",
+      "originTrack": "Sport spectrum",
+      "destination": "FAIRGROUNDS",
+      "track": "Fairgrounds",
+      "destinationTrainer": "G Weaver",
+      "destinationFarm": "",
+      "tripDate": "",
+      "drivers": "",
+      "horses": [
+        {
+          "name": "TBA",
+          "stallSpace": 3.0
+        },
+        {
+          "name": "TBA",
+          "stallSpace": 3.0
+        }
+      ],
+      "stallSpace": 6.0
     }
   ]
 }
