@@ -42,3 +42,46 @@ Code done and tested against a mocked list; see `LOAD_ORDERS_SETUP.md` in the re
 
 ## Not this repo
 Separate Sallee projects: **SALLEE-DISPATCH-BOARD** (column dispatch grid; MSAL + Drivers/Jobs lists on `/sites/SALLEEDISPATCHBOARD`; has its own van drive-in intro), **Sallee-shop-board** (shop TV; intro → sign-in → reads shop.xlsx via Graph), plus barn-boards, fuel board, event calendar, local dispatch board.
+# Keeping SalleeLoadBoard.jsx and bundle.js in sync
+
+**Found Nov 26, 2026:** the `SalleeLoadBoard.jsx` committed to the
+`canumanu/SALLEE-LOAD-BOARD` repo had drifted badly out of sync with the
+live `bundle.js` actually running on GitHub Pages. The committed source was
+an older version from before sign-in and the "+ New Order" SharePoint
+integration existed, while `bundle.js` had clearly been rebuilt (at some
+point, in some other session) from a newer source that wired all of that
+in — but that newer `SalleeLoadBoard.jsx` was apparently never uploaded
+back to the repo, only the compiled `bundle.js`.
+
+Net effect: the repo's plain-text source didn't reflect what was actually
+live, which is risky for any future change (editing the stale source and
+rebuilding would have silently deleted the sign-in header, "+ New Order",
+mark-completed/cancel, etc. from the live site).
+
+**What was done:** reconstructed the missing pieces by decompiling the
+live `bundle.js` (useAppOrders polling hook, the spreadsheet/app-order
+merge, the OrderForm wiring, per-order "Edit / close out" button inside
+the Load Detail modal, the account/sign-out header bit, and the
+mark-completed/cancel handlers) and merged them back into
+`SalleeLoadBoard.jsx`, then rebuilt `bundle.js` from that reconciled
+source. Also improved the mark-completed/cancel error handling —
+previously any failure just said "(connection or permissions issue)";
+now it surfaces the actual cause (expired sign-in, a 403/permissions
+problem on the Load Orders list, a 404 if the item's gone, etc.) via a
+new `describeGraphError()` helper in `SalleeLoadBoard.jsx`.
+
+**Reported bug this was chasing:** marking an order "Completed" from the
+order form silently did nothing on the first try (order stayed open, no
+SharePoint change), and on a second try (after signing out/back in) gave
+a generic "connection issue" alert. Most likely explanation: the first
+click's Graph token had silently expired, triggering MSAL's
+`acquireTokenRedirect` (a real page navigation that can look instant/
+silent with an existing SSO session, but loses whatever UI action was
+mid-flight); the second click was a genuine request that failed for a
+real reason the old generic alert didn't reveal. The improved error
+message should reveal the real cause next time this happens.
+
+**Going forward:** whenever `SalleeLoadBoard.jsx` is edited and
+`bundle.js` rebuilt, upload BOTH files together — never upload just a
+rebuilt `bundle.js` on its own, or the repo's source will drift out of
+sync with the live site again exactly like this.
