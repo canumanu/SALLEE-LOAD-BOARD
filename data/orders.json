@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-11-27T16:00:21.862943Z",
+  "syncedAt": "2026-11-27T16:05:29.406395Z",
   "orders": [
     {
       "dateTaken": "2026-10-21",
@@ -300,30 +300,6 @@
       ],
       "stallSpace": 3.0,
       "id": "4af32ecf4060"
-    },
-    {
-      "dateTaken": "2026-11-17",
-      "requestedDates": "NEXT AVAILABLE",
-      "takenBy": "SCOTT",
-      "requestedBy": "",
-      "origin": "KENTUCKY ",
-      "originFarm": "MT BRILLIANT FARM",
-      "originTrainer": "",
-      "originTrack": "",
-      "destination": "EAST COAST",
-      "track": "FAIR HILL",
-      "destinationTrainer": "M STIDHAM",
-      "destinationFarm": "",
-      "tripDate": "",
-      "drivers": "",
-      "horses": [
-        {
-          "name": "1 HD",
-          "stallSpace": 1.5
-        }
-      ],
-      "stallSpace": 1.5,
-      "id": "31dd3897c85b"
     },
     {
       "dateTaken": "2026-11-17",
